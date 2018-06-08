@@ -1,0 +1,103 @@
+.d-close svg path.fff{fill: #fff;}
+.podval{background: #dededd; padding: 12px;	padding-bottom: 20px; border-top: 0px; text-align: center; }
+.podval a{
+  font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px dashed #000;
+    color: #000;
+}
+
+.facebook-button{
+  padding-bottom: 0px;
+  height: 146px;
+  margin-top: 15px;
+  padding-left: 25px;
+  overflow: visible;
+}
+
+.modals{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  top: 0px;
+  z-index:99999;
+  position:fixed;
+  display:none;
+}
+
+.modal-inner{
+  margin-top: 160px;
+}
+
+.modals1{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  top: 0;
+  z-index:99999;
+  position:fixed;
+  display:none;
+}
+
+.modals iframe{
+  display: block;
+  width: 340px;
+  /*width: 500px !important;*/
+}
+
+.modal-inner-fb{
+  width: 392px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.modal-logo-fb{
+  padding: 12px 0px 10px 22px;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+.modal-logo-fb:hover {
+  color: #fff;
+}
+
+.d-close, .modal-logo-fb{
+  width: 50%;
+  float:left;
+}
+
+.d-close{
+    width: 45%;
+    text-align: right;
+    cursor:pointer;
+}
+
+.d-close span{
+  width: 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    display: block;
+    text-align: right;
+    float: right;
+    background-position: 0px 15px;
+}
+
+.add-header{
+  background: #2C4372;
+}
+
+.d2-message{
+  border-top: solid 1px #9daccb;
+    padding: 22px 66px 22px 22px;
+    text-align: left;
+    color: #fff;
+    font-size: 18px !important;
+    line-height: 1.3em !important;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 380px) and (min-width: 320px) {
+  .modal-inner-fb{
+    width: 100%;
+  }
+}

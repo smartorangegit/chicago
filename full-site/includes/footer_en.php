@@ -1,0 +1,33 @@
+	<footer>
+       <div class="wrapper">
+				 <span class="copy">© 2017 CHICAGO Central House</span>
+				 <span>marketing department - marketing@saga-development.com.ua</span>
+				 <span><a href="/en/sitemap/"><img <?LazyLoad("/img/home-footer.svg");?> alt="sitemap" width="30px" style="margin-bottom:-3px;"></a></span>
+				 <span class="smarto">
+						 website development
+					  <a  <?LazyLoad("/img/logo-smart.png", $option=array('class'=>'logo-smart'));?>></a>
+				 </span>
+						<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="/img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
+
+
+						<div itemscope itemtype="http://schema.org/Organization" style="overflow: hidden; height:0px;">
+							<span itemprop="name">CHICAGO CENTRAL HOUSE</span>
+							<a itemprop="url" href="https://chicago.kiev.ua"></a>
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<span itemprop="streetAddress">44, Antonovicha street </span>,
+								<span itemprop="addressLocality">Keiv</span>,
+								<span itemprop="addressRegion">Kiev region</span>.
+							</div>
+							<img itemprop="logo" <?LazyLoad("/img/chicago-logo.png");?> />
+							<span itemprop="telephone">(044)22-77-244</span>
+							<span itemprop="email">marketing@saga-development.com.ua</span>
+						</div>
+				</div>
+
+  </footer>
+	<style media="screen">
+	@media only screen and (max-width: 768px) {
+		footer .fb-foot {
+			padding-top: 6px;}
+		}
+	</style>

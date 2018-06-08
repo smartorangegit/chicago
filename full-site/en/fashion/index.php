@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php');
+	require("../../adm/includes/conn.php");
+$sql = "select * from chika_img WHERE date='2017-02-14'";
+$sql2 = "select * from chika_img WHERE date='2017-02-15'";
+$result = mysql_query($sql) or die ("Нет соединения с базой данных: " . mysql_error());
+$result2 = mysql_query($sql2) or die ("Нет соединения с базой данных: " . mysql_error());
+ ?>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Ukrainian Fashion Week is the partner of CHICAGO Central House Residential Estate</title>
+	<meta name="robots" content="index, follow">
+<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<meta name="description" content="CHICAGO Central House is a Residential Estate for people, who got used to being in the centre of events all the time. That is why our partner is Ukrainian Fashion Week
+">
+	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/fashion/" />
+	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/fashion/" />
+	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/fashion/" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/set1.css" />
+    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="../../css/slider-style.css">
+    <link rel="stylesheet" href="../../css/jquery.fancybox.css">
+    <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/progress.css">
+    <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
+    <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
+    <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style media="screen">
+		body {
+			position: relative;
+			height: 100%;
+			padding-bottom: 100px;
+		}
+	.third .subheader, .fifth .subheader {
+	   margin-left: 0px;
+	}
+	h2.title.fash {
+		font-size: 70px;
+	}
+	.light:before {
+		background: none;
+	}
+	span.normal.normal--2 {
+		font-size: 22px;
+    padding: 20px;
+    display: block;
+    line-height: 1.5;
+	}
+	footer {
+		position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+	}
+	.masonry {
+	column-count: 7;
+	column-gap: 1em;
+	-webkit-column-count: 7; -moz-column-count: 7; column-count: 7;
+	-webkit-column-gap: 1em; -moz-column-gap: 1em; column-gap: 1em;
+}
+.item {
+    display: inline-block;
+    background: #1D2939;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	}
+	.masonry1 {
+	column-count: 5;
+	column-gap: 1em;
+	-webkit-column-count: 5; -moz-column-count: 5; column-count: 5;
+	-webkit-column-gap: 1em; -moz-column-gap: 1em; column-gap: 1em;
+}
+.item1 {
+    display: inline-block;
+    background: #1D2939;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	}
+
+.item a, .item1 a {
+	display: block;
+}
+.item img, .item1 img {
+	width: 100%;
+	display: block;
+}
+</style>
+
+<body>
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
+	<!-- HelloPreload http://hello-site.ru/preloader/ -->
+	<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #000 url('/img/preload.svg') center center no-repeat;background-size:61px;} #helloprelosder svg{fill:red;}</style>
+	<div id="hellopreloader"><div id="hellopreloader_preload"></div><p></p></div>
+	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+	<!-- HelloPreload http://hello-site.ru/preloader/ -->
+
+    <script>
+        var controller = new ScrollMagic.Controller();
+				// $("a.fancybox").fancybox();
+    </script>
+
+	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
+
+
+	<section class="fifteenth progress-grid" id="builder">
+		<span class="trigger-7"></span>
+        <h1 class="title fash" style="transform: translate3d(-7.6025px, 43px, 16px);">Ukrainian Fashion Week</h1>
+        <i class="line"></i>
+  </section>
+
+  <section class="third light">
+
+    <div class="wrapper">
+			<span class="trigger-0"></span>
+      <h2 class="subheader">
+        <p><span>“CHICAGO Central House” AS A WORK OF ART </span>
+
+      </h2>
+			<p>
+				<span class="normal normal--2">CHICAGO Central House embodies a concept that is new to Ukraine – a house as a work of art. For this reason, we have chosen Ukrainian Fashion Week as our partner – so that we could swap ideas with people who start trends and create an inimitable lifestyle. People who are used to being at the heart of it all. Always. They are the ones we create this accommodation for. This ambitious concept combines architecture of Chicago, world-class comfort, and quality of life and all the benefits of living in the center of the capital. Look for a photo of yourself at the Ukrainian Fashion event Week below!</span></p>
+    </div>
+  </section>
+
+	<section class="building">
+		<div class="wrapper">
+
+			<div class="masonry">
+<?
+		while ($row = mysql_fetch_assoc($result))
+                { $url="/adm/images/".$row['date']."/min/".$row['name'];
+?>
+ <div class="item">
+ 
+	<a class="grouped_elements" rel="fashion" href="<? echo'../../adm/images/'.$row['date'].'/'.$row['name'];?>">
+	<? echo '<img class="b-lazy" data-src="'.$url.'"  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" >';?>
+						 </a>
+ </div>
+<?}?>
+			</div>
+
+
+
+			<div class="masonry1">
+				<?
+		while ($row2 = mysql_fetch_assoc($result2))
+                {
+
+?>
+ <div class="item1"><a class="fancybox" rel="fashion" href="<? echo'../../adm/images/'.$row2['date'].'/'.$row2['name']?>"><? echo "<img src=\"../../adm/images/".$row2['date']."/min/".$row2['name']. "\" >";  ?></a></div>
+<?}?>
+
+			</div>
+
+
+	</div>
+
+
+	</section>
+
+	<?php include('../../includes/form_callback_en.php'); ?>
+
+<?php include('../../includes/footer_en.php'); ?>
+
+    <script src="../../js/lib/snap.svg-min.js"></script>
+    <script src="../../js/lib/slider.js"></script>
+    <script src="../../js/jquery.fancybox.pack.js"></script>
+    <script src="../../js/jquery.fancybox-thumbs.js"></script>
+    <script src="../../js/lib/wow.min.js"></script>
+		<script src="../../js/progres.js"></script>
+    <!-- <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
+    </script> -->
+		<script src="../../js/scripts.js"></script>
+
+<script type="text/javascript">
+			$("a.fancybox").fancybox();
+
+      new ScrollMagic.Scene({triggerElement: ".trigger-0"})
+      .setClassToggle(".header", "zipped").addTo(controller);
+      // var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 700})
+      // .setTween(".fifteenth .title", {transform: "translateX(-100%)"}).addTo(controller);
+      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 300})
+      .setTween(".fifteenth i.line", {transform: "translateX(0)"}).addTo(controller);
+			var scene = new ScrollMagic.Scene({triggerElement: ".lamps", duration: 300})
+      .setTween(".lamps img", {opacity: "1"}).addTo(controller);
+
+</script>
+
+
+</body>
+</html>

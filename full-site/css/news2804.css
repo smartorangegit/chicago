@@ -1,0 +1,152 @@
+.img-item {
+  height: 420px;
+  float: left;
+  margin: 10px;
+}
+.img-name {
+    text-align: left;
+    text-indent: 12px;
+}
+.fifteenth.news {
+  background: url('../img/bg-15.jpg') center;
+   height: 190px;
+   line-height: 190px;
+}
+.fifteenth.newsdet {
+  background: black;
+}
+.fifteenth h2.title {
+  font-size: 64px;
+}
+.lamps.wrapper {
+  display: none;
+}
+.img-info {
+    height: 100px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+.img-date {
+    position: absolute;
+    bottom: 110px;
+    left: 12px;
+}
+.news_img {
+  margin-right: 24px;
+  float: left;
+  width: 570px;
+
+}
+.news_mainimg {
+  height: 420px;
+  padding: 6px;
+}
+.news_mainimg img {
+  height: 100%;
+  width: 100%;
+}
+.news_content {
+  font-size: 24px;
+  color: white;
+  line-height: 1.6;
+  text-align: justify;
+}
+.news_content img {
+  width: 100%;
+}
+.news_text {
+  font-weight: 300;
+}
+.mini_item {
+  width: 114px;
+  /*height: 70px;*/
+  float: left;
+  padding: 6px;
+}
+.mini_item a {
+  display: block;
+}
+a.button.button-red {
+  line-height: 50px;
+  margin-top: 60px;
+  margin-right: 20px;
+  float: right;
+}
+h4 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.image-item--1 {
+    background: url(../img/news/1.jpg);
+}
+.image-item--2 {
+    background: url(../img/news/news2_1.jpg);
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+
+  .fifteenth {
+      height: 260px;
+      line-height: 260px;
+  }
+  .news_img {
+    width: 380px;
+}
+.news_mainimg {
+    height: auto;
+  }
+  .mini_item {
+    width: 95px;
+  }
+  a.button.button-red {
+  float: none;
+  }
+}
+@media only screen and (max-width:599px) {
+  .fifteenth.news {
+     height: 250px;
+     line-height: 320px;
+  }
+  .fifteenth h2.title {
+    font-size: 24px;
+    transform: none!important;
+}
+  .fifteenth.newsdet {
+    height: 250px;
+    line-height: 320px;
+  }
+  .news_img {
+    float: none;
+    width: 100%;
+}
+.news_mainimg {
+    height: auto;
+}
+.mini_item {
+    width: 63px;
+
+}
+.news_content {
+    font-size: 20px;
+  }
+a.button.button-red {
+  margin-right: 0;
+  font-size: 16px;
+}
+.img-item {
+  height: 240px;
+  background-size: cover;
+  float: none;
+  margin: 0;
+}
+.img-info {
+    height: 100px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+}

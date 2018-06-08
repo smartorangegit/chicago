@@ -1,0 +1,1860 @@
+@import "reset"
+// FONT
+@font-face
+	font-family: "HeliosCond"
+	src: url("../fonts/HE_CN_.ttf") format("truetype")
+	font-style: normal
+	font-weight: normal
+@font-face
+	font-family: "IntroBlack"
+	src: url("../fonts/IntroBlack.otf") format("opentype")
+	font-style: normal
+	font-weight: normal
+@font-face
+	font-family: "HeliosCondC"
+	src: url("../fonts/helioscondc.otf") format("opentype")
+	font-style: normal
+	font-weight: normal
+
+// UTILITY
+
+
+
+
+
+
+
+
+.wrapper
+	margin: 0 auto
+	max-width: 1185px
+header .wrapper
+	position: relative
+a
+	text-decoration: none
+
+.clearfix:after
+	display: table
+	content: ''
+	clear: both
+
+textarea
+	resize: none
+	overflow: auto
+*:focus
+	outline: 0
+	text-decoration: none
+.subheader
+	display: inline-block
+	text-transform: uppercase
+	color: #fff
+	font-size: 0
+	font-weight: bold
+	line-height: 1
+	span
+		display: inline-block
+		margin-top: 7px
+		background: #ff000b
+		padding: 9px 9px 0
+		font-size: 24px
+h1.title
+	position: relative
+	font-family: 'IntroBlack', arial, sans-serif
+	font-size: 100px
+	color: #fff
+	text-align: center
+	text-transform: uppercase
+h2.title
+	position: relative
+	font-family: 'IntroBlack', arial, sans-serif
+	font-size: 100px
+	color: #fff
+	text-align: center
+	text-transform: uppercase
+	& + i
+		position: absolute
+		height: 1px
+		width: 1180px
+		background: rgba(255, 255, 255, .5)
+		top: 50%
+		left: 0
+		right: 0
+		margin: auto
+.mobile
+	display: none !important
+.lamps
+	position: relative
+	display: block
+	max-width: 1180px
+	margin: 30px auto 0
+	i
+		position: absolute
+		width: 198px
+		height: 122px
+		background: url('../img/icons/lamp.png') no-repeat
+		&:nth-child(1)
+			top: 0
+			left: 0
+		&:nth-child(2)
+			top: 0
+			left: 25%
+		&:nth-child(3)
+			top: 0
+			left: 50%
+		&:nth-child(4)
+			top: 0
+			left: 75%
+// POPUP
+#callback
+	display: none
+.fancybox-skin
+	background: none
+	box-shadow: none
+	padding: 0 !important
+[class*="fancybox"]
+	.form
+		margin-top: 0
+
+// BUTTONS
+.button
+	font-family: 'IntroBlack', arial, sans-serif
+	display: inline-block
+	text-align: center
+	letter-spacing: 2px
+	border: 2px solid #fff
+	border-radius: 20px
+	color: #fff
+	text-transform: uppercase
+	cursor: pointer
+	&.button-red
+		border: 5px solid #ff000b
+		width: 580px
+		font-size: 24px
+		height: 60px
+		background: none
+		border-radius: 30px
+		transition-duration: .5s
+		&:hover
+			border-color: #fff
+// GENERAL
+body
+	font-family: 'HeliosCond', arial, sans-serif
+	font-weight: bold
+	background: #000
+	min-width: 1220px
+.header
+	position: fixed
+	top: 0
+	z-index: 999
+	width: 100%
+	min-width: 1220px
+	height: 100px
+	background: rgba(255, 0, 11, .8)
+	font-family: 'IntroBlack', arial, sans-serif
+	transition-duration: .5s
+	.logo
+		width: 270px
+		height: 75px
+		margin-top: 15px
+		float: left
+		transform: scale(1,1)
+		-webkit-transform: scale(1,1)
+		transition-duration: .5s
+	&-nav
+		float: left
+		margin: 40px 5px 0
+		transition-duration: .5s
+		margin-right: 0px
+		li
+			display: inline-block
+			padding: 0 3px
+			border-right: 1px solid #fff
+			&:nth-child(2)
+				padding-left: 0
+			&:last-child
+				padding-right: 0
+				border-right: none
+			a
+				position: relative
+				font-size: 14px
+				color: #fff
+				text-transform: uppercase
+				&:before
+					display: block
+					background: #fff
+					height: 2px
+					content: ""
+					width: 0
+					position: absolute
+					bottom: -7px
+					left: 50%
+					transition: all 0.5s ease
+				&:hover:before
+					width: 100%
+					left: 0%
+	&-callback
+		width: 176px
+		float: right
+		margin-top: 10px
+		text-align: center
+		color: #fff
+		font-size: 10px
+		line-height: 16px
+		text-transform: uppercase
+		letter-spacing: 1px
+		em, .phone_display a
+			display: block
+			font-size: 16px
+			color: white
+			pointer-events: none
+		.callback
+			color: white
+			background-color: #ff000b
+			margin-top: 6px
+			width: 100%
+			padding: 6px 0
+			transition-duration: .5s
+			&:hover
+				background: #fff
+				color: #f42c37
+	&.zipped
+		height: 60px
+		background: #EF2732
+		.logo
+			height: 60px
+			transform: scale(0.6,0.6)
+			-webkit-transform: scale(0.6,0.6)
+			// overflow: hidden
+			margin-top: -4px
+		.header-nav
+			margin-top: 20px
+		.button.callback
+			padding: 2px 0
+			height: 0
+			border-color: transparent
+			color: transparent
+			background-color: transparent
+.slider
+	position: relative
+	max-width: 1180px
+	height: 600px
+	color: #fff
+	text-align: left
+	li
+		line-height: 1.2
+	h4
+		font-size: 36px
+		text-transform: uppercase
+	p
+		margin-top: 40px
+		font-size: 24px
+		font-weight: 300
+	.cd-radial-slider-navigation li
+		top: 49%
+	.cd-radial-slider-content .wrapper > div
+		text-align: left
+
+section
+	padding-top: 1px
+	margin-top: -1px
+	position: relative
+	overflow: hidden
+.first
+	text-align: center
+	// background: url('../img/new_render_s.jpg')
+	background-size: cover
+	background-position: center
+	height: 2400px
+	transition-duration: .5s
+	.first_name
+		position: absolute
+		width: 100%
+		top: 10px
+		z-index: 4
+		.classh2
+			margin: 245px 0 35px
+			text-transform: uppercase
+			font-size: 24px
+			color: #000
+			em
+				display: block
+				margin-top: 10px
+				font-size: 42px
+	.subheader span
+		font-size: 72px
+		margin-top: 0
+	.slider
+		margin: 1600px auto 0
+	.trigger-0
+		position: absolute
+		top: 700px
+	.block1, .block2, .block3
+		position: absolute
+	.block1
+		width: 400px
+		height: 300px
+		top: 600px
+		left: 30%
+		transition: 5s
+		opacity: 1
+		z-index: 2
+		img
+			width: 400px
+			transition: 5s
+	.block2
+		// top: 800px
+		bottom: -5px
+		right: 0%
+		width: 100%
+		z-index: 3
+		transition: 0.6s
+		img
+			width: 100%
+	.block3
+		top: 0px
+		left: -20%
+		transition: 0.6s
+		z-index: 1
+		img
+			width: 100%
+			height: 100%
+.second, .ninth, .eleventh, .thirteenth, .fifteenth
+	height: 250px
+	line-height: 250px
+.second, .seventh, .eigth, .ninth, .eleventh, .thirteenth, .fifteenth
+	[class*="trigger"]
+		position: absolute
+		top: -100px
+	.title
+		transform: translateX(-100%)
+	i.line
+		transform: translateX(120%)
+		display: none
+.second
+	// background: url('../img/bg-2.jpg')
+	background-size: cover
+.third, .fifth
+	padding-bottom: 130px
+	.wrapper
+		position: relative
+		z-index: 1
+	.subheader
+		margin-top: 115px
+		span
+			font-size: 48px
+			line-height: 1.25
+			padding: 5px 5px 0
+	.more
+		margin-top: 45px
+		line-height: 1.25
+		font-size: 24px
+		font-weight: 300
+		color: #fff
+.light
+	position: relative
+	&:before, &:after
+		position: absolute
+		content: ''
+		width: 100%
+		left: 0
+	&:before
+		top: 0
+		// background: url('../img/bg-3-top.png') no-repeat center
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(51%, rgba(255,255,255,0.15)), color-stop(100%, rgba(237,237,237,0)))
+		background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		// background-size: cover
+		height: 273px
+	&:after
+		bottom: 0
+		// background-size: cover
+		height: 200px
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(51%, rgba(255,255,255,0.15)), color-stop(100%, rgba(237,237,237,0)))
+		background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 51%, rgba(237,237,237,0) 100%)
+	p
+		color: #fff
+.third
+	.lamps i
+		&:nth-child(1)
+			top: 0
+			left: 7%
+		&:nth-child(2)
+			top: 0
+			left: 41%
+		&:nth-child(3)
+			top: 0
+			left: 76%
+.fourth
+	// background: url('../img/bg-4.jpg') no-repeat center fixed
+	background-size: cover
+	.wrapper
+		margin: 35px auto 100px
+		position: relative
+		overflow: hidden
+		&:before, &:after
+			position: absolute
+			top: 30%
+			content: ''
+			width: 1px
+			height: 39%
+			border-right: 1px dotted #000
+		&:before
+			left: 5px
+		&:after
+			right: 5px
+	.clock
+		margin: 13px
+		height: 196px
+		width: 196px
+		// background: url('../img/icons/clock.png') no-repeat center
+		&.active
+			.minutes
+				transform: rotateZ(720deg)
+			.hours
+				transform: rotateZ(360deg)
+	.minutes-container, .hours-container
+		position: absolute
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+	.round
+		position: absolute
+		margin: auto
+		left: 0
+		right: 0
+		top: 89px
+		width: 18px
+		height: 18px
+		border: 6px solid #ff000b
+		border-radius: 50%
+		@keyframes rotate
+			100%
+				transform: rotateZ(360deg)
+	.minutes
+		position: absolute
+		//height: 6px
+		//width: 42px
+		background: #ff000b
+		border-radius: 6px
+		height: 21.5%
+		left: 49%
+		top: 25%
+		transform-origin: 50% calc(100% + 7px)
+		width: 2%
+		transition-duration: 3s
+		//animation: rotate 60s infinite linear
+	.hours
+		position: absolute
+		//height: 6px
+		//width: 37px
+		background: #ff000b
+		border-radius: 6px
+		height: 19%
+		left: 48.75%
+		top: 28%
+		transform-origin: 50% calc(100% + 7px)
+		width: 2.5%
+		transition-duration: 3s
+		//animation: rotate 3600s infinite linear
+
+	li
+		position: relative
+		float: left
+		width: 250px
+		height: 220px
+		margin-right: 60px
+		margin-bottom: 55px
+		text-align: center
+		font-size: 208px
+		color: #fff
+		&:after
+			position: absolute
+			top: 118px
+			right: -95px
+			content: ''
+			height: 1px
+			width: 119px
+			border-top: 1px dotted #000
+		&:nth-child(4n)
+			margin-right: 0
+			&:after
+				display: none
+		> *
+			position: absolute
+		.subheader
+			top: 88px
+			left: 0
+			right: 0
+			margin: auto
+			width: 160px
+			span
+				font-size: 36px
+		.text
+			top: 166px
+			left: 0
+			right: 0
+			margin: auto
+			font-size: 24px
+			line-height: 33px
+			color: #000
+			&:first-line
+				font-weight: 300
+.fifth
+	.lamps
+		display: none
+.sixth
+	height: 650px
+	// background: url('../img/map.jpg') no-repeat center
+	// background-size: cover
+.seventh
+	height: 650px
+	// background: url('../img/panorama3.jpg')
+	background-position: 0 0
+	h2
+		margin-top: 90px
+		& + i
+			top: 145px
+.eigth
+	height: 1120px
+	.lamps i
+		&:nth-child(1)
+			top: 0
+			left: 5%
+		&:nth-child(2)
+			top: 0
+			left: 30%
+		&:nth-child(3)
+			top: 0
+			left: 55%
+		&:nth-child(4)
+			top: 0
+			left: 80%
+	h2
+		margin-top: 110px
+		& + i
+			top: 163px
+	.gallery
+		margin: 50px auto 70px
+		position: relative
+		max-width: 1110px
+		height: 650px
+		a
+			position: absolute
+			&:after
+				position: absolute
+				top: 0
+				left: 0
+				display: none
+				height: 100%
+				width: 100%
+				content: ''
+				background: rgba(255, 0, 11, .7)
+				// border-radius: 30px
+			&:hover:after
+				display: block
+			&:nth-child(1)
+				top: 0
+				left: 43px
+			&:nth-child(2)
+				top: 0
+				left: 360px
+			&:nth-child(3)
+				top: 0
+				left: 553px
+			&:nth-child(4)
+				top: 166px
+				left: 135px
+			&:nth-child(5)
+				top: 222px
+				left: 360px
+			&:nth-child(6)
+				top: 197px
+				left: 552px
+			&:nth-child(7)
+				top: 386px
+				left: 552px
+			&:nth-child(8)
+				top: 428px
+				left: 0px
+			&:nth-child(9)
+				top: 440px
+				left: 361px
+			&:nth-child(10)
+				top: 464px
+				left: 742px
+			&:nth-child(11)
+				top: 197px
+				left: 742px
+	#openGal
+		line-height: 48px
+		position: relative
+		margin-top: 720px
+		&:hover
+			color: #fff
+		&:after
+			border-radius: 30px
+
+.ninth
+	// background: url('../img/bg-9.jpg') center
+	background-size: cover
+	// background-size: 0 center
+	// background-size: 110% auto
+.tenth
+	counter-reset: number
+	padding-bottom: 1px
+	.wrapper
+		margin: 60px auto 45px
+
+	li
+		position: relative
+		box-sizing: border-box
+		width: 260px
+		height: 390px
+		margin: 0 30px 30px 0
+		padding: 10px 20px
+		float: left
+		background: #e5e5e5
+		font-size: 24px
+		cursor: pointer
+		transition-duration: .5s
+		&:before
+			position: absolute
+			top: 60px
+			left: 30px
+			counter-increment: number
+			content: counter(number)
+			font-size: 100px
+			color: #5490b2
+			font-weight: 300
+		&:hover
+			box-shadow: 0 0 60px 8px #ff000b
+		img
+			margin-left: 35px
+		.subheader
+			span
+				margin-top: 4px
+				padding: 6px 7px 3px
+		.last
+			display: block
+			margin-top: 20px
+			line-height: 24px
+			color: #433c3c
+			font-weight: 300
+	li:nth-child(13)
+		margin-left: 25%
+.eleventh
+	// background: url('../img/bg-11.jpg') center
+	background-size: cover
+.twelfth
+	padding: 55px 0 85px
+	&:before
+		top: -65px
+		// background: url('../img/bg-12.png') no-repeat center
+		// background-size: cover
+		height: 292px
+	&:after
+		bottom: -35px
+		// background: url('../img/bg-12.png') no-repeat center
+		// background-size: cover
+		height: 292px
+	.grid
+		padding: 0
+		max-width: 1220px
+		z-index: 1
+		figure
+			width: 590px
+			height: 420px
+			max-width: none
+			max-height: none
+			margin: 10px
+			background: #212635
+		h2
+			font-size: 72px
+			font-weight: bold
+			padding: 30px 40px
+		h3
+			font-size: 72px
+			font-weight: bold
+			padding: 30px 40px
+		p
+			font-size: 36px
+			font-weight: 300
+			width: 80%
+			text-align: left
+			em
+				font-weight: bold
+
+.thirteenth
+	// background: url('../img/bg-13.jpg') center
+	background-size: cover
+.fourteenth
+	&:before
+		top: -30px
+		// background: url('../img/bg-14-top.png') no-repeat center
+		// background-size: cover
+		height: 165px
+	&:after
+		// bottom: -45px
+		// background: url('../img/bg-14-bot.png') no-repeat center
+		// background-size: cover
+		height: 200px
+	.wrapper
+		position: relative
+		margin: 65px auto 100px
+		z-index: 1
+	.text
+		width: 620px
+		text-align: left
+		a
+			line-height: 48px
+			&:hover
+				color: #fff
+	.subheader
+		margin-top: 10px
+		text-align: left
+		margin-right: 550px
+		span
+			font-size: 48px
+	p
+		margin-top: 45px
+		font-size: 24px
+		font-weight: 300
+		line-height: 35px
+	.button
+		margin: 50px 0 27px
+	.more-info
+		display: block
+		font-size: 16px
+		font-weight: 300
+		text-transform: uppercase
+		color: #e2dede
+	[class*="img-"]
+		position: absolute
+	.img-first
+		width: 540px
+		top: 11px
+		right: 0
+	.img-second
+		width: 540px
+		top: 440px
+		right: 0px
+		border-top: 20px solid #000
+.fifteenth
+	background: url('../img/bg-15.jpg') center
+	background-size: cover
+.sixteenth
+	padding-bottom: 1px
+	&:before
+		top: 0px
+		// background: url('../img/bg-14-top.png') no-repeat center
+		background-size: cover
+		height: 300px
+	&:after
+		bottom: 15px
+		// background: url('../img/bg-14-top.png') no-repeat center
+		// background-size: cover
+		height: 180px
+	.wrapper
+		display: inline-block
+		margin: 75px auto 105px
+		text-align: left
+		position: relative
+		z-index: 1
+		&:before, &:after
+			position: absolute
+			top: -60px
+			content: ''
+			width: 198px
+			height: 122px
+			// background: url('../img/icons/lamp.png')
+		&:before
+			left: 62px
+		&:after
+			left: 275px
+		a
+			line-height: 48px
+			&:hover
+				color: #fff
+	p
+		line-height: 1.5
+		font-size: 24px
+		font-weight: 300
+	img
+		display: block
+		// width: 68%
+		margin: 16px auto 16px
+	.left-part
+		float: left
+		width: 100%
+		p
+			text-align: center
+	.right-part
+		float: right
+		width: 100%
+		p
+			margin-top: 80px
+		.docs
+			width: 100%
+			.maindocs
+				width: 10%
+				display: inline-block
+				margin: 3%
+				img
+					width: 100%
+
+	.subheader
+		margin-top: 7px
+		text-transform: none
+		float: right
+		width: 100%
+		span
+			font-size: 44px
+			margin-top: 7px
+	.button
+		margin-top: 60px
+		clear: both
+		float: right
+.logo_kdd
+	width: 46%
+	float: right
+.logo_riv
+	// width: 51%
+	// float: left
+	margin-top: 0px
+
+.seventeenth
+	height: 800px
+	// background: url('../img/bg-17.jpg') center
+	background-size: cover
+.form
+	max-width: 860px
+	position: relative
+	// height: 580px
+	margin-top: 90px
+	background: rgba(0, 0, 0, .7)
+	padding: 30px 20px
+	box-sizing: border-box
+	*
+		box-sizing: border-box
+	h2
+		margin-bottom: 28px
+		text-transform: inherit
+		&:before
+			display: none
+	input, textarea, .placeholder
+		font-size: 20px
+		font-weight: 300
+		color: #fff
+		background: none
+		border: none
+	input, textarea
+		position: relative
+		z-index: 1
+		border-bottom: 1px solid #ff000b
+		transition-duration: .3s
+		&:focus
+			box-shadow: 0 0 4px 3px #ff000b
+			border: none
+			& + .placeholder
+				display: none
+	.input_wrap input,
+	.input_wrap_textarea textarea
+		width: 98%
+		height: 100%
+		padding: 0 30px
+	.placeholder
+		position: absolute
+		top: 10px
+		left: 30px
+		i
+			color: #ff000b
+	.button
+		float: right
+		margin-top: 20px
+		border-color: #fff
+		width: 300px
+		&:hover
+			border-color: #ff000b
+.input_wrap
+	width: 32%
+	height: 40px
+	display: inline-block
+	position: relative
+	vertical-align: middle
+	margin-bottom: 30px
+.input_wrap_textarea
+	position: relative
+	width: 100%
+	height: 180px
+	margin: 0 auto 20px
+#zipCode1, #zipCode
+	padding-left: 57px
+	padding-bottom: 10px
+	height: 40px
+.form .placeholder.placeholder_phone
+	left: 54px
+.intl-tel-input .flag-container
+	bottom: 15px
+
+footer
+	height: 90px
+	line-height: 90px
+	font-size: 14px
+	color: #6c6f73
+	text-transform: uppercase
+	font-weight: 300
+	background: #fff
+	.smarto
+		float: right
+	.fb-foot
+		margin-right: 50px
+		padding-top: 20px
+		float: right
+		height: 50px
+	.logo-smart
+		position: relative
+		top: 18px
+		display: inline-block
+		margin-left: 30px
+		width: 95px
+		height: 49px
+		// background: url('../img/logo-smart.png')
+.form h2
+	// margin-bottom: 8vmin
+	font-size: 50px
+.working_hours
+	color: white
+	margin-bottom: 10px
+	font-size: 1.2em
+.header-callback
+	margin-right: 14px
+.lang
+	position: absolute
+	right: -14px
+	top: 8px
+.lang a
+	display: block
+	height: 18px
+	line-height: 20px
+	color: white
+	padding-right: 3px
+	font-size: 10px
+	text-transform: uppercase
+@media screen and (max-width: 856px)
+	.working_hours
+		font-size: 1em
+	.form_reserve_input_container
+		flex-direction: column
+		justify-content: center
+		align-items: center
+	.form .form_reserve .form_reserve_input
+		width: 95%
+	.form .form_reserve input
+		width: 100%
+
+/*                         +++ RESPONSIVE +++                                   */
+
+@media screen and (min-width: 2500px)
+	.first
+		height: 3900px
+		// background: url('../img/bg-new2340.jpg')
+		// background-size: cover
+	.seventh
+		background: url(../img/panorama5.jpg)
+
+@media screen and (min-width: 1900px) and (max-width: 2500px)
+	.first
+		height: 3200px
+		// background: url('../img/bg-new2600.jpg')
+		// background-size: cover
+	.seventh
+		background: url(../img/panorama5.jpg)
+
+@media screen and (max-width: 856px) and (min-width: 380px)
+	.wrapper
+		max-width: 380px
+	.first .subheader span
+		position: relative
+		z-index: 1
+		display: inline-block
+		font-size: 30px
+	h2.title
+		font-size: 36px
+		& + i
+			width: 80%
+	.button.button-red
+		width: 100%
+	.slider
+		height: 800px
+		width: calc(100% - 12px)
+		background: rgba(0, 0, 0, .7)
+		svg
+			display: none
+		.svg-wrapper
+			padding-bottom: 800px
+		.cd-radial-slider-content .wrapper > div
+			padding: 0 8%
+		.cd-radial-slider-navigation li
+			right: 1%
+		.cd-radial-slider-navigation li:last-of-type
+			left: 1%
+	body
+		min-width: 320px
+	.header
+		min-width: 380px
+		position: fixed
+		text-align: center
+		height: 350px
+		.logo
+			float: none
+			display: inline-block
+			margin-top: 35px
+		&-nav
+			float: none
+			margin: 30px auto
+			li
+				display: none
+				&.mobile
+					display: block !important
+					width: 68px
+					height: 35px
+					background: url('../img/icons/gamburger.png') no-repeat
+					border-right: 0
+					padding: 0
+					margin: auto
+					ul
+						display: none
+						padding-top: 10px
+						width: 100%
+						position: absolute
+						top: 0px
+						left: 0px
+						background-color: #F22833
+						border-radius: 4px
+						li
+							display: block
+							border-right: none
+							&:first-child
+								height: 40px
+							a
+								font-size: 24px
+								line-height: 36px
+
+		&-callback
+			float: none
+			width: 280px
+			height: auto
+			margin: auto
+			font-size: 14px
+			em, .phone_display a
+				margin-top: 10px
+				font-size: 24px
+				color: white
+				pointer-events: all
+		.callback
+			margin-top: 25px
+		&.zipped
+			height: 80px
+			.logo
+				float: right
+				margin: 15px
+				width: 185px
+				img
+					width: 100%
+			.header-callback
+				display: none
+			.header-nav
+				float: left
+				margin-left: 20px
+			& + .first
+				h2
+					transition-duration: 1s
+					margin-top: 375px
+	.first
+		height: 2140px
+		.first_name
+			margin: 120px 20px 35px
+			// width: 450px
+			left: 0%
+		.subheader
+			font-size: 48px
+			margin: 0 10px
+		.trigger-0
+			top: 400px
+		.slider
+			margin: 1150px 6px 0
+	.second, .ninth, .eleventh, .thirteenth, .fifteenth
+		height: 150px
+		line-height: 150px
+	.third, .fifth
+		text-align: left
+		.lamps
+			display: block
+			i
+				&:nth-child(1)
+					left: -7%
+				&:nth-child(2)
+					left: 22%
+				&:nth-child(3)
+					left: 53%
+		.subheader
+			margin-top: 100px
+			span
+				font-size: 30px
+				margin-top: 6px
+	.fourth
+		.wrapper
+			&:before, &:after
+				display: none
+		.clock
+			margin: 13px 30px
+		li
+			float: none
+			margin: 0 auto 50px
+			&:after
+				display: none
+			&:nth-child(4n)
+				margin-right: auto
+	.seventh
+		height: 415px
+		background-size: auto 100%
+		h2
+			margin-top: 75px
+			& + i
+				top: 95px
+	.eigth
+		height: auto
+		padding-bottom: 85px
+		#openGal
+			margin-top: 960px
+		.lamps
+			i
+				&:nth-child(1)
+					left: -7%
+				&:nth-child(2)
+					left: 22%
+				&:nth-child(3)
+					left: 53%
+				&:last-child
+					display: none
+		.gallery
+			margin: 70px auto 50px
+			height: 940px
+			max-width: 380px
+			a
+				position: absolute
+				img
+					width: 100%
+				&:after
+					position: absolute
+					top: 0
+					left: 0
+					display: none
+					height: 100%
+					width: 100%
+					content: ''
+					background: rgba(255, 0, 11, .7)
+				&:hover:after
+					display: block
+				&:nth-child(1)
+					top: 0
+					left: 5px
+					width: 230px
+				&:nth-child(2)
+					top: 0
+					left: 240px
+					width: 133px
+				&:nth-child(3)
+					top: 120px
+					left: 5px
+					width: 200px
+				&:nth-child(4)
+					top: 162px
+					left: 210px
+					width: 163px
+				&:nth-child(5)
+					top: 197px
+					left: 5px
+					width: 200px
+				&:nth-child(6)
+					top: 359px
+					left: 210px
+					width: 164px
+				&:nth-child(7)
+					top: 430px
+					left: 5px
+					width: 175px
+				&:nth-child(8)
+					top: 526px
+					left: 185px
+					width: 188px
+				&:nth-child(9)
+					top: 731px
+					left: 5px
+					width: 175px
+				&:nth-child(10)
+					top: 640px
+					left: 5px
+					width: 175px
+				&:nth-child(11)
+					top: 624px
+					left: 185px
+					width: 188px
+	.tenth
+		li
+			margin: 0 auto 17px
+			float: none
+		li:nth-child(13)
+			margin: 0 auto 17px
+	.twelfth
+		padding: 10px 0
+		.grid
+			figure
+				width: calc(100% - 20px)
+				height: 260px
+				margin: 5px 10px
+			h2
+				font-size: 48px
+			p
+				font-size: 19px
+	.fourteenth
+		.subheader
+			margin-right: 0
+			margin-bottom: 15px
+			span
+				margin-top: 7px
+				font-size: 30px
+		[class*="img-"]
+			position: static
+			margin-top: 10px
+			width: 100%
+			border: none
+		.text
+			width: 100%
+		.more-info
+			line-height: 1.5
+			text-align: center
+	.sixteenth
+		.subheader
+			float: none
+			width: 100%
+			span
+				font-size: 30px
+		[class*="part"]
+			float: none
+			width: 100%
+			p a img
+				float: none!important
+				margin: 0 auto!important
+	.form
+		clear: both
+		overflow: hidden
+		height: auto
+		padding: 40px 10px
+		h2
+			font-size: 36px
+		.button
+			width: 50%
+			font-size: 16px
+	.input_wrap, .input_wrap_textarea
+		width: 100%
+	footer
+		height: 180px
+		line-height: 30px
+		text-align: center
+		.copy
+			display: block
+		.smarto
+			float: none
+	[class*="fancybox"]
+		.form
+			width: 100%
+			margin-top: 0
+@media screen and (max-width: 380px) and (min-width: 320px)
+	.wrapper
+		max-width: 380px
+		margin-left: 10px
+		margin-right: 10px
+	.first .first_name
+		left: 0
+	.first .subheader span
+		// position: relative
+		// z-index: 1
+		// display: inline-block
+		font-size: 30px
+	h2.title
+		font-size: 36px
+		& + i
+			width: 80%
+	.button.button-red
+		width: 100%
+	.slider
+		height: 750px
+		width: calc(100% - 12px)
+		background: rgba(0, 0, 0, .7)
+		h4
+			font-size: 28px
+		svg
+			display: none
+		.svg-wrapper
+			padding-bottom: 700px
+		.cd-radial-slider-content .wrapper > div
+			padding: 0 8%
+		.cd-radial-slider-navigation li
+			right: 1%
+		.cd-radial-slider-navigation li:last-of-type
+			left: 1%
+	body
+		min-width: 300px
+	.header
+		min-width: 300px
+		position: fixed
+		text-align: center
+		height: 350px
+		.logo
+			float: none
+			display: inline-block
+			margin-top: 35px
+		&-nav
+			float: none
+			margin: 30px auto
+			li
+				display: none
+				&.mobile
+					display: block !important
+					width: 68px
+					height: 35px
+					background: url('../img/icons/gamburger.png') no-repeat
+					border-right: 0
+					padding: 0
+					margin: auto
+					ul
+						display: none
+						padding-top: 10px
+						width: 100%
+						position: absolute
+						top: 0px
+						left: 0px
+						background-color: #F22833
+						border-radius: 4px
+						li
+							display: block
+							border-right: none
+							&:first-child
+								height: 40px
+							a
+								font-size: 24px
+								line-height: 36px
+								display: block
+		&-callback
+			float: none
+			width: 280px
+			height: auto
+			margin: auto!important
+			font-size: 14px
+			em, .phone_display a
+				margin-top: 10px
+				font-size: 24px
+				color: white
+				pointer-events: all
+		.callback
+			margin-top: 25px
+		&.zipped
+			height: 80px
+			.wrapper
+				margin-left: 0
+				margin-right: 0
+			.logo
+				float: right
+				margin: 15px
+				width: 185px
+				img
+					width: 100%
+			.header-callback
+				display: none
+			.header-nav
+				float: left
+				margin-left: 20px
+			& + .first
+				h2
+					transition-duration: 1s
+					margin-top: 375px
+	.first
+		height: 2140px
+		h2
+			margin: 400px 20px 35px
+		.subheader
+			font-size: 48px
+			margin: 0 10px
+		.trigger-0
+			top: 380px
+		.slider
+			margin: 1250px 6px 0
+	.second, .ninth, .eleventh, .thirteenth, .fifteenth
+		height: 150px
+		line-height: 150px
+	.third, .fifth
+		text-align: center
+		.lamps
+			display: block
+			i
+				&:nth-child(1)
+					left: -7%
+				&:nth-child(2)
+					left: 22%
+				&:nth-child(3)
+					left: 53%
+		.subheader
+			margin-top: 100px
+			span
+				font-size: 24px
+				margin-top: 6px
+	.fourth
+		.wrapper
+			&:before, &:after
+				display: none
+		.clock
+			margin: 13px 30px
+		li
+			float: none
+			margin: 0 auto 50px
+			&:after
+				display: none
+			&:nth-child(4n)
+				margin-right: auto
+	.seventh
+		height: 415px
+		background-size: auto 100%
+		h2
+			margin-top: 75px
+			& + i
+				top: 95px
+	.eigth
+		height: auto
+		padding-bottom: 85px
+		#openGal
+			margin-top: 960px
+		.lamps
+			i
+				&:nth-child(1)
+					left: -7%
+				&:nth-child(2)
+					left: 22%
+				&:nth-child(3)
+					left: 53%
+				&:last-child
+					display: none
+		.gallery
+			margin: 70px auto 50px
+			height: 940px
+			max-width: 380px
+			a
+				position: absolute
+				img
+					width: 98%
+				&:after
+					position: absolute
+					top: 0
+					left: 0
+					display: none
+					height: 100%
+					width: 100%
+					content: ''
+					background: rgba(255, 0, 11, .7)
+				&:hover:after
+					display: block
+				&:nth-child(1)
+					top: 0
+					left: 5px
+					width: 230px
+				&:nth-child(2)
+					top: 0
+					left: 240px
+					width: 133px
+				&:nth-child(3)
+					top: 120px
+					left: 5px
+					width: 200px
+				&:nth-child(4)
+					top: 162px
+					left: 210px
+					width: 163px
+				&:nth-child(5)
+					top: 197px
+					left: 5px
+					width: 200px
+				&:nth-child(6)
+					top: 359px
+					left: 210px
+					width: 164px
+				&:nth-child(7)
+					top: 430px
+					left: 5px
+					width: 175px
+				&:nth-child(8)
+					top: 526px
+					left: 185px
+					width: 188px
+				&:nth-child(9)
+					top: 731px
+					left: 5px
+					width: 175px
+				&:nth-child(10)
+					top: 640px
+					left: 5px
+					width: 175px
+				&:nth-child(11)
+					top: 624px
+					left: 185px
+					width: 188px
+	.tenth
+		li
+			margin: 0 auto 17px
+			float: none
+		li:nth-child(13)
+			margin-left: auto
+	.twelfth
+		padding: 10px 0
+		width: 98%
+		.grid
+			figure
+				width: calc(100% - 20px)
+				height: 260px
+				margin: 5px 10px
+			h2
+				font-size: 48px
+			p
+				font-size: 19px
+	.fourteenth
+		.wrapper
+			margin: 8px 2% 100px
+		.subheader
+			margin-right: 0
+			margin-bottom: 15px
+			span
+				margin-top: 7px
+				font-size: 30px
+		[class*="img-"]
+			position: static
+			margin-top: 10px
+			width: 96%
+			border: none
+		.text
+			width: 96%
+			margin-left: 10px
+		.more-info
+			line-height: 1.5
+			text-align: center
+	.sixteenth
+		.wrapper
+			margin: 75px 2% 105px
+			.logo_kdd
+				img
+					padding-bottom: 17px
+		.subheader
+			float: none
+			width: 100%
+			span
+				font-size: 30px
+		[class*="part"]
+			float: none
+			width: 96%
+			margin-left: 2%
+			.docs .maindocs
+				margin: 1.5%
+			p a img
+				float: none!important
+				margin: 0 auto!important
+	.form
+		height: 770px
+		// padding: 40px 10px
+		.g-recaptcha
+			float: none
+			width: 220px
+			overflow: hidden
+		h2
+			font-size: 36px
+		.input_wrap, .input_wrap_textarea
+			width: 100%
+		.button
+			width: 100%
+		.placeholder
+			font-size: 16px
+			width: 100%
+			text-align: left
+
+	footer
+		height: 180px
+		line-height: 30px
+		text-align: center
+		.copy
+			display: block
+		.smarto
+			float: none
+		.fb-foot
+			margin-right: 0px
+	[class*="fancybox"]
+		.form
+			width: 100%
+			margin-top: 0
+.title.fash
+	font-size: 75px
+@media screen and (max-width:768px)
+	.title.fash
+		font-size: 20px
+	.first .first_name .classh2
+		margin: 410px 0 35px
+		text-transform: uppercase
+		font-size: 24px
+		color: #000
+	.lang
+		display: none
+
+
+
+.logo_proj__slick-slider__controls 
+  width: 14px
+  height: 25px
+  background: url('../img/slickslider_left-right_spritesheet.png') no-repeat
+  position: absolute
+  bottom: 20%
+
+
+.logo_proj__slick-slider 
+  max-width: 1100px
+  margin: 0 auto
+
+
+.logo_proj__slick-slider__controls:hover 
+  cursor: pointer
+
+
+.logo_proj__slick-slider__controls_prev-slide 
+  left: 0px
+
+
+.logo_proj__slick-slider__controls_next-slide 
+  background-position: -14px 0px
+  right: 0px
+
+
+.slick-track 
+  display: flex
+  align-items: center
+
+
+.logo_proj img 
+  max-width: 90%
+  margin: 0 auto
+
+
+.logo_proj__kandisnky 
+  margin-bottom: -60px
+
+
+.logo_proj__resident 
+  margin-bottom: -83px
+
+
+.logo_proj__bristol 
+  margin-bottom: -25px
+
+.logo_proj__new_york 
+  margin-bottom: -78px
+
+
+@media only screen and (max-width: 856px) 
+  .logo_proj 
+    margin-bottom: 0
+  
+  .logo_proj__slick-slider__controls 
+    bottom: 16%
+  
+  .sixteenth [class*="part"].slider__container 
+    width: 312px
+    margin: 0 auto
+  
+
+
+/* Preloader start */
+.preloader-container 
+  width: 100%
+  height: 100vh
+  background-color: #405174
+  position: fixed
+  top: 0
+  z-index: 999999999
+
+
+/* Circle start */
+@keyframes svg-circle 
+  from  stroke-width: 0 
+  to  stroke-width: 550 
+
+.svg-circle 
+  stroke: #ffffff
+  stroke-linecap: round
+  stroke-width: 550
+  animation-name: svg-circle
+  animation-duration: 3s
+  animation-fill-mode: forwards
+
+/* Circle end */
+
+/* Letters start */
+.svg-letters 
+  fill: #405174
+
+
+
+@keyframes svg-letters_upper 
+  from  opacity: 0 
+  to  opacity: 1 
+
+
+.svg-letters_upper path
+  opacity: 0
+  animation-name: svg-letters_upper
+  animation-fill-mode: forwards
+  animation-duration: 1s
+
+
+.svg-Saga animation-delay: 3s
+.svg-sAga animation-delay: 3.2s
+.svg-saGa animation-delay: 3.4s
+.svg-sagA animation-delay: 3.6s
+
+
+.svg-letters_lower 
+  opacity: 0
+  animation-name: svg-letters_upper
+  animation-fill-mode: forwards
+  animation-duration: 1s
+  animation-delay: 3.8s
+
+/* Letters end */
+
+/* Loading circle start */
+@keyframes svg-loading-cirlce 
+  from stroke-dashoffset: 435
+  to stroke-dashoffset: 0
+
+
+.svg-loading-circle 
+  stroke:#b5b5b5
+  stroke-width: 2px
+  fill: none
+  stroke-dasharray: 435
+  stroke-dashoffset: 435
+  animation-name: svg-loading-cirlce
+  animation-fill-mode: forwards
+  animation-duration: 7s
+
+
+.svg-loading-circle__text 
+  font-family: sans-serif
+  font-size: 30px
+  font-weight: bold
+  fill: #b5b5b5
+
+/* Loading circle end */
+
+/* Outer lines start */
+@keyframes svg-outer-lines 
+  0% stroke-dashoffset: 2684
+  50% opacity:1
+  100% stroke-dashoffset: 0 opacity: 0
+
+.svg-outer-lines path 
+  stroke: #ffffff
+  stroke-width: 2
+  stroke-dasharray: 2684
+  stroke-dashoffset: 2684
+  animation-name: svg-outer-lines
+  animation-duration: 1s
+  animation-delay: 4s
+  animation-fill-mode: forwards
+
+path.svg-outer_s animation-delay: 4s
+path.svg-outer_a_1_3 animation-delay: 4.2s
+path.svg-outer_a_2 animation-delay: 4.4s
+path.svg-outer_a_1_1 animation-delay: 4.6
+path.svg-outer_g animation-delay: 4.8s
+path.svg-outer_a_1_2 animation-delay: 5s
+/* Outer lines end */
+
+/* Inner lines start */
+@keyframes svg-inner-lines 
+  from stroke-dashoffset: 185
+  to stroke-dashoffset: 0
+
+
+.svg-inner-lines path 
+  stroke:#405174
+  stroke-width: 2
+  stroke-dasharray: 185
+  stroke-dashoffset: 185
+  animation-name: svg-inner-lines
+  animation-duration: 1s
+  animation-delay: 4s
+  animation-fill-mode: forwards
+
+
+path.svg-inner_s animation-delay: 4.1s
+path.svg-inner_a_1_3 animation-delay: 4.3s
+path.svg-inner_a_2 animation-delay: 4.5s
+path.svg-inner_a_1_1 animation-delay: 4.7
+path.svg-inner_g animation-delay: 4.9s
+path.svg-inner_a_1_2 animation-delay: 5.1s
+/* Inner lines end */
+
+/* Svg remove content start */
+
+@keyframes removeCircle 
+  15% transform: translateY(20px)opacity:1
+  100%transform: translateY(-400px)opacity:0
+
+
+.remove-svg .svg-circle 
+  animation-name: removeCircle
+  animation-duration: 1s
+  animation-fill-mode: forwards
+
+
+.remove-svg .svg-loading-circle-container 
+  animation-name: removeCircle
+  animation-duration: 1s
+  animation-delay: .5s
+  animation-fill-mode: forwards
+
+
+.preloader-container 
+  transition: all 1s 1.2s
+
+
+.remove-svg.preloader-container 
+  opacity: 0
+  transform: translateY(-100%)
+
+
+/* Svg remove content end */
+
+/* Responsive svg start */
+@media only screen and (max-width: 870px) 
+  .svg-all-content 
+      transform: translate(-20%, 35%) scale(1.5)
+  
+
+@media only screen and (max-width: 500px) 
+  .svg-all-content 
+      transform: translate(-45%, 35%) scale(2)
+  
+
+/* Responsive svg end */
+/* Preloader end */
