@@ -16,3 +16,10 @@ full-site/fonts
 full-site/3DMap/1
 full-site/3DMap/img
 full-site/adm/images
+
+full-site/admin
+full-site/config.php
+full-site/application.php
+full-site/db.php
+full-site/en/application.php
+full-site/ru/application.php
