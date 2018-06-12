@@ -76,7 +76,7 @@ $uRr = "https://$_SERVER[HTTP_HOST]".'/ru'."$_SERVER[REQUEST_URI]";
             <li><a href="/#place" class="separate">Розташування</a></li>
             <li><a href="/choice/" class="separate">Квартири</a></li>
 			      <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна нерухомість</a></li>
-				  <li><a href="/atmosfera/" class="separate">SFERA Living Systema</li>
+				  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
             <li><a href="/news/" class="separate">Новини</a></li>
             <li><a href="/#builder" class="separate">Забудовник</a></li>
             <li><a href="/progress/" class="separate">Будівництво</a></li>
@@ -131,7 +131,7 @@ $uRr = "https://$_SERVER[HTTP_HOST]".'/ru'."$_SERVER[REQUEST_URI]";
         <ul id="budinok">
           <li><a href="/choice/" class="separate">Квартири</a></li>
           <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна<br>нерухомість</a></li>
-		  <li><a href="/atmosfera/" class="separate">SFERA Living Systema</li>
+		  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
         </ul></li>
       <li><a href="/#builder" class="separate">Забудовник</a></li>
       <li><a href="/news/" id="uwf_open" class="separate">Новини &#9660;</a>
