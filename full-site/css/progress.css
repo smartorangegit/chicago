@@ -116,7 +116,6 @@
 }
 .cont-img-right{
   float: right;
-  margin-top: 160px;
 }
 .img-item {
   margin-bottom: 58px;
@@ -162,7 +161,7 @@
 .image-item--12{
   background: url('../img/19_05_2017/IMG_20170516_200226.jpg');
   background-size: cover;
-  
+
 }
 .image-item--13{
   background: url('../img/31052017.jpg');
@@ -173,7 +172,7 @@
   background: url('../img/09_06_2017/1.jpg');
   background-size: cover;
   margin-top: 6px;
- 
+
 }
 .image-item--15{
   background: url('../img/19_06_2017/1.jpg');
@@ -185,22 +184,22 @@
   background: url('../img/23_06_2017/1.jpg');
   background-size: cover;
   margin-top: 6px;
-  
+
 }
 .image-item--17 {
   background: url('../img/30_06_2017/1.jpg');
   background-size: cover;
-  margin-top: 6px;	
+  margin-top: 6px;
 }
 .image-item--18 {
   background: url('../img/10_07_2017/1.jpg');
   background-size: cover;
-  margin-top: 6px;   
+  margin-top: 6px;
 }
 .image-item--19 {
   background: url('../img/18_07_2017/1.jpg');
   background-size: cover;
-  margin-top: 6px;	
+  margin-top: 6px;
 }
 .image-item--20 {
   background: url('../img/24_07_2017/1.jpg');
@@ -245,12 +244,78 @@
 .image-item--28 {
   background: url('../img/18_09_2017/1.jpg');
   background-size: cover;
-  margin-top: 236px;
+  margin-top: 6px;
 }
 .image-item--29 {
-  background: url('../img/26_09_2017/1.jpg');
+  background: url('../img/26_09_2017/1.JPG');
   background-size: cover;
   margin-top: 6px;
+}
+.image-item--30 {
+  background: url('../img/30_10_2017/1.jpg');
+  background-size: cover;
+  margin-top: 6px;
+}
+.image-item--30 {
+  background: url('/img/25_10_2017/1.jpg');
+  background-size: cover;
+  margin-top: 6px;
+}
+.image-item--31 {
+  background-size: cover;
+  margin-top: 6px;
+}
+.image-item--32 {
+  background-size: cover;
+  margin-top: 6px;
+}
+.image-item--33 {
+  margin-top: 6px;
+}
+.image-item--34 {
+  margin-top: 6px;
+}
+.image-item--35 {
+  margin-top: 6px;
+}
+.image-item--36 {
+  margin-top: 6px;
+}
+.image-item--37 {
+  margin-top: 6px;
+}
+.image-item--38 {
+  margin-top: 6px;
+}
+.image-item--39 {
+  margin-top: 6px;
+}
+.image-item--40 {
+  margin-top: 6px;
+}
+.image-item--41 {
+  margin-top: 6px;
+}
+.image-item--42 {
+  margin-top: 6px;
+}
+.image-item--43 {
+  margin-top: 6px;
+}
+.image-item--44 {
+  margin-top: 6px;
+}
+.image-item--45 {
+ margin-top: 6px;
+}
+.image-item--46 {
+  margin-top: 6px;
+}
+.image-item--48 {
+ margin-top: 6px;
+}
+.image-item--49 {
+margin-top: 6px;	
 }
 .circle p {
   font-size: 22px;
@@ -290,14 +355,15 @@
   width: 100%;
   height: 20%;
   background-color: rgba(255,0,11,0.7);
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 26px;
+  line-height: 40px;
   text-transform: uppercase;
 }
 .img-date {
   position: absolute;
-  bottom: 20%;
-  left: 8%;
+  bottom: 92%;/*81%*/
+  left: 1%;
+  font-size: 23px;
 }
 .img-info {
   position: absolute;
@@ -494,15 +560,19 @@ figcaption a:hover {
  }
 
 
-@media screen and (max-width: 856px) and (min-width: 600px) {
+@media screen and (max-width: 856px) and (min-width: 768px) {
 .wrapper {
   max-width:760px;
 }
 .progress-grid{
-  margin-top: 350px;
+  margin-top: 80px;
 }
-.fifteenth h2 {
+.fifteenth h1 {
  margin-top: 0px;
+}
+.fifteenth h1.title{
+  font-size: 30px;
+  line-height: 150px;
 }
 .lamps{
   text-align: center;
@@ -566,7 +636,7 @@ span.trigger-0 {
 .fifteenth h2.title {
   transform:translate3d(5%, 0, 0);
 }
-header .wrapper .logo{
+/*header .wrapper .logo{
   float: left;
   width: 45%;
   margin-top: 60px;
@@ -576,10 +646,11 @@ header .wrapper .logo{
   width: 30%;
   margin-top: 65px;
   margin-bottom: 50px;
-}
+}*/
 
-.header-callback {
+/*.header-callback {
   width: 100%;
+  max-width: 300px;
 }
 .header-phone{
   float: left;
@@ -595,11 +666,11 @@ header .wrapper .logo{
   float: right;
   margin-top: 90px;
   margin-right: 30px;
-}
+}*/
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px){
+@media screen and (min-width: 320px) and (max-width: 768px){
 .wrapper {
   /*width: 320px;*/
   max-width:380px;
@@ -616,14 +687,14 @@ header .wrapper .logo{
   float: none;
 }
 .progress-grid{
-  margin-top: 350px;
+  margin-top: 80px;
   transition-duration: 0.5s;
 }
 .header.zipped + .progress-grid{
   margin-top: 60px;
 }
 .fifteenth .title,
-.fifteenth h2.title {
+.fifteenth h1.title {
 transform: none!important;
  margin-top: 0px;
  font-size: 1.8em;

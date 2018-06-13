@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Свободная планировка квартир в жилом комплексе CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Купить квартиру с свободной планировкой в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
 	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Покупайте квартиры с свободной планировкой в ЖК CHICAGO Central House - решайте сами, какой будет ваша новая квартира!">
+	<meta name="description" content="【Свободная планировка квартир в CHICAGO Central House】Продажа квартир бизнес класса свободной планировки в жилом комплексе Чикаго Централ Хаус в центре Киева. Купить....... ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/svobodnaya-planirovka/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/svobodnaya-planirovka/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/svobodnaya-planirovka/" /> 

@@ -1,3 +1,4 @@
+<?php include_once('../../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,7 +47,7 @@
         <div class="ch-menu nomobile">
           <ul>
             <li><a class="imglogo"  href="../../../../en/"><img src="/img/chicago-logo.png" alt="CHICAGO Central House residential complex in Kyiv city" title="CHICAGO Central House residential complex in Kyiv city"></a></li>
-<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 22-77-244</li>
+<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 49-80-400</li>
 <li><a href="#callback" class="button callback">callback</a></li>
             <li><a href="../../../../en/#place" class="separate">Location</a></li>
             <li><a href="../../../../en/news/" class="separate">news</a></li>
@@ -64,7 +65,7 @@
             <div class="num_level">
               <span>17</span>
               <p>floor</p>
-              <p><a class="new-app" href="/ru/choice/">Select floor <span>>></span></a></p>
+              <p><a class="new-app" href="/en/choice/">Select floor <span>>></span></a></p>
             </div>
 
           </div>

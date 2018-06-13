@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -8,16 +9,16 @@
 	<meta name="keywords" content="Chicago, ЖК Chicago, ЖК Чикаго, житловий комплекс, Київ, центр, Антоновича, Горького, купити квартиру, новобудова, апартаменти">
 	<meta name="description" content="ЖК Chicago Concept House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	   <!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-	<link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/progress.css">
-  <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
-  <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/progress.css">
+  <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
+  <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
+  <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
 </head>
 
 <body>
@@ -27,19 +28,19 @@
 
 	<header class="header">
 		<div class="wrapper">
-			<a href="index.html" class="logo">
-				<img src="../img/logo.png" alt="logo">
+			<a href="/ru/" class="logo">
+				<img src="/img/logo.png" alt="logo">
 			</a>
 			<ul class="header-nav">
 				<li id="mobile" class="mobile">
 					<ul id="minimenu">
 						<li id="miniclose" class="mobile">
-							<li><a href="index.php" class="separate">Дом</a></li>
-							<li><a href="index.php#place" class="separate">Расположение</a></li>
-							<li><a href="choiсe/index.php" class="separate">Квартиры</a></li>
-							<li><a href="index.php#builder" class="separate">Застройщик</a></li>
-							<li><a href="progress/index.php" class="separate">Строительство</a></li>
-							<li><a href="index.php#contact" class="separate">Связь</a></li>
+							<li><a href="/ru/" class="separate">Дом</a></li>
+							<li><a href="/ru/#place" class="separate">Расположение</a></li>
+							<li><a href="/ru/choiсe/" class="separate">Квартиры</a></li>
+							<li><a href="/ru/#builder" class="separate">Застройщик</a></li>
+							<li><a href="/ru/progress/" class="separate">Строительство</a></li>
+							<li><a href="/ru/#contact" class="separate">Связь</a></li>
 					</ul>
 				</li>
 
@@ -63,12 +64,12 @@
 				);
 		});
 			</script>
-				<li><a href="index.php" class="separate">Дом</a></li>
-				<li><a href="index.php#place">Расположение</a></li>
-				<li><a href="choice/index.php" class="separate">Квартиры</a></li>
-				<li><a href="index.php#builder">Застройщик</a></li>
-				<li><a href="progress/index.php" class="separate">Строительство</a></li>
-				<li><a href="index.php#contact">Связь</a></li>
+				<li><a href="/ru/" class="separate">Дом</a></li>
+				<li><a href="/ru/#place">Расположение</a></li>
+				<li><a href="/ru/choice/" class="separate">Квартиры</a></li>
+				<li><a href="/ru/#builder">Застройщик</a></li>
+				<li><a href="/ru/progress/" class="separate">Строительство</a></li>
+				<li><a href="/ru/#contact">Связь</a></li>
 			</ul>
 			<div class="header-callback">
 				<div class="header-phone">Телефон отдела продаж <em>(044)22-77-244</em></div>
@@ -90,9 +91,6 @@
 		</div>
 
 		<div>
-			<a class="fr_4">
-				<?echo $actual_link;?>
-			</a>
 					<br>
 					<?/*<a id="fiv_tx2">404</a>*/?>
 					<br>
@@ -186,12 +184,12 @@
             </span>
         </div>
   </footer>
-    <script src="../js/lib/snap.svg-min.js"></script>
-    <script src="../js/lib/slider.js"></script>
+    <script src="/js/lib/snap.svg-min.js"></script>
+    <script src="/js/lib/slider.js"></script>
     <!-- <script src="/js/jquery.fancybox.pack.js"></script>
     <script src="/js/jquery.fancybox-thumbs.js"></script> -->
-    <script src="../js/lib/wow.min.js"></script>
-		<script src="../js/progres.js"></script>
+    <script src="/js/lib/wow.min.js"></script>
+		<script src="/js/progres.js"></script>
 
 	<!-- <script src="js/scripts.js"> -->
   <script>

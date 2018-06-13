@@ -1,3 +1,4 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
 	<title>Panorama | CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="A bird's eye view on the downtown of Kiev from CHICAGO Central House">
+	<meta name="description" content="✅ 【CHICAGO Central House】 A bird's eye view on the downtown of Kiev from CHICAGO Central House ✅ 【CHICAGO】">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/panorama/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/panorama/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />

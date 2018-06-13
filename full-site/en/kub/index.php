@@ -1,12 +1,13 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Glass cube with media sculpture - Chicago Central House</title>
+	<title>≡ CHICAGO Central House 》Glass cube with media sculpture</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Modern technologies make it possible to see what we usually perceive to other senses.">
+	<meta name="description" content="✅ 【CHICAGO Central House】 Modern technologies make it possible to see what we usually perceive to other senses. ✅ 【CHICAGO】">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
@@ -70,7 +71,7 @@
 			</div>
 
 			<div class="kub_text">
-				<p>Modern technologies make it possible to see what we usually perceive with other senses. We will add digital space to reality and become the first in Ukraine, who will show on the screen the invisible rhythm of the city in the form of a media-sculpture:</p>
+				<p>Modern technologies make it possible to see what we usually perceive with other senses. We will add digital dimension to reality and become the first in Ukraine, who will show on the screen the invisible rhythm of the city in the form of a media-sculpture:</p>
 			</div>
 			<div class="kub_column_box clearfix">
 				<ul class="kub_column">
@@ -105,7 +106,7 @@
 				<img src="/img/kub_night.jpg" alt="Glass cube with media sculpture - Chicago Central House" title="Glass cube with media sculpture - Chicago Central House">
 			</div>
 			<div class="kub_text">
-				The art object will be placed inside a glass cube with a length of 14.5 meters on the sides and a height of 11.6 meters. Already in 2018 Kiev citizens and guest`s of the capital will have an opportunity to visit the opening of the cube with a media sculpture and to see objet d'art by themselves.
+				The art object will be placed inside a glass cube with a length of 14.5 meters on the sides and a height of 11.6 meters. Already in 2018 Kiev citizens and guests of the capital will have an opportunity to visit the opening of the cube with a media sculpture and to see objet d'art by themselves.
 			<div class="kub_galery">
 				<p style="text-align:center;">GALLERY</p>
 				<ul class="ufw_slider">

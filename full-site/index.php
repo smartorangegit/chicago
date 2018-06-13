@@ -1,12 +1,13 @@
+<?php include_once('includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>ЖК CHICAGO Central House - атмосферна новобудова в центрі Києва, вулиця Антоновича 44 (Горького)</title>
+	<title>≡ ЖК Чикаго 》Атмосферна новобудова в центрі Києва - вул. Антоновича, 44 | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>"/>
-	<meta name="description" content="Житловий комплекс CHICAGO Central House поєднує в собі яскраву чиказьку архітектуру, комфорт світового рівня та всі переваги життя у центрі Києва по вулиці Антоновича 44 (Горького)">
+	<meta name="description" content="【ЖК CHICAGO Central House】 Американська якість ➜ Українська ціна за квартиру в центрі! ✅ 【CHICAGO】 Фото галерея житлового комплексу, дозвільні документи, переваги компл... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua" />
@@ -54,15 +55,14 @@
 		</svg>
 	</div></div>
 	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
-	<?php/*<div class="underprice">ПІДВИЩЕННЯ ЦІН</div>
+
+	<!-- <div class="underprice">ПІДВИЩЕННЯ ЦІН</div>
 		<div class="mesage"><p>до чергового підвищення цін залишилось  <span id="clock-close"><img src=img/icons/close.svg alt="close" width="30px"></span></p>
 		<div class="clock2"></div>
-	</div>*/?>
+	</div> -->
 
 
 <?php /*меню*/ include_once('includes/header_ua.php'); ?>
-
-
 
 
 	<section  <?LazyLoad("/img/new_render_s.jpg", $option=array('class'=>'first'));?> >
@@ -523,7 +523,7 @@
 					Ваша участь у проекті &minus; найкраща нагорода для нас. Отже давайте працювати разом &minus; звертайтеся до наших спеціалістів з будь-яких питань, пов&prime;язаних із вашим майбутнім житлом.
 				</p>
 				<a href="/choice/" class="button button-red">Обрати квартиру</a>
-				<span class="more-info">Щоб отримати додаткову інформацію, будь ласка, зв&prime;яжіться із нами: (044) 22-77-244</span>
+				<span class="more-info">Щоб отримати додаткову інформацію, будь ласка, зв&prime;яжіться із нами: (044) 49-80-400</span>
 			</div>
 		</div>
 	</section>
@@ -539,7 +539,7 @@
 
 				<div class="logo_riv">
 					<a href="http://saga-development.com.ua/">
-						<img  <?LazyLoad("/img/saga-logo.svg");?>  alt="river" width="215px"/>
+						<img  <?LazyLoad("/img/saga-logo.svg");?>  alt="Saga Logo" width="200px"/>
 					</a>
 					<p style="margin-top:52px">
 						Девелопер проекту
@@ -669,6 +669,7 @@
 			<a href="/progress/" class="button button-red">Хід будівництва</a>
 		</div>
 	</section>
+
 <!-- ======section video======= -->
 <div class="video_container">
 	<div class="video__box">
@@ -681,12 +682,7 @@
 		<img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
 		<img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
 	</div>
-	<!--<div class="arrow_dance">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#000000" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-		<g><path d="M500,755.9L14.7,270.6c-6.2-6.2-6.2-15.6,0-21.8c6.2-6.2,15.6-6.2,21.8,0L500,712.3l463.6-463.6c6.2-6.2,15.6-6.2,21.8,0c6.2,6.2,6.2,15.6,0,21.8L500,755.9z"/></g>
-		</svg>
 
-	</div> -->
 	<style media="screen">
 	.header { background: rgba(255, 0, 11, 1);}
 	.video_container{position: relative;}
@@ -702,37 +698,7 @@
 		margin-top: -100px;
 	}
 	.sound img{  width: 40px;}
-	.arrow_dance{
-		width: 60px;
-		position: absolute;
-		left: 50%;
-		top: 90%;
-		margin-top: -100px;
-		margin-left: -30px;
-		-webkit-animation: bounce 2s infinite;
-		animation: bounce 2s infinite;
-	}
-	@-webkit-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);
-			 transform: translateX(0);}
-		 40% {-webkit-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-webkit-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
-	 @-moz-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-		 40% {transform: translateY(-30px);}
-		 60% {transform: translateY(-15px);}
-	 }
-	 @keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);
-			 transform: translateY(0);}
-		 40% {-ms-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-ms-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
+
  @media only screen and (min-width: 1368px) {
 		 video{width: 100%;}
 	 }
@@ -748,7 +714,6 @@
 		}
 		.video_desk{display: none;}
 		.sound{display: none;}
-		.arrow_dance{display: none;}
 		video{margin: 0;}
 	}
 	</style>
@@ -777,7 +742,8 @@
 </div>
 
 <!-- ======end section video======= -->
-	<section  <?LazyLoad("/img/bg-17.jpg", $option=array('class'=>'seventeenth', 'option'=>'center'));?>  id="contact" style="position: relative;">
+
+<section  <?LazyLoad("/img/bg-17.jpg", $option=array('class'=>'seventeenth', 'option'=>'center'));?>  id="contact">
 		<?php
 		$webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
@@ -816,7 +782,7 @@
 		<input  type="submit" value="Надіслати" class="button">
 		</form>
 
-         <form  id="realtor-form" action="application.php" method=post enctype="multipart/form-data" class="wrapper form clearfix" style="display: none;">
+	     <form  id="realtor-form" action="application.php" method="post" enctype="multipart/form-data" class="wrapper form clearfix" style="display: none;">
             <h2 class="title">Співпраця для ріелторів</h2>
             <div class="input_wrap realtor_input_wrap">
                 <input type="text" name="name_an" required>
@@ -835,10 +801,11 @@
                 <span class="placeholder placeholder_phone">Телефон:<i>*</i></span>
             </div>
             <div class="input_wrap_textarea">
-                <textarea tabindex="4" cols="30" rows="10" name="formData"  required></textarea>
+                <textarea  tabindex="4" cols="30" rows="10" name="formData"  required></textarea>
                 <span class="placeholder">Текст повідомлення:<i>*</i></span>
             </div>
-			<input  name="count" class="webad" type="hidden" value="5" >
+
+			<input  name="count" class="webad" type="hidden" value="5">
 			<input  name="typ" class="webad" type="hidden" value="8" >
             <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
             <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - Chicago"/>
@@ -854,35 +821,29 @@
         <div id="info"></div>
             <input  type="submit" value="Надіслати" class="button">
             </form>
-
         <div class="for_btn">
             <a class="button for_btn_link" href="http://riverside.net.ua/agent/">Співпраця для рієлторів</a>
         </div>
         <style media="screen">
-            .for_btn{   max-width: 860px; width: 100%;   /*margin: 20px auto;*/   background: rgba(0,0,0,0.8);   color: black;   padding: 24px; position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);}
-            .for_btn .button{   padding: 8px 20px;  transition: 0.5s;}
-            .for_btn .button:hover{ color: white;   border-color: red;}
+        .for_btn{   max-width: 860px; width: 100%; background: rgba(0,0,0,0.8);color: black;padding: 24px; position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);}
+        .for_btn .button{padding: 8px 20px;transition: 0.5s;}
+        .for_btn .button:hover{color: white; border-color: red;}
             .realtor_input_wrap {
                 width: 24%;
             }
             @media only screen and (max-width:768px) {
-                .for_btn{   max-width: 380px; bottom: -5px;}
-                .seventeenth{   height: auto; padding-bottom: 50px; }
+              .for_btn{ max-width: 380px; bottom: -5px;}
+              .seventeenth{ height: auto; padding-bottom: 50px;}
             }
         </style>
-
     </section>
-
-
-
-
 
 	<?php include('includes/footer_ua.php'); ?>
 
 	<?php include('includes/form_callback.php'); ?>
 <!--end timer -->
 
-		  <!-- timer -->
+<?php/*		  <!-- timer -->
  <div class="modal_window__container" style="display:none;">
 			<div class="main_overlay">
 			<div class="main_modal modal_window__main-content">
@@ -900,7 +861,6 @@
     </div>
   </div>
 	<style>
-
 #clockdiv {
   margin:0px auto;
   width:100%;
@@ -952,9 +912,10 @@
 	top: -16px;
     right: -20px;
 }
+.main_modal .modal_content {padding: 11px 10px;}
 </style>
 		<script type="text/javascript">
-		        var deadline = 'March 23 2018';
+		        var deadline = 'March 28 2018';
 				var t = getTimeRemaining(deadline);
 		        function getTimeRemaining(endtime){
 		      var t = Date.parse(endtime) - Date.parse(new Date());
@@ -987,16 +948,14 @@
 		 if(t.total<=0){
 			  clearInterval(timeinterval);
 		  }else{
-			$('.modal_window__container').attr('style', 'display:block;');
+				var elem = document.getElementsByClassName("modal_window__container")[0];
+				elem.style.cssText = 'display:block;';
+
 		  }
 		}
-		initializeClock('clockdiv', deadline);
-
-		$('.modal__close').click(function(){
-			$('.modal_window__container').fadeOut(1000);
-		});
-		</script>
-		<!-- end timer -->
+initializeClock('clockdiv', deadline);
+</script>
+		<!-- end timer --> */?>
 	<!-- ===========modal window============ -->
 	 <div class="main_overlay" style="display:none;">
 		 <div class="main_modal">
@@ -1030,15 +989,15 @@
 	//end menu js
 		var controller = new ScrollMagic.Controller();
 		</script>
-		<script src="js/scripts.js"></script>
+		<script src="js/scripts.js?v=1.0"></script>
 
-	<?php /*	<!-- Flipclock initiation starts here -->
+		<!-- Flipclock initiation starts here -->
 		<script src="/js/flipclock.js"></script>
 		<script type="text/javascript">
 
 		$(document).ready(function() {
 	    	var clock2;
-	    	var deadline = 'March 16 2018 23:59:59 GMT+02:00';
+	    	var deadline = 'October 5 2017 23:59:59 GMT+02:00';
 	    	//console.log(deadline);
 	    	var t = Date.parse(deadline);
 	   		var time = Date.parse(deadline) - Date.parse(new Date());
@@ -1064,10 +1023,9 @@
 			});
 
 			$('#clock-close').click(function(){
-				$('.mesage').css('left','-913px')
+				$('.mesage').css('left','-670px')
 				// $('.clock2').css('display','none')
 			});
-
 		}); //end ready
 
 		// Form add count on textarea input start
@@ -1083,7 +1041,7 @@
 			}
 			// Form add count on textarea input end
 		</script>
-		<!-- Flipclock initiation ends here --> */?>
+		<!-- Flipclock initiation ends here -->
 
 			<style>
 			#zipCode{padding-left:45px;height: 40px;}

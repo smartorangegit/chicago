@@ -1,4 +1,4 @@
-<?php
+<?php include_once('../includes/utm.php');
 include('../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
@@ -12,10 +12,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/torgovie-pomescheniya/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Продаж комерційної нерухомості в новобудові ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Купити комерційну нерухомість в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Торгові приміщення для вашого бізнесу - нежитлова нерухомість в ЖК CHICAGO Central House - Антоновича 44">
+	<meta name="description" content="【Продаж торгових приміщень в ЖК CHICAGO】 Нежитлова нерухомість в центрі Києва в житловому комплексі Чикаго Централ Хаус. Вартість і умови придбання комерційних площ... ✅ 【житловий комплекс CHICAGO Central House】 Адреса: вул. Володимира Антоновича, 44 ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/animate.css">
@@ -200,7 +200,7 @@ while ($myrow = mysql_fetch_array ($check)); */
 <p>-	Офіс. Для приміщень даного призначення передбачено два поверхи, що складають 2442 кв. м.</p>
 <p>-	Бутік. Торгові площі представлені шістьма приміщеннями, забезпеченими великими вітринами, загальною площею <br>майже 740 кв. м. </p>
 <p>-	Ресторан. У комплексі передбачено два спеціалізованих об"єкти з можливістю створення літнього майданчика, загальною площею понад 1000 кв. м.
-Чи реалізувати будь-яку іншу бізнес ідею покупця.
+<p>-  Чи реалізувати будь-яку іншу бізнес ідею покупця.</p>
 </p>
  <h2>Як купити нежитлове приміщення в ЖК CHICAGO Central House</h2>
 <p>Отримати всю інформацію про нерухомість комплексу ви можете у відділі продажу. Залиште свій номер телефону на сайті й менеджери зателефонують вам найближчим часом.</p>

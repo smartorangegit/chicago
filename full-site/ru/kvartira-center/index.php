@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Купить квартиру в центре Киева | ЖК CHICAGO Central House</title>
+<title>≡ Квартира в центре - ЖК Чикаго 》Купить недвижимость в центре Киева в CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="Квартиры в центре столицы на Антоновича 44 - американский опыт проектирования и строительства">
+<meta name="description" content="【Купить квартиру в центре Киева - ЖК CHICAGO Central House】Продажа квартир бизнес класса в жилом комплексе ЖК Чикаго Централ Хаус в Голосеевском районе столицы. Цена... ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartira-center/" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartira-center/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartira-center/" />

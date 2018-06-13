@@ -429,12 +429,10 @@ a.ch-reserv.ch2 {
   flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
   display: -webkit-flex;
   -webkit-flex-direction: row;
   -webkit-align-content: center;
   -webkit-align-items: center;
-  -webkit-justify-content: space-between;
 }
 .ch-app-up{
   width: 100%;
@@ -452,7 +450,7 @@ a.ch-reserv.ch2 {
     }
   }
   .ch-planapp {
-    width: 44%;
+    width: 42%;
   }
   .ch-app-info {
     width: 55%;
@@ -498,7 +496,7 @@ a.ch-reserv.ch2 {
 }
 // .ch-new-sec{
   a.new-app {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
     color: red;
     display: block;
@@ -507,7 +505,7 @@ a.ch-reserv.ch2 {
     border: 1px solid red;
     border-radius: 30px;
     padding: 12px;
-    width: 210px;
+    width: 175px;
     span {
       // color: red;
       font-size: 30px!important;
@@ -522,10 +520,10 @@ header {
 }
 @media screen and (max-width: 1024px) and (min-width: 768px){
   a.new-app {
-    font-size: 24px;
+    font-size: 19px;
     margin: 16px auto;
     padding: 6px;
-    width: 175px;
+    width: 150px;
 }
 .ch-app-down .ch-app-name .ch-load {
     width: 200px;
@@ -636,8 +634,6 @@ a.new-app {
     }
 .form [type="email"] + .placeholder {
       top: 195px;}
-.form textarea + .placeholder {
-    top: 275px;}
 .form textarea {
   height: 150px;
 }

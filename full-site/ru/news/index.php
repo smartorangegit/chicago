@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Новости, события, акции | Chicago Central House</title>
+	<title>≡ ЖК Чикаго 》 Новости, акции, скидки | CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Новости сайта ЖК Chicago Central House">
+	<meta name="description" content="【Новости, события, акции, скидки】 Самая свежая информация о жилом комплексе CHICAGO Central House Киев - объявления, графики работы отдела продаж, акции, скидки и.... ✅【ЖК Чикаго】 Адрес расположения: Киев, ул. Антоновича 44 (Горького). Карта проезда... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/" />
@@ -75,7 +76,7 @@
                 <a class="eye grouped_elements" rel="gal1" href="<?= $myrow['news_code'].'/'; ?>"><img
                             src="/img/prog-eye.png" alt="eye"/></a>
                 <style>.image-item--<?=$zi;?> {
-                        background: url(<?=$myrow['img_path']."/".$myrow['img_name'];?>);
+                        background-image: url(<?=$myrow['img_path']."/".$myrow['img_name'];?>);
                     }</style>
             </div>
             <?

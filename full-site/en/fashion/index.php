@@ -1,3 +1,4 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,10 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
  ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Ukrainian Fashion Week is the partner of CHICAGO Central House Residential Estate</title>
+	<title>≡ CHICAGO Central House 》Ukrainian Fashion Week is the partner of CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="CHICAGO Central House is a Residential Estate for people, who got used to being in the centre of events all the time. That is why our partner is Ukrainian Fashion Week
+	<meta name="description" content="✅ 【CHICAGO Central House】 CHICAGO is a Residential Estate for people, who got used to being in the centre of events all the time. That is why our partner is Ukrainian Fashion Week ✅ 【CHICAGO】
 ">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/fashion/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/fashion/" />
@@ -30,7 +31,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/progress.css">
+  <link rel="stylesheet" href="../../css/progress.css?ver=1.0">
     <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
     <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -148,7 +149,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
                 { $url="/adm/images/".$row['date']."/min/".$row['name'];
 ?>
  <div class="item">
- 
+
 	<a class="grouped_elements" rel="fashion" href="<? echo'../../adm/images/'.$row['date'].'/'.$row['name'];?>">
 	<? echo '<img class="b-lazy" data-src="'.$url.'"  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" >';?>
 						 </a>

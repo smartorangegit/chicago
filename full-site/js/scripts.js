@@ -144,12 +144,13 @@ a);C(a.options.offset);p(a.options.breakpoints,function(a){if(a.width>=window.sc
     var bLazy = new Blazy();
   })();
 
-(function() {
+  (function() {
+    //   Слайдер с логотипами других проектов застройщика на главной slick slider
     $('.logo_proj__slick-slider').slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         prevArrow: $('.logo_proj__slick-slider__controls_prev-slide'),
         nextArrow: $('.logo_proj__slick-slider__controls_next-slide'),
         responsive: [
@@ -177,7 +178,6 @@ a);C(a.options.offset);p(a.options.breakpoints,function(a){if(a.width>=window.sc
           ]
     })
 })();
-
 
 $(".for_btn_link").on("click", function(e) {
     e.preventDefault();

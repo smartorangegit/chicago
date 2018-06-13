@@ -1,8 +1,9 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
 <!--666-->
-	<?php 
+	<?php
 	require("../adm/includes/conn.php");
 $sql = "select * from chika_img WHERE date='2017-02-14'";
 $sql2 = "select * from chika_img WHERE date='2017-02-15'";
@@ -30,7 +31,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/progress.css">
+<link rel="stylesheet" href="../css/progress.css?ver=1.1">
 <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
 <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -175,7 +176,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
     <script src="../js/lib/wow.min.js"></script>
 		<script src="../js/progres.js"></script>
 		<script src="../js/scripts.js"></script>
-		
+
 		<script src="/js/blazy.js"></script>
 			<script> var bLazy = new Blazy({   });</script>
 

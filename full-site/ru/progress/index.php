@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Ход строительства и веб камера ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Ход строительства и вебкамера CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Следите за строительством CHICAGO Central House вместе с нами - к вашим услугам круглосуточная вебкамера и фотоотчеты с строительной площадки">
+	<meta name="description" content="【Ход строительства, вебкамеры в CHICAGO Central House】Следите за строительством ЖК Чикаго Централ Хаус вместе с нами - к вашим услугам круглосуточная вебкамера и фотоотчеты с строительной площадки. Запланированная дата сдачи в эксплуатацию, статус... ✅【жилой комплекс CHICAGO】 ул. Владимира Антоновича (Горького), 44...">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/progress/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/progress/" />
@@ -23,7 +24,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/progress.css">
+  <link rel="stylesheet" href="/css/progress.css?v=2">
     <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
     <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -54,7 +55,10 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Статус работ:</span><span class="normal normal--1">Обустройство вертикальных элементов 10 этажа, кирпичная кладка на уровне 5 этажа. Установка окон 1-2 этажа, фасад 1-2 этаж. Устройство лестницы подвала и 1 этажа.</span></p>
+        <p><span>Статус работ:</span><span class="normal normal--1">Монолитные работы на 22-м этаже. Кирпичная кладка - 12-17 этажа, окончания кладки - 10-11 этажа.
+ВК внутренние - 8-10 этажа. ЭО внутренние - 8-10 этажа. Стяжки - 7 этаж. Отделка фасадов со стороны Жилянской, Антоновича.
+
+</span></p>
         <p><span class="plan--1">Запланированный срок окончания строительства:</span><span class="normal normal--2">III - ΙV квартал 2018 года</span></p>
       </h2>
 
@@ -62,9 +66,9 @@
 			<div class="status clearfix">
 				<div class="status__grid grid__1">
 					<img src="/img/status.png" alt="status">
-					<img src="/img/house_full.png" alt="status" style="clip-path: inset(86% 0 0 0); -webkit-clip-path: inset(86% 0 0 0); width:98%;">
+					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>10</span>
+						<span>21</span>
 						<p>этажей</p>
 						<p>построено</p>
 					</div>
@@ -118,7 +122,7 @@
 					<p>Мы регулярно сообщаем о этапах выполнения работ, публикуя фото-отчеты.</p>
 					<a class="button button-red" href="#foto">смотреть ход строительства</a>
 					<a class="button button-red" href="#webcam">веб-камера</a>
-					<!-- <p>Введення в експлуатацію: II - III квартал 2018 року.</p> -->
+					<!-- <p>Введення в експлуатацію: &#8545; квартал 2018 року.</p> -->
 				</div>
 			</div>
 
@@ -171,10 +175,10 @@
                                                 $tmr = $myrowr['time'];
                                                 $timer = $dater = explode(":", $tmr);
                                                 $cutTime = $timer[0] . ':' . $timer[1];
-
+													
                                                 ?>
                                                 <div <? LazyLoad($myrowr['path'] . '/' . $piecesr[0], array('class' => 'img-item image-item--' . $myrowr['id'])); ?>>
-                                                    <div class="img-name"><span><?= $myrowr['hod_name_ru']; ?></span>
+                                                    <div class="img-name"><span><?/*= $myrowr['hod_name_ru']; */?></span>
                                                     </div>
                                                     <div class="img-date"><? russian_date($dtr); ?> года</div>
                                                     <div class="img-info" style="line-height:23px;"><span
@@ -195,7 +199,8 @@
 
                                                 </div>
                                                 <?
-                                                $zir++;
+												$zir++;
+												
                                             }
                                         }
                                     }?>
@@ -222,7 +227,7 @@
 
                                             ?>
                                             <div <? LazyLoad($myrow['path'] . '/' . $pieces[0], array('class' => 'img-item image-item--' . $myrow['id'])); ?>>
-                                                <div class="img-name"><span><?= $myrow['hod_name_ru']; ?></span></div>
+                                                <div class="img-name"><span><?/*= $myrow['hod_name_ru']; */?></span></div>
                                                 <div class="img-date"><? russian_date($dt); ?> года</div>
                                                 <div class="img-info" style="line-height:23px;"><span
                                                             style="line-height:23px;">
@@ -375,6 +380,12 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
+	.image-item--53 {
+ margin-top: 6px;
+}
+.image-item--55 {
+margin-top: 160px;	
+}
 	</style>
 	<script src="/js/scripts.js"></script>
     <script src="/js/lib/snap.svg-min.js"></script>
@@ -409,8 +420,8 @@
             var stp1_4 = 'Внутренняя отделка - ';
             $('#spTextPers1').html(stp1_1+<?=$tV1[0];?>+'%<br>'+
             stp1_2+<?=$tV1[1];?>+'%<br>'+
-            stp1_3+<?=$tV1[2];?>+'%<br>'+
-            stp1_4+<?=$tV1[3];?>+'%');
+            stp1_3+<?=$tV1[2];?>+'%<br>');
+            //stp1_4+<?=$tV1[3];?>+'%');
 
             //Фасад всплывайка
             var stp3_1 = 'Окна - ';

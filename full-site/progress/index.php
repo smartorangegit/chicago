@@ -1,13 +1,14 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Хід будівництва та веб камера ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Хід будівництва і вебкамера CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Слідкуйте за будівництвом CHICAGO Central House разом з нами - до ваших послуг цілодобова вебкамера та фотозвіти з будівельного майданчика">
+	<meta name="description" content="【Хід будівництва, вебкамери в CHICAGO Central House】 Слідкуйте за будівництвом ЖК Чикаго Централ Хаус разом з нами - до ваших послуг цілодобова вебкамера і фотозвіти з будівельного майданчика. Запланована дата здачі в експлуатацію, статус робіт, таймлайн..... ✅ 【житловий комплекс CHICAGO】 вул. Володимира Антоновича (Горького), 44">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/progress/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/progress/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/progress/" />
@@ -21,7 +22,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/progress.css">
+  <link rel="stylesheet" href="../css/progress.css?v=2">
     <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
     <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -54,16 +55,17 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">Облаштування вертикальних елементів 10 поверху, цегляна кладка на рівні 5 поверху. Встановлення вікон 1-2 поверху, фасад 1-2 поверх. Облаштування сходів підвалу та 1 поверху. </span></p>
+        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">Монолітні роботи на 22-му поверсі. Цегляна кладка – 12-17 поверхи, закінчення кладки – 10-11 поверхи. 
+ВК внутрішні – 8-10 поверхи. ЕО внутрішні – 8-10 поверхи. Стяжки – 7 поверх. Оздоблення фасадів зі сторони Жилянської, Антоновича.</span></p>
         <p><span class="plan--1">Запланований термін завершення будівництва:</span><span class="normal normal--2">III - ΙV квартал 2018 року</span></p>
       </h2>
 
 			<div class="status clearfix">
 				<div id="buidling_status" class="status__grid grid__1">
 					<img <?LazyLoad("/img/status.png");?>   alt="status">
-					<img <?LazyLoad("/img/house_full.png");?>   alt="status" style="clip-path: inset(86% 0 0 0); -webkit-clip-path: inset(86% 0 0 0); width:98%;">
+					<img <?LazyLoad("/img/house_full.png");?>   alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>10</span>
+						<span>21</span>
 						<p>поверхів</p>
 						<p>побудовано</p>
 					</div>
@@ -164,10 +166,10 @@
                                         $tmr = $myrowr['time'];
                                         $timer = $dater = explode(":", $tmr);
                                         $cutTime = $timer[0] . ':' . $timer[1];
-
+											
                                         ?>
                                         <div <? LazyLoad($myrowr['path'] . '/' . $piecesr[0], array('class' => 'img-item image-item--' . $myrowr['id'])); ?>>
-                                            <div class="img-name"><span><?= $myrowr['hod_name_ua']; ?></span></div>
+                                            <div class="img-name"><span><?/*= $myrowr['hod_name_ua']; */?></span></div>
                                             <div class="img-date"><? russian_date($dtr); ?> року</div>
                                             <div class="img-info" style="line-height:23px;"><span
                                                         style="line-height:23px;">
@@ -187,7 +189,8 @@
 
                                         </div>
                                         <?
-                                        $zir++;
+										$zir++;
+										
                                     }
                                 }?>
 
@@ -212,7 +215,7 @@
 
                                             ?>
                                             <div <? LazyLoad($myrow['path'] . '/' . $pieces[0], array('class' => 'img-item image-item--' . $myrow['id'])); ?>>
-                                                <div class="img-name"><span><?= $myrow['hod_name_ua']; ?></span></div>
+                                                <div class="img-name"><span><?/*= $myrow['hod_name_ua']; */?></span></div>
                                                 <div class="img-date"><? russian_date($dt); ?> року</div>
                                                 <div class="img-info" style="line-height:23px;"><span
                                                             style="line-height:23px;">
@@ -362,6 +365,12 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
+	.image-item--53 {
+ margin-top: 6px;
+}
+.image-item--55 {
+margin-top: 160px;	
+}
 	</style>
 
     <script src="../js/lib/snap.svg-min.js"></script>
@@ -409,8 +418,8 @@
                 var stp1_4 = 'Внутрішнє опорядження - ';
                 $('#spTextPers1').html(stp1_1+<?=$tV1[0];?>+'%<br>'+
                 stp1_2+<?=$tV1[1];?>+'%<br>'+
-                stp1_3+<?=$tV1[2];?>+'%<br>'+
-                stp1_4+<?=$tV1[3];?>+'%');
+                stp1_3+<?=$tV1[2];?>+'%<br>');
+                //stp1_4+<?=$tV1[3];?>+'%');
 
                 //Фасад всплывайка
                 var stp3_1 = 'Вікна - ';

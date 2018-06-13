@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -7,10 +8,10 @@
 <?php /*	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/sitemap/" />  */?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Карта сайту | CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Карта сайту | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Карта сайту ЖК CHICAGO Central House">
+	<meta name="description" content="【Карта сайту】 Важливі сторінки сайту chicago.kiev.ua ЖК CHICAGO Central House в центрі ... ✅ 【житловий комплекс Чикаго】 Адреса розташування: Київ, вул. Антоновича 44. Карта..... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/animate.css">

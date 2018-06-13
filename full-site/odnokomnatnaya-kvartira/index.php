@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../includes/utm.php');
 include('../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/odnokomnatnaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Купити однокімнатну квартиру в ЖК CHICAGO Central House</title>
+	<title>≡ 1 кімнатні квартири в ЖК Чикаго 》Купити однокімнатну квартиру в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="1-кімнатні квартири з вільним плануванням в житловому комплексі CHICAGO Central House">
+	<meta name="description" content="【Однокімнатні квартири в CHICAGO Central House в самому центрі Києва】 Продаж 1-кімнатних квартир бізнес класу в житловому комплексі Чикаго Централ Хаус. Ціна кв. метра... ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/animate.css">

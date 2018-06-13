@@ -11,13 +11,13 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
  ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Ukrainian Fashion Week - партнер ЖК CHICAGO Central House</title>
+	<title>SFERA Living System - ЖК CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="CHICAGO Central House - це житловий комплекс для людей, які звикли завжди перебувати у центрі подій. Тому ми є партнером Ukrainian Fashion Week">
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/fashion/" />
-	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/fashion/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/fashion/" />
+	<meta name="description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
+	<!--<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
+	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/atmosfera/" />
+    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="../css/demo.css" />
@@ -145,24 +145,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 
           </div>
 
-          <div class="atm__box">
-            <div class="atm_icon">
-              <img src="/img/atm/atm1.png" alt="">
-            </div>
-            <div class="atm__content">
-              <div class="content_subname subheader">
-                З ЧОГО СКЛАДАЄТЬСЯ ATMOSFERA
-              </div>
-              <ul class="atm__lost">
-                <li>команда по управлінню будинком</li>
-                <li>мобільний додаток iOS та Android</li>
-                <li>чат для вирішення екстрених ситуацій</li>
-                <li>система «розумний дім»</li>
-                <li>система «розумна квартира»</li>
-              </ul>
-            </div>
 
-          </div>
           <div class="atm__box">
             <div class="atm_icon">
               <img src="/img/atm/atm2.png" alt="">
@@ -263,18 +246,10 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
                 <p>
                   Система «розумна квартира» є частиною приватного простору, тому вона може бути встановлена лише за бажанням мешканця.
                 </p>
-                <p>
-                  Ми допоможемо вам встановити систему «розумна квартира» та з моменту заселення даруємо вам Samsung SmartThing Hub. За його допомогою можна підключити у власній квартирі розумні пристрої:
-                </p>
+       
 
               </div>
-              <ul>
-                <li>термостати</li>
-                <li>освітлення</li>
-                <li>камери</li>
-                <li>акустичні системи </li>
-                <li>голосові асистенти від Apple, Amazon чи Google</li>
-              </ul>
+
 
             </div>
           </div>

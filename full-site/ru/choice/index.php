@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Купить квартиру бизнес класса в новострое в центре Киева - ЖК CHICAGO Central House на Антоновича 44</title>
+    <title>≡ ЖК Чикаго 》Купить квартиру бизнес класса в CHICAGO Central House в центре Киева</title>
 
     <meta name="viewport" content="width=device-width">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-    <meta name="description" content="ЖК CHICAGO Central House предлагает американское качество квартир по доступным украинским ценам в центре Киева">
+    <meta name="description" content="【Квартиры в CHICAGO Central House в самом центре Киева】Продажа квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Актуальная стоимость квартир, цена кв. метра...... ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/choice/" />
     <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/choice/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/choice/" />
@@ -57,7 +58,7 @@
           <div class="ch-menu  nomobile">
             <ul>
               <li><a class="imglogo"  href="/ru/"><img src="/img/chicago-logo.png" alt="Жилой комплекс CHICAGO Central House г. Киев" title="Жилой комплекс CHICAGO Central House г. Киев"></a></li>
-              <li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 22-77-244</li>
+              <li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 49-80-400</li>
               <li><a href="#callback" class="button callback">заказать звонок</a></li>
               <li><a href="../../ru/#place">расположение</a></li>
               <li><a href="../../ru/news/" class="separate">Новости</a></li>

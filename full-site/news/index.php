@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -7,10 +8,10 @@
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Новости, події, акції | Chicago Central House</title>
+	<title>≡ ЖК Чикаго 》Новини, акції, знижки | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Новости сайта ЖК Chicago Central House">
+	<meta name="description" content="【Новини, події, акції, знижки】 Найсвіжіша інформація про житловий комплекс CHICAGO Central House Київ - оголошення, графіки роботи відділу продажів, акції, знижки, цікаві події.... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/animate.css">

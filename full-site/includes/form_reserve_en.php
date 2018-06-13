@@ -1,5 +1,5 @@
                <?php
-$webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+$webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
 ?>
 

@@ -1,3 +1,4 @@
+<?php include_once('includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ua">
 <head>
@@ -13,12 +14,12 @@
 	   <!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-	<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/progress.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/progress.css">
   <script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
-  <script src="js/lib/scrollmagic/ScrollMagic.min.js"></script>
+  <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="js/lib/plugins/debug.addIndicators.min.js"></script>
+  <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
 </head>
 
 <body>
@@ -28,18 +29,18 @@
 
 	<header class="header">
 		<div class="wrapper">
-			<a href="index.html" class="logo">
-				<img src="img/logo.png" alt="logo">
+			<a href="/" class="logo">
+				<img src="/img/logo.png" alt="logo">
 			</a>
 			<ul class="header-nav">
 				<li id="mobile" class="mobile">
 					<ul id="minimenu">
 						<li id="miniclose" class="mobile">
-							<li><a href="index.php" class="separate">Будинок</a></li>
-							<li><a href="index.php#place" class="separate">Розташування</a></li>
-							<li><a href="choise.php" class="separate">Квартири</a></li>
-							<li><a href="index.php#builder" class="separate">Забудовник</a></li>
-							<li><a href="progress.php" class="separate">Будівництво</a></li>
+							<li><a href="/" class="separate">Будинок</a></li>
+							<li><a href="/#place" class="separate">Розташування</a></li>
+							<li><a href="/choice/" class="separate">Квартири</a></li>
+							<li><a href="/#builder" class="separate">Забудовник</a></li>
+							<li><a href="/progress/" class="separate">Будівництво</a></li>
 							<li><a href="index.php#contact" class="separate">Зв'язок</a></li>
 					</ul>
 				</li>
@@ -64,12 +65,12 @@
 				);
 		});
 			</script>
-				<li><a href="index.php" class="separate">Будинок</a></li>
-				<li><a href="index.php#place">Розташування</a></li>
-				<li><a href="choise.php" class="separate">Квартири</a></li>
-				<li><a href="index.php#builder">Забудовник</a></li>
-				<li><a href="#" class="separate">Будівництво</a></li>
-				<li><a href="index.php#contact">Зв'язок</a></li>
+				<li><a href="/" class="separate">Будинок</a></li>
+				<li><a href="/#place">Розташування</a></li>
+				<li><a href="/choice/" class="separate">Квартири</a></li>
+				<li><a href="/#builder">Забудовник</a></li>
+				<li><a href="/progress/" class="separate">Будівництво</a></li>
+				<li><a href="/#contact">Зв'язок</a></li>
 			</ul>
 			<div class="header-callback">
 				<div class="header-phone">Телефон відділу продажу <em>(044)22-77-244</em></div>

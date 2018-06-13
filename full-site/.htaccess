@@ -1,0 +1,45 @@
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag log_errors on
+php_flag ignore_repeated_errors off
+php_flag ignore_repeated_source off
+php_flag report_memleaks on
+php_flag track_errors on
+php_value docref_root 0
+php_value docref_ext 0
+php_value error_log /home/path/public_html/domain/PHP_errors.log
+php_value error_reporting -1
+php_value log_errors_max_len 0
+
+Options -Indexes
+ErrorDocument 404 /404.php
+
+
+
+RewriteEngine On
+
+
+
+
+#Редирект на страницу без многократных /.
+RewriteCond %{THE_REQUEST} //
+RewriteRule .* /$0 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://chicago.kiev.ua/ [R=301,L]
+
+RewriteRule ^index_en\.html$ http://chicago.kiev.ua/en/ [R=301,L]
+RewriteRule ^progress_en\.html$ http://chicago.kiev.ua/en/progress [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
+RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+Redirect 301 /choise.php http://chicago.kiev.ua/choice/
+Redirect 301 /progress.php http://chicago.kiev.ua/progress/
+Redirect 301 /fashion.php http://chicago.kiev.ua/fashion/
+Redirect 301 /panorama.html http://chicago.kiev.ua/panorama/
+Redirect 301 /news.php http://chicago.kiev.ua/news/

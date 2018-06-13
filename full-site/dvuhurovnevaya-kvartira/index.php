@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../includes/utm.php');
 include('../db.php');
 $check = mysql_query("SELECT * FROM kvartity where floor = '23-24'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhurovnevaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Купити дворівневу квартиру в ЖК CHICAGO Central House</title>
+	<title>≡ 2 рівневі квартири в ЖК Чикаго 》Купити дворівневу квартиру в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="2-рівневі квартири з вільним плануванням в житловому комплексі CHICAGO Central House">
+	<meta name="description" content="【Дворівневі квартири в CHICAGO Central House в самому центрі Києва】 Продаж 2-рівневих квартир бізнес класу в житловому комплексі Чикаго Централ Хаус. Ціна квадратного метра... ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/animate.css">

@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@ $myrow = mysql_fetch_array ($check);
 	<title>Purchase a one-room apartment in CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="One-room apartments with open plan layout in CHICAGO Central House Residential Estate">
+	<meta name="description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">
@@ -51,8 +52,7 @@ $myrow = mysql_fetch_array ($check);
 			<span class="trigger-0"></span>
 			<div class="select-info">
 				<p>
-				Today two-room apartments are no less popular than one-room apartments. It's all about the floor space and layout of such dwelling, which is the best option for a couple or a family with children.
-
+				For many years one-room apartments are in high demand in Kievs new buildings. Such type of housing has many advantages: availability and convenience. If you want to become the owner of a cozy one-room apartment, it's time to get acquainted with the offer from CHICAGO Central House Residential Complex.
 				</p>
 			</div>
 			<div class="select_tabs">
@@ -88,24 +88,20 @@ $myrow = mysql_fetch_array ($check);
 				 </tbody>
 			  </table>
 						<div class="select-info">
-						<h2>Advantages of Two-Room Apartments in CHICAGO Central House Residential Estate  </h2>
-						<p>The CHICAGO Central House Residential Complex offers to purchase the two-room apartment in Kiev. It has undeniable advantages over one-room real estate.
+						<h2>Advantages of One-Room Apartments in CHICAGO Central House Residential Estate</h2>
+						<p>
+							One-room apartments in the CHICAGO Central House Residential Complex meet all the key characteristics of comfortable housing and at the same time are distinguished by reasonable prices. And if you add here the successful location of the complex from the point of view of the traffic intersection and proximity to the key facilities of the capital, one can confidently state that one-room apartments in CHICAGO Central House Residential Complex is the most rational offer.
 						</p>
 							<p>The One-room apartments of the estate are quite spacious. Their minimum floor space is 42 square meters. By the way, purchase of such property is an excellent option for one person or for a young couple having no children.
 A one-room dwelling is in great demand among young people: often such apartments are bought by parents for their children-students. It is worth mentioning that dwelling in the CHICAGO Central House Residential Complex suits the students particularly, as many prestigious educational institutions are located not far from it.
 						<p>The one-room apartments are popular among private investors, as well. Purchase of the real estate in the newly-built apartment block at the early stages of construction and its further sale is very profitable: firstly, its square meters are becoming more expensive each year, and secondly, you can rent out a house and generate good profit from the rent.
 								<h2>Why is One-Room Apartment in CHICAGO Central House Residential Estate worth Buying </h2>
 						<ul>
-						 <li> First of all, this is a multipurpose dwelling. It will suit both a single person and a couple with more than one child.</li>
-						 <li> There is always a buyer for a two-room apartment and profit from its sale can be pretty good. </li>
-						 <li> The two-room apartments of the residential estate have open plan layout, which will enable you to create a dwelling of your dream. You can also choose the layout out of the options offered by us.</li>
+						 <li>First of all, this is a multipurpose dwelling. It will suit both a single person and a couple with more than one child.</li>
+						 <li>Free layout of appartments. You decide what your future housing will be like. In addition, we offer a variety of ready-made layouts for every taste and according to the owner's preferences.</li>
+						 <li>Saving money. one-room apartment is always easier to sell. In addition, the successful location of the complex will allow to find a tenant quite quickly.</li>
 						 </ul>
-						 <h2>Why is Two-Room Apartment in CHICAGO Central House Residential Estate worth Buying </h2>
-
-						 <p>The floor space of the two-room apartments in the CHICAGO Central House Residential Complex starts with 63 square metres. Space perception is enhanced by panoramic windows improving lighting.</p>
-<p>The two-room apartment will perfectly suit for newlyweds and small families. Such a dwelling will become a paradise for a quiet and happy life. In addition, the residential complex is equipped with excellent sound insulation owing to the use of high-quality materials.</p>
-<p>If you are looking for the best dwelling in Kiev, feel free to choose the CHICAGO Central House Residential Estate. The apartment here will become your fortress, a creative space, a place for relaxation, pleasant meetings and a happy family life. Call us right now and sign up for a guided tour at any convenient time for you.</p>
-						 </div>
+						 <p>Leave your contact phone number to get comprehensive information and book an excursion. Become one step closer to the dream with CHICAGO Central House Residential Complex.</p>
 
 				  <script type="text/javascript">
 				    $('tbody tr[data-href]').addClass('clickable').click( function() {

@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -7,10 +8,10 @@
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/svobodnaya-planirovka/" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/svobodnaya-planirovka/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/svobodnaya-planirovka/" />
-<title>Вільне планування помешкань в житловому комплексі CHICAGO Central House</title>
+<title>≡ ЖК Чикаго 》Купити квартиру з вільним плануванням в CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="Купуйте квартири з вільним плануванням в ЖК CHICAGO Central House - самі вирішуйте, якою буде ваша нова оселя!">
+<meta name="description" content="【Вільне планування квартир в CHICAGO Central House】 Продаж квартир бізнес класу вільного планування в житловому комплексі Чикаго Централ Хаус в центрі Києва. Купити унік... ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 <link rel="stylesheet" href="../css/animate.css">
