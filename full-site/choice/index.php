@@ -1,8 +1,9 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
   <head>
     <meta charset="utf-8">
-    <title>Купити квартиру бізнес класу новобудові в центрі Києва - ЖК CHICAGO Central House на Антоновича 44</title>
+    <title>≡ ЖК Чикаго 》Купити квартиру бізнес класу в CHICAGO Central House в центрі Києва</title>
 
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/choice/" />
@@ -10,7 +11,7 @@
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/choice/" />
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-  	<meta name="description" content="ЖК CHICAGO Central House пропонує американську якість квартир за доступними українськими цінами в центрі Києва">
+  	<meta name="description" content="【Квартири в CHICAGO Central House в самому центрі Києва】 Продаж квартир бізнес класу в житловому комплексі Чикаго Централ Хаус. Актуальна вартість квартир, ціна кв. метра, умови.. ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44 ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script src="../js/jquery-1.12.0.min.js"></script>
     <link rel="stylesheet" href="../css/style.css">
@@ -57,7 +58,7 @@
           <div class="ch-menu  nomobile">
             <ul>
               <li><a class="imglogo"  href="/"><img src="../img/chicago-logo.png" alt="Житловий комплекс CHICAGO Central House м. Київ" title="Житловий комплекс CHICAGO Central House м. Київ"></a></li>
-              <li style="text-transform:lowercase; line-height: 1.4;">телефон відділу продаж </br>(044) 22-77-244</li>
+              <li style="text-transform:lowercase; line-height: 1.4;">телефон відділу продаж </br>(044) 49-80-400</li>
               <li><a href="#callback" class="button callback">замовити дзвінок</a></li>
               <li><a href="/#place" class="separate">розташування</a></li>
               <li><a href="/news/" class="separate">новини</a></li>

@@ -1,7 +1,8 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<?php 
+	<?php
 	require("../../adm/includes/conn.php");
 $sql = "select * from chika_img WHERE date='2017-02-14'";
 $sql2 = "select * from chika_img WHERE date='2017-02-15'";
@@ -29,7 +30,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/progress.css">
+  <link rel="stylesheet" href="../../css/progress.css?ver=1.0">
     <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
     <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -135,7 +136,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 
       </h2>
 			<p>
-				<span class="normal normal--2">“CHICAGO Central House” воплощает в собе новую для Украины концепцию – дом как произведение искусства. Именно поэтому мы выбрали партнерство с Ukrainian Fashion Week – чтобы обмениваться идеями с теми, кто формирует тренди и создает неповторимый стиль жизни. Люди, которые привыкли всегда находиться в центре событий  – именно для них мы создаем это жилое пространство.
+				<span class="normal normal--2">“CHICAGO Central House” воплощает в себе новую для Украины концепцию – дом как произведение искусства. Именно поэтому мы выбрали партнерство с Ukrainian Fashion Week – чтобы обмениваться идеями с теми, кто формирует тренды и создает неповторимый стиль жизни. Люди, которые привыкли всегда находиться в центре событий  – именно для них мы создаем это жилое пространство.
 В этом амбициозном концепте объединены яркая чикагская архитектура, комфорт мирового уровня, качество и все преимущества жизни в центре столицы. Ищите себя на фотографиях с события Ukrainian Fashion Week ниже!</span></p>
     </div>
   </section>
@@ -150,11 +151,11 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 
 ?>
  <div class="item">
- 
+
   <a class="grouped_elements" rel="fashion" href="<? echo'../../adm/images/'.$row['date'].'/'.$row['name'];?>">
 					<? echo '<img class="b-lazy" data-src="'.$url.'"  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" >';
 					//echo '<img src="/adm/images/"'.$row['date'].'"/min/"'.$row['name'].'">';
-					
+
 					?>
 						 </a>
  </div>
@@ -170,7 +171,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 
 ?>
  <div class="item1"><a class="fancybox" rel="fashion" href="<? echo'../../adm/images/'.$row2['date'].'/'.$row2['name']?>">
- 
+
  <? echo "<img src=\"../../adm/images/".$row2['date']."/min/".$row2['name']. "\" >";  ?></a></div>
 <?}?>
 

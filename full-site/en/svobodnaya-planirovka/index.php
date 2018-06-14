@@ -1,3 +1,4 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
 	<title>Open plan layout apartment in CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
 	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Purchase an open plan layout apartment in CHICAGO Central House Residential Estate - It’s up to you to decide how your new apartment will look like!">
+	<meta name="description" content="✅ 【CHICAGO Central House】 Purchase an open plan layout apartment in CHICAGO Central House Residential Estate - It’s up to you to decide how your new apartment will look like! ✅ 【CHICAGO】">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/svobodnaya-planirovka/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/svobodnaya-planirovka/" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/svobodnaya-planirovka/" /> 

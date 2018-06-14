@@ -20,11 +20,11 @@ while ($myrow = mysqli_fetch_array($sel))
 
         <title><?=$myrow['title_en'];?></title>
         <meta property="og:title" content="<?=$myrow['title_en'];?>" />
-        <meta property="og:description" content="<?=$myrow['description_en'];?>" />
+        <meta property="og:description" content="✅ 【CHICAGO Central House】 Chicago, the state of Illinois, the Windy City. The third most populous city in the United States. Perhaps, the most underestimated by tourists. Let`s imagine we’ve got a week to see the sights: which seven wonders can the city offer us? ✅ 【CHICAGO】" />
         <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>" />
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-        <meta name="description" content="<?=$myrow['description_en'];?>">
+        <meta name="description" content="✅ 【CHICAGO Central House】 Chicago, the state of Illinois, the Windy City. The third most populous city in the United States. Perhaps, the most underestimated by tourists. Let`s imagine we’ve got a week to see the sights: which seven wonders can the city offer us? ✅ 【CHICAGO】">
 
         <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/vivid_life_in_center/" />
         <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/vivid_life_in_center/" />

@@ -1,3 +1,4 @@
+<?php include_once('../../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,14 +46,14 @@
     <div class="wrapper_ch2">
         <div class="ch-menu nomobile">
           <ul>
-            <li><a class="imglogo"  href="../../../../ru"><img src="/img/chicago-logo.png" alt="CHICAGO Central House residential complex in Kyiv city" title="CHICAGO Central House residential complex in Kyiv city"></a></li>
-<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 22-77-244</li>
+            <li><a class="imglogo"  href="../../../../en"><img src="/img/chicago-logo.png" alt="CHICAGO Central House residential complex in Kyiv city" title="CHICAGO Central House residential complex in Kyiv city"></a></li>
+<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 49-80-400</li>
 <li><a href="#callback" class="button callback">callback</a></li>
-            <li><a href="../../../../ru#place">Location</a></li>
-            <li><a href="../../../../ru/news/">news</a></li>
-            <li><a href="../../../../ru#builder">developer</a></li>
-            <li><a href="../../../../ru/progress/">construction</a></li>
-            <li><a href="../../../../ru#contact">contact us</a></li>
+            <li><a href="../../../../en#place">Location</a></li>
+            <li><a href="../../../../en/news/">news</a></li>
+            <li><a href="../../../../en#builder">developer</a></li>
+            <li><a href="../../../../en/progress/">construction</a></li>
+            <li><a href="../../../../en#contact">contact us</a></li>
             <li class="language"><?php include_once('../../../includes/lang_ch.php'); ?></li>
           </ul>
           <!-- <a class="ch-reserv ch2" href="#callback">узнать цену</a> -->
@@ -64,7 +65,7 @@
             <div class="num_level">
               <span>16</span>
               <p>floor</p>
-              <p><a class="new-app" href="/ru/choice/">Select floor <span>>></span></a></p>
+              <p><a class="new-app" href="/en/choice/">Select floor <span>>></span></a></p>
             </div>
           </div>
           <div class="center-map">

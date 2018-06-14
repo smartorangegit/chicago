@@ -1,13 +1,14 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Панорама | ЖК CHICAGO Central House</title>
+	<title>≡ ЖК CHICAGO Central House 》Панорама</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Вид на центр Києва з висоти CHICAGO Central House">
+	<meta name="description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/panorama/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/panorama/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />

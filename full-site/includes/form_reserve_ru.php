@@ -1,4 +1,4 @@
-<?php $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>
+<?php $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
 
 <style media="screen">
 .form h2.title {

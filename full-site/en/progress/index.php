@@ -1,3 +1,4 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
 	<title>Construction process and web camera of CHICAGO Central House Residential Estate</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Monitor CHICAGO Central House construction process together with us - a 24-hour web camera and photoreports from the construction site are available for you">
+	<meta name="description" content="✅ 【CHICAGO Central House】 Monitor CHICAGO Residential Estate construction process together with us - a 24-hour web camera and photoreports from the construction site are available for you ✅ 【CHICAGO】">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/progress/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/progress/" />
@@ -23,7 +24,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/progress.css">
+  <link rel="stylesheet" href="/css/progress.css?v=2">
     <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
     <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -53,15 +54,16 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Arrangement of vertical elements of the 10th floor, brickwork at level 5 level. Installation of windows on the 1st floor, facade 1-2 floor. Arrangement of stairs of basement and 1 floor.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">Monolithic works on the 22nd floor. Brick masonry - 12-17 floors, masonry completion - 10-11 floors.
+VC internal - 8-10 floors. EO internal - 8-10 floors. Tightening - 7th floor. Finishing facades on the side of Zhilyanskaya, Antonovich.</span></p>
         <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">3 - 4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
 				<div class="status__grid grid__1">
 					<img src="/img/status.png" alt="status">
-					<img src="/img/house_full.png" alt="status" style="clip-path: inset(86% 0 0 0); -webkit-clip-path: inset(86% 0 0 0); width:98%;">
+					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>10</span>
+						<span>21</span>
 						<p>floors</p>
 						<p>completed</p>
 					</div>
@@ -115,13 +117,13 @@
 					<p>We regularly inform you about the stages of work by posting photo reports.</p>
 					<a class="button button-red" href="#foto">see the progress</a>
 					<a class="button button-red" href="#webcam">webcam</a>
-					<!-- <p>Введення в експлуатацію: II - III квартал 2018 року.</p> -->
+					<!-- <p>Введення в експлуатацію: &#8545; квартал 2018 року.</p> -->
 				</div>
 			</div>
 
 <!--	<iframe width="100%" height="500" src="https://www.youtube.com/embed/0b4L_x9Vq14" frameborder="0" allowfullscreen></iframe>-->
 
-	<div class="progres_web">
+	<div id="webcam" class="progres_web">
 	<iframe src="https://macparts.kiev.ua:8402/player.html" name="restreamer-player" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
    </div>
 </div>
@@ -166,11 +168,10 @@
                                             //russian_date($dt);
                                             $tmr = $myrowr['time'];
                                             $timer = $dater = explode(":", $tmr);
-                                            $cutTime = $timer[0] . ':' . $timer[1];
-
+											$cutTime = $timer[0] . ':' . $timer[1];
                                             ?>
                                             <div <?LazyLoad($myrowr['path'] . '/' . $piecesr[0], array('class'=>'img-item image-item--'.$myrowr['id']));?>>
-                                                <div class="img-name"><span><?=$myrowr['hod_name_en'];?></span></div>
+                                                <div class="img-name"><span><?/*=$myrowr['hod_name_en'];*/?></span></div>
                                                 <div class="img-date"><?russian_date($dtr);?> year</div>
                                                 <div class="img-info" style="line-height:23px;"><span style="line-height:23px;">
                                                 <?=$myrowr['hod_full_en'];?>
@@ -212,7 +213,7 @@
 
                                             ?>
                                             <div <?LazyLoad($myrow['path'] . '/' . $pieces[0], array('class'=>'img-item image-item--'.$myrow['id']));?>>
-                                                <div class="img-name"><span><?=$myrow['hod_name_en'];?></span></div>
+                                                <div class="img-name"><span><?/* =$myrow['hod_name_en']; */?></span></div>
                                                 <div class="img-date"><?russian_date($dt);?> year</div>
                                                 <div class="img-info" style="line-height:23px;"><span style="line-height:23px;">
                                                 <?=$myrow['hod_full_en'];?>
@@ -360,7 +361,12 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	</style>
+	.image-item--53 {
+ margin-top: 6px;
+}
+.image-item--55 {
+margin-top: 160px;	
+}	</style>
 	<script src="/js/scripts.js"></script>
     <script src="/js/lib/snap.svg-min.js"></script>
     <script src="/js/lib/slider.js"></script>
@@ -396,8 +402,8 @@
             var stp1_4 = 'Interior fittings - ';
             $('#spTextPers1').html(stp1_1+<?=$tV1[0];?>+'%<br>'+
             stp1_2+<?=$tV1[1];?>+'%<br>'+
-            stp1_3+<?=$tV1[2];?>+'%<br>'+
-            stp1_4+<?=$tV1[3];?>+'%');
+            stp1_3+<?=$tV1[2];?>+'%<br>');
+            //stp1_4+<?=$tV1[3];?>+'%');
 
             //Фасад всплывайка
             var stp3_1 = 'Windows - ';
@@ -431,7 +437,7 @@
 					fill:{ color: "#EF2732" },
 				}).on('circle-animation-progress', function(event, progress) {
 					$(this).find('span').html(<?=$v2;?> + '<i>%</i>');
-					$(this).find('p').html('improvement');
+					$(this).find('p').html('Improvement');
 				});
 
 			$('.circle_2').circleProgress({
@@ -441,7 +447,7 @@
 						fill:{ color: "#EF2732" },
 					}).on('circle-animation-progress', function(event, progress) {
 						$(this).find('span').html(<?=$v3;?> + '<i>%</i>');
-						$(this).find('p').html('facade');
+						$(this).find('p').html('Facade');
 					});
 
 			$('.circle_3').circleProgress({
@@ -451,7 +457,7 @@
 							fill:{ color: "#EF2732" },
 						}).on('circle-animation-progress', function(event, progress) {
 							$(this).find('span').html(<?=$v4;?> + '<i>%</i>');
-							$(this).find('p').html('mains');
+							$(this).find('p').html('Mains');
 						});
 
 		</script>

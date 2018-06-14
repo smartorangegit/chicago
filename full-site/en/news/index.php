@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>News | Chicago Central House</title>
+	<title>≡ CHICAGO Central House 》News</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="News - Chicago Central House">
+	<meta name="description" content="【News, events, promotions, discounts】 The latest information about the residential complex CHICAGO Central House Kiev - announcements, sales schedules, promotions, discounts ✅ 【CHICAGO】 Contact the sales team - you can buy a dream apartment!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/" />
@@ -74,7 +75,7 @@
                 <a class="eye grouped_elements" rel="gal1" href="<?= $myrow['news_code'].'/'; ?>"><img
                             src="/img/prog-eye.png" alt="eye"/></a>
                 <style>.image-item--<?=$zi;?> {
-                        background: url(<?=$myrow['img_path']."/".$myrow['img_name'];?>);
+                        background-image: url(<?=$myrow['img_path']."/".$myrow['img_name'];?>);
                     }</style>
             </div>
             <?

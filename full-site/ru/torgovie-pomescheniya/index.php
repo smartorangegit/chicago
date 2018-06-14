@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/torgovie-pomescheniya/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Продажа коммерческой недвижимости в новострое ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Купить коммерческую недвижимость в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Торговые помещения для вашего бизнеса - нежилая недвижимость в ЖК CHICAGO Central House - Антоновича 44">
+	<meta name="description" content="【Продажа торговых помещений в ЖК CHICAGO】Нежилая недвижимость в центре Киева в жилом комплексе Чикаго Централ Хаус. Стоимость и условия приобретения коммерческих... ✅【жилой комплекс CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44.... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">
@@ -61,7 +62,7 @@ $myrow = mysql_fetch_array ($check);
     <div class="wrapper">
 			<span class="trigger-0"></span>
 
-			<div class="select-info"><p>Киев - мегаполис, что активно развивается. Неизменным спросом пользуется коммерческая недвижимость, которая расположена на первых этажах новостроек. Новый жилой комплекс CHICAGO Central House в Голосеевском районе столицы служит символом новой для Украины концепции жизни, и эту ценность мы разделяем со всеми владельцами торговой недвижимости в доме.</p>
+			<div class="select-info"><p>Киев - мегаполис, который активно развивается. Неизменным спросом пользуется коммерческая недвижимость, которая расположена на первых этажах новостроек. Новый жилой комплекс CHICAGO Central House в Голосеевском районе столицы служит символом новой для Украины концепции жизни, и эту ценность мы разделяем со всеми владельцами торговой недвижимости в доме.</p>
 				<div class="img_all">
 						<img src="/download_plans/torgovie-pomescheniya.jpg" width="100%" alt="Схема торговых помещений в CHICAGO Central House" />
 

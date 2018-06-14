@@ -24,9 +24,9 @@ $('a.button.callback').fancybox({
 
 $('.form input, .form textarea').blur(function(){
       if($(this).val()){
-          $(this).next('.placeholder').hide();
+          $(this).next().hide();
       } else {
-          $(this).next('.placeholder').show();
+          $(this).next().show();
       }
   });
 

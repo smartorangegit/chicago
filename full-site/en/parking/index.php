@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Apartments in the newly-built apartment block with underground parking | CHICAGO Central House Residential Estate </title>
+<title>Apartments in the newly-built apartment block with underground parking | CHICAGO Central House Residential Estate</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="CHICAGO Central House Residential Estate is a newly-built apartment block  in the downtown of Kiev with the underground parking, capable of placing all vehicles of residents">
+<meta name="description" content="✅ 【CHICAGO Central House】 CHICAGO Residential Estate is a newly-built apartment block in the downtown of Kiev with the underground parking, capable of placing all vehicles of residents ✅ 【CHICAGO】">
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/parking/" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/parking/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/parking/">
@@ -52,7 +53,7 @@
 				<h2>Advantages of Underground Parking </h2>
 				<p>
 
-	Each driver knows what it is like to dig a car out from under the snow in winter or what it is like trying to reach your car in rainy autumn left on the street, and to make things worse, far away from home. The perfect solution to such problems is the underground heated parking located right under the building.
+	Each driver knows what it is like to dig a car out from under the snow in winter or what it is like trying to reach your car, left on the street, in rainy autumn, and to make things worse, far away from home. The perfect solution to such problems is the underground heated parking located right under the building.
 	</p>
 				<p>
         Leaving your car under the roof and in warmth will make the car to serve its owner much longer. In the winter, such car will warm up faster, spending less fuel. In this case, the owner will not freeze in a cold cabin, because it is always warm in the parking space. It is worth mentioning that obligatory winter attributes such as cleaning the vehicle body from the ice cover and snow - all this will remain just an annoying flashback with the heated parking.

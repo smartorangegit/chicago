@@ -1,4 +1,4 @@
-<?
+<?php include_once('../includes/utm.php');
 include('../db.php');
 $actual_link = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $pieces = explode("/", $actual_link);
@@ -33,6 +33,7 @@ while ($myrow = mysql_fetch_array($check))
  //print_r($myrow); echo "<br>";
 
 ?>
+
 <!DOCTYPE html>
 <html lang="uk">
   <head>
@@ -85,7 +86,7 @@ while ($myrow = mysql_fetch_array($check))
         <div class="ch-menu nomobile">
           <ul>
             <li><a class="imglogo"  href="../../"><img src="../../img/chicago-logo.png" alt="Житловий комплекс CHICAGO Central House м. Київ" title="Житловий комплекс CHICAGO Central House м. Київ"></a></li>
-<li style="text-transform:lowercase; line-height: 1.4;">телефон відділу продаж </br>(044) 22-77-244</li>
+<li style="text-transform:lowercase; line-height: 1.4;">телефон відділу продаж </br>(044) 49-80-400</li>
 <li><a href="#callback" class="button callback">замовити дзвінок</a></li>
             <li><a href="../../#place">розташування</a></li>
             <li><a href="../../news/">Новини</a></li>

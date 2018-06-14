@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -7,10 +8,10 @@
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/parking/" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/parking/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/parking/" />
-<title>Квартири в новобудові з підземним паркінгом | ЖК CHICAGO Central House</title>
+<title>≡ Підземний паркінг в ЖК Чикаго 》Купити паркомісце на підземній парковці CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="ЖК CHICAGO Central House - новобудова в центрі Києва з підземною парковкою, що здатна вмістити всі автомобілі мешканців">
+<meta name="description" content="【Квартири в ЖК CHICAGO в підземною парковкою】 Для всіх мешканців житлового комплексу Чикаго побудовано 2-рівневий паркінг з цілодобовою охороною. Вигідна вартість паркомісця... ✅ 【житловий комплекс CHICAGO Central House】 Адреса: вул. Володимира Антоновича, 44 ✅ 【CHICAGO】 Встигніть купити квартиру мрії!">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 <link rel="stylesheet" href="../css/animate.css">

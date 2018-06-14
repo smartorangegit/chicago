@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^2'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhkomnatnaya-kvartira/" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Purchase a two-room apartment in CHICAGO Central House Residential Estate</title>
+<title>≡ CHICAGO Central House 》Purchase a two-room apartment in CHICAGO Central House Residential Estate</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="Two-room apartments with open plan layout in CHICAGO Central House Residential Estate">
+<meta name="description" content="✅ 【CHICAGO Central House】 Two-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
 <link rel="stylesheet" href="../../css/animate.css">
@@ -97,7 +98,7 @@ $myrow = mysql_fetch_array ($check);
 				<ul>
 				 <li>First of all, this is a multipurpose dwelling. It will suit both a single person and a couple with more than one child.  </li>
 				 <li>There is always a buyer for a two-room apartment and profit from its sale can be pretty good.</li>
-				 <li>2The two-room apartments of the residential estate have open plan layout, which will enable you to create a dwelling of your dream. You can also choose the layout out of the options offered by us. </li>
+				 <li>The two-room apartments of the residential estate have open plan layout, which will enable you to create a dwelling of your dream. You can also choose the layout out of the options offered by us. </li>
 				</ul>
 				<h2>Why is Two-Room Apartment in CHICAGO Central House Residential Estate worth Buying </h2>
 				<p>The floor space of the two-room apartments in the CHICAGO Central House Residential Complex starts with 63 square metres. Space perception is enhanced by panoramic windows improving lighting.

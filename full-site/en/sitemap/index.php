@@ -1,3 +1,4 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
 	<title>Sitemap | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Sitemap | CHICAGO Central House">
+	<meta name="description" content="【Sitemap】 Important pages of the site chicago.kiev.ua ✅ 【CHICAGO Central House】">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">

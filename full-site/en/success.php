@@ -1,3 +1,4 @@
+<?php include_once('../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,19 +29,19 @@
 
 	<header class="header">
 		<div class="wrapper">
-			<a href="index.html" class="logo">
+			<a href="/en/" class="logo">
 				<img src="/img/logo.png" alt="logo">
 			</a>
 			<ul class="header-nav">
 				<li id="mobile" class="mobile">
 					<ul id="minimenu">
 						<li id="miniclose" class="mobile">
-							<li><a href="index.php" class="separate">Будинок</a></li>
-							<li><a href="index.php#place" class="separate">Розташування</a></li>
-							<li><a href="choise.php" class="separate">Квартири</a></li>
-							<li><a href="index.php#builder" class="separate">Забудовник</a></li>
-							<li><a href="progress.php" class="separate">Будівництво</a></li>
-							<li><a href="index.php#contact" class="separate">Зв'язок</a></li>
+							<li><a href="/en/" class="separate">House</a></li>
+							<li><a href="/en/#place" class="separate">Location</a></li>
+							<li><a href="/en/choice/" class="separate">Flats</a></li>
+							<li><a href="/en/#builder" class="separate">Developer</a></li>
+							<li><a href="/en/progress/" class="separate">Construction</a></li>
+							<li><a href="/en/#contact" class="separate">Contact</a></li>
 					</ul>
 				</li>
 
@@ -64,16 +65,16 @@
 				);
 		});
 			</script>
-				<li><a href="index.php" class="separate">Будинок</a></li>
-				<li><a href="index.php#place">Розташування</a></li>
-				<li><a href="choise.php" class="separate">Квартири</a></li>
-				<li><a href="index.php#builder">Забудовник</a></li>
-				<li><a href="#" class="separate">Будівництво</a></li>
-				<li><a href="index.php#contact">Зв'язок</a></li>
+				<li><a href="/en/" class="separate">House</a></li>
+				<li><a href="/en/#place">Location</a></li>
+				<li><a href="/en/choice/" class="separate">Flats</a></li>
+				<li><a href="/en/#builder">Developer</a></li>
+				<li><a href="/en/progress/" class="separate">Construction</a></li>
+				<li><a href="/en/#contact">Contact</a></li>
 			</ul>
 			<div class="header-callback">
-				<div class="header-phone">Телефон відділу продажу <em>(044)22-77-244</em></div>
-				<div class="header-button"><a href="#callback" class="button callback">зворотній зв`язок</a></div>
+				<div class="header-phone">Sales department <em>(044)22-77-244</em></div>
+				<div class="header-button"><a href="#callback" class="button callback">callback</a></div>
 			</div>
 			<?php /*Google Tag Manager*/ include_once('../includes/lang.php'); ?>
 		</div>
@@ -97,9 +98,9 @@
 					<br>
 					<?/*<a id="fiv_tx2">404</a>*/?>
 					<br>
-					<a class="fr_1"><strong>Ваша заявка успішно відправлена!</strong></a><br>
-					<a class="fr_2">Наш менеджер зв'яжеться з вами найближчим часом.</a><br>
-					<a href="https://chicago.kiev.ua/" class="fr_3">На головну</a><br>
+					<a class="fr_1"><strong>Your message has been successfully sent!</strong></a><br>
+					<a class="fr_2">Our managers will contact you in the near future.</a><br>
+					<a href="https://chicago.kiev.ua/en/" class="fr_3">Main page</a><br>
 		</div>
 
 
@@ -182,7 +183,7 @@
         <div class="wrapper">
             <span class="copy">Copyright 2016</span>
             <span class="smarto">
-                Розробка сайту
+                Developed by
                 <a href="#" class="logo-smart"></a>
             </span>
         </div>

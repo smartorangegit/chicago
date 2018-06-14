@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^3'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/trehkomnatnaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Купить трехкомнатную квартиру в ЖК CHICAGO Central House</title>
+	<title>≡ 3 комнатные квартиры в ЖК Чикаго 》Купить трехкомнатную квартиру в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="3-комнатные квартиры с свободной планировкой в жилом комплексе CHICAGO Central House">
+	<meta name="description" content="【Трехкомнатные квартиры в CHICAGO Central House в самом центре Киева】Продажа 3-комнатных квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">
@@ -69,7 +70,7 @@ $myrow = mysql_fetch_array ($check);
 			   <thead>
 			   	<tr>
 				    <th class="content_subname">этаж</th>
-				    <th class="content_subname">жилая площадьт</th>
+				    <th class="content_subname">жилая площадь</th>
 				    <th class="content_subname">общая площадь</th>
 				   </tr>
 				 </thead>

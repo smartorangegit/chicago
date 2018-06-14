@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Purchase a business class apartment in the newly-built apartment block in the downtown of Kiev - CHICAGO Central House Residential Estate at 44, Antonovicha Street</title>
+    <title>≡ CHICAGO Central House 》Purchase a business class apartment in the newly-built apartment block in the downtown of Kiev - at 44, Antonovicha Street</title>
     <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
     <meta name="viewport" content="width=device-width">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-    <meta name="description" content="CHICAGO Central House Residential Estate offers the apartments of American quality in the downtown of Kiev at reasonable prices applicable in Ukraine">
+    <meta name="description" content="✅ 【CHICAGO Central House】 CHICAGO Residential Estate offers the apartments of American quality in the downtown of Kiev at reasonable prices applicable in Ukraine ✅ 【CHICAGO】">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/choice/" />
     <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/choice/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/choice/" />
@@ -56,7 +56,7 @@
           <div class="ch-menu  nomobile">
             <ul>
               <li><a class="imglogo"  href="/en/"><img src="/img/chicago-logo.png" alt="Жилой комплекс CHICAGO Central House г. Киев" title="Жилой комплекс CHICAGO Central House г. Киев"></a></li>
-              <li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 22-77-244</li>
+              <li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 49-80-400</li>
               <li><a href="#callback" class="button callback">callback</a></li>
               <li><a href="../../en/#place">location</a></li>
               <li><a href="../../en/news/" class="separate">news</a></li>

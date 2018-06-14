@@ -23,7 +23,6 @@
 							<span itemprop="email">marketing@saga-development.com.ua</span>
 						</div>
 				</div>
-
   </footer>
 	<style media="screen">
 	@media only screen and (max-width: 768px) {

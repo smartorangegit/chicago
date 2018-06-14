@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/torgovie-pomescheniya/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Sale of commercial real estate in the newly-built apartment block of  CHICAGO Central House Residential Estate</title>
+	<title>Sale of commercial real estate in the newly-built apartment block of CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Commercial space for your business is the non-residential facilities of CHICAGO Central House Residential Estate - 44, Antonovicha Street">
+	<meta name="description" content="✅ 【CHICAGO Central House】 Commercial space for your business is the non-residential facilities of CHICAGO Central House Residential Estate - 44, Antonovicha Street ✅ 【CHICAGO】">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">
@@ -180,7 +181,7 @@ while ($myrow = mysql_fetch_array ($check));	*/
 <h2>Advantages of the commercial real estate in the CHICAGO Central House Residential Estate</h2>
 <p>The commercial real estate in the CHICAGO Central House Residential Estate means:</p>
 <ul>
- <li>•	Advantageous location. The building of the estate is located in the Antonovicha street with excellent transport accessibility. At arm"s end there are underground stations and stops of ground public transport. The commercial premises are arranged in such a way that not only the residents of the estate, but also the visitors of the central part of the city, may come here.</li>
+ <li>•	Advantageous location. The building of the estate is located in the Antonovicha street with excellent transport accessibility. At arm"s reach there are underground stations and stops of ground public transport. The commercial premises are arranged in such a way that not only the residents of the estate, but also the visitors of the central part of the city, may come here.</li>
  <li>•	Construction of high quality. The building of the complex is built according to the latest technologies with observance of all regulations; therefore, all commercial premises have good sound insulation, which is important for the owners of entertainment establishments.</li>
  <li>•	Wide choice. The complex offers a variety of layout options.
 As the premises take into account the specificity of the future establishment, you can open here:

@@ -100,7 +100,7 @@ $ru = str_replace('/en/', "/ru/",$actual_link);
       Sales department telephone number <em class="em_phone" style="display:none;">(044) 22-77-244</em><p class="phone_display"><a href="tel:(044) 22-77-244">(044) 22-77-244</a></p>
       <div class="header-button"><a href="#callback" class="button callback">callback</a></div>
     </div>
-	    <a href="http://saga-development.com.ua/" class="saga-logo" target="_blank" title="Saga">
+<!--	<a href="http://saga-development.com.ua/" class="saga-logo" target="_blank" title="Saga">
       <img src="/img/saga-logo.svg" alt="Saga">
     </a>
     <style>
@@ -120,7 +120,39 @@ $ru = str_replace('/en/', "/ru/",$actual_link);
     		right: 30px;
     	}
     }
-    </style>
+    </style> -->
+		<a href="http://saga-development.com.ua/" class="saga-logo <?if(count(explode("/", $_SERVER['REQUEST_URI']))>3){echo 'saga_logo_off';}?>" target="_blank">
+			<img src="/img/saga-logo.svg">
+		</a>
+		<style>
+		.saga-logo {
+		    position: fixed;
+		    top: 138px;
+		    right: 125px;
+		    display: block;
+		    width: 60px;
+		    transition: 0.6s;
+				-webkit-transition: 0.6s;
+		}
+		.zipped .saga-logo {
+			top: 65px;
+			right: 5px;
+
+		}
+		@media screen and (max-width: 768px){
+			.saga-logo {
+				right: 30px;
+				top: 128px;
+			}
+			.zipped .saga-logo {
+				top: 84px;
+				right: 5px;
+
+		}
+			.saga_logo_off {display:none;}
+		}
+		</style>
+  </div>
     <div class="lang">
 <a href="<?php echo $ua;?>">UA</a>
 <a href="<?php echo $ru;?>">RU</a>

@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^2'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhkomnatnaya-kvartira/" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Купить двухкомнатную квартиру в ЖК CHICAGO Central House</title>
+<title>≡ 2 комнатные квартиры в ЖК Чикаго 》Купить двухкомнатную квартиру в CHICAGO Central House</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="2-комнатные квартиры с свободной планировкой в жилом комплексе CHICAGO Central House">
+<meta name="description" content="【Двухкомнатные квартиры в CHICAGO Central House в самом центре Киева】Продажа 2-комнатных квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
 <link rel="stylesheet" href="../../css/animate.css">
@@ -93,7 +94,7 @@ $myrow = mysql_fetch_array ($check);
 			  </table>
 
 				<div class="select-info">
-				<h2>Достоинства 2-комнатных кварти в ЖК CHICAGO Central House</h2>
+				<h2>Достоинства 2-комнатных квартир в ЖК CHICAGO Central House</h2>
 				<p>ЖК CHICAGO Central House предлагает купить 2-к квартиру в Киеве. Она обладает несомненными преимуществами перед однокомнатной недвижимостью. </p>
 				<ul>
 				 <li>Прежде всего, это универсальное жилье. Оно подойдет как одному человеку, так и паре с более, чем одним ребенком. </li>

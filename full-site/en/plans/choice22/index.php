@@ -1,3 +1,4 @@
+<?php include_once('../../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +22,7 @@
   <?php /*Google Tag Manager*/ include_once('../../../includes/gtm_body.php'); ?>
     <header class="header">
       <div class="wrapper">
-        <a href="../../ru/" class="logo">
+        <a href="../../en/" class="logo">
           <img src="../../../img/chicago-logo.png" alt="CHICAGO Central House residential complex in Kyiv city" title="CHICAGO Central House residential complex in Kyiv city">
         </a>
         <ul class="header-nav">
@@ -46,7 +47,7 @@
         <div class="ch-menu nomobile">
           <ul>
             <li><a class="imglogo"  href="../../"><img src="/img/chicago-logo.png" alt="CHICAGO Central House residential complex in Kyiv city" title="CHICAGO Central House residential complex in Kyiv city"></a></li>
-<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 22-77-244</li>
+<li style="text-transform:lowercase; line-height: 1.4;">sales departament </br>(044) 49-80-400</li>
 <li><a href="#callback" class="button callback">callback</a></li>
             <li><a href="../../#place">Location</a></li>
             <li><a href="../../news/">news</a></li>

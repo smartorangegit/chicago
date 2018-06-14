@@ -1,3 +1,4 @@
+<?php include_once('../../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -48,7 +49,7 @@
         <div class="ch-menu nomobile">
           <ul>
             <li><a class="imglogo"  href="../../../../ru/"><img src="/img/chicago-logo.png" alt="Жилой комплекс CHICAGO Central House г. Киев" title="Жилой комплекс CHICAGO Central House г. Киев"></a></li>
-<li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 22-77-244</li>
+<li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 49-80-400</li>
 <li><a href="#callback" class="button callback">заказать звонок</a></li>
             <li><a href="../../../../ru/#place">расположение</a></li>
             <li><a href="../../../../ru/news/">новости</a></li>
@@ -74,16 +75,16 @@
             <div class="img_plan">
               <img src="../../../../../../img/choice/plan9.svg" width="442px" alt="">
                 <a href="../../appart/?type=3a"><div class="drop drop--1"><div class="drop-text">3А</div></div></a>
-                <a href="../../appart/?type=2d"><div class="drop drop--2"><div class="drop-text">2D</div></div></a>
+                <a href="../../appart/?type=2d"><div class="drop drop--2"><div class="drop-text">2Д</div></div></a>
                 <a href="../../appart/?type=1e"><div class="drop drop--3" style="right:75%;"><div class="drop-text">1Е</div></div></a>
-                <a href="../../appart/?type=3b"><div class="drop drop--4"><div class="drop-text">3B</div></div></a>
+                <a href="../../appart/?type=3b"><div class="drop drop--4"><div class="drop-text">3Б</div></div></a>
                 <a href="../../appart/?type=2e"><div class="drop drop--5"><div class="drop-text">2Е</div></div></a>
                 <a href="../../appart/?type=2a"><div class="drop drop--6"><div class="drop-text">2А</div></div></a>
-                <a href="../../appart/?type=2b"><div class="drop drop--7"><div class="drop-text">2B</div></div></a>
+                <a href="../../appart/?type=2b"><div class="drop drop--7"><div class="drop-text">2Б</div></div></a>
                 <a href="../../appart/?type=1a"><div class="drop drop--8"><div class="drop-text">1А</div></div></a>
                 <a href="../../appart/?type=1k"><div class="drop drop--15"><div class="drop-text">1K</div></div></a>
                 <a href="../../appart/?type=2k"><div class="drop drop--16"><div class="drop-text">2K</div></div></a>
-                <a href="../../appart/?type=2g"><div class="drop drop--14"><div class="drop-text">2G</div></div></a>
+                <a href="../../appart/?type=2g"><div class="drop drop--14"><div class="drop-text">2Г</div></div></a>
                 <img class="street" src="../../../../../../img/choice/street.png" alt="street">
                 <img class="compas" src="../../../../../../img/choice/compass.png" alt="compas">
             </div>

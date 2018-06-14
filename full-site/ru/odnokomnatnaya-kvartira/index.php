@@ -1,8 +1,9 @@
-<?php
+<?php include_once('../../includes/utm.php');
 include('../../db.php');
 $check = mysql_query("SELECT * FROM kvartity where character_code RLIKE '^1'" ,$db);
 $myrow = mysql_fetch_array ($check);
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,10 +13,10 @@ $myrow = mysql_fetch_array ($check);
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/odnokomnatnaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Купить однокомнатную квартиру в ЖК CHICAGO Central House</title>
+	<title>≡ 1 комнатные квартиры в ЖК Чикаго 》Купить однокомнатную квартиру в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="1-комнатные квартиры с свободной планировкой в жилом комплексе CHICAGO Central House">
+	<meta name="description" content="【Однокомнатные квартиры в CHICAGO Central House в самом центре Киева】Продажа 1-комнатных квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
   <link rel="stylesheet" href="../../css/animate.css">
@@ -89,7 +90,7 @@ $myrow = mysql_fetch_array ($check);
 						<div class="select-info">
 						<h2>Достоинства 1-комнатных квартир в ЖК CHICAGO Central House</h2>
 						<p>Однокомнатные квартиры в жилом комплексе CHICAGO Central House соответствуют всем ключевым характеристикам комфортного жилья и при этом отличаются умеренными ценами. А если добавить сюда удачное расположение комплекса с точки зрения транспортной развязки и близости к ключевым объектам столицы, можно уверенно утверждать, что 1-комнатные квартиры в ЖК CHICAGO Central House &minus; это максимально рациональное предложение.</p>
-						<p>1-комнантные квартиры комплекса довольно просторные. Их минимальная площадь &minus; 42 м2. К слову, покупка такой недвижимости является идеальным вариантом для одного человека или пары без детей.</p>
+						<p>1-комнатные квартиры комплекса довольно просторные. Их минимальная площадь &minus; 42 м2. К слову, покупка такой недвижимости является идеальным вариантом для одного человека или пары без детей.</p>
 						<p>Большим спросом 1-комнатное жилье пользуется у молодежи: часто именно такие квартиры покупают родители своим детям-студентам. Стоит отметить, что жилье в ЖК CHICAGO Central House для студентов подходит вдвойне, так как недалеко от комплекса расположено множество престижных учебных заведений. </p>
 						<p>Популярны 1-комнатные квартиры и среди частных инвесторов. Покупка недвижимости в новостройке на ранних стадиях строительства и ее дальнейшая продажа очень выгодна: во-первых, квадратные метры ежегодно дорожают, а во-вторых, можно сдавать жилье и получать от аренды неплохой доход. </p>
 						<h2>Почему стоит купить однокомнатную квартиру в ЖК CHICAGO Central House</h2>

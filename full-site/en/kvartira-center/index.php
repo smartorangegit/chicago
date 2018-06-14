@@ -1,13 +1,14 @@
+<?php include_once('../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Purchase an apartment in the downtown of Kiev | CHICAGO Central House Residential Estate</title>
+<title>≡ CHICAGO Central House 》Purchase an apartment in the downtown of Kiev</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="Apartments in the downtown of the capital at 44, Antonovicha Street is an American experience of design and construction ">
+<meta name="description" content="✅ 【CHICAGO Central House】 Apartments in the downtown of the capital at 44, Antonovicha Street is an American experience of design and construction ✅ 【CHICAGO】">
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartira-center/" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartira-center/" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartira-center/" />

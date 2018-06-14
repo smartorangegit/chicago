@@ -5,6 +5,7 @@ $pieces = explode("/", $actual_link);
 if($pieces[3] == 'ru')
 {
 ?>
+<?php include_once('includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -235,6 +236,7 @@ if($pieces[3] == 'ru')
 else{
 if($pieces[3] == 'en'){ //изменить на en, когда появится английская версия 
 ?>
+<?php include_once('includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -464,6 +466,7 @@ if($pieces[3] == 'en'){ //изменить на en, когда появится 
 }
 else{
 ?>
+<?php include_once('includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ua">
 <head>

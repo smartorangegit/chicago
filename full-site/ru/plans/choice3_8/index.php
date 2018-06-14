@@ -1,3 +1,4 @@
+<?php include_once('../../../includes/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -46,7 +47,7 @@
         <div class="ch-menu nomobile">
           <ul>
             <li><a class="imglogo"  href="../../../../ru/"><img src="/img/chicago-logo.png" alt="Жилой комплекс CHICAGO Central House г. Киев" title="Жилой комплекс CHICAGO Central House г. Киев"></a></li>
-            <li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 22-77-244</li>
+            <li style="text-transform:lowercase; line-height: 1.4;">телефон отдела продаж </br>(044) 49-80-400</li>
             <li><a href="#callback" class="button callback">заказать звонок</a></li>
             <li><a href="../../../../ru/#place">расположение</a></li>
             <li><a href="../../../../ru/news/">новости</a></li>
