@@ -254,29 +254,29 @@
     $(document).ready(function(){
 
       $('.remont__box-slider1').slick({
-	    autoplay: false,
+	    autoplay: true,
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 500,
+	  	autoplaySpeed: 1500,
 	    prevArrow: '.slider1-remont__button_prev',
 	    nextArrow: '.slider1-remont__button_next'
 	  });
 	  $('.remont__box-slider2').slick({
-	    autoplay: false,
+	    autoplay: true,
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 500,
+	  	autoplaySpeed: 1500,
 	    prevArrow: '.slider2-remont__button_prev',
 	    nextArrow: '.slider2-remont__button_next'
 	  });
 	   $('.remont__box-slider3').slick({
-	    autoplay: false,
+	    autoplay: true,
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 500,
+	  	autoplaySpeed: 1500,
 	    prevArrow: '.slider3-remont__button_prev',
 	    nextArrow: '.slider3-remont__button_next'
 	  });

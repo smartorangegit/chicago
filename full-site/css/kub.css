@@ -135,10 +135,6 @@ section.kub.kub_zipped{
   line-height: 1.6;
   text-indent: 24px;
 }
-/*.slider-remont__text {
-  width: 60%;
-}*/
-
 .remont h4{
   font-size: 24px;
 }
@@ -184,4 +180,23 @@ section.kub.kub_zipped{
   right: -25px;
   background: url(../img/slickslider_left-right_spritesheet.png) no-repeat;
   background-position: -14px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .remont__slider-wrap {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .remont__text {
+    font-size: 12px;
+  }
+  .slider-remont__button {
+   display: none;
+  }
+  /*.slider-remont__button_prev {
+    left: 0;
+  }
+  .slider-remont__button_right {
+    right: 0;
+  }*/
 }
