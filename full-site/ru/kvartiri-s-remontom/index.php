@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
@@ -7,11 +7,10 @@
 	<title>≡ Квартиры з ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Сучасні технології дають змогу побачити те, що ми зазвичай сприймаємо іншими органами чуття. ">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
-	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
-  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kub/" />
+	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
+	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartiri-s-remontom/" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="/css/jquery.fancybox.css">
@@ -208,7 +207,7 @@
 					Месторасположение комплекса CHICAGO Central House — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и необходимую технику. Площадь представленных квартир — 65 м², 83 м² и 89 м². Выбирайте свой вариант и скорее обращайтесь в отдел продаж по адресу ул. Антоновича, 44. Наши менеджеры ответят на все ваши вопросы, расскажут про условия покупки и помогут выбрать подходящий для вас стиль интерьера.
 				</p>
 			</div>
-			<a href="/choice/" class="button remont__button button-red">Выбор квартир</a>
+			<a href="/ru/choice/" class="button remont__button button-red">Выбор квартир</a>
 
 
 			<!-- <div class="kub_galery">

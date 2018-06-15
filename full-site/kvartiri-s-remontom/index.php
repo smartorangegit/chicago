@@ -7,11 +7,10 @@
 	<title>≡ Квартири з ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Сучасні технології дають змогу побачити те, що ми зазвичай сприймаємо іншими органами чуття. ">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
-	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
-  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kub/" />
+	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
+	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartiri-s-remontom/" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="/css/jquery.fancybox.css">
@@ -56,7 +55,7 @@
 					Ми подбали про ваш час та підготували три квартири з готовим ремонтом. Проекти дизайну розроблені <a href="http://www.d73.it/studio/" target="_blank">студією D73</a> — міжнародною компанією, роботи якої відомі в Швейцарії, Італії, Росії, Грузії. Для облаштування квартир в CHICAGO Central House були обрані три популярні напрямки — Classic, Modern Glamour, Nordic.
 				</p>
 			</div>
-			</h2>Дизайн квартири у стилі Classic</h2>
+			<h2>Дизайн квартири у стилі Classic</h2>
 			<div class="remont__text remont__text_short remont__text_padding">
 				Квартира у стилі Classic стала своєрідним стандартом, на основі якого були розроблені інші проекти інтер'єрів. Дизайнери студії D73 вирішили, що надмірна насиченість кольорів і використання яскравих деталей не відповідають уявленню про класичний стиль, тому зупинилися на стриманих тонах. Тут переважають темне дерево, сірий і пісочний відтінки.
 			</div>
