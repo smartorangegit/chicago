@@ -198,6 +198,13 @@ $uRr = "https://$_SERVER[HTTP_HOST]".'/ru'."$_SERVER[REQUEST_URI]";
 			right: 5px;
 
 		}
+    .menu-close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 50px;
+      fill: #fff;
+    }
 		@media screen and (max-width: 768px){
 			.saga-logo {
 				right: 30px;

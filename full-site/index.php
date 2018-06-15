@@ -402,23 +402,23 @@
                 <span class="subheader"><span>Американський </span><span>рівень життя,</span></span>
                 <span class="last">доступний тепер в Україні</span>
             </li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
-							<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
-							<span class="last">новий архітектурний символ столиці</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/kvartira-center/">
-							<img <?LazyLoad("/img/icons/advantage-4.png");?>  alt="advantage-4">
-							<span class="subheader"><span>Центральне</span><span>розташування –</span></span>
-							<span class="last">у пішій доступності від сіті та від старого міста</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
-							<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
-							<span class="last">історичного центру Києва</span>
-						</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
+				<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
+				<span class="last">новий архітектурний символ столиці</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/kvartira-center/">
+				<img <?LazyLoad("/img/icons/advantage-4.png");?>  alt="advantage-4">
+				<span class="subheader"><span>Центральне</span><span>розташування –</span></span>
+				<span class="last">у пішій доступності від сіті та від старого міста</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
+				<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
+				<span class="last">історичного центру Києва</span>
+			</li>
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-5.png");?> alt="advantage-5">
                 <span class="subheader"><span>Насичена міська </span><span>інфраструктура:</span></span>
@@ -434,48 +434,54 @@
                 <span class="subheader"><span>Гармонійна</span><span>естетика</span></span>
                 <span class="last">прибудинкових територій</span>
             </li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
-							<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
-							<span class="last">у громадському просторі будинку</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/svobodnaya-planirovka/">
-							<img <?LazyLoad("/img/icons/advantage-11.png");?> alt="advantage-11">
-							<span class="subheader"><span>Вільне</span><span>планування</span></span>
-							<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
-							<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
-							<span class="last">від надійного забудовника</span>
-						</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
+				<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
+				<span class="last">у громадському просторі будинку</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/svobodnaya-planirovka/">
+				<img <?LazyLoad("/img/icons/advantage-11.png");?> alt="advantage-11">
+				<span class="subheader"><span>Вільне</span><span>планування</span></span>
+				<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
+				<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
+				<span class="last">від надійного забудовника</span>
+			</li>
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-12.png");?> alt="advantage-12">
                 <span class="subheader"><span>Професійний</span><span>консьєрж-сервіс</span></span>
                 <span class="last">для усіх мешканців будинку</span>
             </li>
-						<li class="wow bounceIn">
-								<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
-								<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
-								<span class="last">спеціалісти з продажу</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/parking/">
-								<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
-								<span class="subheader"><span>Підземний </span><span>паркінг</span></span>
-								<span class="last">для всіх авто мешкінців</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<a href="/rassrochka/">
-								<img <?LazyLoad("/img/icons/advantage-14.png");?>  alt="advantage-14">
-								<span class="subheader"><span>розстрочка</span></span>
-								<span class="last">від забудовника</span>
-
-							</a>
-						</li>
+			<li class="wow bounceIn">
+					<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
+					<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
+					<span class="last">спеціалісти з продажу</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/parking/">
+					<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
+					<span class="subheader"><span>Підземний </span><span>паркінг</span></span>
+					<span class="last">для всіх авто мешкінців</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<a href="/rassrochka/">
+					<img <?LazyLoad("/img/icons/advantage-14.png");?>  alt="advantage-14">
+					<span class="subheader"><span>розстрочка</span></span>
+					<span class="last">від забудовника</span>
+				</a>
+			</li>
+            <li class="wow bounceIn">
+                <a href="/kvartiri-s-remontom/">
+                    <img <?LazyLoad("/img/icons/advantage-15.png");?>  alt="advantage-15">
+                    <span class="subheader"><span>квартири з ремонтом</span></span>
+                    <span class="last">від забудовника</span>
+                </a>
+            </li>
         </ul>
     </section>
     <section class="eigth">
