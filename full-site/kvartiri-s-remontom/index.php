@@ -258,7 +258,7 @@
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 1500,
+	  	autoplaySpeed: 7500,
 	    prevArrow: '.slider1-remont__button_prev',
 	    nextArrow: '.slider1-remont__button_next'
 	  });
@@ -267,7 +267,7 @@
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 1500,
+	  	autoplaySpeed: 7500,
 	    prevArrow: '.slider2-remont__button_prev',
 	    nextArrow: '.slider2-remont__button_next'
 	  });
@@ -276,7 +276,7 @@
 	    slidesToShow: 1,
 	  	slidesToScroll: 1,
 	  	speed: 800,
-	  	autoplaySpeed: 1500,
+	  	autoplaySpeed: 7500,
 	    prevArrow: '.slider3-remont__button_prev',
 	    nextArrow: '.slider3-remont__button_next'
 	  });
