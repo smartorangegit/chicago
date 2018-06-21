@@ -143,6 +143,9 @@ section.kub.kub_zipped{
   padding-left: 0;
   padding-right: 0;
 }
+.remont__text a {
+	color:red;
+}
 .remont h2{
   font-size: 24px;
 }
@@ -159,11 +162,15 @@ section.kub.kub_zipped{
   line-height: 50px;
 }
 
+.remont__link {
+  color: #CC0009;
+}
+
 
 .remont__slider-wrap {
   position: relative;
-  width: 60%;
-  margin: 0 auto 30px;
+  width: 100%;
+  margin: 0 auto;
 }
 .remont__slider-wrap .slick-track {
  align-items: flex-start;
@@ -201,7 +208,7 @@ section.kub.kub_zipped{
   }
   .slider-remont__button {
    /*display: none;*/
-   top: 30%;
+   top: 20%;
   }
   .slider-remont__button_prev {
     left: 0;
