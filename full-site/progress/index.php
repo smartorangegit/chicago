@@ -55,17 +55,16 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">Монолітні роботи на 22-му поверсі. Цегляна кладка – 12-17 поверхи, закінчення кладки – 10-11 поверхи. 
-ВК внутрішні – 8-10 поверхи. ЕО внутрішні – 8-10 поверхи. Стяжки – 7 поверх. Оздоблення фасадів зі сторони Жилянської, Антоновича.</span></p>
+        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">Закінчення кладки 12-14 поверхів. Цегляна кладка – 15-19 поверхи. Монолітні роботи – перекриття 23-24 поверхів, пілони на 23 поверху. Встановлення ригельної системи фасаду над КУБом. Оздоблення навесних вентильованих фасадів бежевого керамограніту зі сторони вул. Жилянської. Встановлення вікон по периметру до 15 поверху.</span></p>
         <p><span class="plan--1">Запланований термін завершення будівництва:</span><span class="normal normal--2">III - ΙV квартал 2018 року</span></p>
       </h2>
 
 			<div class="status clearfix">
 				<div id="buidling_status" class="status__grid grid__1">
 					<img <?LazyLoad("/img/status.png");?>   alt="status">
-					<img <?LazyLoad("/img/house_full.png");?>   alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
+					<img <?LazyLoad("/img/house_full.png");?>   alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(36% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>21</span>
+						<span>23</span>
 						<p>поверхів</p>
 						<p>побудовано</p>
 					</div>
@@ -365,10 +364,10 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--53 {
+	.image-item--55 {
  margin-top: 6px;
 }
-.image-item--55 {
+.image-item--57 {
 margin-top: 160px;	
 }
 	</style>

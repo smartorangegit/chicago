@@ -55,8 +55,7 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Статус работ:</span><span class="normal normal--1">Монолитные работы на 22-м этаже. Кирпичная кладка - 12-17 этажа, окончания кладки - 10-11 этажа.
-ВК внутренние - 8-10 этажа. ЭО внутренние - 8-10 этажа. Стяжки - 7 этаж. Отделка фасадов со стороны Жилянской, Антоновича.
+        <p><span>Статус работ:</span><span class="normal normal--1">Окончание кладки 12-14 этажей. Кирпичная кладка - 15-19 этажа. Монолитные работы - перекрытие 23-24 этажей, пилоны на 23 этаже. Установление ригельной системы фасада над кубом. Отделка навесных вентилируемых фасадов бежевого керамогранита со стороны ул. Жилянской. Установка окон по периметру до 15 этажа.
 
 </span></p>
         <p><span class="plan--1">Запланированный срок окончания строительства:</span><span class="normal normal--2">III - ΙV квартал 2018 года</span></p>
@@ -66,9 +65,9 @@
 			<div class="status clearfix">
 				<div class="status__grid grid__1">
 					<img src="/img/status.png" alt="status">
-					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
+					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(36% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>21</span>
+						<span>23</span>
 						<p>этажей</p>
 						<p>построено</p>
 					</div>
@@ -380,10 +379,10 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--53 {
+	.image-item--55 {
  margin-top: 6px;
 }
-.image-item--55 {
+.image-item--57 {
 margin-top: 160px;	
 }
 	</style>

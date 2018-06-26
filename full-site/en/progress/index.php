@@ -54,16 +54,15 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Monolithic works on the 22nd floor. Brick masonry - 12-17 floors, masonry completion - 10-11 floors.
-VC internal - 8-10 floors. EO internal - 8-10 floors. Tightening - 7th floor. Finishing facades on the side of Zhilyanskaya, Antonovich.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">Finishing masonry 12-14 floors. Brick masonry - 15-19 floors. Monolithic works - overlap 23-24 floors, pylons on the 23rd floor. Installing the facade bolt system over the CUB. Decoration of the spring ventilated facades of beige ceramic granite on the side of the street. Zhylianska Installation of windows along the perimeter of the 15th floor.</span></p>
         <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">3 - 4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
 				<div class="status__grid grid__1">
 					<img src="/img/status.png" alt="status">
-					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(46% 0 0 0); width:98%;">
+					<img src="/img/house_full.png" alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(36% 0 0 0); width:98%;">
 					<div class="status_round">
-						<span>21</span>
+						<span>23</span>
 						<p>floors</p>
 						<p>completed</p>
 					</div>
@@ -361,10 +360,10 @@ VC internal - 8-10 floors. EO internal - 8-10 floors. Tightening - 7th floor. Fi
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--53 {
+	.image-item--55 {
  margin-top: 6px;
 }
-.image-item--55 {
+.image-item--57 {
 margin-top: 160px;	
 }	</style>
 	<script src="/js/scripts.js"></script>
