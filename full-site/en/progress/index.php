@@ -54,7 +54,7 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Finishing masonry 12-14 floors. Brick masonry - 15-19 floors. Monolithic works - overlap 23-24 floors, pylons on the 23rd floor. Installing the facade bolt system over the CUB. Decoration of the spring ventilated facades of beige ceramic granite on the side of the street. Zhylianska Installation of windows along the perimeter of the 15th floor.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">Laying: Work is ongoing on floors 15-19, completed 12-14 floors. Monolith: overlays of 23-24 floors. The installation of the facade clamping system over the CUB is ongoing. Installation of windows along the perimeter of the 15th floor. Arrangement of artificial stone beige ceramic granite on the side of street. Zhilyanskaya Internal networks OV, VC: risers on the 14th floor, horizontal layout - 10th floor. EO Networks: 14th floor risers. Tightening - the end of the 9th floor.</span></p>
         <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">3 - 4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
@@ -360,10 +360,10 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--55 {
+	.image-item--56 {
  margin-top: 6px;
 }
-.image-item--57 {
+.image-item--58 {
 margin-top: 160px;	
 }	</style>
 	<script src="/js/scripts.js"></script>
