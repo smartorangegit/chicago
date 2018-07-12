@@ -55,7 +55,7 @@
 			<span class="trigger-0"></span>
       <h2 class="subheader">
         <p><span>Construction status:</span><span class="normal normal--1">Laying: Work is ongoing on floors 15-19, completed 12-14 floors. Monolith: overlays of 23-24 floors. The installation of the facade clamping system over the CUB is ongoing. Installation of windows along the perimeter of the 15th floor. Arrangement of artificial stone beige ceramic granite on the side of street. Zhilyanskaya Internal networks OV, VC: risers on the 14th floor, horizontal layout - 10th floor. EO Networks: 14th floor risers. Tightening - the end of the 9th floor.</span></p>
-        <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">3 - 4Q 2018</span></p>
+        <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
 				<div class="status__grid grid__1">
