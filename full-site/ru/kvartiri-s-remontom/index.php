@@ -6,7 +6,7 @@
 	<meta name="description" content="【ЖК CHICAGO Central House】Мы позаботились о вашем времени, поэтому в продаже представлены три квартиры с готовым ремонтом ✅ Для обустройства квартир в CHICAGO Central House выбраны три популярные направления — Classic, Modern Glamour и Nordic">
 	<title>≡ Квартиры з ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
-    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
@@ -49,13 +49,13 @@
 
 			<div class="kub_text">
 				<p>
-				При проектировании CHICAGO Central House мы хотели передать не только концепцию архитектуры города, но и показать интерьер, который сегодня выбирает житель мегаполиса. Это современный стиль, где каждой детали отведена своя роль. Стены, пол, мебель, элементы декора — все работает на образ, и цвет — главная его составляющая. Именно такими особенностями обладают интерьеры <a href="https://chicago.kiev.ua/choice/">квартир CHICAGO Central House</a>.
+					Месторасположение комплекса <a href="https://chicago.kiev.ua/choice/"> CHICAGO Central House</a> — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и современную технику.
 			</p>
 			<p>
-				Мы позаботились о вашем времени, поэтому в продаже представлены три квартиры с готовым ремонтом. Проекты дизайна разработаны <a href="http://www.d73.it/studio/" target="_blank">студією D73</a> — международной компанией, работы которой известны в Швейцарии, Италии, России, Грузии. Для обустройства квартир в CHICAGO Central House выбраны три популярные направления — Classic, Modern Glamour и Nordic.
+				Проекты дизайна разработаны <a href="http://www.d73.it/studio/" target="_blank">студией D73</a> — международной компанией, работы которой известны в Швейцарии, Италии, России, Грузии. Для обустройства квартир в CHICAGO Central House были выбраны два популярных направления — Nordic и Modern Glamour.
 			</p>
 			</div>
-			<h2>Дизайн квартиры в стиле Classic</h2>
+			<!-- <h2>Дизайн квартиры в стиле Classic</h2>
 			<div class="kub_text">
 				Квартира в стиле Classic стала своеобразным стандартом, на основе которого разрабатывались другие проекты интерьеров. Дизайнеры из студии D73 решили, что чрезмерная цветовая насыщенность и использование броских деталей не соответствуют представлению о классическом стиле, поэтому остановились на сдержанных тонах. Здесь преобладают темное дерево, серый и песочный оттенки.
 			</div>
@@ -98,62 +98,17 @@
 				</div>
 				<button class="slider-remont__button slider-remont__button_prev slider1-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider1-remont__button_next"></button>
-			</div>
+			</div> -->
 
-			<h2>Дизайн квартиры в стиле Modern Glamour</h2>
-			<div class="kub_text">
-				Вторым проектом студии D73 стала квартира в стиле Modern Glamour, или современный гламур. Результат полностью оправдывает название направления: стены, контрастные с полом, акценты в виде яркой мебели, глянцевые поверхности, использование нестандартных геометрических форм.
-			</div>
-
-			<div class="remont__slider-wrap">
-				<div class="remont__box-slider2">
-					<div class="remont__box">
-						<div class="remont__img">
-							<a class="remont__img" href="/img/remont/MODERN_LIVING.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img class="remont__img" src="/img/remont/MODERN_LIVING.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-							</a>
-						</div>
-						<div class="kub_text">
-							Благодаря большим панорамным окнам квартира выглядит просторной. Дневного света хватает для спальни и гостиной, объединенной с кухней. Искусственное освещение также активно используется: люстры, светильники, точечное освещение в потолке.
-						</div>
-					</div>
-
-					<div class="remont__box">
-						<div class="remont__img">
-							<a class="remont__img" href="/img/remont/MODERN_LIVING1.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img class="remont__img" src="/img/remont/MODERN_LIVING1.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-							</a>
-						</div>
-						<div class="kub_text">
-							Основная цветовая гамма — серая, она прослеживается во всей квартире. Контрастные стены в белых и графитовых оттенках дополняет мебель — кухня со встроенной техникой марки BOSCH (посудомоечная машина, духовая печь, варочная поверхность и холодильник), обеденный стол, стулья, обтянутые серой тканью, в гостиной — мягкий диван, журнальный столик и два красных кресла, которые служат своеобразным акцентом комнаты.
-						</div>
-					</div>
-
-					<div class="remont__box">
-						<div class="remont__img">
-							<a class="remont__img" href="/img/remont/MODERN_BEDROOM.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img class="remont__img" src="/img/remont/MODERN_BEDROOM.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-							</a>
-							<a href="/img/remont/MODERN_BATH.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour"></a>
-							<a href="/img/remont/MODERN_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour"></a>
-						</div>
-						<div class="kub_text">
-							<p>
-								Интерьер спальни получился более насыщенным. За счет красной стены и использования ярких элементов декора, в комнате чувствуется особое настроение. В ней приятно как работать, так и отдыхать после насыщенного дня.
-							</p>
-							<p>
-								Дополняет интерьер квартиры белый пол, выполненный из плитки с глянцевой поверхностью.
-							</p>
-						</div>
-					</div>
-				</div>
-				<button class="slider-remont__button slider-remont__button_prev slider2-remont__button_prev"></button>
-				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
-			</div>
 
 			<h2>
 				Дизайн квартиры в стиле Nordic
 			</h2>
+			<!-- <div class="kub_text">
+				<p>
+				В дизайне квартиры в стиле Nordic ощущается любовь к цвету и необычным решениям. Черты скандинавского стиля прослеживаются во всем: синем и сером оттенках стен, натуральных материалах, из которых выполнены мебель и паркет.
+				</p>
+			</div> -->
 			<div class="remont__slider-wrap">
 				<div class="remont__box-slider3">
 					<div class="remont__box">
@@ -176,7 +131,24 @@
 						</div>
 						<div class="kub_text">
 							<p>
-								Поскольку направление Nordic в интерьере объединяет в себе черты минимализма и экостиля, основным материалом для кухни дизайнеры выбрали дерево. Чтобы сохранить лаконичный дизайн и функциональность пространства, вся техника торговой марки BOSCH — посудомоечная машина, духовая печь, холодильник и варочная поверхность — встроена в шкафы.
+								Поскольку направление Nordic объединяет в себе черты минимализма и экостиля, для кухни, совмещенной с гостиной, дизайнеры выбрали мебель из серого и бежевого дерева с матовой поверхностью. Чтобы сохранить концепцию интерьера и не перегружать комнату лишними компонентами, в кухне установлена встроенная техника известного бренда:
+									●	посудомоечная машина — BOSCH SMV24AX005,
+									●	духовая печь — BOSCH HBN539S5,
+									●	варочная поверхность — BOSCH PKE611FP1E,
+									●	стиральная машина — BOSCH WLG20165UA,
+									●	холодильник — BOSCH KIV34X20.
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/NORDIC_LIVING.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
+								<img src="/img/remont/NORDIC_LIVING.jpg"  alt="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+								Сочетание цветов в гостиной также на первом месте. Серый и песочный тона служат нейтральным фоном для кресел, обтянутых прочной бирюзовой тканью, и многочисленных картин на стене. Для комфортной зоны отдыха в комнате есть все необходимое: мягкий диван, два кресла, журнальный столик, телевизор LG LED Full HD с диагональю 49 дюймов, кондиционер СOOPER & HUNTER c Wi-Fi-управлением.
 							</p>
 						</div>
 					</div>
@@ -185,7 +157,6 @@
 							<a class="remont__img" class="remont__img" href="/img/remont/NORDIC_BEDROOM.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
 								<img class="remont__img" src="/img/remont/NORDIC_BEDROOM.jpg"  alt="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
 							</a>
-							<a class="remont__img" class="remont__img" href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic"></a>
 							<a class="remont__img" class="remont__img" href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic"></a>
 						</div>
 						<div class="kub_text">
@@ -194,32 +165,99 @@
 							</p>
 						</div>
 					</div>
+				<div class="remont__box">
+					<div class="remont__img">
+						<a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
+							<img src="/img/remont/NORDIC_BATH.jpg"  alt="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
+						</a>
+					</div>
+					<div class="kub_text">
+						<p>
+							Для отделки стен в душевой комнате использованы белая и бело-серая плитка с орнаментами. Пол и элементы мебели гармонируют гармонируют по цвету и деревянной фактуре. Для удобства будущих жильцов санузел укомплектован душевой кабинкой, умывальником, необходимой сантехникой, подвесной тумбой, бойлером бренда ATLANTIC.
+						</p>
+					</div>
 				</div>
+			</div>
 				<button class="slider-remont__button slider-remont__button_prev slider3-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider3-remont__button_next"></button>
 			</div>
 
+			<h2>Дизайн квартиры в стиле Modern Glamour</h2>
+			<div class="kub_text">
+				Вторым проектом студии D73 стала квартира в стиле Modern Glamour. Результат полностью оправдывает название направления: стены, контрастные с полом, акценты в виде яркой мебели, глянцевые поверхности, использование нестандартных геометрических форм.
+			</div>
+
+			<div class="remont__slider-wrap">
+				<div class="remont__box-slider2">
+					<div class="remont__box">
+						<div class="remont__img">
+							<a class="remont__img" href="/img/remont/MODERN_LIVING.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+								<img class="remont__img" src="/img/remont/MODERN_LIVING.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							</a>
+						</div>
+						<div class="kub_text">
+							Благодаря большим панорамным окнам квартира выглядит просторной. Дневного света хватает для спальни и гостиной, объединенной с кухней. Искусственное освещение также активно используется: люстры, светильники, точечное освещение в потолке.
+						</div>
+					</div>
+
+					<div class="remont__box">
+						<div class="remont__img">
+							<a class="remont__img" href="/img/remont/MODERN_LIVING1.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+								<img class="remont__img" src="/img/remont/MODERN_LIVING1.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							</a>
+						</div>
+						<div class="kub_text">
+							Основная цветовая гамма — серая, она прослеживается во всей квартире. Контрастные стены в белых и графитовых оттенках дополняет мебель — обеденный стол, стулья, обтянутые серой тканью, в гостиной — мягкий диван, журнальный столик и два красных кресла, которые служат своеобразным акцентом комнаты. Встроенная в шкафы из светлого дерева,  техника представлена следующих моделей:
+							●	 посудомоечная машина — BOSCH SMV24AX005,
+							●	духовая печь — BOSCH HBN539S5,
+							●	варочная поверхность — BOSCH PKE611FP1E,
+							●	стиральная машина — BOSCH WLG20165UA,
+							●	холодильник — BOSCH KIV34X20.
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/MODERN_BATHROOM.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+								<img src="/img/remont/MODERN_BATHROOM.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							</a>
+						</div>
+						<div class="kub_text">
+							Санузел представлен душевой комнатой. В ней установлена кабинка, необходимая сантехника, бойлером бренда ATLANTIC, умывальник с подвесной тумбой, в которую можно складывать полотенца и косметику. В дизайне используются пастельные тона, за счет чего пространство получилось очень теплым и светлым.
+						</div>
+					</div>
+
+					<div class="remont__box">
+						<div class="remont__img">
+							<a class="remont__img" href="/img/remont/MODERN_BEDROOM.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+								<img class="remont__img" src="/img/remont/MODERN_BEDROOM.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							</a>
+							<a href="/img/remont/MODERN_BATH.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour"></a>
+							<a href="/img/remont/MODERN_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+								Интерьер спальни получился более насыщенным. За счет красной стены и использования ярких элементов декора, в пространстве чувствуется особое настроение. В ней приятно как работать, так и отдыхать после насыщенного дня. В комнате есть все необходимое: двуспальная кровать, тумба, комод, письменный стол, большое зеркало, телевизор LG LED Full HD диагональю 43 дюйма. Несмотря на такое количество мебели и элементов декора, комната просторная и очень светлая за счет окон в пол.
+								Дополняет интерьер квартиры белый пол, выполненный из плитки с глянцевой поверхностью.
+							</p>
+						</div>
+					</div>
+				</div>
+				<button class="slider-remont__button slider-remont__button_prev slider2-remont__button_prev"></button>
+				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
+			</div>
 			<h2>
 				Как купить квартиру с ремонтом в CHICAGO Central House
 			</h2>
 			<div class="kub_text">
 				<p>
-					Месторасположение комплекса CHICAGO Central House — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и необходимую технику. Площадь представленных квартир — 65 м², 83 м² и 89 м². Выбирайте свой вариант и скорее обращайтесь в отдел продаж по адресу ул. Антоновича, 44. Наши менеджеры ответят на все ваши вопросы, расскажут про условия покупки и помогут выбрать подходящий для вас стиль интерьера.
+					Специально для тех, кто мечтает о переезде и при этом хочет сэкономить свое время,  мы подготовили три квартиры с готовым ремонтом: две квартиры площадью 65 м² и 80,81м² в стиле  Nordic и одну квартиру — 86,28 м² в стиле Modern Glamour.
+				</p>
+				<p>
+					Выбирайте свой вариант и скорее обращайтесь в отдел продаж по адресу ул. Антоновича, 44. Наши менеджеры ответят на все ваши вопросы, расскажут про условия покупки и помогут выбрать подходящий для вас стиль интерьера.
 				</p>
 			</div>
 			<a href="/ru/choice/" class="button remont__button button-red">Выбор квартир</a>
 
-
-			<!-- <div class="kub_galery">
-				<p>ГАЛЕРЕЯ</p>
-				<ul class="ufw_slider">
-					<li><a href="/img/gallery/4big.jpg" data-fancybox="group" data-caption="Скляний куб із медіа-скульптурою" title="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"><img src="/img/kub/kub1.jpg" alt="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"></a></li>
-					<li><a href="/img/gallery/7big.jpg" data-fancybox="group" data-caption="Скляний куб із медіа-скульптурою" title="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"><img src="/img/kub/kub2.jpg" alt="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"></a></li>
-					<li><a href="/img/gallery/21big.jpg" data-fancybox="group" data-caption="Скляний куб із медіа-скульптурою" title="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"><img src="/img/kub/kub3.jpg" alt="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House"></a></li>
-
-				</ul>
-
-			</div> -->
 		</div>
 	</section>
 	<footer>
@@ -249,6 +287,13 @@
 		new ScrollMagic.Scene({triggerElement: ".kub .trigger-0"}).setClassToggle(".header", "zipped").addTo(controller);
 		</script>
 		<!-- <script src="/js/scripts.js"></script> -->
+		<style media="screen">
+		.slick-slide img {
+			display: block;
+			max-height: 600px;
+			margin: 0 auto;
+		}
+		</style>
 		<script>
 
     $(document).ready(function(){
@@ -287,51 +332,3 @@
 		</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
