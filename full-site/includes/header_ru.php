@@ -235,21 +235,24 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
         <ul id="minimenu">
           <li id="miniclose" class="mobile">
 
-            <li class="language">
-              <?/*<div class="lang_m">
+            <?/*<li class="language">
+              <div class="lang_m">
                <a href="<?if(!empty($url_a)){ echo $url_a;}else{ echo $uRa;}?>">UA</a>
                <a href="<?if(!empty($url_r)){ echo $url_r;}else{ echo $uRr;}?>">RU</a>
                <a href="<?if(!empty($url_n)){ echo $url_n;}else{ echo $uRn;}?>">EN</a>
-              </div> */?>
-              <?php /*Google Tag Manager*/ include_once('lang_m.php'); ?>
+              </div>
+              <?php include_once('../includes/lang_m.php'); ?>
+            </li>*/?>
+            <li class="language">
+              <?php  include_once('lang_m.php'); ?>
             </li>
-      <li class="menu-close">
+			<li class="menu-close">
               <svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
             </li>
             <li><a href="/ru/kub/" class="separate">куб</a></li>
             <li><a href="/ru/#place" class="separate">расположение</a></li>
             <li><a href="/ru/choice/" class="separate">Квартиры</a></li>
-            <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая недвижимость</a></li>
+			      <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая недвижимость</a></li>
             <li><a href="/ru/news/"class="separate">новости</a></li>
             <li><a href="/ru/#builder" class="separate">Застройщик</a></li>
             <li><a href="/ru/progress/" class="separate">строительство</a></li>
@@ -285,14 +288,52 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
     </ul>
     <div class="header-callback">
 
-        Телефон отдела продаж <em class="em_phone" style="display:none;">(044) 49-80-400</em><p class="phone_display"><a href="tel:(044) 49-80-400">(044) 49-80-400</a></p>
-        <a href="#callback" class="button callback">заказать звонок</a>
-      </div>
+				Телефон отдела продаж <em class="em_phone" style="display:none;">(044) 49-80-400</em><p class="phone_display"><a href="tel:(044) 49-80-400">(044) 49-80-400</a></p>
+				<a href="#callback" class="button callback">заказать звонок</a>
+			</div>
     <div class="lang">
      <a href="<?if(!empty($url_a)){ echo $url_a;}else{ echo $uRa;}?>">UA</a>
      <a href="<?if(!empty($url_r)){ echo $url_r;}else{ echo $uRr;}?>">RU</a>
      <a href="<?if(!empty($url_n)){ echo $url_n;}else{ echo $uRn;}?>">EN</a>
     </div>
+			<a href="http://saga-development.com.ua/" class="saga-logo <?if(count(explode("/", $_SERVER['REQUEST_URI']))>2){echo 'saga_logo_off';}?>" target="_blank">
+			<img src="/img/saga-logo.svg">
+		</a>
+		<style>
+		.saga-logo {
+		    position: fixed;
+		    top: 138px;
+		    right: 125px;
+		    display: block;
+		    width: 60px;
+		    transition: 0.6s;
+				-webkit-transition: 0.6s;
+		}
+		.zipped .saga-logo {
+			top: 65px;
+			right: 5px;
+
+		}
+    .menu-close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 50px;
+      fill: #fff;
+    }
+		@media screen and (max-width: 768px){
+			.saga-logo {
+				right: 30px;
+				top: 128px;
+			}
+			.zipped .saga-logo {
+				top: 84px;
+				right: 5px;
+
+		}
+			.saga_logo_off {display:none;}
+		}
+		</style>
   </div>
 </header>
 <style media="screen">
@@ -367,16 +408,16 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
 </style>
 <script>
 function telephone(queryClass) {
-  var elem = $(queryClass);
-  var phoneNumber = elem.html();
-  var href = 'tel:' + phoneNumber;
-  var phoneDisplay = elem.siblings('.phone_display');
-  var phoneDisplayLink = phoneDisplay.find('a');
-  phoneDisplayLink.attr('href', href);
-  phoneDisplayLink.html(phoneNumber);
+	var elem = $(queryClass);
+	var phoneNumber = elem.html();
+	var href = 'tel:' + phoneNumber;
+	var phoneDisplay = elem.siblings('.phone_display');
+	var phoneDisplayLink = phoneDisplay.find('a');
+	phoneDisplayLink.attr('href', href);
+	phoneDisplayLink.html(phoneNumber);
 }
 setTimeout(function(){
-  telephone('.em_phone');
+	telephone('.em_phone');
 }, 2000);
 
 $('#budinok_open, #budinok').hover(
