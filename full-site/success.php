@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<!-- <meta charset="UTF-8"> -->
 	<meta name="viewport" content="width=device-width">
-	<title>ЖК Chicago Central House - Success</title>
+	<title>Спасибо!</title>
 	<meta name="keywords" content="Chicago, ЖК Chicago, ЖК Чикаго, житловий комплекс, Київ, центр, Антоновича, Горького, купити квартиру, новобудова, апартаменти">
 	<meta name="description" content="ЖК Chicago Concept House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -20,6 +20,8 @@
   <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
+
 </head>
 
 <body>
@@ -27,159 +29,124 @@
         var controller = new ScrollMagic.Controller();
     </script>
 
-	<header class="header">
+	<?php /*меню*/ include_once('includes/header_ua.php'); ?>
+
+	<div class="section_404">
+		<div class="trigger-0"></div>
 		<div class="wrapper">
-			<a href="/" class="logo">
-				<img src="/img/logo.png" alt="logo">
-			</a>
-			<ul class="header-nav">
-				<li id="mobile" class="mobile">
-					<ul id="minimenu">
-						<li id="miniclose" class="mobile">
-							<li><a href="/" class="separate">Будинок</a></li>
-							<li><a href="/#place" class="separate">Розташування</a></li>
-							<li><a href="/choice/" class="separate">Квартири</a></li>
-							<li><a href="/#builder" class="separate">Забудовник</a></li>
-							<li><a href="/progress/" class="separate">Будівництво</a></li>
-							<li><a href="index.php#contact" class="separate">Зв'язок</a></li>
-					</ul>
-				</li>
+			<div class="one_slider">
+				<p class="section_name">Дякуємо! </p>
+				<p class="fr_1"><strong>Ваша заявка успішно відправлена!</strong></p><br>
+				<p class="fr_2">Наш менеджер зв'яжеться з вами найближчим часом.</p><br>
+				<p>
+					Пропонуємо переглянути інші проекти компанії SAGA Development
+				</p>
 
-				<script>
-				$(document).ready(function() {
-					$('#mobile').click( function(event){
-								$('#minimenu')
-									.css('display', 'block')
-									.animate({opacity: 1, top: '0%'}, 200);
-							});
-					});
-					/* Зaкрытие*/
-					$('#miniclose').click( function(){
-						$('#minimenu')
-							.animate({opacity: 0, top: '45%'}, 200,
-								function(){ // пoсле aнимaции
-									$(this).css('display', 'none');
-									$('#overlay').fadeOut(400);
-									$('.content-item').css('height','auto');
-								}
-				);
-		});
-			</script>
-				<li><a href="/" class="separate">Будинок</a></li>
-				<li><a href="/#place">Розташування</a></li>
-				<li><a href="/choice/" class="separate">Квартири</a></li>
-				<li><a href="/#builder">Забудовник</a></li>
-				<li><a href="/progress/" class="separate">Будівництво</a></li>
-				<li><a href="/#contact">Зв'язок</a></li>
-			</ul>
-			<div class="header-callback">
-				<div class="header-phone">Телефон відділу продажу <em>(044)22-77-244</em></div>
-				<div class="header-button"><a href="#callback" class="button callback">зворотній зв`язок</a></div>
+				<div class="developer_box clearfix">
+
+
+				<ul class="proj_slider">
+					<li class="logo_proj logo_proj_san">
+						<a href="https://sanfrancisco.com.ua/" target="_blank">
+							<img src="/img/logo/sanfrancisco_white.svg" alt="San Francisco Creative House" title="San Francisco Creative House" />
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_ryba">
+						<a href="https://rybalsky.com.ua/" target="_blank">
+							<img src="/img/logo/rybalsky_logo_white.svg" alt="Rybasky" title="Rybasky" />
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_bristol">
+						<a href="https://bristol.house/" target="_blank">
+							<img src="/img/logo/bristol_logo_white.svg" alt="BRISTOL Comfort House" title="BRISTOL Comfort House" />
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_new">
+						<a href="https://chicago.kiev.ua/" target="_blank">
+							<img src="/img/logo/new_york_logo_white.svg" alt="New York Concept House" title="New York Concept House"/>
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_einstein">
+						<a href="http://einstein.house/" target="_blank">
+							<img src="/img/logo/EINSTEIN-logoW.svg" alt="EINSTEIN Concept House" title="EINSTEIN Concept House" />
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_kandinskiy">
+						<a href="http://kandinsky-residence.com.ua/" target="_blank">
+							<img src="/img/logo/kandinsky_logo_white.svg" alt="KANDINSKY Odessa Residence" title="KANDINSKY Odessa Residence" />
+						</a>
+					</li>
+					<li class="logo_proj logo_proj_resident">
+						<a href="http://resident.house/" target="_blank">
+							<img src="/img/logo/resident_logo_white.svg" alt="RESIDENT Concept House" title="RESIDENT Concept House" />
+						</a>
+					</li>
+				</ul>
+
 			</div>
-			<?php /*Google Tag Manager*/ include_once('includes/lang.php'); ?>
-		</div>
-	</header>
-
-	<section class="main404">
-		<div class="Rez" style="display:none;">
-			<div id="Lenny">
-				<div id="homer"></div>
-				<div id="carl" =""="">
-					<a id="fiv_tx"><br>
-				</div>
 			</div>
-			<a id="fiv_tx2"></a>
 		</div>
-
-		<div>
-			<a class="fr_4">
-				<?//echo $actual_link;?>
-			</a>
-					<br>
-					<?/*<a id="fiv_tx2">404</a>*/?>
-					<br>
-					<a class="fr_1"><strong>Ваша заявка успішно відправлена!</strong></a><br>
-					<a class="fr_2">Наш менеджер зв'яжеться з вами найближчим часом.</a><br>
-					<a href="https://chicago.kiev.ua/" class="fr_3">На головну</a><br>
-		</div>
-
-
-		<style>
-		html {
-			height: 100%;
-		}
-		body {
-			height: 100%;
-			background-color: white;
-		}
-		section.main404 {
-			height: calc(100% - 170px);
-			text-align: center;
-			padding-top: 80px;
-
-		}
-		.Rez{
-		    padding: 55px 0px 0px 0; height: 270px;
-		    width: 44%;
-		    background: #e4202b;
-		}
-		#fiv{
-		    color: white;
-		    font-size: 100px;
-		    padding: 0 0 0 40px;
-		}
-		#fiv_tx{
-		    color: white;
-		    font-size: 20px;
-		    padding: 0 0 0 5px;
-		}
-		#fiv_tx2{
-		    color: #e4202b;
-		    font-size: 360px;
-
-		}
-		#Lenny{
-		display: inline-flex;
-		padding: 0 0 0 3%;
-		}
-		#carl{
-		padding: 4px 0px 0px 30px;
-		}
-		.fr_1{
-		    font-size: 40px;
-				color: black;
-		   	}
-		.fr_2{
-		font-size: 25px;
-		color: black;
-		}
-		.fr_3{
-		    font-size: 30px;
-		    color: #e4202b;
-			text-decoration: none;
-		}
-		.fr_4{
-		font-size: 25px;
-		}
-		footer {
-			background-color: #f1f1F1;
-		}
-@media only screen and (max-width:768px) {
-	#fiv_tx2 {
-	    font-size: 150px;
-		}
-		.fr_1{
-		    font-size: 26px;
-			}
-			.fr_2 {
-    font-size: 18px;
-    margin: 10px;
+	</div>
+	<style media="screen">
+	body, html{
+		height: 100%;
 	}
-}
-		</style>
-	</section>
+	.section_404{
+		min-height: 100%;
+		background-size: cover;
+		box-sizing: border-box;
+		padding-top: 140px;
+	}
+	.one_slider{
+	
+		margin: 0 auto;
+		color: white;
+		text-align: center;
+		border: none;
+		padding-top: 1px;
+		}
+	.fr_1{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.section_name{
+		font-size: 48px;
+		margin: 30px auto;
+	}
+	.bx-wrapper{
+		margin: 30px auto;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow:none;
+		border: none;
+		background: transparent;
+		position: relative;
+	}
+	.logo_proj{
+		display: inline-block;
+		vertical-align: middle;
+		box-sizing: border-box;
+		text-align: center;
+		text-align: -webkit-center;
+	}
+	.bx-wrapper img{width: 85%;}
+	.proj_slider{
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+	.logo_proj_einstein img{width: 65%;}
+	.logo_proj_ryba img{width: 65%;}
+	.bx-wrapper .bx-controls-direction a{text-indent: 0; text-align: center; position: absolute; top: calc(50% - 10px);}
+	.bx-wrapper .bx-prev {left: -16px;}
+	.bx-wrapper .bx-next {right: -16px;}
+	@media only screen and (max-width:768px) {
+
+	}
+	</style>
 	<?php include('includes/form_callback.php'); ?>
-	<footer>
+	<!-- <footer>
         <div class="wrapper">
             <span class="copy">Copyright 2016</span>
             <span class="smarto">
@@ -187,40 +154,56 @@
                 <a href="#" class="logo-smart"></a>
             </span>
         </div>
-  </footer>
-    <script src="js/lib/snap.svg-min.js"></script>
-    <script src="js/lib/slider.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-thumbs.js"></script>
-    <script src="js/lib/wow.min.js"></script>
-		<script src="js/progres.js"></script>
+  </footer> -->
 
-	<!-- <script src="js/scripts.js"> -->
-  <script>
-       new ScrollMagic.Scene({triggerElement: ".trigger-0"})
-      .setClassToggle(".header", "zipped").addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 700})
-      .setTween(".fifteenth .title", {transform: "translateX(-20%)"}).addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 300})
-      .setTween(".fifteenth i.line", {transform: "translateX(0)"}).addTo(controller);
-			var scene = new ScrollMagic.Scene({triggerElement: ".lamps", duration: 300})
-      .setTween(".lamps img", {opacity: "1"}).addTo(controller);
-
-			$(document).ready(function() { // вся мaгия пoсле зaгрузки стрaницы
-
-				/* Зaкрытие мoдaльнoгo oкнa*/
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 
-	$('.form input, .form textarea').blur(function(){
-			if($(this).val()){
-					$(this).next().hide();
-			} else {
-					$(this).next().show();
+	<script>
+
+		var defaultSliderConfiguration = {
+			slideWidth: 180,
+			minSlides: 1,
+			maxSlides: 5,
+			moveSlides: 1,
+			auto: true,
+			speed: 1000,
+			pause: 3000,
+			slideMargin: 20,
+			infiniteLoop: true,
+			easing: "ease-in-out",
+			responsive: true,
+			touchEnabled: true,
+			nextText: '<svg height="20" viewBox="0 0 215.60001 421.0636" width="12" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m0 416.08179c0 2 1.2 3.8 3.1 4.6s4 .3 5.4-1.1l205.6-205.6c1-1 1.5-2.3 1.5-3.5s-.5-2.6-1.5-3.5l-205.5-205.4999914c-1.3-1.4-3.5-1.9-5.5-1.1-1.9.8-3.1 2.6000001-3.1 4.6000002z"/></svg>',
+		  prevText: '<svg height="20" viewBox="0 0 215.60001 421.0636" width="12" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>',
+			pager: false,
+			// controls: false,
+			onSliderResize: function() {
+				var sliderConfiguration = getScreenSize();
+				bxSlider.reloadSlider(sliderConfiguration)
 			}
-	})
+		};
 
-	$("a.grouped_elements").fancybox();
-});
+		function getScreenSize() {
+			var width = window.innerWidth;
+			if(width > 1260) {
+				return defaultSliderConfiguration;
+			} else if(width > 1060 && width < 1260) {
+				return Object.assign({}, defaultSliderConfiguration, {maxSlides: 4 });
+			} else if(width > 850 && width < 1060) {
+				return Object.assign({}, defaultSliderConfiguration, {maxSlides: 3 });
+			} else if(width > 440 && width < 850) {
+				return Object.assign({}, defaultSliderConfiguration, {maxSlides: 2 });
+			} else {
+				return Object.assign({}, defaultSliderConfiguration, {maxSlides: 1 });
+			}
+		}
+
+		var sliderConfiguration = getScreenSize();
+
+		var bxSlider = $(".proj_slider").bxSlider(sliderConfiguration);
+
 	</script>
 </body>
 </html>
