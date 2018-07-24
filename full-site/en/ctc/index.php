@@ -183,8 +183,8 @@
 					text-align: inherit;
 				}
 				.hidden_box{ height: 0px; overflow: hidden; }
-				.content_wrap { width: 100%; max-width: 1000px; padding: 20px 10px; margin: 50px auto 30px; line-height: 1.6; box-sizing: border-box;}
-				.content_name{color: white;    line-height: 300px;    text-align: center;    font-size: 80px;}
+				.content_wrap { width: 100%; max-width: 1000px; padding: 20px 10px; margin: 0px auto 30px; line-height: 1.6; box-sizing: border-box;}
+				.content_name{color: white;    line-height: 320px;    text-align: center;    font-size: 80px;}
 				.content_subname{font-family: inherit, sans-serif; margin-top: 20px; font-size: 1.875em; line-height: 1.3; letter-spacing: .025em; text-align:center;}
 				.bolder{font-weight: bold;}
 				.ctc__top, .ctc__box, .ctc__footer{
