@@ -234,6 +234,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/kub/" class="separate">куб</a></li>
             <li><a href="/#place" class="separate">Розташування</a></li>
             <li><a href="/choice/" class="separate">Квартири</a></li>
+			<li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
 			      <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна нерухомість</a></li>
 				  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
             <li><a href="/news/" class="separate">Новини</a></li>
@@ -300,6 +301,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><span id="budinok_open">Будинок &#9660;</span>
         <ul id="budinok">
           <li><a href="/choice/" class="separate">Квартири</a></li>
+		  <li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
           <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна<br>нерухомість</a></li>
           <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
         </ul></li>

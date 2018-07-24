@@ -252,6 +252,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/ru/kub/" class="separate">куб</a></li>
             <li><a href="/ru/#place" class="separate">расположение</a></li>
             <li><a href="/ru/choice/" class="separate">Квартиры</a></li>
+			<li><a href="/ru/kvartiri-s-remontom/" class="separate">Квартиры с ремонтом</a></li>
 			      <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая недвижимость</a></li>
             <li><a href="/ru/news/"class="separate">новости</a></li>
             <li><a href="/ru/#builder" class="separate">Застройщик</a></li>
@@ -270,6 +271,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><span id="budinok_open">Дом &#9660;</span>
         <ul id="budinok">
           <li><a href="/ru/choice/" class="separate">Квартиры</a></li>
+		  <li><a href="/ru/kvartiri-s-remontom/" class="separate">Квартиры с ремонтом</a></li>
           <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая <br> недвижимость</a></li>
         </ul></li>
         <li><a href="/ru/#builder" class="separate">Застройщик</a></li>
@@ -422,7 +424,7 @@ setTimeout(function(){
 
 $('#budinok_open, #budinok').hover(
   function(){
-  $('#budinok').css('height','95px');
+  $('#budinok').css('height','130px');
 },function(){
   $('#budinok').css('height','0');
 });

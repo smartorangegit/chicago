@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
 	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.6">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
@@ -49,7 +49,7 @@
 
 			<div class="kub_text">
 				<p>
-					Розташування комплексу <a class="remont__link" href="https://chicago.kiev.ua/choice/"> CHICAGO Central House</a> — це оптимальний варіант для тих, хто хоче бути в центрі подій і жити в одному ритмі з містом. Та для того, щоб ваш переїзд до нової квартири став ще приємнішим, ми вирішили всі питання з ремонтом: розробили ексклюзивний дизайн, підібрали меблі та техніку.
+					Розташування комплексу <a class="remont__link" href="https://chicago.kiev.ua"> CHICAGO Central House</a> — це оптимальний варіант для тих, хто хоче бути в центрі подій і жити в одному ритмі з містом. Та для того, щоб ваш переїзд до нової квартири став ще приємнішим, ми вирішили всі питання з ремонтом: розробили ексклюзивний дизайн, підібрали меблі та техніку.
 				</p>
 				<p>
 					Проекти дизайну розроблені <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">студією D73</a> — міжнародною компанією, роботи якої відомі в Швейцарії, Італії, Росії, Грузії. Для облаштування квартир в CHICAGO Central House були обрані два популярні напрямки — Nordic і Modern Glamour.
