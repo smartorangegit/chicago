@@ -249,6 +249,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/en/kub/" class="separate">cube</a></li>
             <li><a href="/en/#place" class="separate">Location</a></li>
             <li><a href="/en/choice/" class="separate">flats</a></li>
+			<li><a href="/en/kvartiri-s-remontom/" class="separate">Apartments with repair</a></li>
 			<li><a href="/en/torgovie-pomescheniya/" class="separate">commercial premises</a></li>
             <li><a href="/en/news/" class="separate">news</a></li>
             <li><a href="/en/#builder" class="separate">developer</a></li>
@@ -267,6 +268,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
       <li><span id="budinok_open">house &#9660;</span>
         <ul id="budinok">
           <li><a href="/en/choice/" class="separate">flats</a></li>
+		  <li><a href="/en/kvartiri-s-remontom/" class="separate">Apartments with repair</a></li>
           <li><a href="/en/torgovie-pomescheniya/" class="separate">commercial <br> premises</a></li>
         </ul></li>
 			<li><a href="/en/#builder" class="separate">developer</a></li>
@@ -388,7 +390,7 @@ setTimeout(function(){
 
 $('#budinok_open, #budinok').hover(
   function(){
-  $('#budinok').css('height','95px');
+  $('#budinok').css('height','130px');
 },function(){
   $('#budinok').css('height','0');
 });

@@ -6,7 +6,7 @@
 	<meta name="description" content="【ЖК CHICAGO Central House】Мы позаботились о вашем времени, поэтому в продаже представлены три квартиры с готовым ремонтом ✅ Для обустройства квартир в CHICAGO Central House выбраны три популярные направления — Classic, Modern Glamour и Nordic">
 	<title>≡ Квартиры з ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
-  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
 	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.6">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
@@ -25,11 +25,11 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 </head>
 
 <body>
-	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
 	<!--preloader/ -->
 	<style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
 	right:0;bottom:0; margin:auto;}</style>
@@ -49,10 +49,10 @@
 
 			<div class="kub_text">
 				<p>
-					Месторасположение комплекса <a href="https://chicago.kiev.ua/choice/"> CHICAGO Central House</a> — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и современную технику.
+					Месторасположение комплекса <a class="remont__link" href="https://chicago.kiev.ua/ru/"> CHICAGO Central House</a> — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и современную технику.
 			</p>
 			<p>
-				Проекты дизайна разработаны <a href="http://www.d73.it/studio/" target="_blank">студией D73</a> — международной компанией, работы которой известны в Швейцарии, Италии, России, Грузии. Для обустройства квартир в CHICAGO Central House были выбраны два популярных направления — Nordic и Modern Glamour.
+				Проекты дизайна разработаны <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">студией D73</a> — международной компанией, работы которой известны в Швейцарии, Италии, России, Грузии. Для обустройства квартир в CHICAGO Central House были выбраны два популярных направления — Nordic и Modern Glamour.
 			</p>
 			</div>
 			<!-- <h2>Дизайн квартиры в стиле Classic</h2>
@@ -104,11 +104,11 @@
 			<h2>
 				Дизайн квартиры в стиле Nordic
 			</h2>
-			<!-- <div class="kub_text">
+			<div class="kub_text">
 				<p>
 				В дизайне квартиры в стиле Nordic ощущается любовь к цвету и необычным решениям. Черты скандинавского стиля прослеживаются во всем: синем и сером оттенках стен, натуральных материалах, из которых выполнены мебель и паркет.
 				</p>
-			</div> -->
+			</div>
 			<div class="remont__slider-wrap">
 				<div class="remont__box-slider3">
 					<div class="remont__box">
@@ -157,6 +157,7 @@
 							<a class="remont__img" class="remont__img" href="/img/remont/NORDIC_BEDROOM.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
 								<img class="remont__img" src="/img/remont/NORDIC_BEDROOM.jpg"  alt="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic">
 							</a>
+							<!-- <a class="remont__img" class="remont__img" href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic"></a> -->
 							<a class="remont__img" class="remont__img" href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic" title="Дизайн квартиры в стиле Nordic"></a>
 						</div>
 						<div class="kub_text">
@@ -272,7 +273,7 @@
 			<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="/img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
 		</div>
 	</footer>
-	<?php include('../includes/form_callback.php'); ?>
+	<?php include('../../includes/form_callback.php'); ?>
 
 	<script src="/js/ScrollMagic.min.js"></script>
 	<script src="/js/snapSliderFancy.js"></script>

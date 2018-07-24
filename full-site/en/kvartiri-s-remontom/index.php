@@ -9,16 +9,16 @@
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
-	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
-  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kub/" />
+	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
+	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartiri-s-remontom/" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
 	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.6">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
@@ -52,10 +52,10 @@
 
 		<div class="kub_text">
 			<p>
-				Location of the <a href="https://chicago.kiev.ua/choice/"> CHICAGO Central House</a> residential complex is the best possible option for those wishing to be in the spotlight and live in one rhythm with the city. So, in order to make your moving to a new apartment more pleasant, we solved all issues with repair: we developed an exclusive design, chose furniture and necessary appliances.
+				Location of the <a class="remont__link" href="https://chicago.kiev.ua/en/"> CHICAGO Central House</a> residential complex is the best possible option for those wishing to be in the spotlight and live in one rhythm with the city. So, in order to make your moving to a new apartment more pleasant, we solved all issues with repair: we developed an exclusive design, chose furniture and necessary appliances.
 		</p>
 		<p>
-			The projects of design have been developed by the <a href="http://www.d73.it/studio/" target="_blank"> D73 studio </a>, an international company, the works of which are well-known in Switzerland, Italy, Russia and Georgia. Two popular directions have been chosen for arrangement of the apartments in the CHICAGO Central House: Nordic and Modern Glamour.
+			The projects of design have been developed by the <a class="remont__link" href="http://www.d73.it/studio/" target="_blank"> D73 studio </a>, an international company, the works of which are well-known in Switzerland, Italy, Russia and Georgia. Two popular directions have been chosen for arrangement of the apartments in the CHICAGO Central House: Nordic and Modern Glamour.
 		</p>
 		</div>
 		<h2>
@@ -215,7 +215,7 @@ Apartment in Modern Glamour style became the second project of the D73 studio. T
 				Choose your option and contact the Sales Department at the following address: 44, Antonovycha Street, as soon as possible. Our managers will answer all your questions, tell about the purchasing terms and help you to choose a style of interior meeting your demands.
 			</p>
 		</div>
-		<a href="/ru/choice/" class="button remont__button button-red">Выбор квартир</a>
+		<a href="/en/choice/" class="button remont__button button-red">Choose a flat</a>
 
 	</div>
 </section>
