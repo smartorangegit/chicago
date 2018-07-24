@@ -13,14 +13,14 @@ $uRr = "https://$_SERVER[HTTP_HOST]".'/ru'."$_SERVER[REQUEST_URI]";
 }
 ?>
 <style media="screen">
-  #budinok_open, #uwf_open{
+  #budinok_open, #uwf_open, #ctc_open{
     position: relative;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 14px;
   }
-  #budinok, #uwf_active{
+  #budinok, #uwf_active, #ctc_active{
     position: absolute;
     height: 0px;
     box-sizing: border-box;
@@ -36,11 +36,10 @@ $uRr = "https://$_SERVER[HTTP_HOST]".'/ru'."$_SERVER[REQUEST_URI]";
     margin-left: -1px;
     margin-top: 8px;
   }
-  #budinok li, #uwf_active li{
+  #budinok li, #uwf_active li, #ctc_active li{
     display: block;
     border: none;
     padding: 10px;
-
   }
 </style>
 <? include('preloader.php'); ?>
@@ -286,7 +285,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
               }
       );
   });
-  
+
          $('.menu-close').click( function(){
         $('#minimenu').animate({opacity: 0, top: '45%'}, 200, function(){
                // пoсле aнимaции
@@ -302,7 +301,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
         <ul id="budinok">
           <li><a href="/choice/" class="separate">Квартири</a></li>
           <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна<br>нерухомість</a></li>
-		  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+          <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
         </ul></li>
       <li><a href="/#builder" class="separate">Забудовник</a></li>
       <li><a href="/news/" id="uwf_open" class="separate">Новини &#9660;</a>
@@ -310,7 +309,12 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
           <li><a href="/fashion/" class="separate">UFW</a></li>
         </ul>
       </li>
-      <li><a href="/progress/" class="separate">Будівництво</a></li>
+      <li><a href="/progress/" id="ctc_open" class="separate">Будівництво &#9660;</a>
+        <ul id="ctc_active">
+          <li><a href="/ctc/">Client Technical Control</a>
+          </li>
+        </ul>
+      </li>
       <li><a href="/#contact" class="separate">Зв'язок</a></li>
       <li>
         <a href="/progress/#webcam" class="separate">
@@ -389,6 +393,13 @@ $('#uwf_open, #uwf_active').hover(
   $('#uwf_active').css('height','35px');
 },function(){
   $('#uwf_active').css('height','0');
+});
+
+$('#ctc_open, #ctc_active').hover(
+  function(){
+  $('#ctc_active').css('height','35px');
+},function(){
+  $('#ctc_active').css('height','0');
 });
 
 </script>
