@@ -235,7 +235,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/#place" class="separate">Розташування</a></li>
             <li><a href="/choice/" class="separate">Квартири</a></li>
 			      <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна нерухомість</a></li>
-				  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+            <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
             <li><a href="/news/" class="separate">Новини</a></li>
             <li><a href="/#builder" class="separate">Забудовник</a></li>
             <li><a href="/progress/" class="separate">Будівництво</a></li>
@@ -311,7 +311,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
       </li>
       <li><a href="/progress/" id="ctc_open" class="separate">Будівництво &#9660;</a>
         <ul id="ctc_active">
-          <li><a href="/ctc/">Client Technical Control</a>
+          <li><a href="/ctc/" class="separate">Client Technical Control</a>
           </li>
         </ul>
       </li>
