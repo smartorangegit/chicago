@@ -301,7 +301,8 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
         <ul id="budinok">
           <li><a href="/choice/" class="separate">Квартири</a></li>
           <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна<br>нерухомість</a></li>
-          <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+          <li><a href="/atmosfera/" class="separate">SFERA Living System</a></li>
+          <li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
         </ul></li>
       <li><a href="/#builder" class="separate">Забудовник</a></li>
       <li><a href="/news/" id="uwf_open" class="separate">Новини &#9660;</a>
