@@ -54,7 +54,7 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Finishing the masonry at 12-16 floors. The laying is on floors 17-20. Monolith is a floor covering of 24-25 floors. Windows - 15-19 floors. Windows over the cube - installed crossbars system. NPF - Zhilyanskaya - up to 15 floors. VC - risers 15th floor. OV - horizontal layout - 12th floor. Electricity - 15 floor risers. Tightening - 12th floor.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">Completed brickwork on 12-16 floors, started - on 17-20 floors. Monolithic works: overlap 24-25 floors. Windows: installation is on floors 15-19. Windows over the cube: installed crossbars system. NPF - Zhilyanskaya - up to 15 floors. VC: risers on the 15th floor. OV: Arrangement of a horizontal extension on the 12th floor. Electricity: Arrangement of risers on the 15th floor. Tightening: Work on the 12th floor.</span></p>
         <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
