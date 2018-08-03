@@ -54,7 +54,7 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Completed brickwork on 12-16 floors, started - on 17-20 floors. Monolithic works: overlap 24-25 floors. Windows: installation is on floors 15-19. Windows over the cube: installed crossbars system. NPF - Zhilyanskaya - up to 15 floors. VC: risers on the 15th floor. OV: Arrangement of a horizontal extension on the 12th floor. Electricity: Arrangement of risers on the 15th floor. Tightening: Work on the 12th floor.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">The completion of the laying on 15-18 floors, the laying on 19-22 floors. Monolith: overlap 24-25 floors. Installation of windows: work continues on 15-19 floors. Installation of windows over the cube: installed system bolts. NPF - Zhilyanskaya - up to 15 floors. VC: risers on the 15th floor are installed. OV - horizontal layout: work is ongoing on the 12th floor. Electricity: risers on the 15th floor are installed. Tightening: 12th floor. The installation of the farm continues.</span></p>
         <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
