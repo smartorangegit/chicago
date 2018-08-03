@@ -2572,6 +2572,10 @@ var marker7 = new google.maps.Marker({
 			<span>Sat: 10.00 - 18.00;</span>
 			<span>Sun: 10.00 - 18.00;</span>
 		</div>
+		<div class="working_hours">
+			<span>Service department:</span>
+			<span>(044) 494 04 00</span>
+		</div>
 		<input  type="submit" value="Send" class="button">
 		</form>
 

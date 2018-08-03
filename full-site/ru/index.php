@@ -2583,6 +2583,10 @@ var marker7 = new google.maps.Marker({
 			<span>Сб: 10.00 - 18.00;</span>
 			<span>Вск: 10.00 - 18.00;</span>
 		</div>
+		<div class="working_hours">
+			<span>Отдела сервиса:</span>
+			<span>(044) 494 04 00</span>
+		</div>
 		<input  type="submit" value="Отправить" class="button">
 		</form>
 		<form  id="realtor-form" action="application.php" method=post enctype="multipart/form-data" class="wrapper form clearfix" style="display: none;">

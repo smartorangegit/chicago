@@ -784,6 +784,10 @@
 	<span>Сб: 10.00 - 18.00;</span>
 	<span>Нд: 10.00 - 18.00;</span>
 </div>
+<div class="working_hours">
+	<span>Відділ сервісу:</span>
+	<span>(044) 494 04 00</span>
+</div>
     <div id="info"></div>
 		<input  type="submit" value="Надіслати" class="button">
 		</form>
