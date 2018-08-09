@@ -127,9 +127,18 @@
 				</div>
 			</div>
 			<div id="webcam" class="progres_web">
-				<iframe <?LazyLoad("https://macparts.kiev.ua:8402/player.html");?> name="restreamer-player" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>    </div>
+				<iframe <?LazyLoad("https://macparts.kiev.ua:8402/player.html");?> name="restreamer-player" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe> 
+				<div class="man-wrap">
+					<img src="/img/web-man.png" alt="man" class="man">
+					<div class="web-cloud">
+						<img src="/img/web-cloud.png" alt="cloud" class="web-cloud__image">
+						<p class="web-cloud__text" style="color: #000">Стильного вам дня!</p>
+					</div>
+				</div>
 			</div>
   </section>
+			
+
 
 		<section id="foto" class="building">
 			<div class="wrapper">
@@ -365,11 +374,53 @@
 		color: #fff;
 	}
 	.image-item--58 {
- margin-top: 6px;
-}
-.image-item--60 {
-margin-top: 160px;	
-}
+		 margin-top: 6px;
+	}
+	.image-item--60 {
+		margin-top: 160px;	
+	}
+
+	/*webcam-man*/
+	.progres_web {
+		position: relative;
+	}
+	.man-wrap {
+		position: absolute;
+		top: -20%;
+		left: -70%;
+		transform: scale(1.3);
+		/*animation: manShow 0.7s forwards;*/
+	}
+	@keyframes manShow {
+		from {left: -50%; transform: rotate(-25deg) scale(1.3);}
+		to {left: -20%; transform: rotate(0) scale(1.3);}
+	}
+	.web-cloud {
+		position: absolute;
+		top: 0;
+		right: -50%;
+	}
+	.web-cloud__text {
+		max-width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #000;
+		text-align: center;
+	}
+	@media screen and (max-width: 1400px) {
+		@keyframes manShow {
+			from {left: -50%; transform: rotate(-25deg);}
+			to {left: -10%; transform: rotate(0)}
+		}
+	}
+	@media screen and (max-width: 900px) {
+		.man-wrap {
+			display: none;
+		}
+	}
+	/*end__webcam-man*/
 	</style>
 
     <script src="../js/lib/snap.svg-min.js"></script>
@@ -489,6 +540,21 @@ $('.circle_3').circleProgress({
 		$(this).find('span').html(<?=$v4;?> + '<i>%</i>');
 		$(this).find('p').html('Мережі');
 	});
+
+
+	// webcam man
+	$(window).on("scroll", function() {
+		var manPosition = $("#webcam").offset().top;
+		var currentTop = $(this).scrollTop();
+		var diff = manPosition - currentTop;
+
+		if(diff < 500) {
+			$(".man-wrap").css("animation", " manShow 1s forwards");
+		}
+	});
+	// var time = new Date().getHours();
+	// console.log(time);
+	// end__webcam man
 
 	</script>
 <?}?>
