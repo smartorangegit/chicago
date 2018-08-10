@@ -386,7 +386,7 @@
 	}
 	.man-wrap {
 		position: absolute;
-		top: -20%;
+		top: 0;
 		left: -70%;
 		transform: scale(1.3);
 		/*animation: manShow 0.7s forwards;*/
