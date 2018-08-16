@@ -386,7 +386,7 @@
 	}
 	.man-wrap {
 		position: absolute;
-		top: 0;
+		top: 0%;
 		left: -70%;
 		transform: scale(1.3);
 		/*animation: manShow 0.7s forwards;*/
@@ -415,9 +415,15 @@
 			to {left: -10%; transform: rotate(0)}
 		}
 	}
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 500px) {
 		.man-wrap {
-			display: none;
+			left: -100%;
+			top: -120%;
+			transform: scale(0.7);
+		}
+		@keyframes manShow {
+			from {left: -50%; transform: rotate(-25deg) scale(0.5);}
+			to {left: -30%; transform: rotate(0) scale(0.5);}
 		}
 	}
 	/*end__webcam-man*/
