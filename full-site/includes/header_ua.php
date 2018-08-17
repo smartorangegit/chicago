@@ -227,7 +227,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
       <li id="mobile" class="mobile">
         <ul id="minimenu">
           <li id="miniclose" class="mobile">
-            <li class="language"><?php /*Google Tag Manager*/ include($_SERVER['DOCUMENT_ROOT'].'/includes/lang_m.php'); ?></li>
+            <li class="language"><?php /*Google Tag Manager*/ if ($_SERVER[REQUEST_URI] != '/atmosfera/'){include($_SERVER['DOCUMENT_ROOT'].'/includes/lang_m.php');} ?></li>
 			<li class="menu-close">
               <svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
             </li>
@@ -329,7 +329,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
       Телефон відділу продажу <em class="em_phone" style="display:none;">(044) 49-80-400</em><p class="phone_display"><a href="tel:(044) 49-80-400">(044) 49-80-400</a></p>
       <div class="header-button"><a href="#callback" class="button callback">Замовити дзвінок</a></div>
     </div>
-    <?php /*Google Tag Manager*/ include_once($_SERVER['DOCUMENT_ROOT'].'/includes/lang.php'); ?>
+    <?php /*Google Tag Manager*/ if ($_SERVER[REQUEST_URI] != '/atmosfera/'){include_once($_SERVER['DOCUMENT_ROOT'].'/includes/lang.php');} ?>
 			<a href="http://saga-development.com.ua/" class="saga-logo <?if(count(explode("/", $_SERVER['REQUEST_URI']))>2){echo 'saga_logo_off';}?>" target="_blank">
 			<img src="/img/saga-logo.svg">
 		</a>
