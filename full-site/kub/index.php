@@ -162,7 +162,7 @@
 
 			$('#budinok_open, #budinok').hover(
 			  function(){
-			  $('#budinok').css('height','95px');
+			  $('#budinok').css('height','170px');
 			},function(){
 			  $('#budinok').css('height','0');
 			});
