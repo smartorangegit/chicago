@@ -173,6 +173,7 @@
 						<div class="content_text">
 							*You may become a participant of Client Control only with regard to your building.
 						</div>
+						<a class="button callback button-red button-call" href="#callback-ctc"">Join the CTC meetings</a>
 					</div>
 				</div>
 
@@ -213,6 +214,25 @@
 					.ctc__footer .ctc_img{height: 80px;}
 					.ctc__footer .ctc_icon{height: 100%;}
 				}
+				.button-call {
+						font-family: "IntroBlack", arial, sans-serif;
+						display: block;
+						text-align: center;
+						letter-spacing: 2px;
+						color: #fff;
+						text-transform: uppercase;
+						cursor: pointer;
+						line-height: 48px;
+						margin: 50px auto 27px;
+						
+					}
+					@media screen and (max-width: 560px) {
+						.button.button-red {font-size: 12px;}
+					}
+					#zipCode1-ctc {
+						padding-left: 45px;
+						height: 40px;
+					} 
 
 				</style>
 			</div>
@@ -220,6 +240,7 @@
 
 
 	<?php include('../../includes/form_callback_en.php'); ?>
+	<?php include('../../includes/form_callback_ctc_en.php'); ?>
 	<?php include('../../includes/footer_en.php'); ?>
 
 <!-- <script src="/js/scripts.js"></script> -->

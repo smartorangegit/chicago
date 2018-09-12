@@ -5,7 +5,7 @@
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Construction process and web camera of CHICAGO Central House Residential Estate</title>
+	<title>≡ CHICAGO Central House 》Construction process and web camera of CHICAGO Central House Residential Estate</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://<?php echo $_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 Monitor CHICAGO Residential Estate construction process together with us - a 24-hour web camera and photoreports from the construction site are available for you ✅ 【CHICAGO】">
@@ -16,10 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/css/demo.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="/css/set1.css" /> -->
-    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
     <!-- <link rel="stylesheet" href="/css/slider-style.css"> -->
-    <link rel="stylesheet" href="/css/jquery.fancybox.css">
-    <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css"> -->
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -27,9 +27,11 @@
   <link rel="stylesheet" href="/css/progress.css?v=2">
     <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
     <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
-    <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-    <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.min.js"></script>
+    <!-- <script src="/js/lib/plugins/debug.addIndicators.min.js"></script> -->
+    		<meta property="og:title" content="≡ CHICAGO Central House 》Construction process and web camera of CHICAGO Central House Residential Estate" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 Monitor CHICAGO Residential Estate construction process together with us - a 24-hour web camera and photoreports from the construction site are available for you ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -54,8 +56,8 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">The completion of the laying on 15-18 floors, the laying on 19-22 floors. Monolith: overlap 24-25 floors. Installation of windows: work continues on 15-19 floors. Installation of windows over the cube: installed system bolts. NPF - Zhilyanskaya - up to 15 floors. VC: risers on the 15th floor are installed. OV - horizontal layout: work is ongoing on the 12th floor. Electricity: risers on the 15th floor are installed. Tightening: 12th floor. The installation of the farm continues.</span></p>
-        <p><span class="plan--1">Expected time of construction: </span><span class="normal normal--2">4Q 2018</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">THE FINISHING OF THE MACHINE ON 19-20 SURFACES, MAKES A COOL AT 21-22 SURFACES. MONOLITH: INTERMEDIATE 24-25 SURFACE, PARAPHET. INSTALLATION OF THE WINDOW: WORKING ON SURFACES AND SURFACES 15-19 SURFACES. WINDOW INSTALLATION OVER CUBE: MODIFIED TO 15 SURFACES. NPF - RESIDENCE - TO 15 SURFACES. VK: SETS UP TO 16 SURFACES. OV - HORIZONTAL DISTRIBUTION: COMPLETELY WORK ON 16 STEPS. ELECTRICITY: SETS ON 16 STEPS. STAINLESS: 14-15 SURFACES. FIXED INSTALLATION AND FABRIC COVER. BEGINNING OF CUBA WORKS.</span></p>
+        <p><span class="plan--1">SCHEDULED TERM OF IN COMMISSIONING: </span><span class="normal normal--2">4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
 				<div class="status__grid grid__1">
@@ -360,20 +362,20 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--58 {
+	.image-item--65 {
  margin-top: 6px;
 }
-.image-item--60 {
+.image-item--67 {
 margin-top: 160px;	
 }	</style>
 	<script src="/js/scripts.js"></script>
-    <script src="/js/lib/snap.svg-min.js"></script>
-    <script src="/js/lib/slider.js"></script>
+    <!-- <script src="/js/lib/snap.svg-min.js"></script> -->
+    <!-- <script src="/js/lib/slider.js"></script> -->
     <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-thumbs.js"></script>
+    <!-- <script src="/js/jquery.fancybox-thumbs.js"></script> -->
     <script src="/js/lib/wow.min.js"></script>
 	<script src="/js/progres.js"></script>
-	<script src="/js/circle-progress.js"></script>
+	<script src="/js/circle-progress.min.js"></script>
 
     <?$perstSelect = $DB->query("SELECT * FROM `pers`");
     while ($rowPers= mysqli_fetch_array($perstSelect)) {

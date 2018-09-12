@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="Сучасні технології дають змогу побачити те, що ми зазвичай сприймаємо іншими органами чуття. ">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="【ЖК CHICAGO Central House】 Сучасні технології дають змогу побачити те, що ми зазвичай сприймаємо іншими органами чуття. ">
+	
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kub/" />
@@ -37,6 +37,9 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ ЖК Чикаго 》Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House" />
+		<meta property="og:description" content="【ЖК CHICAGO Central House】 Сучасні технології дають змогу побачити те, що ми зазвичай сприймаємо іншими органами чуття. " />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>

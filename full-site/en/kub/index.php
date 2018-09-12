@@ -8,7 +8,7 @@
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 Modern technologies make it possible to see what we usually perceive to other senses. ✅ 【CHICAGO】">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kub/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kub/" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kub/" />
@@ -37,6 +37,9 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ CHICAGO Central House 》Glass cube with media sculpture" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 Modern technologies make it possible to see what we usually perceive to other senses. ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>

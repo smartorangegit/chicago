@@ -8,7 +8,7 @@
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/atmosfera/" />
     <!-- <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
@@ -21,6 +21,9 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="SFERA Living System - ЖК CHICAGO Central House" />
+		<meta property="og:description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -405,7 +408,7 @@
 
   		$('#budinok_open, #budinok').hover(
 			  function(){
-			  $('#budinok').css('height','95px');
+			  $('#budinok').css('height','202px');
 			},function(){
 			  $('#budinok').css('height','0');
 			});

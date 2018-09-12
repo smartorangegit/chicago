@@ -5,7 +5,7 @@
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Apartments in the newly-built apartment block with underground parking | CHICAGO Central House Residential Estate</title>
+<title>≡ CHICAGO Central House 》Apartments in the newly-built apartment block with underground parking | CHICAGO Central House Residential Estate</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 <meta name="description" content="✅ 【CHICAGO Central House】 CHICAGO Residential Estate is a newly-built apartment block in the downtown of Kiev with the underground parking, capable of placing all vehicles of residents ✅ 【CHICAGO】">
@@ -29,7 +29,10 @@
 <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
 <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<meta property="og:title" content="≡ CHICAGO Central House 》Apartments in the newly-built apartment block with underground parking | CHICAGO Central House Residential Estate" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 CHICAGO Residential Estate is a newly-built apartment block in the downtown of Kiev with the underground parking, capable of placing all vehicles of residents ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
@@ -37,7 +40,7 @@
         var controller = new ScrollMagic.Controller();
     </script>
 	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
-
+<section class="topic">
 	<section class="fifteenth" style="height:auto;">
 		<h1 class="title">Underground Parking in   <br>CHICAGO Central House Residential Estate </h1>
 	</section>
@@ -83,8 +86,9 @@
 				 No more exhausting searches for free space, expensive toll parking far from home and worries about safety of you vehicle. Your vehicle will be in a convenient place under our control in the CHICAGO Central House Residential Estate.
 			 	</p>
 			</div>
-
-				<div class="news_other">
+			<?php include('../../includes/form_main_en.php'); ?>
+		<div class="flex-link">
+			<div class="news_other">
 				<div class="other_name">read more</div>
 				<div class="other_news_item">
 					<a href="/en/kvartira-center/">APARTMENT IN THE CITY CENTRE</a>
@@ -103,12 +107,82 @@
 					<a href="/en/torgovie-pomescheniya/">RETAIL SPACE</a>
 					<span class="other_news_date"></span>
 				</div>
-	</div>
+			</div>
+			<div class="news_other">
+				<div class="other_name">
+					<a href="/en/choice/" title="Квартири" >Apartments</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/en/odnokomnatnaya-kvartira/" title="One-room apartments in LCD CHICAGO Central House">1 room</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/en/dvuhkomnatnaya-kvartira/" title="Two-Room Apartments in ЖК CHICAGO Central House">2 room</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/en/trehkomnatnaya-kvartira/" title="Three-Room Apartments in ЖК CHICAGO Central House">3 room</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/en/dvuhurovnevaya-kvartira/" title="Duplex Apartments in ЖК CHICAGO Central House">Two-level</a>
+					<span class="other_news_date"></span>
+				</div>
+			</div>
+		 </div>
+		 <style>
+			.flex-link {
+				display:flex;
+			}
+			.news_other {
+				width: 50%;
+			}
+			@media only screen and (max-width: 599px){
+				.flex-link {
+					flex-direction: column;
+				}
+				.news_other {
+					width: 100%;
+				}
+			}
+			.other_name	a {
+				display: block;
+				text-transform: uppercase;
+				font-size: 20px;
+				color: white;
+				transition: 0.25s;
+			}
+			.other_name	a:hover {
+				color:red;
+			}
+			@media screen and (max-width: 856px) and (min-width: 320px) {
+				section.topic {
+					padding-top: 352px;
+				}
+			}
+			@media only screen and (max-width: 768px){
+				.for_btn {
+					bottom: 0;
+					max-width: 380px;
+					position: static;
+					transform: none;
+				}
+			}
+			@media screen and (max-width: 380px) and (min-width: 320px){
+				.form {
+					height: auto;
+					margin-top: 26px;
+				}
+			}
+			</style>
 		 </div>
   </section>
+ </section>
 
 	<?php include('../../includes/form_callback_en.php'); ?>
 <?php include('../../includes/footer_en.php'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="/js/scripts.js"></script>
 
     <script src="/js/lib/snap.svg-min.js"></script>

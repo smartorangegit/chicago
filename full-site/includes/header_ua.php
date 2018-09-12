@@ -236,10 +236,12 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/choice/" class="separate">Квартири</a></li>
 			<li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
 			      <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна нерухомість</a></li>
-            <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+				  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+				  
             <li><a href="/news/" class="separate">Новини</a></li>
             <li><a href="/#builder" class="separate">Забудовник</a></li>
             <li><a href="/progress/" class="separate">Будівництво</a></li>
+			<li><a href="/ctc/" class="separate">Client Technical Control</a></li>
             <li><a href="/#contact" class="separate">Зв'язок</a></li>
             <li>
               <a href="/progress/#webcam" class="separate">
@@ -286,7 +288,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
               }
       );
   });
-
+  
          $('.menu-close').click( function(){
         $('#minimenu').animate({opacity: 0, top: '45%'}, 200, function(){
                // пoсле aнимaции
@@ -303,8 +305,8 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
           <li><a href="/choice/" class="separate">Квартири</a></li>
 		  <li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
           <li><a href="/torgovie-pomescheniya/" class="separate">Комерційна<br>нерухомість</a></li>
-          <li><a href="/atmosfera/" class="separate">SFERA Living System</a></li>
-          <li><a href="/kvartiri-s-remontom/" class="separate">Квартири з ремонтом</a></li>
+		  <li><a href="/atmosfera/" class="separate">SFERA Living System</li>
+		  
         </ul></li>
       <li><a href="/#builder" class="separate">Забудовник</a></li>
       <li><a href="/news/" id="uwf_open" class="separate">Новини &#9660;</a>
@@ -386,7 +388,7 @@ setTimeout(function(){
 
 $('#budinok_open, #budinok').hover(
   function(){
-  $('#budinok').css('height','162px');
+  $('#budinok').css('height','170px');
 },function(){
   $('#budinok').css('height','0');
 });
@@ -397,12 +399,10 @@ $('#uwf_open, #uwf_active').hover(
 },function(){
   $('#uwf_active').css('height','0');
 });
-
 $('#ctc_open, #ctc_active').hover(
   function(){
   $('#ctc_active').css('height','35px');
 },function(){
   $('#ctc_active').css('height','0');
 });
-
 </script>

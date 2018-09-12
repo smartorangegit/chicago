@@ -42,7 +42,7 @@ while ($myrow = mysql_fetch_array($check))
     <title>CHICAGO Central House - apartments in the center of Kyiv, street Antonovich (Gorky</title>
     <meta name="viewport" content="width=device-width">
 
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://chicago.kiev.ua/en/choice/"/>
 
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/appart/?type=<?php echo $ty?>" />

@@ -32,7 +32,9 @@
 		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
+		<meta property="og:title" content="≡ ЖК CHICAGO Central House 》 Панорама" />
+		<meta property="og:description" content="【Панорамный вид с высоты CHICAGO Central House】 Центр столицы за вашими окнами!.. ✅【ЖК CHICAGO】 Американское качество ➜ Украинская цена за квартиру в центре Киева! ✅【ЖК Чикаго Централ Хаус】 Адрес расположения: Киев, ул. Антоновича 44 (Горького).... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 <?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
     <!-- MAPS -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

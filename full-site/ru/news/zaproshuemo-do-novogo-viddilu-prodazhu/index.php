@@ -22,12 +22,12 @@ while ($myrow = mysqli_fetch_array($sel))
         <meta property="og:description" content="<?=$myrow['description_ru'];?>" />
         <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>" />
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
         <meta name="description" content="<?=$myrow['description_ru'];?>">
 
-        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/vivid_life_in_center/" />
-        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/vivid_life_in_center/" />
-        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/vivid_life_in_center/" />
+		<? $rel_url = explode("/", $_SERVER['REQUEST_URI']); ?>
+		<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
+        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua<?php echo '/news/'.$rel_url[3].'/';?>" />
+        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua<?php echo '/en/news/'.$rel_url[3].'/';?>" />
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
@@ -45,7 +45,7 @@ while ($myrow = mysqli_fetch_array($sel))
         <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
         <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
         <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
         <?php /*Google Tag Manager*/ include_once('../../../includes/gtm_head.php'); ?>
     </head>
 
@@ -66,9 +66,9 @@ while ($myrow = mysqli_fetch_array($sel))
 
     <section class="third light">
         <div class="lamps wrapper">
-            <img src="../../img/icons/lamp.png" alt="lamp" />
-            <img src="../../img/icons/lamp.png" alt="lamp" />
-            <img src="../../img/icons/lamp.png" alt="lamp" />
+            <img src="/img/icons/lamp.png" alt="lamp" />
+            <img src="/img/icons/lamp.png" alt="lamp" />
+            <img src="/img/icons/lamp.png" alt="lamp" />
         </div>
         <div class="wrapper">
             <span class="trigger-0"></span>

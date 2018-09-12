@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="【ЖК CHICAGO Central House】Мы позаботились о вашем времени, поэтому в продаже представлены три квартиры с готовым ремонтом ✅ Для обустройства квартир в CHICAGO Central House выбраны три популярные направления — Classic, Modern Glamour и Nordic">
-	<title>≡ Квартиры з ремонтом в CHICAGO Central House</title>
+	<title>≡ Квартиры с ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
-	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
+	<link rel="stylesheet" href="/css/style.css?ver=1.1">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.7">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
@@ -47,7 +47,7 @@
 		<div class="kub_wrapper">
 			<h1>Квартиры с ремонтом от студии дизайна D73</h1>
 
-			<div class="kub_text">
+			<div class="kub_text first_block">
 				<p>
 					Месторасположение комплекса  <a class="remont__link" href="https://chicago.kiev.ua/ru/"> CHICAGO Central House</a> — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и современную технику.
 				</p>
@@ -80,13 +80,14 @@
 							<p>
 								Поскольку направление Nordic объединяет в себе черты минимализма и экостиля, для кухни, совмещенной с гостиной, дизайнеры выбрали мебель из светло-коричневого дерева с матовой поверхностью. Чтобы не перегружать комнату лишними компонентами и при этом сохранить ее функциональность, вся техника известного бренда BOSCH встроена в шкафы:
 							</p>
-								●	посудомоечная машина — BOSCH SMV24AX005,
-								●	духовая печь — BOSCH HBN539S5,
-								●	варочная поверхность — BOSCH PKE611FP1E,
-								●	стиральная машина — Whirpool EWSF61503W,
-								●	холодильник — Whirlpool 6502-A+.
+							<ul>
+								<li>●	посудомоечная машина — BOSCH SMV24AX005,</li>
+								<li>●	духовая печь — BOSCH HBN539S5,</li>
+								<li>●	варочная поверхность — BOSCH PKE611FP1E,</li>
+								<li>●	стиральная машина — Whirpool EWSF61503W,</li>
+								<li>●	холодильник — Whirlpool 6502-A+.</li>
 
-
+							</ul>
 						</div>
 					</div>
 					<div class="remont__box">
@@ -135,9 +136,13 @@
 				<button class="slider-remont__button slider-remont__button_next slider1-remont__button_next"></button>
 			</div>
 
+			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank">3D-тур квартиры</a>
+
+
 			<h2>
 				Дизайн квартиры в стиле Nordic — второй вариант планировки
 			</h2>
+
 			<div class="kub_text">
 				<p>
 					В отделке второй квартиры в стиле Nordic дизайнеры использовали больше светлых оттенков, при этом оставив синий ключевым цветом для стен всех комнат.
@@ -206,6 +211,9 @@
 				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
 			</div>
 
+			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank">3D-тур квартиры</a>
+
+
 			<h2>Дизайн квартиры в стиле Modern Glamour</h2>
 
 			<div class="kub_text">
@@ -233,13 +241,14 @@
 						</div>
 						<div class="kub_text">
 							Основная цветовая гамма — серая, она прослеживается во всей квартире. Контрастные стены в светло-серых и графитовых оттенках дополняет мебель — обеденный стол, стулья, обтянутые серой кожаной тканью, в гостиной — мягкий диван, кофейный столик и два ярко-розовых кресла, которые служат своеобразным акцентом комнаты. Встроенная в шкафы из светлого дерева, техника представлена следующих моделей:
-							●	посудомоечная машина — BOSCH SMV24AX005,
-							●	духовая печь — BOSCH HBN539S5,
-							●	варочная поверхность — BOSCH PKE611FP1E,
-							●	стиральная машина — Whirpool EWSF61503W,
-							●	холодильник — Whirlpool 6502-A+.
+							<ul>
+							<li>●	посудомоечная машина — BOSCH SMV24AX005,</li>
+							<li>●	духовая печь — BOSCH HBN539S5,</li>
+							<li>●	варочная поверхность — BOSCH PKE611FP1E,</li>
+							<li>●	стиральная машина — Whirpool EWSF61503W,</li>
+							<li>●	холодильник — Whirlpool 6502-A+.</li>
 
-
+							</ul>
 						</div>
 					</div>
 
@@ -275,6 +284,8 @@
 				<button class="slider-remont__button slider-remont__button_prev slider3-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider3-remont__button_next"></button>
 			</div>
+			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank">3D-тур квартиры</a>
+
 			<h2>
 			Как купить квартиру с ремонтом в CHICAGO Central House
 			</h2>
@@ -292,64 +303,14 @@
 	</section>
 	<div class="button3D_box">
 		<div class="button_3D">
-			3D тур квартир
+			3D-тур квартир
 		</div>
 	<ul class="list_3D">
-		<li><a href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank" title="Nordic#1">Nordic. Варіант планування 1</a></li>
-		<li><a href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank" title="Nordic#2">Nordic. Варіант планування 2</a></li>
+		<li><a href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank" title="Nordic#1">Nordic. Вариант планировки 1</a></li>
+		<li><a href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank" title="Nordic#2">Nordic. Вариант планировки 2</a></li>
 		<li><a href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank" title="Modern Glamour">Modern Glamour</a></li>
 	</ul>
 </div>
-	<style>
-	.button3D_box {
-    position: fixed;
-    top: 200px;
-    right: 40px;
-		line-height: 2.2;
-}
-.button_3D{
-	transform: rotate(270deg);
-	-webkit-transform: rotate(270deg);
-	position: absolute;
-	transform-origin: right;
-  right: -20px;
-  top: -22px;
-  padding: 4px 19px;
-  background:#e4202b;
-	cursor: pointer;
-	z-index: 5;
-}
-.list_3D {
-	background-color: #e4202b;
-	transform: translateX(120%);
-	-webkit-transform: translateX(120%);
-	transition: 0.6s ease-in-out;
-	padding: 14px;
-}
-.list_3D_transformed{
-	transform: translateX(0);
-	-webkit-transform: translateX(0);
-}
-.list_3D a{
-	color: white;
-	letter-spacing: 1px;
-	position: relative;
-	display: block;
-}
-.list_3D a:after{
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 2px;
-	height: 2px;
-	width: 0;
-	background-color: #ffffff;
-	transition: 0.45s ease-out;
-	}
-.list_3D a:hover:after	{
-	width: 100%;
-}
-	</style>
 	<footer>
     <div class="wrapper">
       <span class="copy">© 2017 CHICAGO Central House</span>
@@ -382,6 +343,9 @@
 			display: block;
 			max-height: 600px;
 			margin: 0 auto;
+		}
+		.first_block {
+			margin-bottom: 40px;
 		}
 		</style>
 		<script>
@@ -416,7 +380,7 @@
 	    nextArrow: '.slider3-remont__button_next'
 	  });
 
-		$('.button_3D').click(function(){
+		$('.button3D_box').hover(function(){
 			$('.list_3D').toggleClass('list_3D_transformed')
 		});
 

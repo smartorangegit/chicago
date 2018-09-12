@@ -14,10 +14,10 @@
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/progress/" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	  <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slider-style.css">
-    <link rel="stylesheet" href="../css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../css/jquery.fancybox-thumbs.css">
+	  <link rel="stylesheet" href="../css/animate.min.css">
+    <!-- <link rel="stylesheet" href="../css/slider-style.css"> -->
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="../css/jquery.fancybox-thumbs.css"> -->
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -25,10 +25,13 @@
   <link rel="stylesheet" href="../css/progress.css?v=2">
     <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
     <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-    <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-    <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.min.js"></script>
+    <!-- <script src="../js/lib/plugins/debug.addIndicators.min.js"></script> -->
+    
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+			<meta property="og:title" content="≡ ЖК Чикаго 》Хід будівництва і вебкамера CHICAGO Central House" />
+		<meta property="og:description" content="【Хід будівництва, вебкамери в CHICAGO Central House】 Слідкуйте за будівництвом ЖК Чикаго Централ Хаус разом з нами - до ваших послуг цілодобова вебкамера і фотозвіти з будівельного майданчика. Запланована дата здачі в експлуатацію, статус робіт, таймлайн..... ✅ 【житловий комплекс CHICAGO】 вул. Володимира Антоновича (Горького), 44" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -55,8 +58,8 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">Закінчення кладки на 15-18 поверхах, триває кладка на 19-22 поверхах. Моноліт: перекриття 24-25 поверхів. Монтаж вікон: тривають роботи на 15-19 поверхи. Монтаж вікон над кубом: встановлені ригелі системи. НВФ – Жилянська – до 15 поверху. ВК: встановлюються стояки на 15 поверсі. ОВ – горизонтальна розводка: тривають роботи на 12 поверсі. Електрика: встановлюються стояки на 15 поверсі. Стяжка: 12 поверх. Триває монтаж ферми.</span></p>
-        <p><span class="plan--1">Запланований термін завершення будівництва:</span><span class="normal normal--2">ΙV квартал 2018 року</span></p>
+        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">ЗАКІНЧЕННЯ КЛАДКИ НА 19-20 ПОВЕРХАХ, ТРИВАЄ КЛАДКА НА 21-22 ПОВЕРХАХ. МОНОЛІТ: ПЕРЕКРИТТЯ 24-25 ПОВЕРХІВ, ПАРАПЕТ. МОНТАЖ ВІКОН: ТРИВАЮТЬ РОБОТИ НА 15-19 ПОВЕРХИ ТА ЗІ СТОРОНИ ДВОРУ. МОНТАЖ ВІКОН НАД КУБОМ: ЗМОНТОВАНІ ДО 15 ПОВЕРХУ. НВФ – ЖИЛЯНСЬКА – ДО 15 ПОВЕРХУ. ВК: ВСТАНОВЛЮЮТЬСЯ СТОЯКИ ДО 16 ПОВЕРХА. ОВ – ГОРИЗОНТАЛЬНА РОЗВОДКА: ТРИВАЮТЬ РОБОТИ НА 16 ПОВЕРСІ. ЕЛЕКТРИКА: ВСТАНОВЛЮЮТЬСЯ СТОЯКИ НА 16 ПОВЕРСІ. СТЯЖКА: 14-15 ПОВЕРХИ. ТРИВАЄ МОНТАЖ ТА ПОКРАСКА ФЕРМИ. ПОЧАТОК РОБІТ ПО КУБУ.</span></p>
+        <p><span class="plan--1">Запланований термін введення в експлуатацію:</span><span class="normal normal--2">ΙV квартал 2018 року</span></p>
       </h2>
 
 			<div class="status clearfix">
@@ -373,10 +376,10 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--58 {
+	.image-item--65 {
 		 margin-top: 6px;
 	}
-	.image-item--60 {
+	.image-item--67 {
 		margin-top: 160px;	
 	}
 
@@ -429,13 +432,13 @@
 	/*end__webcam-man*/
 	</style>
 
-    <script src="../js/lib/snap.svg-min.js"></script>
-    <script src="../js/lib/slider.js"></script>
+    <!-- <script src="../js/lib/snap.svg-min.js"></script> -->
+    <!-- <script src="../js/lib/slider.js"></script> -->
     <script src="../js/jquery.fancybox.pack.js"></script>
-    <script src="../js/jquery.fancybox-thumbs.js"></script>
+    <!-- <script src="../js/jquery.fancybox-thumbs.js"></script> -->
     <script src="../js/lib/wow.min.js"></script>
 		<script src="../js/progres.js"></script>
-		<script src="../js/circle-progress.js"></script>
+		<script src="../js/circle-progress.min.js"></script>
     <!-- <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
     </script> -->
@@ -558,8 +561,6 @@ $('.circle_3').circleProgress({
 			$(".man-wrap").css("animation", " manShow 1s forwards");
 		}
 	});
-	// var time = new Date().getHours();
-	// console.log(time);
 	// end__webcam man
 
 	</script>

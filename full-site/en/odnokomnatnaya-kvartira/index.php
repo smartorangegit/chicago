@@ -13,7 +13,7 @@ $myrow = mysql_fetch_array ($check);
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/odnokomnatnaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Purchase a one-room apartment in CHICAGO Central House Residential Estate</title>
+	<title>≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
@@ -32,7 +32,9 @@ $myrow = mysql_fetch_array ($check);
   <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -120,10 +122,18 @@ A one-room dwelling is in great demand among young people: often such apartments
 			</div>
     </div>
   </section>
-
+  <style>
+  @media only screen and (max-width: 768px) {
+	.fifteenth {
+		height: 229px;
+	}
+}
+  </style>
+<?php include('../../includes/form_main_en.php'); ?>
 	<?php include('../../includes/form_callback.php'); ?>
 
 <?php include('../../includes/footer_en.php'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script src="/js/scripts.js"></script>
     <script src="../../js/lib/snap.svg-min.js"></script>
     <script src="../../js/lib/slider.js"></script>

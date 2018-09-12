@@ -15,21 +15,19 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	<link rel="stylesheet" href="/css/animate.css">
-  <link rel="stylesheet" href="/css/slider-style.css">
-  <link rel="stylesheet" href="/css/jquery.fancybox.css">
-  <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/progress.css">
+	<link rel="stylesheet" href="/css/news.css">
+
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/progress.css">
-	<link rel="stylesheet" href="/css/news.css">
-  <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
-  <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  
   <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+  		<meta property="og:title" content="≡ ЖК Чикаго 》 Новости, акции, скидки | CHICAGO Central House" />
+		<meta property="og:description" content="【Новости, события, акции, скидки】 Самая свежая информация о жилом комплексе CHICAGO Central House Киев - объявления, графики работы отдела продаж, акции, скидки и.... ✅【ЖК Чикаго】 Адрес расположения: Киев, ул. Антоновича 44 (Горького). Карта проезда... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -69,16 +67,19 @@
             $cutTime = $time[0] . ':' . $time[1];
             $dateMon = explode("-", $dt);
             ?>
-            <div class="img-item image-item--<?= $zi; ?>" data-date="<?= $dt; ?>">
+            <div class="img-item image-item--<?= $zi; ?> wow fadeIn" data-date="<?= $dt; ?>">
                 <div class="img-name"><span><?= $myrow['name_news_ru']; ?></span></div>
                 <div class="img-date"><? russian_date($dt); ?> года</div>
-                <div class="img-info"><span><?= $myrow['min_text_ru']; ?> ... </span></div>
-                <a class="eye grouped_elements" rel="gal1" href="<?= $myrow['news_code'].'/'; ?>"><img
-                            src="/img/prog-eye.png" alt="eye"/></a>
+                <div class="img-info"><span><?= $myrow['min_text_ru']; ?></span></div>
+                <a class="eye grouped_elements" rel="gal1" href="<?= $myrow['news_code'].'/'; ?>"><!--<img
+                            src="/img/prog-eye.png" alt="eye"/>--></a>
                 <style>.image-item--<?=$zi;?> {
-                        background-image: url(<?=$myrow['img_path']."/".$myrow['img_name'];?>);
+                        background-image: url(<?=$myrow['img_path']."/min_".$myrow['img_name']."?v=1.0";?>);
                     }</style>
             </div>
+			<style>
+			.grouped_elements {width: 100%;top:0;height:100%;left: 0;background: url(/img/prog-eye.png) center center no-repeat}
+			</style>
             <?
             $zi++;
         }
@@ -137,13 +138,13 @@
 	<?php include('../../includes/form_callback_ru.php'); ?>
 
 <?php include('../../includes/footer_ru.php'); ?>
+	<script src="/js/ScrollMagic.min.js"></script>
+	<script src="/js/snapSliderFancy.js"></script>
 	<script src="/js/scripts.js"></script>
-    <script src="/js/lib/snap.svg-min.js"></script>
-    <script src="/js/lib/slider.js"></script>
-    <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-thumbs.js"></script>
-    <script src="/js/lib/wow.min.js"></script>
-		<script src="/js/progres.js"></script>
+	<script>
+	var controller = new ScrollMagic.Controller();
+	</script>
+  <script src="/js/lib/wow.min.js"></script>
     <!-- <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
     </script> -->

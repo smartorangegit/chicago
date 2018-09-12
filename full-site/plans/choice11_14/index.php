@@ -6,7 +6,7 @@
     <title>ЖК CHICAGO Central House - квартири у центрі Києва, вулиця Антоновича (Горького)</title>
   
     <meta name="viewport" content="width=device-width">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://chicago.kiev.ua/choice/"/>
   	<meta name="description" content="ЖК CHICAGO Central House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/plans/choice10_14/" />

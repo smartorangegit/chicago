@@ -5,7 +5,7 @@
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Panorama | CHICAGO Central House Residential Estate</title>
+	<title>≡ CHICAGO Central House 》Panorama | CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 A bird's eye view on the downtown of Kiev from CHICAGO Central House ✅ 【CHICAGO】">
@@ -32,7 +32,9 @@
 		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
+		<meta property="og:title" content="≡ CHICAGO Central House 》Panorama | CHICAGO Central House Residential Estate" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 A bird's eye view on the downtown of Kiev from CHICAGO Central House ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 <?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
     <!-- MAPS -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

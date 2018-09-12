@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 <!--666-->
-	<?php
+	<?php 
 /* 	require("../adm/includes/conn.php");
 $sql = "select * from chika_img WHERE date='2017-02-14'";
 $sql2 = "select * from chika_img WHERE date='2017-02-15'";
@@ -11,17 +11,17 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
  ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>SFERA Living System - ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》SFERA Living System - ЖК CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
-  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
+    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<meta name="description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
+	<!--<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/atmosfera/" />
-  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" />
+    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="../css/demo.css" />
-<!-- <link rel="stylesheet" type="text/css" href="../css/set1.css" /> -->
+<link rel="stylesheet" type="text/css" href="../css/set1.css" />
 <link rel="stylesheet" href="../css/animate.css">
 <link rel="stylesheet" href="../css/slider-style.css">
 <link rel="stylesheet" href="../css/jquery.fancybox.css">
@@ -35,8 +35,11 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
 <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ ЖК Чикаго 》SFERA Living System - ЖК CHICAGO Central House" />
+		<meta property="og:description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх" />
+		<meta property="og:image" content="https://<?=$_SERVER['SERVER_NAME']?>/img/new_render_s.jpg"/>
 </head>
 <style media="screen">
 		body {
@@ -109,8 +112,6 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
         var controller = new ScrollMagic.Controller();
     </script>
 		<?php /*меню*/ include_once('../includes/header_ua.php'); ?>
-
-
 	<section class="fifteenth news" id="builder">
 		<span class="trigger-7"></span>
         <h1 class="title" style="transform: translate3d (20px, 0, 0)">ATMOSFERA</h1>
@@ -182,7 +183,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
               <img src="/img/atm/atm3.png" alt="">
             </div>
             <div class="atm__content">
-              <div class="content_subname subheader">МОБІЛЬНИЙ ДОДАТОК SFERA</div>
+              <div class="content_subname subheader">МОБІЛЬНИЙ ДОТАТОК SFERA</div>
               <ul>
                 <li>звітність про будівництво</li>
                 <li>домофон у смартфоні – відкривайте двері з мобільного додатку навіть коли вас немає вдома</li>
@@ -248,7 +249,7 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
                 <p>
                   Система «розумна квартира» є частиною приватного простору, тому вона може бути встановлена лише за бажанням мешканця.
                 </p>
-
+       
 
               </div>
 
@@ -465,8 +466,8 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
     <script src="../js/jquery.fancybox-thumbs.js"></script>
     <script src="../js/lib/wow.min.js"></script>
 		<script src="../js/progres.js"></script>
-		<script src="../js/scripts.js"></script>
-
+		<script src="../js/scripts.js"></script> 
+		
 
 </body>
 </html>

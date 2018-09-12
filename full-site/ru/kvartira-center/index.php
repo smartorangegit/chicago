@@ -28,8 +28,11 @@
 <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
 <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ Квартира в центре - ЖК Чикаго 》Купить недвижимость в центре Киева в CHICAGO Central House" />
+		<meta property="og:description" content="【Купить квартиру в центре Киева - ЖК CHICAGO Central House】Продажа квартир бизнес класса в жилом комплексе ЖК Чикаго Централ Хаус в Голосеевском районе столицы. Цена... ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -39,7 +42,7 @@
     </script>
 
 	<?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
-
+<section class="topic">
 		<section class="fifteenth light">
 			<h1 class="title">Квартиры в центре Киева <br>от ЖК CHICAGO Central House </h1>
 		</section>
@@ -64,7 +67,8 @@
           Если вы цените собственный комфорт и статус &minus; покупайте квартиру в центре Киева в жилом комплексе CHICAGO Central House. Благоустроенная придомовая территория, уникальный дизайн, качественная отделка, современный уровень обслуживания, близость к значимым городским объектам, удобная транспортная развязка, собственное паркоместо – все это может стать вашим уже сейчас. Для этого достаточно позвонить в отдел продаж или оставить свой номер телефона через удобную форму на сайте.
 					</p>
 				</div>
-				
+				<?php include('../../includes/form_main_ru.php'); ?>
+				<div class="flex-link">
 					<div class="news_other">
 				<div class="other_name">читать далее</div>
 				
@@ -84,13 +88,70 @@
 					<a href="/ru/torgovie-pomescheniya/">торговые помещения</a>
 					<span class="other_news_date"></span>
 				</div> 
-	</div>
+				</div>
+				<div class="news_other">
+				<div class="other_name">
+					<a href="/ru/choice/" title="Квартири" >Квартиры</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/ru/odnokomnatnaya-kvartira/" title="Однокомнатные квартиры в ЖК CHICAGO Central House">1 комнатные</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/ru/dvuhkomnatnaya-kvartira/" title="Двухкомнатные квартиры в ЖК CHICAGO Central House">2 комнатные</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/ru/trehkomnatnaya-kvartira/" title="Трехкомнатные квартиры в ЖК CHICAGO Central House">3 комнатные</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/ru/dvuhurovnevaya-kvartira/" title="Двухуровневые квартиры в ЖК CHICAGO Central House">Двухуровневые</a>
+					<span class="other_news_date"></span>
+				</div>
+				</div>
+			</div>
+			<style>
+			.flex-link {
+				display:flex;
+			}
+			.news_other {
+				width: 50%;
+			}
+			@media only screen and (max-width: 599px){
+				.flex-link {
+					flex-direction: column;
+				}
+				.news_other {
+					width: 100%;
+				}
+			}
+			.other_name	a {
+				display: block;
+				text-transform: uppercase;
+				font-size: 20px;
+				color: white;
+				transition: 0.25s;
+			}
+			.other_name	a:hover {
+				color:red;
+			}
+			@media screen and (max-width: 856px) and (min-width: 320px) {
+				section.topic {
+					padding-top: 352px;
+				}
+			}
+			</style>
 			</div>
   	</section>
+</section>
+
 
 	<?php include('../../includes/form_callback_ru.php'); ?>
 
 <?php include('../../includes/footer_ru.php'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script src="/js/scripts.js"></script>
     <script src="/js/lib/snap.svg-min.js"></script>
     <script src="/js/lib/slider.js"></script>

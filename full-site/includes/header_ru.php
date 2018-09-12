@@ -19,14 +19,14 @@ $uRn = "https://$_SERVER[HTTP_HOST]".'/en'."$_SERVER[REQUEST_URI]";
 //echo $uRa ;
 ?>
 <style media="screen">
-  #budinok_open, #uwf_open{
+  #budinok_open, #uwf_open, #ctc_open{
     position: relative;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 14px;
   }
-  #budinok, #uwf_active{
+  #budinok, #uwf_active, #ctc_active{
     position: absolute;
     height: 0px;
     box-sizing: border-box;
@@ -42,11 +42,10 @@ $uRn = "https://$_SERVER[HTTP_HOST]".'/en'."$_SERVER[REQUEST_URI]";
     margin-left: 0px;
     margin-top: 8px;
   }
-  #budinok li, #uwf_active li{
+  #budinok li, #uwf_active li, #ctc_active li{
     display: block;
     border: none;
     padding: 10px;
-
   }
 </style>
 <? include('preloader.php'); ?>
@@ -253,10 +252,12 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/ru/#place" class="separate">расположение</a></li>
             <li><a href="/ru/choice/" class="separate">Квартиры</a></li>
 			<li><a href="/ru/kvartiri-s-remontom/" class="separate">Квартиры с ремонтом</a></li>
-			      <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая недвижимость</a></li>
+			<li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая недвижимость</a></li>
+			<!--<li><a href="/ru/atmosfera/" class="separate">SFERA Living System</li>-->
             <li><a href="/ru/news/"class="separate">новости</a></li>
             <li><a href="/ru/#builder" class="separate">Застройщик</a></li>
             <li><a href="/ru/progress/" class="separate">строительство</a></li>
+			<li><a href="/ru/ctc/" class="separate">Client Technical Control</a></li>
             <li><a href="/ru/#contact" class="separate">связь</a></li>
             <li>
               <a href="/ru/progress/#webcam" class="separate">
@@ -273,6 +274,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
           <li><a href="/ru/choice/" class="separate">Квартиры</a></li>
 		  <li><a href="/ru/kvartiri-s-remontom/" class="separate">Квартиры с ремонтом</a></li>
           <li><a href="/ru/torgovie-pomescheniya/" class="separate">Коммерческая <br> недвижимость</a></li>
+		  <!--<li><a href="/ru/atmosfera/" class="separate">SFERA Living System</li>-->
         </ul></li>
         <li><a href="/ru/#builder" class="separate">Застройщик</a></li>
         <li><a href="/ru/news/" id="uwf_open" class="separate">новости &#9660;</a>
@@ -280,7 +282,12 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/ru/fashion/" class="separate">UFW</a></li>
           </ul>
         </li>
-      <li><a href="/ru/progress/" class="separate">строительство</a></li>
+       <li><a href="/ru/progress/" id="ctc_open" class="separate">строительство ▼</a>
+	  	<ul id="ctc_active">
+          <li><a href="/ru/ctc/" class="separate">Client Technical Control</a>
+          </li>
+        </ul>
+	  </li>
       <li><a href="/ru/#contact" class="separate">связь</a></li>
       <li>
         <a href="/ru/progress/#webcam" class="separate">
@@ -443,4 +450,10 @@ $('#uwf_open, #uwf_active').hover(
                 $('.content-item').css('height','auto');
         });
        });
+$('#ctc_open, #ctc_active').hover(
+  function(){
+  $('#ctc_active').css('height','35px');
+},function(){
+  $('#ctc_active').css('height','0');
+});
 </script>

@@ -12,10 +12,10 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
  ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Ukrainian Fashion Week - партнер ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》Ukrainian Fashion Week - партнер ЖК CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="CHICAGO Central House - це житловий комплекс для людей, які звикли завжди перебувати у центрі подій. Тому ми є партнером Ukrainian Fashion Week">
+	<meta name="description" content="【ЖК CHICAGO Central House】 CHICAGO Central House - це житловий комплекс для людей, які звикли завжди перебувати у центрі подій. Тому ми є партнером Ukrainian Fashion Week">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/fashion/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/fashion/" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/fashion/" />
@@ -36,8 +36,11 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
 <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
 <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
 <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ ЖК Чикаго 》Ukrainian Fashion Week - партнер ЖК CHICAGO Central House" />
+		<meta property="og:description" content="【ЖК CHICAGO Central House】 CHICAGO Central House - це житловий комплекс для людей, які звикли завжди перебувати у центрі подій. Тому ми є партнером Ukrainian Fashion Week" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 <style media="screen">
 		body {

@@ -198,7 +198,9 @@
 							<div class="content_text">
 								*Стати учасником Клієнтського Контролю можна лише для свого будинку.
 							</div>
+							<a class="button callback button-red button-call" href="#callback-ctc"">Приєднатися до зустрічей КТК</a>
 						</div>
+						
 					</div>
 
 					<style media="screen">
@@ -238,15 +240,37 @@
 						.ctc__footer .ctc_img{height: 80px;}
 						.ctc__footer .ctc_icon{height: 100%;}
 					}
-
+					
+					.button-call {
+						font-family: "IntroBlack", arial, sans-serif;
+						display: block;
+						text-align: center;
+						letter-spacing: 2px;
+						color: #fff;
+						text-transform: uppercase;
+						cursor: pointer;
+						line-height: 48px;
+						margin: 50px auto 27px;
+						
+					}
+					@media screen and (max-width: 560px) {
+						.button.button-red {font-size: 12px;}
+					}
+					#zipCode1-ctc {
+						padding-left: 45px;
+						height: 40px;
+					} 
 					</style>
 				</div>
 
 
 
 	<?php include('../includes/form_callback.php'); ?>
+	<?php include('../includes/form_callback_ctc.php'); ?>
 
 <?php include('../includes/footer_ua.php'); ?>
+
+
 
 <script src="../js/lib/snap.svg-min.js"></script>
     <script src="../js/lib/slider.js"></script>
@@ -256,6 +280,11 @@
 		<script src="../js/progres.js"></script>
 		<script src="../js/scripts.js"></script>
 
-
+<script>
+	//menu js
+	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.button-red.button-call").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
+	//end menu js
+		var controller = new ScrollMagic.Controller();
+		</script>
 </body>
 </html>

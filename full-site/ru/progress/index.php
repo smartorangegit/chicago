@@ -16,10 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/css/demo.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="/css/set1.css" /> -->
-    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
     <!-- <link rel="stylesheet" href="/css/slider-style.css"> -->
-    <link rel="stylesheet" href="/css/jquery.fancybox.css">
-    <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css"> -->
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -27,10 +27,13 @@
   <link rel="stylesheet" href="/css/progress.css?v=2">
     <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
     <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
-    <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-    <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.min.js"></script>
+    <!-- <script src="/js/lib/plugins/debug.addIndicators.min.js"></script> -->
+    
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+			<meta property="og:title" content="≡ ЖК Чикаго 》Ход строительства и вебкамера CHICAGO Central House" />
+		<meta property="og:description" content="【Ход строительства, вебкамеры в CHICAGO Central House】Следите за строительством ЖК Чикаго Централ Хаус вместе с нами - к вашим услугам круглосуточная вебкамера и фотоотчеты с строительной площадки. Запланированная дата сдачи в эксплуатацию, статус... ✅【жилой комплекс CHICAGO】 ул. Владимира Антоновича (Горького), 44..." />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -55,10 +58,10 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Статус работ:</span><span class="normal normal--1">Окончание кладки на 15-18 этажах, продолжается кладка на 19-22 этажах. Монолит: перекрытия 24-25 этажей. Монтаж окон: продолжаются работы на 15-19 этажа. Монтаж окон над кубом: установленные ригели системы. НПФ - Жилянская - до 15 этажа. ВК: устанавливаются стойки на 15 этаже. ОВ - горизонтальная разводка: продолжаются работы на 12 этаже. Электричество: устанавливаются стойки на 15 этаже. Стяжка 12 этаж. Продолжается монтаж фермы.
+        <p><span>Статус работ:</span><span class="normal normal--1">Окончание кладки на 19-20 этажах, ПРОДОЛЖАЕТСЯ кладка на 21-22 этажах. МОНОЛИТ: перекрытия 24-25 этажей, парапеты. МОНТАЖ ОКОН: ПРОДОЛЖАЮТСЯ РАБОТЫ НА 15-19 ЭТАЖИ И со стороны двора. МОНТАЖ ОКОН НАД кубом: смонтированы К 15 ЭТАЖА. НПФ - Жилянская - К 15 ЭТАЖА. ВК: УСТАНАВЛИВАЮТСЯ стояки до 16 этажей. ОВ - горизонтальной разводкой: ПРОДОЛЖАЮТСЯ РАБОТЫ НА 16 ЭТАЖЕ. ЭЛЕКТРИЧЕСТВО: УСТАНАВЛИВАЮТСЯ стояк на 16 этаже. Стяжка: 14-15 ЭТАЖИ. ПРОДОЛЖАЕТСЯ МОНТАЖ И ПОКРАСКА ФЕРМЫ. НАЧАЛО РАБОТ ПО КУБУ.
 
 </span></p>
-        <p><span class="plan--1">Запланированный срок окончания строительства:</span><span class="normal normal--2">ΙV квартал 2018 года</span></p>
+        <p><span class="plan--1">Запланированный срок ввода в эксплуатацию:</span><span class="normal normal--2">ΙV квартал 2018 года</span></p>
       </h2>
 
 
@@ -379,21 +382,21 @@
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--58 {
+	.image-item--65 {
  margin-top: 6px;
 }
-.image-item--60 {
+.image-item--67 {
 margin-top: 160px;	
 }
 	</style>
 	<script src="/js/scripts.js"></script>
-    <script src="/js/lib/snap.svg-min.js"></script>
-    <script src="/js/lib/slider.js"></script>
+    <!-- <script src="/js/lib/snap.svg-min.js"></script> -->
+    <!-- <script src="/js/lib/slider.js"></script> -->
     <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-thumbs.js"></script>
+    <!-- <script src="/js/jquery.fancybox-thumbs.js"></script> -->
     <script src="/js/lib/wow.min.js"></script>
 		<script src="/js/progres.js"></script>
-		<script src="/js/circle-progress.js"></script>
+		<script src="/js/circle-progress.min.js"></script>
     <?$perstSelect = $DB->query("SELECT * FROM `pers`");
     while ($rowPers= mysqli_fetch_array($perstSelect)) {
     $v1 = $rowPers['persent_1'];

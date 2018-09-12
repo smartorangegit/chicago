@@ -36,7 +36,9 @@ $result2 = mysql_query($sql2) or die ("Нет соединения с базой
     <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
     <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    		<meta property="og:title" content="≡ CHICAGO Central House 》Ukrainian Fashion Week is the partner of CHICAGO Central House Residential Estate" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 CHICAGO is a Residential Estate for people, who got used to being in the centre of events all the time. That is why our partner is Ukrainian Fashion Week ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 <style media="screen">
 		body {

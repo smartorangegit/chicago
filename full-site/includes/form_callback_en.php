@@ -25,8 +25,6 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
             <input  name="inn" class="userInn" type="hidden" value="Chicago"/>
             <input  type="submit" value="Send" class="button">
         </form>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/untispam.js"></script>
        <style media="screen">
          form input[type="submit"]{
            border: 4px solid #FF000B;
@@ -42,7 +40,5 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
  <!-- скрипт маски номера -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-<script src="/js/intlTelInput.min.js"></script>
-<script src="/js/maskInitialisation.js"></script>
+<script defer src="/js/maskInitialisation.js"></script>
 <!-- конец скрипта маски -->

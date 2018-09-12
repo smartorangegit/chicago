@@ -20,14 +20,14 @@ $ru = str_replace('/en/', "/ru/",$actual_link);
 
 ?>
 <style media="screen">
-  #budinok_open, #uwf_open{
+  #budinok_open, #uwf_open, #ctc_open{
     position: relative;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 14px;
   }
-  #budinok, #uwf_active{
+  #budinok, #uwf_active, #ctc_active{
     position: absolute;
     height: 0px;
     box-sizing: border-box;
@@ -43,11 +43,10 @@ $ru = str_replace('/en/', "/ru/",$actual_link);
     margin-left: -4px;
     margin-top: 8px;
   }
-  #budinok li, #uwf_active li{
+  #budinok li, #uwf_active li, #ctc_active li{
     display: block;
     border: none;
     padding: 10px;
-
   }
 </style>
 <? include('preloader.php'); ?>
@@ -251,12 +250,14 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
             <li><a href="/en/choice/" class="separate">flats</a></li>
 			<li><a href="/en/kvartiri-s-remontom/" class="separate">Apartments with repair</a></li>
 			<li><a href="/en/torgovie-pomescheniya/" class="separate">commercial premises</a></li>
+			<!--<li><a href="/en/atmosfera/" class="separate">SFERA Living System</li>-->
             <li><a href="/en/news/" class="separate">news</a></li>
             <li><a href="/en/#builder" class="separate">developer</a></li>
             <li><a href="/en/progress/" class="separate">construction</a></li>
+			<li><a href="/en/ctc/" class="separate">Client Technical Control</a>
             <li><a href="/en/#contact" class="separate">contact us</a></li>
             <li>
-              <a href="en/progress/#webcam" class="separate">
+              <a href="/en/progress/#webcam" class="separate">
               <img class="webcam_svg" src="/img/webcam.svg" alt="Webcam">
               </a>
             </li>
@@ -270,6 +271,7 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
           <li><a href="/en/choice/" class="separate">flats</a></li>
 		  <li><a href="/en/kvartiri-s-remontom/" class="separate">Apartments with repair</a></li>
           <li><a href="/en/torgovie-pomescheniya/" class="separate">commercial <br> premises</a></li>
+		  <!--<li><a href="/en/atmosfera/" class="separate">SFERA Living System</li>-->
         </ul></li>
 			<li><a href="/en/#builder" class="separate">developer</a></li>
       <li><a href="/en/news/" id="uwf_open" class="separate">news  &#9660;</a>
@@ -277,7 +279,12 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
 					<li><a href="/en/fashion/" class="separate">UFW</a></li>
 				</ul>
 			</li>
-      <li><a href="/en/progress/" class="separate">construction</a></li>
+           <li><a href="/en/progress/" id="ctc_open" class="separate">construction ▼</a>
+	  	<ul id="ctc_active">
+          <li><a href="/en/ctc/" class="separate">Client Technical Control</a>
+          </li>
+        </ul>
+	  </li>
       <li><a href="/en/#contact" class="separate">contact us</a></li>
       <li>
         <a href="/en/progress/#webcam" class="separate">
@@ -408,4 +415,10 @@ $('#uwf_open, #uwf_active').hover(
                 $('.content-item').css('height','auto');
         });
        });
+$('#ctc_open, #ctc_active').hover(
+  function(){
+  $('#ctc_active').css('height','35px');
+},function(){
+  $('#ctc_active').css('height','0');
+});
 </script>

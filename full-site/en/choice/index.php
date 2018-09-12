@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox.css">
     <link rel="stylesheet" href="../../css/choice.css">
+			<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a business class apartment in the newly-built apartment block in the downtown of Kiev - at 44, Antonovicha Street" />
+		<meta property="og:description" content="✅ 【CHICAGO Central House】 CHICAGO Residential Estate offers the apartments of American quality in the downtown of Kiev at reasonable prices applicable in Ukraine ✅ 【CHICAGO】" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
   </head>
   <body>
 

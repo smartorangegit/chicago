@@ -975,9 +975,9 @@ section {
   font-weight: 300;
 }
 /* line 649, ../sass/style.sass */
-/*.tenth li:nth-child(13) {
+.tenth li:nth-child(13) {
   margin-left: 25%;
-}*/
+}
 
 /* line 651, ../sass/style.sass */
 .eleventh {

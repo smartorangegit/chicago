@@ -28,7 +28,7 @@
   <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
 </head>
 
 <body>

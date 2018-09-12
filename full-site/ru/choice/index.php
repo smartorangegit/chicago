@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="../../css/jquery.fancybox.css">
     <link rel="stylesheet" href="../../css/choice.css">
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+			<meta property="og:title" content="≡ ЖК Чикаго 》Купить квартиру бизнес класса в CHICAGO Central House в центре Киева" />
+		<meta property="og:description" content="【Квартиры в CHICAGO Central House в самом центре Киева】Продажа квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Актуальная стоимость квартир, цена кв. метра...... ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
   </head>
   <body>
 

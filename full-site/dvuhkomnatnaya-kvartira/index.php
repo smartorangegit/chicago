@@ -34,8 +34,11 @@ $myrow = mysql_fetch_array ($check);
   <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+  		<meta property="og:title" content="≡ 2 кімнатні квартири в ЖК Чикаго 》Купити двокімнатну квартиру в CHICAGO Central House" />
+		<meta property="og:description" content="【Двокімнатні квартири в CHICAGO Central House в самому центрі Києва】 Продаж 2-кімнатних квартир бізнес класу в житловому комплексі Чикаго Централ Хаус. Ціна кв. метра... ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -142,12 +145,13 @@ while ($myrow = mysql_fetch_array ($check));
     </div>
 
   </section>
-
+<?php include('../includes/form_main_ua.php'); ?>
 
 
 	<?php include('../includes/form_callback.php'); ?>
 
 <?php include('../includes/footer_ua.php'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script src="/js/scripts.js"></script>
     <script src="../js/lib/snap.svg-min.js"></script>
     <script src="../js/lib/slider.js"></script>

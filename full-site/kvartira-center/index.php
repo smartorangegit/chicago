@@ -29,8 +29,11 @@
   <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+  		<meta property="og:title" content="≡ Квартира в центрі - ЖК Чикаго 》Купити нерухомість в центрі Києва в CHICAGO Central House" />
+		<meta property="og:description" content="【Купити квартиру в центрі Києва - ЖК CHICAGO Central House】 Продаж квартир бізнес класу в житловому комплексі ЖК Чикаго Централ Хаус в Голосіївському районі столиці. Вигідні ціни... ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44... ✅ 【CHICAGO】 Встигніть купити квартиру мрії!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -40,7 +43,7 @@
     </script>
 
 	<?php  include("../includes/header_ua.php"); ?>
-
+<section class="topic">
 <section class="fifteenth light">
   <h1 class="title">Квартири в центрі Києва від <br> ЖК CHICAGO Central House</h1>
 
@@ -65,6 +68,8 @@
 				Якщо ви цінуєте власний комфорт і статус, придбайте квартиру в центрі Києва в житловому комплексі CHICAGO Central House. Упорядкована прибудинкова територія, унікальний дизайн, якісна обробка, сучасний рівень обслуговування, близькість до відомих міських об’єктів, зручна транспортна розв&prime;язка, власне паркомісце – все це може стати вашим за мить. Для цього достатньо лише зателефонувати до відділу продажу або залишити свій номер телефону на сайті.
 		    </p>
 			</div>
+			<?php include('../includes/form_main_ua.php'); ?>
+			<div class="flex-link">
 			<div class="news_other">
 				<div class="other_name">читати далі</div>
 				
@@ -85,14 +90,84 @@
 					<span class="other_news_date"></span>
 				</div>
 			</div>
+			<div class="news_other">
+				<div class="other_name">
+					<a href="/choice/" title="Квартири" >Квартири</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/odnokomnatnaya-kvartira/" title="Однокімнатні квартири в ЖК CHICAGO Central House">1 кімнатні</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/dvuhkomnatnaya-kvartira/" title="Двокімнатні квартири в ЖК CHICAGO Central House">2 кімнатні</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/trehkomnatnaya-kvartira/" title="Трьохкімнатні квартири в ЖК CHICAGO Central House">3 кімнатні</a>
+					<span class="other_news_date"></span>
+				</div>
+				<div class="other_news_item">
+					<a href="/dvuhurovnevaya-kvartira/" title="Дворівневі квартири в ЖК CHICAGO Central House">Дворівневі</a>
+					<span class="other_news_date"></span>
+				</div>
+			</div>
+			</div>
+			<style>
+			.flex-link {
+				display:flex;
+			}
+			.news_other {
+				width: 50%;
+			}
+			@media only screen and (max-width: 599px){
+				.flex-link {
+					flex-direction: column;
+				}
+				.news_other {
+					width: 100%;
+				}
+			}
+			.other_name	a {
+				display: block;
+				text-transform: uppercase;
+				font-size: 20px;
+				color: white;
+				transition: 0.25s;
+			}
+			.other_name	a:hover {
+				color:red;
+			}
+			@media screen and (max-width: 856px) and (min-width: 320px) {
+				section.topic {
+					padding-top: 352px;
+				}
+			}
+			@media only screen and (max-width: 768px){
+				.for_btn {
+					bottom: 0;
+					max-width: 380px;
+					position: static;
+					transform: none;
+				}
+			}
+			@media screen and (max-width: 380px) and (min-width: 320px){
+				.form {
+					height: auto;
+					margin-top: 26px;
+				}
+			}
+			</style>
     </div>
   </section>
-
+</section>
 
 
 	<?php include('../includes/form_callback.php'); ?>
 
 <?php include('../includes/footer_ua.php'); ?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 	<script src="/js/scripts.js"></script>
     <script src="../js/lib/snap.svg-min.js"></script>
     <script src="../js/lib/slider.js"></script>

@@ -64,6 +64,8 @@ $(document).ready(function(){
     new WOW().init();
 
     // Headers slide effect
+    var controller = new ScrollMagic.Controller();
+
 
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger-1", duration: 300})
     .setTween(".second .title", {transform: "translateX(0)"}).addTo(controller);

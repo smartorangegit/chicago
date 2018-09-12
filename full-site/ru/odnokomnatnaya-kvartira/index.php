@@ -32,7 +32,9 @@ $myrow = mysql_fetch_array ($check);
   <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<meta property="og:title" content="≡ 1 комнатные квартиры в ЖК Чикаго 》Купить однокомнатную квартиру в CHICAGO Central House" />
+		<meta property="og:description" content="【Однокомнатные квартиры в CHICAGO Central House в самом центре Киева】Продажа 1-комнатных квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -119,10 +121,11 @@ $myrow = mysql_fetch_array ($check);
 			</div>
     </div>
   </section>
-
+<?php include('../../includes/form_main_ru.php'); ?>
 	<?php include('../../includes/form_callback.php'); ?>
 
 <?php include('../../includes/footer_ru.php'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script src="/js/scripts.js"></script>
     <script src="../../js/lib/snap.svg-min.js"></script>
     <script src="../../js/lib/slider.js"></script>

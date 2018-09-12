@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="../css/jquery.fancybox.css">
     <link rel="stylesheet" href="../css/choice.css">
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+			<meta property="og:title" content="≡ ЖК Чикаго 》Купити квартиру бізнес класу в CHICAGO Central House в центрі Києва" />
+		<meta property="og:description" content="【Квартири в CHICAGO Central House в самому центрі Києва】 Продаж квартир бізнес класу в житловому комплексі Чикаго Централ Хаус. Актуальна вартість квартир, ціна кв. метра, умови.. ✅ 【ЖК CHICAGO Central House】 Адреса розташування: вул. Володимира Антоновича, 44 ✅ 【CHICAGO】 Встигніть купити квартиру мрії!" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
   </head>
   <body>
 
