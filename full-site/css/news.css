@@ -6,8 +6,13 @@
   background-position: center;
 }
 .img-name {
-    text-align: left;
-    text-indent: 12px;
+  height: 22%;
+  background-color: rgba(255,0,11,0.7);
+  font-size: 22px;
+  line-height: 1.4;
+  text-transform: inherit;
+  box-sizing: border-box;
+  padding: 10px 14px;
 }
 .fifteenth.news {
   background: url('../img/bg-15.jpg') center;
@@ -33,12 +38,13 @@
   display: none;
 }
 .img-info {
-    height: 100px;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: left;
-    padding-left: 12px;
-    padding-top: 8px;
+  height: auto;
+  min-height: 82px;
+  font-size: 24px;
+  line-height: 1.4;
+  padding: 8px 12px;
+  text-align: left;
+  box-sizing: border-box;
 }
 .img-date {
     position: absolute;
@@ -133,6 +139,11 @@ h3 {
 @media only screen and (max-width:857px){
   .light .img-name {
     font-size: 16px;
+    text-indent: 0;
+    padding: 10px 14px;
+  }
+  .img-info{
+    font-size: 20px;
   }
 }
 
