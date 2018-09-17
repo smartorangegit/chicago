@@ -56,7 +56,17 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">THE FINISHING OF THE MACHINE ON 19-20 SURFACES, MAKES A COOL AT 21-22 SURFACES. MONOLITH: INTERMEDIATE 24-25 SURFACE, PARAPHET. INSTALLATION OF THE WINDOW: WORKING ON SURFACES AND SURFACES 15-19 SURFACES. WINDOW INSTALLATION OVER CUBE: MODIFIED TO 15 SURFACES. NPF - RESIDENCE - TO 15 SURFACES. VK: SETS UP TO 16 SURFACES. OV - HORIZONTAL DISTRIBUTION: COMPLETELY WORK ON 16 STEPS. ELECTRICITY: SETS ON 16 STEPS. STAINLESS: 14-15 SURFACES. FIXED INSTALLATION AND FABRIC COVER. BEGINNING OF CUBA WORKS.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">Laying: works are finished on the 21st floor, laying on 22-23 floors.
+Monolith: overlays of 24-25 floors and parapet.
+Installation of windows: work is ongoing on floors 18-20, installation of windows from the side of the yard.
+Windows over the cube: mounted to the 20th floor.
+Hinged ventilated facades: work continues up to 15 floors on the side of the street. Zhylianska
+Drainage and sewerage: standing up to 16 floors.
+Heating and ventilation: the installation of a horizontal wiring is 16th floor.
+Electricity: installed risers - 16th floor.
+Tightening: Work is ongoing on floors 14-15.
+Assembling a farm: completed work.
+Continued work on the cube.</span></p>
         <p><span class="plan--1">SCHEDULED TERM OF IN COMMISSIONING: </span><span class="normal normal--2">4Q 2018</span></p>
       </h2>
 	  		<div class="status clearfix">
