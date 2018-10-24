@@ -18,9 +18,9 @@ while ($myrow = mysqli_fetch_array($sel))
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua<?php echo '/ru'.$_SERVER['REQUEST_URI'];?>" />
-        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
-        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua<?php echo '/en'.$_SERVER['REQUEST_URI'];?>" />
+        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/mediaskulptura/" />
+        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/mediaskulptura/" />
+        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/mediaskulptura/" />
         <title><?=$myrow['title_ua'];?></title>
         <meta name="robots" content="index, follow">
 
@@ -48,7 +48,7 @@ while ($myrow = mysqli_fetch_array($sel))
         <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
         <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
         <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
     </head>
 
@@ -62,11 +62,11 @@ while ($myrow = mysqli_fetch_array($sel))
     include("../../includes/header_ua.php"); ?>
 
 
-    <section class="fifteenth newsdet" id="builder">
+<?/* 	<section class="fifteenth newsdet" id="builder">
         <span class="trigger-7"></span>
         <h1 class="title" style="transform: translate3d (20px, 0, 0)"><?=$myrow['name_news_ua'];?></h1>
         <i class="line"></i>
-    </section>
+    </section>  */?>
 
     <section class="third light">
         <div class="lamps wrapper">
@@ -74,12 +74,17 @@ while ($myrow = mysqli_fetch_array($sel))
             <img src="../../img/icons/lamp.png" alt="lamp" />
             <img src="../../img/icons/lamp.png" alt="lamp" />
         </div>
-        <div class="wrapper">
+        <div class="wrapper wrapper_content">
             <span class="trigger-0"></span>
 
             <div class="news_det clearfix">
 
                 <div class="news_content">
+	<section class="fifteenth newsdet" id="">
+        <span class="trigger-7"></span>
+        <h1 class="title" style="transform: translate3d (20px, 0, 0)"><?=$myrow['name_news_ua'];?></h1>
+        <i class="line"></i>
+    </section>
                     <div class="news_date">
                         <?
                         $dt = $myrow['date'];
@@ -152,6 +157,10 @@ while ($myrow = mysqli_fetch_array($sel))
                 font-size: 24px;
             }
         }
+		/* тестові стилі для нового шаблону новин */
+		.wrapper_content {
+			max-width: 1060px;
+		}
     </style>
     <?php include('../../includes/form_callback.php'); ?>
 

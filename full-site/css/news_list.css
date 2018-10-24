@@ -1,0 +1,261 @@
+html, body{
+  height: 100%;
+}
+.section_news, .section_news__list{
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section_name {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px auto 40px;
+
+}
+.news_item{
+ width: 24.5%;
+ box-sizing: border-box;
+ padding: 0 10px;
+ margin-bottom: 20px;
+ display: inline-block;
+ vertical-align: top;
+}
+.news_item img{
+  width: 100%;
+  margin-bottom: 12px;
+}
+.news_item span{
+  color: #4c4c4c;
+  font-size: 12px;
+}
+p.news__name a{
+  font-size: 22px;
+  color:black;
+  display: block;
+  margin-bottom: 8px;
+}
+p.news_prev{
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-align: left;
+  max-height: 80px;
+  overflow: hidden;
+}
+.news_date{
+  font-size: 20px;
+  line-height: 50px;
+}
+p.news_name{
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+.section_text{
+  text-indent: 24px;
+  padding-bottom: 20px;
+}
+.h4 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2;
+  text-indent: 24px;
+  text-align: left;
+
+}
+.section_news__list img{
+  width: 100%;
+}
+.news_container{
+  margin-bottom: 50px;
+}
+.news_item_image {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 100%;
+}
+@media only screen and (max-width:768px) {
+  .news_item {
+    width: 100%;
+    float: none;
+    }
+  .section_news, .section_news__list {
+    padding-bottom: 160px;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  h4 {
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  .news_date {
+    font-size: 16px;
+    line-height: normal;
+    color: #a1a1a1;
+}
+p.news_name {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+}
+
+
+/* 10.09.2018 new news page*/
+.news__pagination {
+  /* position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%); */
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.news__pagination-item {
+}
+
+.news__pagination-item-link {
+  width: 36px;
+  height: 36px;
+  display: block;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+}
+
+.news__pagination-item-link:hover {
+  cursor: pointer;
+}
+
+.news__pagination-item-link.news__pagination-item-link_active {
+  border: 1px solid white;
+}
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news__list-item {
+  width: 46%;/* было 44% */
+
+
+  margin-bottom: 45px;
+}
+
+.news__list-item > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: inherit;
+  height: 100%;
+}
+
+.news__list-item-image {
+  width: 100%;
+  height: 400px;
+  /* position: relative;
+  overflow: hidden; */
+
+  background-size: cover;
+  background-position: center;
+  background-image: url('/img/news/basketball.jpg');
+}
+
+.news__list-item-image img {
+  /* position: absolute;
+  top: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  margin: auto;
+  width: 100%;
+  height: 100%; */
+}
+
+.news__list-item-date_1 {
+  margin-top: 22px;
+  color: #7e7e7e;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.news__list-item-heading {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 30px;
+  
+  color: white;
+  font-size: 22px;
+}
+
+.news__list-item-description {
+  margin-top: 20px;
+  /* font-weight: 300; */
+  line-height: 24px;
+  
+  color: white;
+}
+
+.news__list-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;;
+}
+
+.news__list-item-calendar {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.news__list-item-date_2 {
+  color: #7e7e7e;
+  fill: #7e7e7e;
+  font-size: 12px;
+  
+  color: white;
+  fill: white;
+}
+
+.news__list-item-read-more-btn {
+  display: block;
+  width: 40%;
+  line-height: 40px;
+  text-align: center;
+  color: currentColor;
+  background-color: #c4c3d3;
+  transition: all .5s;
+  
+  color: white;
+  background-color: #EF2732;
+  
+  border: 4px solid #ff000b;
+  background: none;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+}
+
+.news__list-item-read-more-btn:hover {
+  /* background-color: #9f9eae; */
+  border: 4px solid white;
+}
+@media only screen and (max-width: 856px){
+.fifteenth.news {
+	margin-top: 280px;
+	}
+}
+@media screen and (max-width: 767px) {
+  .news__list-item {
+    width: 95%;
+    margin: 0 auto 45px auto;
+  }
+}
