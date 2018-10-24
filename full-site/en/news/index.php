@@ -151,7 +151,11 @@
 	</div>
 
     </div>
-
+<style>
+.news_other {
+    margin-top: 0;
+}
+</style>
   </section>
 
 
