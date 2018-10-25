@@ -57,10 +57,10 @@
 		-o-user-select: none;
 		user-select: none;
 	}
-	#krpanoSWFObject > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
+/* 	#krpanoSWFObject > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) {
 		top: 100px;
-	}
-	/*@media only screen and (min-width: 280px) and (max-width: 680px) { .header { display: none!important; } }*/
+	} */
+	@media only screen and (min-width: 280px) and (max-width: 680px) { .header { display: none!important; } }
 </style>
 <!--[if !IE]><!-->
 <script type="text/javascript" src="../panor/indexdata/lib/jquery-2.1.1.min.js"></script>
