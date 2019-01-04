@@ -67,7 +67,7 @@ Electricity: installed risers - 16th floor.
 Tightening: Work is ongoing on floors 14-15.
 Assembling a farm: completed work.
 Continued work on the cube.</span></p>
-        <p><span class="plan--1">SCHEDULED TERM OF IN COMMISSIONING: </span><span class="normal normal--2">4Q 2018</span></p>
+        <p><span class="plan--1">SCHEDULED TERM OF IN COMMISSIONING: </span><span class="normal normal--2">1Q 2019</span></p>
       </h2>
 	  		<div class="status clearfix">
 				<div class="status__grid grid__1">

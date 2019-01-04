@@ -71,7 +71,7 @@
 Продолжение работ по кубу.
 
 </span></p>
-        <p><span class="plan--1">Запланированный срок ввода в эксплуатацию:</span><span class="normal normal--2">ΙV квартал 2018 года</span></p>
+        <p><span class="plan--1">Запланированный срок ввода в эксплуатацию:</span><span class="normal normal--2">Ι квартал 2019 года</span></p>
       </h2>
 
 

@@ -70,7 +70,7 @@
 Монтаж ферми: завершені роботи.
 Продовження робіт по кубу.
 </span></p>
-        <p><span class="plan--1">Запланований термін введення в експлуатацію:</span><span class="normal normal--2">ΙV квартал 2018 року</span></p>
+        <p><span class="plan--1">Запланований термін введення в експлуатацію:</span><span class="normal normal--2">Ι квартал 2019 року</span></p>
       </h2>
 
 			<div class="status clearfix">
