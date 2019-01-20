@@ -8,7 +8,7 @@ $(function(){
             }
         }
     });
-    
+
     $('a.galery2, #gal2').fancybox({
         wrapCss: 'gal2'
     });
@@ -65,8 +65,7 @@ $(document).ready(function(){
 
     // Headers slide effect
     var controller = new ScrollMagic.Controller();
-
-
+    
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger-1", duration: 300})
     .setTween(".second .title", {transform: "translateX(0)"}).addTo(controller);
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger-1", duration: 300})
@@ -128,7 +127,7 @@ $(document).ready(function(){
 
 // ============================================================================
 
-   
+
 (function(n,l){"function"===typeof define&&define.amd?define(l):"object"===typeof exports?module.exports=l():n.Blazy=l()})(this,function(){function n(b){var c=b._util;c.elements=E(b.options);c.count=c.elements.length;c.destroyed&&(c.destroyed=!1,b.options.container&&p(b.options.container,function(a){q(a,"scroll",c.validateT)}),q(window,"resize",c.saveViewportOffsetT),q(window,"resize",c.validateT),q(window,"scroll",c.validateT));l(b)}function l(b){for(var c=b._util,a=0;a<c.count;a++){var d=c.elements[a];
 a:{var f=d,h=b.options;var m=f.getBoundingClientRect();if(h.container&&y&&(f=f.closest(h.containerClass))){var r=f.getBoundingClientRect();if(t(r,e)){var f=r.top-h.offset,g=r.right+h.offset,k=r.bottom+h.offset,h=r.left-h.offset;m=t(m,{top:f>e.top?f:e.top,right:g<e.right?g:e.right,bottom:k<e.bottom?k:e.bottom,left:h>e.left?h:e.left})}else m=!1;break a}m=t(m,e)}if(m||u(d,b.options.successClass))b.load(d),c.elements.splice(a,1),c.count--,a--}0===c.count&&b.destroy()}function t(b,c){return b.right>=c.left&&
 b.bottom>=c.top&&b.left<=c.right&&b.top<=c.bottom}function z(b,c,a){if(!u(b,a.successClass)&&(c||a.loadInvisible||0<b.offsetWidth&&0<b.offsetHeight)){c=b.getAttribute(v)||b.getAttribute(a.src);var d=b.getAttribute("data-option");if(c){c=c.split(a.separator);var f=c[A&&1<c.length?1:0],h=b.getAttribute(a.srcset),m="img"===b.nodeName.toLowerCase(),e=(c=b.parentNode)&&"picture"===c.nodeName.toLowerCase();if(m||void 0===b.src){var g=new Image,l=function(){a.error&&a.error(b,"invalid");w(b,a.errorClass);
@@ -184,7 +183,7 @@ a);C(a.options.offset);p(a.options.breakpoints,function(a){if(a.width>=window.sc
 $(".for_btn_link").on("click", function(e) {
     e.preventDefault();
     $("#realtor-form").fadeToggle();
-    
+
     $("#mainform").toggle();
     // $("#realtor-form").fadeToggle();
 });

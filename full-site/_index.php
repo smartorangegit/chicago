@@ -39,7 +39,7 @@
 <body>
 	<?php /*Google Tag Manager*/ include_once('includes/gtm_body.php'); ?>
 	<!--preloader/ -->
-	<style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
+	<!-- <style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
 	right:0;bottom:0; margin:auto;}</style>
 	<div id="hellopreloader"><div id="hellopreloader_preload">
 		<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 105 105" fill="red">
@@ -54,7 +54,8 @@
 		    <circle cx="92.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="200ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
 		</svg>
 	</div></div>
-	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script> -->
+
 	<!-- <div class="underprice">ПІДВИЩЕННЯ ЦІН</div>
 		<div class="mesage"><p>до чергового підвищення цін залишилось  <span id="clock-close"><img src=img/icons/close.svg alt="close" width="30px"></span></p>
 		<div class="clock2"></div>
@@ -62,115 +63,6 @@
 
 
 <?php /*меню*/ include_once('includes/header_ua.php'); ?>
-
-<!-- ======section video======= -->
-<div class="video_container" style="display:none">
-	<div class="video__box">
-		<video class="video_desk" autoplay loop muted class="main-video-bg">
-			<source src="/video/SAGA_CHICAGO.mp4" type="video/mp4">
-		</video>
-		<video  class="is__mobile" src="/video/SAGA_CHICAGO.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video>
-	</div>
-	<div class="sound">
-		<img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
-		<img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
-	</div>
-	<div class="arrow_dance">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#000000" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-		<g><path d="M500,755.9L14.7,270.6c-6.2-6.2-6.2-15.6,0-21.8c6.2-6.2,15.6-6.2,21.8,0L500,712.3l463.6-463.6c6.2-6.2,15.6-6.2,21.8,0c6.2,6.2,6.2,15.6,0,21.8L500,755.9z"/></g>
-		</svg>
-
-	</div>
-	<style media="screen">
-	.header { background: rgba(255, 0, 11, 1);}
-	.video_container{position: relative;}
-	.is__mobile{display: none;}
-	video{
-		width: 100%;
-		margin-bottom: -3px;
-    }
-	.sound{
-		position: absolute;
-		left: 30px;
-		top: 90%;
-		margin-top: -100px;
-	}
-	.sound img{  width: 40px;}
-	.arrow_dance{
-		width: 60px;
-		position: absolute;
-		left: 50%;
-		top: 90%;
-		margin-top: -100px;
-		margin-left: -30px;
-		-webkit-animation: bounce 2s infinite;
-		animation: bounce 2s infinite;
-	}
-	@-webkit-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);
-			 transform: translateX(0);}
-		 40% {-webkit-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-webkit-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
-	 @-moz-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-		 40% {transform: translateY(-30px);}
-		 60% {transform: translateY(-15px);}
-	 }
-	 @keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);
-			 transform: translateY(0);}
-		 40% {-ms-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-ms-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
- @media only screen and (min-width: 1368px) {
-		 video{width: 100%;}
-	 }
-@media only screen and (max-width: 768px) {
-		.video_container{
-			margin-top: 350px;
-			height: auto;
-		}
-		.is__mobile{
-			display: block;
-			width: 100%;
-			height: auto;
-		}
-		.video_desk{display: none;}
-		.sound{display: none;}
-		.arrow_dance{display: none;}
-		video{margin: 0;}
-	}
-	</style>
-	<script>
-
-	function sound_on () {
-		var video = document.querySelector("video");
-		var sound_on = document.getElementById("sound_on");
-		var sound_off = document.getElementById("sound_off");
-		video.removeAttribute("muted");
-		video.muted = false;
-		sound_on.setAttribute("style", "display:block;");
-		sound_off.setAttribute("style", "display:none;");
-		}
-	function sound_off () {
-		var video = document.querySelector("video");
-		var sound_on = document.getElementById("sound_on");
-		var sound_off = document.getElementById("sound_off");
-		video.muted = true;
-		sound_on.setAttribute("style", "display:none;");
-		sound_off.setAttribute("style", "display:block;");
-		}
-
-	</script>
-
-</div>
-
-<!-- ======end section video======= -->
 
 
 	<section  <?LazyLoad("/img/new_render_s.jpg", $option=array('class'=>'first'));?> >
@@ -334,20 +226,10 @@
 		</div>
 	</section>
     <section class="sixth">
-			<script type="text/javascript">
-			var script = '<script src="infobubble';
-			if (document.location.search.indexOf('compiled') !== -1) {
-				script += '-compiled';
-			}
-			script += '.js"><' + '/script>';
-			document.write(script);
-
-			</script>
         <div id="map">
-          <script type="text/javascript">
-							function initMap(){var o={lat:50.439572,lng:30.515734},e=new google.maps.Map(document.getElementById("map"),{zoom:15,center:o,scrollwheel:!1,navigationControl:!1,mapTypeControl:!1,scaleControl:!1,draggable:!0,styles:[{featureType:"administrative.province",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"landscape",elementType:"all",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",elementType:"all",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",elementType:"all",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",elementType:"all",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",elementType:"all",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",elementType:"all",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"transit",elementType:"geometry.fill",stylers:[{visibility:"on"}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]}]}),s=new google.maps.Marker({map:e,title:"Chicago map"}),l=[new google.maps.LatLng(50.433919,30.513405),new google.maps.LatLng(50.433924,30.512895),new google.maps.LatLng(50.433408,30.512668),new google.maps.LatLng(50.433336,30.513424),new google.maps.LatLng(50.433919,30.513405)];new google.maps.Polygon({path:l,strokeColor:"#FF0000",strokeOpacity:.8,strokeWeight:2,fillColor:"#FF0000",fillOpacity:.5}).setMap(e);var c,n,a,r,i,t,d,p,g,b,u,m,w,h,f,y,L,k,C,v,B,S,P,A,s=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.433464,30.513194),icon:"target.png"});(c=new InfoBubble({map:e,content:'<div class="phoneytext"><img  src="img/chicago-logo.png" width=300px style="padding:40px 0 20px 0;"  alt="Житловий комплекс CHICAGO Central House м. Київ" title="Житловий комплекс CHICAGO Central House м. Київ"><hr><p>вулиця Антоновича, 44</p></div>',position:new google.maps.LatLng(50.434379,30.5050139),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.5)",borderRadius:4,arrowSize:0,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:96,backgroundClassName:"phoney",arrowStyle:2,width:400,height:125})).open(),s.addListener("click",function(){c.open(e,s),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){c.close()});var M=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.431071,30.514989),icon:"library.png"});n=new InfoBubble({map:e,content:'<div class="phoneytext">Школа №112<hr><p>вулиця Велика Васильківська</p></div>',position:new google.maps.LatLng(50.431071,30.514989),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),M.addListener("click",function(){n.open(e,M),c.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){n.close()});var x=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.431409,30.517968),icon:"heart.png"});a=new InfoBubble({map:e,content:'<div class="phoneytext">Медицинский центр<hr><p>вулиця Фізкультури, 1</p></div>',position:new google.maps.LatLng(50.431409,30.517968),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),x.addListener("click",function(){a.open(e,x),c.close(),n.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){a.close()});var I=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.437365,30.520353),icon:"heart.png"});r=new InfoBubble({map:e,content:'<div class="phoneytext">Медицинский центр<hr><p>вулиця Еспланадна, 20</p></div>',position:new google.maps.LatLng(50.437365,30.520353),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),I.addListener("click",function(){r.open(e,I),c.close(),n.close(),a.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){r.close()});var z=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.43442,30.517509),icon:"library.png"});i=new InfoBubble({map:e,content:'<div class="phoneytext">Київський природничо-науковий ліцей № 145<hr><p>вул. Шота Руставелі, 46</p></div>',position:new google.maps.LatLng(50.43442,30.517509),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),z.addListener("click",function(){i.open(e,z),c.close(),n.close(),a.close(),r.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){i.close()});var N=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.435104,30.518878),icon:"library.png"});t=new InfoBubble({map:e,content:'<div class="phoneytext">Школа №78<hr><p>вул. Шота Руставелі, 47</p></div>',position:new google.maps.LatLng(50.435104,30.518878),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),N.addListener("click",function(){t.open(e,N),c.close(),n.close(),a.close(),r.close(),i.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){t.close()});var W=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.432204,30.513893),icon:"heart.png"});d=new InfoBubble({map:e,content:'<div class="phoneytext">Аптека<hr><p>вулиця Антоновича, 47</p></div>',position:new google.maps.LatLng(50.432204,30.513893),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),W.addListener("click",function(){d.open(e,W),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){d.close()});var R=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.432455,30.509307),icon:"dumbell.png"});p=new InfoBubble({map:e,content:'<div class="phoneytext">Фітнес-клуб "Гран-Прі"<hr><p>вулиця Володимирська, 101</p></div>',position:new google.maps.LatLng(50.432455,30.509307),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),R.addListener("click",function(){p.open(e,R),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){p.close()});var T=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.435227,30.510311),icon:"library.png"});g=new InfoBubble({map:e,content:'<div class="phoneytext">Днз №129 З Яслами (З 2-Х Років)<hr><p>вулиця Володимирська, 89А</p></div>',position:new google.maps.LatLng(50.435227,30.510311),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),T.addListener("click",function(){g.open(e,T),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){g.close()});var E=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.434428,30.514355),icon:"department.png"});b=new InfoBubble({map:e,content:'<div class="phoneytext">Конституційний суд України<hr><p>вулиця Жилянська, 14</p></div>',position:new google.maps.LatLng(50.434428,30.514355),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),E.addListener("click",function(){b.open(e,E),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){b.close()});var H=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.434619,30.514938),icon:"heart.png"});u=new InfoBubble({map:e,content:'<div class="phoneytext">Мед. центр Інго<hr><p>вулиця Велика Васильківська, 54 Б</p></div>',position:new google.maps.LatLng(50.434619,30.514938),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),H.addListener("click",function(){u.open(e,H),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){u.close()});var O=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.437462,30.512832),icon:"heart.png"});m=new InfoBubble({map:e,content:'<div class="phoneytext">Медичний відділ Представництва МОМ в Україні<hr><p>вулиця Антоновича, 16-В</p></div>',position:new google.maps.LatLng(50.437462,30.512832),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),O.addListener("click",function(){m.open(e,O),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){m.close()});var F=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.437188,30.508384),icon:"library.png"});w=new InfoBubble({map:e,content:'<div class="phoneytext">ДНЗ №61 Первоцвіт<hr><p>вулиця Володимирська, 76</p></div>',position:new google.maps.LatLng(50.437188,30.508384),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),F.addListener("click",function(){w.open(e,F),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){w.close()});var j=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.441975,30.51038),icon:"library.png"});infoBubble14=new InfoBubble({map:e,content:'<div class="phoneytext">Киевский національний університет ім. Тараса Шевченка<hr><p>вулиця Володимирська, 60</p></div>',position:new google.maps.LatLng(50.441975,30.51038),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),j.addListener("click",function(){infoBubble14.open(e,j),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){infoBubble14.close()});var G=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.441902,30.520968),icon:"department.png"});h=new InfoBubble({map:e,content:'<div class="phoneytext">PinchukArtCentre<hr><p>вул. Велика Васильківська/Басейна, 1/3-2</p></div>',position:new google.maps.LatLng(50.441902,30.520968),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),G.addListener("click",function(){h.open(e,G),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){h.close()});var q=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.442371,30.52155),icon:"shop.png"});f=new InfoBubble({map:e,content:'<div class="phoneytext">Бессарабский ринок<hr><p>Бессарабська площа, 2</p></div>',position:new google.maps.LatLng(50.442371,30.52155),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),q.addListener("click",function(){f.open(e,q),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){f.close()});var K=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.445601,30.528247),icon:"department.png"});y=new InfoBubble({map:e,content:'<div class="phoneytext">Національний академічний драматичний театр ім. Івана Франко<hr><p>площа Івана Франка, 3</p></div>',position:new google.maps.LatLng(50.445601,30.528247),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),K.addListener("click",function(){y.open(e,K),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){y.close()});var Q=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.442966,30.503661),icon:"subway.png"});L=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Університет<hr></div>',position:new google.maps.LatLng(50.442966,30.503661),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),Q.addListener("click",function(){L.open(e,Q),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){L.close()});var X=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.448402,30.513525),icon:"subway.png"});k=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Золоті Ворота<hr></div>',position:new google.maps.LatLng(50.448402,30.513525),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),X.addListener("click",function(){k.open(e,X),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),C.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){k.close()});var D=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.446126,30.51545),icon:"subway.png"});C=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Золоті Ворота<hr></div>',position:new google.maps.LatLng(50.446126,30.51545),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),D.addListener("click",function(){C.open(e,D),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),v.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){C.close()});var J=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.444842,30.516068),icon:"subway.png"});v=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Театральна<hr></div>',position:new google.maps.LatLng(50.444842,30.516068),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),J.addListener("click",function(){v.open(e,J),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),B.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){v.close()});var U=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.447062,30.52536),icon:"subway.png"});B=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Хрещатик<hr></div>',position:new google.maps.LatLng(50.447062,30.52536),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),U.addListener("click",function(){B.open(e,U),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),S.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){B.close()});var V=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.440088,30.518023),icon:"subway.png"});S=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Льва Толстого<hr></div>',position:new google.maps.LatLng(50.440088,30.518023),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),V.addListener("click",function(){S.open(e,V),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),P.close(),A.close()}),google.maps.event.addListener(e,"click",function(){S.close()});var Y=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.439652,30.519533),icon:"subway.png"});P=new InfoBubble({map:e,content:'<div class="phoneytext"><hr>(м) Палац Спорту<hr></div>',position:new google.maps.LatLng(550.439652,30.519533),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),Y.addListener("click",function(){P.open(e,Y),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),A.close()}),google.maps.event.addListener(e,"click",function(){P.close()});var Z=new google.maps.Marker({map:e,position:new google.maps.LatLng(50.432249,30.516762),icon:"subway.png"});A=new InfoBubble({map:e,content:'<div class="phoneytext"><hr><p>(м) Олімпійська</p><hr></div>',position:new google.maps.LatLng(50.432249,30.516762),shadowStyle:1,padding:0,backgroundColor:"rgba(30,14,0,0.7)",borderRadius:4,arrowSize:10,borderWidth:1,borderColor:"#ff000b",disableAutoPan:!0,hideCloseButton:!0,arrowPosition:30,backgroundClassName:"phoney",arrowStyle:2}),Z.addListener("click",function(){A.open(e,Z),c.close(),n.close(),a.close(),r.close(),i.close(),t.close(),d.close(),p.close(),g.close(),b.close(),u.close(),m.close(),w.close(),infoBubble14.close(),h.close(),f.close(),y.close(),L.close(),k.close(),C.close(),v.close(),B.close(),S.close(),P.close()}),google.maps.event.addListener(e,"click",function(){A.close()})}var map,head,insertBefore,appendChild,mapApi;head=document.getElementsByTagName("head")[0],insertBefore=head.insertBefore,appendChild=head.appendChild,null!==document.getElementById("map")&&((mapApi=document.createElement("script")).src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap",document.getElementsByTagName("head")[0].appendChild(mapApi)),head.insertBefore=function(o,e){"text/css"!==o.type&&insertBefore.call(head,o,e)},head.appendChild=function(o,e){"text/css"!==o.type&&appendChild.call(head,o,e)};
-				 </script>
+          
         </div>
+
     </section>
 	<a href="/panorama/">
 		<section <?LazyLoad("/img/panorama3.jpg", $option=array('class'=>'seventh'));?>>
@@ -510,23 +392,23 @@
                 <span class="subheader"><span>Американський </span><span>рівень життя,</span></span>
                 <span class="last">доступний тепер в Україні</span>
             </li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
-							<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
-							<span class="last">новий архітектурний символ столиці</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/kvartira-center/">
-							<img <?LazyLoad("/img/icons/advantage-4.png");?>  alt="advantage-4">
-							<span class="subheader"><span>Центральне</span><span>розташування –</span></span>
-							<span class="last">у пішій доступності від сіті та від старого міста</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
-							<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
-							<span class="last">історичного центру Києва</span>
-						</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
+				<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
+				<span class="last">новий архітектурний символ столиці</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/kvartira-center/">
+				<img <?LazyLoad("/img/icons/advantage-4.png");?>  alt="advantage-4">
+				<span class="subheader"><span>Центральне</span><span>розташування –</span></span>
+				<span class="last">у пішій доступності від сіті та від старого міста</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
+				<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
+				<span class="last">історичного центру Києва</span>
+			</li>
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-5.png");?> alt="advantage-5">
                 <span class="subheader"><span>Насичена міська </span><span>інфраструктура:</span></span>
@@ -542,48 +424,54 @@
                 <span class="subheader"><span>Гармонійна</span><span>естетика</span></span>
                 <span class="last">прибудинкових територій</span>
             </li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
-							<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
-							<span class="last">у громадському просторі будинку</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/svobodnaya-planirovka/">
-							<img <?LazyLoad("/img/icons/advantage-11.png");?> alt="advantage-11">
-							<span class="subheader"><span>Вільне</span><span>планування</span></span>
-							<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
-							<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
-							<span class="last">від надійного забудовника</span>
-						</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
+				<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
+				<span class="last">у громадському просторі будинку</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/svobodnaya-planirovka/">
+				<img <?LazyLoad("/img/icons/advantage-11.png");?> alt="advantage-11">
+				<span class="subheader"><span>Вільне</span><span>планування</span></span>
+				<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
+				<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
+				<span class="last">від надійного забудовника</span>
+			</li>
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-12.png");?> alt="advantage-12">
                 <span class="subheader"><span>Професійний</span><span>консьєрж-сервіс</span></span>
                 <span class="last">для усіх мешканців будинку</span>
             </li>
-						<li class="wow bounceIn">
-								<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
-								<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
-								<span class="last">спеціалісти з продажу</span>
-						</li>
-						<li class="wow bounceIn">
-						 <a href="/parking/">
-								<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
-								<span class="subheader"><span>Підземний </span><span>паркінг</span></span>
-								<span class="last">для всіх авто мешкінців</span>
-						 </a>
-						</li>
-						<li class="wow bounceIn">
-							<a href="/rassrochka/">
-								<img <?LazyLoad("/img/icons/advantage-14.png");?>  alt="advantage-14">
-								<span class="subheader"><span>розстрочка</span></span>
-								<span class="last">від забудовника</span>
-
-							</a>
-						</li>
+			<li class="wow bounceIn">
+					<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
+					<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
+					<span class="last">спеціалісти з продажу</span>
+			</li>
+			<li class="wow bounceIn">
+			 <a href="/parking/">
+					<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
+					<span class="subheader"><span>Підземний </span><span>паркінг</span></span>
+					<span class="last">для всіх авто мешкінців</span>
+			 </a>
+			</li>
+			<li class="wow bounceIn">
+				<a href="/rassrochka/">
+					<img <?LazyLoad("/img/icons/advantage-14.png");?>  alt="advantage-14">
+					<span class="subheader"><span>розстрочка</span></span>
+					<span class="last">від забудовника</span>
+				</a>
+			</li>
+            <li class="wow bounceIn">
+                <a href="/kvartiri-s-remontom/">
+                    <img <?LazyLoad("/img/icons/advantage-15.png");?>  alt="advantage-15">
+                    <span class="subheader"><span>квартири з ремонтом</span></span>
+                    <span class="last">від забудовника</span>
+                </a>
+            </li>
         </ul>
     </section>
     <section class="eigth">
@@ -777,29 +665,27 @@
 			<a href="/progress/" class="button button-red">Хід будівництва</a>
 		</div>
 	</section>
-									 
+
 <!-- ======section video======= -->
 <div class="video_container">
 	<div class="video__box">
-		<video class="video_desk" autoplay loop muted >
+	<?/*====================================AHTUNG!!!!====================================================================*/?>
+	<?/*Мы два раза грузим одно и тоже видео видео, для ускорения все было вынесено в main-page.js там проверяется ширина экрана и грузится только то что надо.*/?>
+		<!-- <video class="video_desk" autoplay loop muted >
 			<source src="/video/SAGA_FULL.mp4" type="video/mp4">
 		</video>
-		<video  class="is__mobile" src="/video/SAGA_FULL_mob.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video>
+		<video  class="is__mobile" src="/video/SAGA_FULL_mob.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video> -->
+	<?/*====================================AHTUNG!!!!====================================================================*/?>
 	</div>
 	<div class="sound">
 		<img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
 		<img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
 	</div>
-	<!--<div class="arrow_dance">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#000000" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-		<g><path d="M500,755.9L14.7,270.6c-6.2-6.2-6.2-15.6,0-21.8c6.2-6.2,15.6-6.2,21.8,0L500,712.3l463.6-463.6c6.2-6.2,15.6-6.2,21.8,0c6.2,6.2,6.2,15.6,0,21.8L500,755.9z"/></g>
-		</svg>
 
-	</div> -->
 	<style media="screen">
 	.header { background: rgba(255, 0, 11, 1);}
 	.video_container{position: relative;}
-	.is__mobile{display: none;}
+	/* .is__mobile{display: none;} */
 	video{
 		width: 100%;
 		margin-bottom: -3px;
@@ -811,37 +697,7 @@
 		margin-top: -100px;
 	}
 	.sound img{  width: 40px;}
-	.arrow_dance{
-		width: 60px;
-		position: absolute;
-		left: 50%;
-		top: 90%;
-		margin-top: -100px;
-		margin-left: -30px;
-		-webkit-animation: bounce 2s infinite;
-		animation: bounce 2s infinite;
-	}
-	@-webkit-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);
-			 transform: translateX(0);}
-		 40% {-webkit-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-webkit-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
-	 @-moz-keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-		 40% {transform: translateY(-30px);}
-		 60% {transform: translateY(-15px);}
-	 }
-	 @keyframes bounce {
-		 0%, 20%, 50%, 80%, 100% {-ms-transform: translateY(0);
-			 transform: translateY(0);}
-		 40% {-ms-transform: translateY(-30px);
-			 transform: translateY(-30px);}
-		 60% {-ms-transform: translateY(-15px);
-			 transform: translateY(-15px);}
-	 }
+
  @media only screen and (min-width: 1368px) {
 		 video{width: 100%;}
 	 }
@@ -851,42 +707,19 @@
 			height: auto;
 		}
 		.is__mobile{
-			display: block;
+			/* display: block; */
 			width: 100%;
 			height: auto;
 		}
-		.video_desk{display: none;}
+		/* .video_desk{display: none;} */
 		.sound{display: none;}
-		.arrow_dance{display: none;}
 		video{margin: 0;}
 	}
 	</style>
-	<script>
-
-	function sound_on () {
-		var video = document.querySelector("video");
-		var sound_on = document.getElementById("sound_on");
-		var sound_off = document.getElementById("sound_off");
-		video.removeAttribute("muted");
-		video.muted = false;
-		sound_on.setAttribute("style", "display:block;");
-		sound_off.setAttribute("style", "display:none;");
-		}
-	function sound_off () {
-		var video = document.querySelector("video");
-		var sound_on = document.getElementById("sound_on");
-		var sound_off = document.getElementById("sound_off");
-		video.muted = true;
-		sound_on.setAttribute("style", "display:none;");
-		sound_off.setAttribute("style", "display:block;");
-		}
-
-	</script>
-
 </div>
 
-<!-- ======end section video======= -->							 
-						 
+<!-- ======end section video======= -->
+
 <section  <?LazyLoad("/img/bg-17.jpg", $option=array('class'=>'seventeenth', 'option'=>'center'));?>  id="contact">
 		<?php
 		$webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
@@ -920,7 +753,12 @@
 	<span>Графік роботи відділу продаж:</span>
 	<span>Пн-пт: 9.00 - 19.00;</span>
 	<span>Сб: 10.00 - 18.00;</span>
-	<span>Нд: 10.00 - 18.00;</span>
+	<span>Нд: 10.00 - 18.00;</span><br>
+	
+</div>
+<div class="working_hours">
+	<span>Відділ сервісу:</span>
+	<span>(044) 494 04 00</span>
 </div>
     <div id="info"></div>
 		<input  type="submit" value="Надіслати" class="button">
@@ -948,7 +786,7 @@
                 <textarea  tabindex="4" cols="30" rows="10" name="formData"  required></textarea>
                 <span class="placeholder">Текст повідомлення:<i>*</i></span>
             </div>
-			
+
 			<input  name="count" class="webad" type="hidden" value="5">
 			<input  name="typ" class="webad" type="hidden" value="8" >
             <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
@@ -961,32 +799,27 @@
             <span>Пн-пт: 9.00 - 19.00;</span>
             <span>Сб: 10.00 - 18.00;</span>
             <span>Нд: 10.00 - 18.00;</span>
+
         </div>
         <div id="info"></div>
             <input  type="submit" value="Надіслати" class="button">
             </form>
-
         <div class="for_btn">
             <a class="button for_btn_link" href="http://riverside.net.ua/agent/">Співпраця для рієлторів</a>
         </div>
         <style media="screen">
-            .for_btn{   max-width: 860px; width: 100%;   /*margin: 20px auto;*/   background: rgba(0,0,0,0.8);   color: black;   padding: 24px; position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);}
-            .for_btn .button{   padding: 8px 20px;  transition: 0.5s;}
-            .for_btn .button:hover{ color: white;   border-color: red;}
+        .for_btn{   max-width: 860px; width: 100%; background: rgba(0,0,0,0.8);color: black;padding: 24px; position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);}
+        .for_btn .button{padding: 8px 20px;transition: 0.5s;}
+        .for_btn .button:hover{color: white; border-color: red;}
             .realtor_input_wrap {
                 width: 24%;
             }
             @media only screen and (max-width:768px) {
-                .for_btn{   max-width: 380px; bottom: -5px;}
-                .seventeenth{   height: auto; padding-bottom: 50px; }
+              .for_btn{ max-width: 380px; bottom: -5px;}
+              .seventeenth{ height: auto; padding-bottom: 50px;}
             }
         </style>
-
     </section>
-
-
-
-
 
 	<?php include('includes/footer_ua.php'); ?>
 
@@ -1011,7 +844,6 @@
     </div>
   </div>
 	<style>
-
 #clockdiv {
   margin:0px auto;
   width:100%;
@@ -1105,10 +937,6 @@
 		  }
 		}
 initializeClock('clockdiv', deadline);
-
-									  
-											   
-	 
 </script>
 		<!-- end timer --> */?>
 	<!-- ===========modal window============ -->
@@ -1125,96 +953,22 @@ initializeClock('clockdiv', deadline);
 		 </div>
 	 </div>
 
-	 <script type="text/javascript">
-	 $('.modal_close, .main_overlay').click(function(){
-		 console.log("7777"),
-		 $('main_modal').hide(),
-		 $('.main_overlay').fadeOut();
-	 });
-	 </script>
-
 <!-- ===========end modal window============  -->
 
 	<script src="js/ScrollMagic.min.js"></script>
 	<script src="js/snapSliderFancy.js"></script>
+	<script src="js/infobubble-compiled.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script>
+	<script src="js/main-page.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
 		var controller = new ScrollMagic.Controller();
-		</script>
-		<script src="js/scripts.js?v=1.0"></script>
+	</script>
+	<script src="js/scripts.js?v=1.0"></script>
+	<!-- <script src="/js/flipclock.js"></script> -->
 
-		<!-- Flipclock initiation starts here -->
-		<script src="/js/flipclock.js"></script>
-		<script type="text/javascript">
-
-		$(document).ready(function() {
-	    	var clock2;
-	    	var deadline = 'October 5 2017 23:59:59 GMT+02:00';
-	    	//console.log(deadline);
-	    	var t = Date.parse(deadline);
-	   		var time = Date.parse(deadline) - Date.parse(new Date());
-	    	// console.log(time);
-	    	time1 = time/1000;
-	    	// console.log(time1);
-	    	clock2 = $('.clock2').FlipClock({
-				clockFace: 'DailyCounter',
-				language: 'ukrainian',
-				autoStart: true,
-	          	callbacks: {
-	            stop: function() {
-	              	$('.message').html('The clock has stopped!')
-	            }
-	          }
-	      	});
-	      	clock2.setTime(time1);
-	      	clock2.setCountdown(true);
-	      	clock2.start();
-
-			$(".underprice").click(function(){
-				$(".mesage").css("left","-15px");
-			});
-
-			$('#clock-close').click(function(){
-				$('.mesage').css('left','-670px')
-				// $('.clock2').css('display','none')
-			});
-
-		}); //end ready
-
-		// Form add count on textarea input start
-		var ct = 0;
-			var addCount = document.createElement('input');
-			addCount.type = "hidden";
-			addCount.id = "count";
-			addCount.name = "count";
-			addCount.value = "0";
-			document.getElementById('mainform').appendChild(addCount);
-			function countme() {
-				document.getElementById('count').value = ++ct;
-			}
-			// Form add count on textarea input end
-		</script>
-		<!-- Flipclock initiation ends here -->
-
-			<style>
-			#zipCode{padding-left:45px;height: 40px;}
-			</style>
-			<script>
-			function telephone(queryClass) {
-				var elem = $(queryClass);
-				var phoneNumber = elem.html();
-				var href = 'tel:' + phoneNumber;
-				var phoneDisplay = elem.siblings('.phone_display');
-				var phoneDisplayLink = phoneDisplay.find('a');
-				phoneDisplayLink.attr('href', href);
-				phoneDisplayLink.html(phoneNumber);
-			}
-			setTimeout(function(){
-				telephone('.em_phone');
-			}, 2000);
-			</script>
+	<style>
+	#zipCode{padding-left:45px;height: 40px;}
+	</style>
 </body>
 </html>

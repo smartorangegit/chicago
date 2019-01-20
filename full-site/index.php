@@ -8,16 +8,16 @@
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>"/>
 	<meta name="description" content="【ЖК CHICAGO Central House】 Американська якість ➜ Українська ціна за квартиру в центрі! ✅ 【CHICAGO】 Фото галерея житлового комплексу, дозвільні документи, переваги компл... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
-	
+
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/" />
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/full.css" />
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<!-- <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
@@ -29,7 +29,7 @@
 	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -387,11 +387,11 @@
 	</section>
     <section class="tenth">
         <ul class="wrapper clearfix">
-            <li class="wow bounceIn">
+            <!-- <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-1.png");?>   alt="advantage-1">
                 <span class="subheader"><span>Американський </span><span>рівень життя,</span></span>
                 <span class="last">доступний тепер в Україні</span>
-            </li>
+            </li> -->
 						<li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
 							<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
@@ -404,26 +404,26 @@
 							<span class="last">у пішій доступності від сіті та від старого міста</span>
 						 </a>
 						</li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
 							<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
 							<span class="last">історичного центру Києва</span>
-						</li>
-            <li class="wow bounceIn">
+						</li> -->
+            <!-- <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-5.png");?> alt="advantage-5">
                 <span class="subheader"><span>Насичена міська </span><span>інфраструктура:</span></span>
                 <span class="last">магазини, кафе, ресторани, сервісні центри</span>
-            </li>
+            </li> -->
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-7.png");?> alt="advantage-7">
                 <span class="subheader"><span>Унікальна</span><span>архітектура</span></span>
                 <span class="last">будинку, що виконана у яскравому чиказькому стилі</span>
             </li>
-            <li class="wow bounceIn">
+            <!-- <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-9.png");?> alt="advantage-9">
                 <span class="subheader"><span>Гармонійна</span><span>естетика</span></span>
                 <span class="last">прибудинкових територій</span>
-            </li>
+            </li> -->
 						<li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
 							<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
@@ -436,21 +436,21 @@
 							<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
 						 </a>
 						</li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
 							<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
 							<span class="last">від надійного забудовника</span>
-						</li>
+						</li> -->
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-12.png");?> alt="advantage-12">
                 <span class="subheader"><span>Професійний</span><span>консьєрж-сервіс</span></span>
                 <span class="last">для усіх мешканців будинку</span>
             </li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 								<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
 								<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
 								<span class="last">спеціалісти з продажу</span>
-						</li>
+						</li> -->
 						<li class="wow bounceIn">
 						 <a href="/parking/">
 								<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
@@ -771,13 +771,13 @@
 	<?php include('includes/form_callback.php'); ?>
 <!--end timer -->
 
-<?php/*		  <!-- timer -->
+	  <!-- timer -->
  <div class="modal_window__container" style="display:none;">
 			<div class="main_overlay">
 			<div class="main_modal modal_window__main-content">
 			<div class="modal_content">
 				<div class="modal_close"><img src="/img/close_w.svg" alt="" width="40"></div>
-				<div id="clockdiv" class="clearfix"><p class="text_timer">До подорожчання залишилося</p>
+				<div id="clockdiv" class="clearfix"><p class="text_timer">До чергового подорожчання залишилося</p>
   				<div>днів:<span class="days">00</span></div>
   				<div>годин:<span class="hours">00</span></div>
   				<div>хвилин:<span class="minutes">00</span></div>
@@ -843,7 +843,7 @@
 .main_modal .modal_content {padding: 11px 10px;}
 </style>
 		<script type="text/javascript">
-		        var deadline = 'March 28 2018';
+		        var deadline = 'October 31 2018';
 				var t = getTimeRemaining(deadline);
 		        function getTimeRemaining(endtime){
 		      var t = Date.parse(endtime) - Date.parse(new Date());
@@ -883,7 +883,7 @@
 		}
 initializeClock('clockdiv', deadline);
 </script>
-		<!-- end timer --> */?>
+		<!-- end timer -->
 	<!-- ===========modal window============ -->
 	 <div class="main_overlay" style="display:none;">
 		 <div class="main_modal">
@@ -906,11 +906,11 @@ initializeClock('clockdiv', deadline);
 	<script defer src="/js/infobubble-compiled.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script>
 	<script defer src="js/scripts.js?v=1.0"></script>
+	<script defer src="js/main-page.js"></script>
 	<!-- Flipclock initiation starts here -->
 	<!-- <script src="/js/flipclock.js"></script> -->
 	<? /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AHTUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/?>
 	<? /*Все не закоментированные скрипты были перенесены в main-page.js*/ ?>
 	<? /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AHTUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/?>
-	<script defer src="/js/main-page.js"></script>
 </body>
 </html>
