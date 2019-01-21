@@ -915,13 +915,13 @@
 	<?php include('../includes/footer_ru.php'); ?>
 
 	<?php include('../includes/form_callback_ru.php'); ?>
-<?php/*		  <!-- timer -->
+<!-- timer -->
  <div class="modal_window__container" style="display:none;">
 			<div class="main_overlay">
 			<div class="main_modal modal_window__main-content">
 			<div class="modal_content">
 				<div class="modal_close"><img src="/img/close_w.svg" alt="" width="40"></div>
-				<div id="clockdiv" class="clearfix"><p class="text_timer">До удорожания осталось</p>
+				<div id="clockdiv" class="clearfix"><p class="text_timer">До очередного удорожания осталось</p>
   				<div>дней:<span class="days">00</span></div>
   				<div>часов:<span class="hours">00</span></div>
   				<div>минут:<span class="minutes">00</span></div>
@@ -987,7 +987,7 @@
 .main_modal .modal_content {padding: 11px 10px;}
 </style>
 		<script type="text/javascript">
-		        var deadline = 'March 28 2018';
+		        var deadline = 'October 31 2018';
 				var t = getTimeRemaining(deadline);
 		        function getTimeRemaining(endtime){
 		      var t = Date.parse(endtime) - Date.parse(new Date());
@@ -1028,7 +1028,7 @@
 		}
 initializeClock('clockdiv', deadline);
 </script>
-		<!-- end timer -->*/ ?>
+		<!-- end timer -->
  <!-- ===========modal window============ -->
 
 

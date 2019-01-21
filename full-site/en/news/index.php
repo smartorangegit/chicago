@@ -23,8 +23,8 @@
 	<![endif]-->
 	<link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/progress.css">
-	<link rel="stylesheet" href="/css/news.css">
-	<link href="/css/news_list.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/news.css?v=1.1">
+	<link href="/css/news_list.css?v=1.4" rel="stylesheet">
   <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
   <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
@@ -155,6 +155,14 @@
 .news_other {
     margin-top: 0;
 }
+
+   [data-name="interer-holiv-u-chicago-central-house"] {
+       background-position: right;
+   }
+      [data-name="december"] {
+		background-size: contain;
+		background-repeat: no-repeat;
+   }
 </style>
   </section>
 
@@ -170,7 +178,7 @@
     <script src="/js/jquery.fancybox-thumbs.js"></script>
     <script src="/js/lib/wow.min.js"></script>
 	<script src="/js/progres.js"></script>
-	<script type="text/javascript" src="/js/news.js"></script>
+	<script type="text/javascript" src="/js/news.js?v=1.1"></script>
     <!-- <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
     </script> -->

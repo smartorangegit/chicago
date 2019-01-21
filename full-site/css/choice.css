@@ -661,7 +661,8 @@ body, html {
 /* line 404, ../sass/choice.scss */
 .drop--31 {
   right: 80%;
-  top: 54%;
+  /*top: 54%;*/
+  top: 63%;
 }
 
 /* line 405, ../sass/choice.scss */
@@ -696,26 +697,31 @@ body, html {
 
 /* line 410, ../sass/choice.scss */
 .drop--37 {
-  right: 24%;
-  top: 37%;
+  /*right: 24%;
+  top: 37%;*/
+  right: 23%;
+  top: 44%;
 }
 
 /* line 411, ../sass/choice.scss */
 .drop--38 {
   right: 23%;
-  top: 53%;
+  /*top: 53%;*/
+  top: 63%;
 }
 
 /* line 412, ../sass/choice.scss */
 .drop--39 {
   right: 30%;
-  top: 70%;
+  /*top: 70%;*/
+  top: 82%;
 }
 
 /* line 413, ../sass/choice.scss */
 .drop--40 {
   right: 50%;
-  top: 53%;
+  /*top: 53%;*/
+  top: 63%;
 }
 
 /* line 419, ../sass/choice.scss */
@@ -1331,4 +1337,37 @@ header {
   .title.flash {
     font-size: 20px;
   }
+}
+
+.img-11-14 {
+  margin-bottom: 95px;
+}
+
+.img-15 {
+  margin-bottom: 85px;
+}
+
+.img-16 {
+  margin-bottom: 100px;
+}
+
+.img-17 {
+  margin-bottom: 100px;
+}
+
+.img-18-20 {
+  margin-bottom: 60px;
+}
+
+.img-21 {
+  margin-bottom: 50px;
+}
+
+.img-22 {
+  margin-bottom: 70px;
+}
+
+.ch-app-up .ch-planapp img {
+  -o-object-fit: contain;
+     object-fit: contain; 
 }

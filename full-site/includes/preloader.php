@@ -145,11 +145,11 @@
 
       })();
 
-      if(sagapreloaderAnimation.checkDate()) {
-        sagapreloaderAnimation.init();
-      } else {
-        sagapreloaderAnimation.preloaderContainer.style.display = 'none';
-      }
+  if(sagapreloaderAnimation.checkDate() && window.innerWidth > 768) {
+    sagapreloaderAnimation.init();
+  } else {
+    sagapreloaderAnimation.preloaderContainer.style.display = 'none';
+  }
 
 // if(!sessionStorage.getItem('preloaderRan')) {
 //     sagapreloaderAnimation.init();

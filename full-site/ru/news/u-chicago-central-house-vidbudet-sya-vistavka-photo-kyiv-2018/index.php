@@ -20,7 +20,7 @@ while ($myrow = mysqli_fetch_array($sel))
         <title><?=$myrow['title_ru'];?></title>
         <meta property="og:title" content="<?=$myrow['title_ru'];?>" />
         <meta property="og:description" content="<?=$myrow['description_ru'];?>" />
-        <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>" />
+        <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>?v=1.1" />
         <meta name="robots" content="index, follow">
         <meta name="description" content="<?=$myrow['description_ru'];?>">
 
@@ -84,7 +84,7 @@ while ($myrow = mysqli_fetch_array($sel))
                     </div>
                     <div class="news_text">
 
-                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>" alt="news">
+                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>?v=1.1" alt="news">
                         <?=$myrow['full_text_ru'];?>
                         <?=$myrow['video'];?>
                     </div>

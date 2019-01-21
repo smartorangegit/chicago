@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>ЖК CHICAGO Central House - квартиры в центре Киева, улица Антоновича (Горького)</title>
     <meta name="viewport" content="width=device-width">
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://chicago.kiev.ua/ru/choice/"/>
   	<meta name="description" content="ЖК CHICAGO Central House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/plans/choice23_24/" />
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../../../../../css/style.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../../../../../../css/choice.css">
+    <link rel="stylesheet" href="../../../../../../css/choice.css?v=1.0">
 	<?php /*Google Tag Manager*/ include_once('../../../includes/gtm_head.php'); ?>
   </head>
   <body>
@@ -70,7 +70,7 @@
           </div>
           <div class="center-map">
             <div class="img_plan">
-              <img src="../../../../../../img/choice/plan23.svg" alt="" width="422px">
+              <img src="/img/choice/plan23.png" alt="" width="422px">
                 <a href="../../appart/?type=7b"><div class="drop drop--31"><div class="drop-text">7Б</div></div></a>
                 <a href="../../appart/?type=4k"><div class="drop drop--32"><div class="drop-text">4К</div></div></a>
                 <a href="../../appart/?type=3e"><div class="drop drop--33" style="right:77%;"><div class="drop-text">3Е</div></div></a>

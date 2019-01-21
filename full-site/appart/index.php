@@ -16,9 +16,9 @@ if($ty == $uC["character_code"] || $ty == '1a')
 {
  $cO = 1;
 }
-else	{
+else  {
 
-	}
+  }
 
 }
 if($cO != 1){
@@ -41,20 +41,21 @@ while ($myrow = mysql_fetch_array($check))
     <title>ЖК CHICAGO Central House - квартири у центрі Києва, вулиця Антоновича (Горького)</title>
 
     <meta name="viewport" content="width=device-width">
-    <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://chicago.kiev.ua/choice/"/>
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/appart/?type=<?php echo $ty?>" />
+  <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/appart/?type=<?php echo $ty?>" />
     <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/appart/?type=<?php echo $ty?>" />
     <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/appart/?type=<?php echo $ty?>" />
 
-  	<meta name="description" content="ЖК Chicago Concept House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
+    <meta name="description" content="ЖК Chicago Concept House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../../css/choice.css">
+    <link rel="stylesheet" href="../../css/choice.css?v=1.0">
+    <link rel="stylesheet" href="../../css/appart_btn.css">
 <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
   </head>
   <body>
@@ -101,10 +102,37 @@ while ($myrow = mysql_fetch_array($check))
 
         </div>
         <div class="ch-center-app">
+<?php if($ty == '2g'){ ?>
+           <ul class="ch-app">
+            <li class="ch-app__btn active">
+                <span class="ch-reserv">З меблями</span>
+            </li>
+             <li class="ch-app__btn">
+                <span href="#" class="ch-reserv">Із стінами</span>
+            </li>
+             <li class="ch-app__btn">
+                <span href="#" class="ch-reserv">Без стін</span>
+            </li>
+          </ul>
+
           <div class="ch-app-up">
+			<div class="ch-planapp">
+             <div class="ch-planapp__item active">
+                <img src="../../img/choice/app/app-2g.png?v=1.0" alt="applan">
+             </div> 
+             <div class="ch-planapp__item">
+                <img src="../../img/choice/app/app-2g_st.png" alt="applan">
+             </div>
+             <div class="ch-planapp__item">
+                <img src="../../img/choice/app/app-2g_bst.png" alt="applan">
+             </div> 
+            </div>  
+<?php  }  else {?>
+<div class="ch-app-up">
             <div class="ch-planapp">
-              <img src="../../img/choice/app/<?=$myrow['imgPlan1'];?>" alt="applan">
+              <img src="../../img/choice/app/<?=$myrow['imgPlan1'];?>?v=1.0" alt="applan">
             </div>
+<?php } ?>           
             <div class="ch-app-info">
               <img src="../../img/choice/1/<?=$myrow['imgPlan2'];?>" alt="levelplan">
               <div class="table">
@@ -133,33 +161,45 @@ while ($myrow = mysql_fetch_array($check))
               if($i == 17){echo '<li><p> Лоджія: </p>'.$myrow["$i"].'</li>';}
               if($i == 18){echo '<li><p> Гардеробна: </p>'.$myrow["$i"].'</li>';}
               if($i == 19){echo '<li><p> Гардеробна2: </p>'.$myrow["$i"].'</li>';}
-              if($i == 20){echo '<li><p> Кухня-вітальня: </p>'.$myrow["$i"].'</li>';}
+              if($i == 20){echo '<li><p> Кухня-їдальня: </p>'.$myrow["$i"].'</li>';}
               if($i == 21){echo '<li><p> Комора: </p>'.$myrow["$i"].'</li>';}
                         }
               }?>
               </ul>
               <ul style="width:170px;">
-              <li style="display:none;"></li>
+             <? if($myrow['floor']=='23-24'){ echo '<li style="display:none;"></li><li>Другий рівень</li> <li>Площа, м2</li> ';} ?>
 
               <?
               $check2 = mysql_query("SELECT * FROM level2 where type ='$ty'" ,$db);
               while ($myrow2 = mysql_fetch_array($check2))
               {
-                for ($iz = 1; $iz <= 10; $iz++)
+
+                for ($iz = 0; $iz <= 18; $iz++)
                   {
-                    if ($myrow2["$iz"] == 0){}
+					  
+                    if ($myrow2["$iz"] == 0){
+						
+					}
                     else
                     {
-              if($iz == 1){ echo '<li>Другий рівень</li> <li>Площа, м2</li> <li style="border:none;"><p> Прихожая: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 2){ echo '<li><p> Кабінет: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 3){ echo '<li><p> Спальня: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 4){ echo '<li><p> Спальня2: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 5){ echo '<li><p> Спальня3: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 6){ echo '<li><p> Кабінет2: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 7){ echo '<li><p> Санвузол: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 8){ echo '<li><p> Ванна: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 9){ echo '<li><p> Лоджія: </p>'.$myrow2["$iz"].'</li>';}
-              if($iz == 10){ echo '<li><p> Гардеробна: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 1){ echo '<li style="border:none;"><p> Передпокій: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 2){ echo '<li style="border:none;"><p> Кабінет: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 3){ echo '<li style="border:none;"><p> Коридор: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 4){ echo '<li><p> Спальня 1: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 5){ echo '<li><p> Спальня 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 6){ echo '<li><p> Спальня3: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 7){ echo '<li><p> Спальня4: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 8){ echo '<li><p> Спальня5: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 9){ echo '<li><p> Кабінет 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 10){ echo '<li><p> Санвузол: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 11){ echo '<li><p> Санвузол 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 12){ echo '<li><p> Ванна: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 13){ echo '<li><p> Ванна 2: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 14){ echo '<li><p> Лоджія 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 15){ echo '<li><p> Лоджія 1: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 16){ echo '<li><p> Гардеробна: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 17){ echo '<li><p> Гардеробна 2: </p>'.$myrow2["$iz"].'</li>';}
+
                     }
                   }
               }
@@ -168,6 +208,7 @@ while ($myrow = mysql_fetch_array($check))
                </div>
             </div>
           </div>
+
           <div class="ch-app-down">
             <div class="num_level">
               <span><?=$myrow['floor'];?></span>
@@ -195,6 +236,7 @@ while ($myrow = mysql_fetch_array($check))
     <script src="../../js/jquery.fancybox.pack.js"></script>
     <script src="../../js/jquery.fancybox-thumbs.js"></script>
     <script src="../../js/menu.js"></script>
+    <script src="../../js/script-appart-btn.js"></script>
 
 
   </body>

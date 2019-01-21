@@ -27,34 +27,19 @@ RewriteCond %{THE_REQUEST} //
 RewriteRule .* /$0 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ https://chicago.kiev.ua/ [R=301,L]
+RewriteRule ^index\.html$ http://chicago.kiev.ua/ [R=301,L]
 
-RewriteRule ^index_en\.html$ https://chicago.kiev.ua/en/ [R=301,L]
-RewriteRule ^progress_en\.html$ https://chicago.kiev.ua/en/progress [R=301,L]
+RewriteRule ^index_en\.html$ http://chicago.kiev.ua/en/ [R=301,L]
+RewriteRule ^progress_en\.html$ http://chicago.kiev.ua/en/progress [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)$
-RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
 
 RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
-RewriteRule ^(.*)index\.php$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
 
-Redirect 301 /choise.php https://chicago.kiev.ua/choice/
-Redirect 301 /progress.php https://chicago.kiev.ua/progress/
-Redirect 301 /fashion.php https://chicago.kiev.ua/fashion/
-Redirect 301 /panorama.html https://chicago.kiev.ua/panorama/
-Redirect 301 /news.php https://chicago.kiev.ua/news/
-
-Redirect 301 /news/5_malovidomih_faktiv_pro_myuzikl_chikago/ https://chicago.kiev.ua/news/variette/
-Redirect 301 /ru/news/5_malovidomih_faktiv_pro_myuzikl_chikago/ https://chicago.kiev.ua/ru/news/variette/
-Redirect 301 /en/news/5_malovidomih_faktiv_pro_myuzikl_chikago/ https://chicago.kiev.ua/en/news/variette/
-
-Redirect 301 /news/sim_div_chikago/ https://chicago.kiev.ua/news/seven-wonders/
-Redirect 301 /ru/news/sim_div_chikago/ https://chicago.kiev.ua/ru/news/seven-wonders/
-Redirect 301 /en/news/sim_div_chikago/ https://chicago.kiev.ua/en/news/seven-wonders/
-
-Redirect 301 /news/v_atriumi_chicago_central_house_bude_oblashtovana_unikal_na_mediaskul_ptura/ https://chicago.kiev.ua/news/mediaskulptura/
-Redirect 301 /ru/news/v_atriumi_chicago_central_house_bude_oblashtovana_unikal_na_mediaskul_ptura/ https://chicago.kiev.ua/ru/news/mediaskulptura/
-Redirect 301 /en/news/v_atriumi_chicago_central_house_bude_oblashtovana_unikal_na_mediaskul_ptura/ https://chicago.kiev.ua/en/news/mediaskulptura/
-
-Redirect 301 /ru/atmosfera/ https://chicago.kiev.ua/atmosfera/
-Redirect 301 /en/atmosfera/ https://chicago.kiev.ua/atmosfera/
+Redirect 301 /choise.php http://chicago.kiev.ua/choice/
+Redirect 301 /progress.php http://chicago.kiev.ua/progress/
+Redirect 301 /fashion.php http://chicago.kiev.ua/fashion/
+Redirect 301 /panorama.html http://chicago.kiev.ua/panorama/
+Redirect 301 /news.php http://chicago.kiev.ua/news/

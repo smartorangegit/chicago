@@ -25,7 +25,7 @@
 							<span itemprop="telephone">(044)22-77-244</span>
 							<span itemprop="email">marketing@saga-development.com.ua</span>
 						</div>
-						<div class="smarto flex"> <span>Розробка сайту</span> <a  <?LazyLoad("/img/logo-smart.png", $option=array('class'=>'logo-smart'));?>></a></div>
+						<div class="smarto flex"> <a href="https://smarto.agency/" rel="nofollow" target="_blank" class="smarto__link">Розробка сайту</a> <a href="https://smarto.agency/"  rel="nofollow" target="_blank" <?LazyLoad("/img/logo-smart.svg", $option=array('class'=>'logo-smart'));?>></a></div>
 
 			  </div>
   </footer>
@@ -33,13 +33,14 @@
 	footer{	height: auto;	line-height: normal;	padding: 16px 0;}
 	footer .wrapper,footer .flex{
 		display: flex;	justify-content: space-between;	align-items: center;}
-	footer .logo-smart{	top: 0;	margin-left: 5px;}
+	footer .logo-smart{	top: 0;	margin-left: 5px; background-repeat: no-repeat; background-position: center; width: 113px;}
 	.soc_links a{display: block;width: 36px;height: 36px;padding: 6px;margin: 0 4px;}
 	.soc_links a svg{	width: 100%;	height: auto;}
+	.flex .smarto__link {color: #6c6f73;}
 	@media only screen and (max-width: 768px) {
 		footer{height: auto;}
 		footer .wrapper{flex-wrap: wrap;		}
 		.dep_market{ text-align: left; margin: 10px;}
-		footer .logo-smart {width: 70px;  height: 36px;background-size: cover;}
+		footer .logo-smart { height: 36px;background-size: cover;}
 	}
 	</style>

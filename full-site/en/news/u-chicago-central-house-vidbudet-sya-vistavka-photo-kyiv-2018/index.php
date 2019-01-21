@@ -84,7 +84,7 @@ while ($myrow = mysqli_fetch_array($sel))
                     </div>
                     <div class="news_text">
 
-                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>" alt="news">
+                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>?v=1.1" alt="news">
                         <?=$myrow['full_text_en'];?>
                         <?=$myrow['video'];?>
                     </div>

@@ -27,7 +27,7 @@ while ($myrow = mysqli_fetch_array($sel))
 
         <meta property="og:title" content="<?=$myrow['title_ua'];?>" />
         <meta property="og:description" content="<?=$myrow['description_ua'];?>" />
-        <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>" />
+        <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>?v=1.1" />
 
 
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
@@ -88,7 +88,7 @@ while ($myrow = mysqli_fetch_array($sel))
                     </div>
                     <div class="news_text">
 
-                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>" alt="news">
+                        <img src="<?=$myrow['img_path']."/".$myrow['img_name'];?>?v=1.1" alt="news">
                         <?=$myrow['full_text_ua'];?>
                         <?=$myrow['video'];?>
                     </div>

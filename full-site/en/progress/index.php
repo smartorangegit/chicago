@@ -56,17 +56,20 @@
     <div class="wrapper">
 			<span class="trigger-0"></span>
       <h2 class="subheader">
-        <p><span>Construction status:</span><span class="normal normal--1">Laying: works are finished on the 21st floor, laying on 22-23 floors.
-Monolith: overlays of 24-25 floors and parapet.
-Installation of windows: work is ongoing on floors 18-20, installation of windows from the side of the yard.
-Windows over the cube: mounted to the 20th floor.
-Hinged ventilated facades: work continues up to 15 floors on the side of the street. Zhylianska
-Drainage and sewerage: standing up to 16 floors.
-Heating and ventilation: the installation of a horizontal wiring is 16th floor.
-Electricity: installed risers - 16th floor.
-Tightening: Work is ongoing on floors 14-15.
-Assembling a farm: completed work.
-Continued work on the cube.</span></p>
+        <p><span>Construction status:</span><span class="normal normal--1">
+Masonry: works are being carried out on the installation of the facade in the places of the tower crane links.
+Work is carried out on waterproofing roofs and terraces on the 25th floor.
+Monolith: the placement of the floor plate on the 25th floor and the parapet overlay has been completed, pillars of ventilation blocks have been poured.
+Installation of windows: works on 23 and 24 floors are completed.
+Drainage and sewage: unfolding pipes on the 22nd floor.
+Heating and ventilation: installation of ITP (engineering-heating point) and pumping station.
+Electricity: the layout is ongoing on floors 20 and 21.
+Installation of doors: work is ongoing on floors 14-18.
+Plaster: finished works on the 23rd floor.
+Tightening: finishing works on the 21st floor.
+Works in the hall: masonry was completed, interior engineering networks were completed, interior finishing work continued.
+Cube: installation of support brackets has been completed, waterproofing works from the street. Zhilyanskaya, glazing is executed.
+</span></p>
         <p><span class="plan--1">SCHEDULED TERM OF IN COMMISSIONING: </span><span class="normal normal--2">1Q 2019</span></p>
       </h2>
 	  		<div class="status clearfix">
@@ -372,10 +375,10 @@ Continued work on the cube.</span></p>
 		padding: 1.31em 1.21em 1.21em 0;
 		color: #fff;
 	}
-	.image-item--65 {
+	.image-item--82 {
  margin-top: 6px;
 }
-.image-item--67 {
+.image-item--84 {
 margin-top: 160px;	
 }	</style>
 	<script src="/js/scripts.js"></script>

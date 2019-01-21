@@ -1,9 +1,6 @@
 
 #Ignoring files:
 
-
-
- 
 full-site/video
 full-site/ru/app
 full-site/ru/choice/1
@@ -13,8 +10,8 @@ full-site/maket
 full-site/img
 full-site/kub/video
 full-site/fonts
-full-site/3DMap/1
-full-site/3DMap/img
+full-site/3DMap
+full-site/3DMap/app
 full-site/adm/images
 full-site/admin
 full-site/config.php
@@ -23,4 +20,5 @@ full-site/db.php
 full-site/en/application.php
 full-site/ru/application.php
 full-site/bd.php
-
+full-site/.sass-cache
+full-site/webstat

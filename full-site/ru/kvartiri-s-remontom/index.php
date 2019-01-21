@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
-	<link rel="stylesheet" href="/css/style.css?ver=1.1">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.7">
+	<link rel="stylesheet" href="/css/style.css?ver=1.0">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
@@ -26,6 +26,10 @@
 	<meta name="theme-color" content="#ffffff">
 
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+		<meta property="og:title" content="≡ Квартиры с ремонтом в CHICAGO Central House" />
+		<meta property="og:description" content="【ЖК CHICAGO Central House】 Специально для тех, кто ищет жилье с ремонтом, мы предлагаем квартиры с эксклюзивным интерьером" />
+		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+
 </head>
 
 <body>
@@ -42,29 +46,36 @@
 	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
 
 	<?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
-	<section class="kub remont">
+<section class="kub remont">
 		<span class="trigger-0"></span>
 		<div class="kub_wrapper">
-			<h1>Квартиры с ремонтом от студии дизайна D73</h1>
-
+			<h1>CHICAGO Central House предлагает квартиры с ремонтом</h1>
 			<div class="kub_text first_block">
 				<p>
-					Месторасположение комплекса  <a class="remont__link" href="https://chicago.kiev.ua/ru/"> CHICAGO Central House</a> — это оптимальный вариант для тех, кто любит быть в центре событий и жить в одном ритме с городом. И для того, чтобы ваш переезд в новую квартиру стал еще приятнее, мы решили все вопросы с ремонтом: разработали эксклюзивный дизайн, подобрали мебель и современную технику.
+					С вниманием к деталям — именно так создавался новый дизайн квартир в CHICAGO Central House. Оптимальная планировка комнат, современный интерьер со стильной мебелью и тщательно подобранными декоративными элементами — мы делаем все, чтобы еще при первом знакомстве с квартирой вы чувствовали себя как дома.				
 				</p>
 				<p>
-					Проекты дизайна созданы <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">студией D73</a> — международной компанией, работы которой известны в Швейцарии, Италии, России, Грузии. Для обустройства <a class="remont__link" href="https://chicago.kiev.ua/ru/choice/ ">квартир в CHICAGO Central House</a> были выбраны два популярных направления — Nordic и Modern Glamour.
+					Специально для тех, кто ищет жилье с ремонтом, мы предлагаем квартиры с эксклюзивным интерьером от дизайнера итальянской <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">студии D73</a> Андреа Вигано и Марии Пахомовой из архитектурного бюро <a class="remont__link" href="http://www.buro-o.com/" target="_blank">Вurø.</a>.
 				</p>
 			</div>
-
-
-
-
 			<h2>
-				Дизайн квартиры в стиле Nordic — первый вариант планировки
+				Дизайн квартир от Андреа Вигано
 			</h2>
 			<div class="kub_text">
 				<p>
-					В дизайне квартиры в стиле Nordic ощущается любовь к цвету и необычным решениям. Черты скандинавского стиля прослеживаются во всем: синем оттенке стен, декоре с геометрическими орнаментами и натуральных материалах, из которых выполнены мебель и паркет.
+					С работами Андреа Вигано мы познакомились несколько месяцев назад. По проектам, разработанным совместно с Марко Визмара, были обустроены три квартиры в CHICAGO Central House. В прошлый раз дизайнеры выбрали направления Nordic и Modern Glamour, в этот раз в концепции интерьеров гармонично сочетается несколько популярных стилей — минимализм с нотками конструктивизма и контемпорари.			
+				</p>
+				<p>
+					Дизайн от студии D73 представлен в трех квартирах: двух 3-комнатных квартирах с типовой планировкой и площадью 112 м² и 2-комнатной квартире размером 98 м².				
+				</p>
+				<p>
+					В отделке 3-комнатных квартир Андреа Вигано использовал теплые цвета — сочетание коричневой палитры стало ключевым для всех комнат.							
+				</p>
+				<p>
+					Мягкая мебель в гостиной и спальни, шкаф, стол и стулья в кухне — каждый из предметов интерьера гармонирует по цвету.							
+				</p>
+				<p>
+					Чтобы добавить света в пространство, стены окрашены в белый, в спальне на пол положен бежевый ламинат, в кухне и гостиной — бежевая плитка.
 				</p>
 			</div>
 
@@ -72,236 +83,584 @@
 				<div class="remont__box-slider1">
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-1/devan-okno.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
-								<img src="/img/remont/kv-1/devan-okno.jpg"  alt="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2g_1.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2g_1.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Поскольку направление Nordic объединяет в себе черты минимализма и экостиля, для кухни, совмещенной с гостиной, дизайнеры выбрали мебель из светло-коричневого дерева с матовой поверхностью. Чтобы не перегружать комнату лишними компонентами и при этом сохранить ее функциональность, вся техника известного бренда BOSCH встроена в шкафы:
-							</p>
-							<ul>
-								<li>●	посудомоечная машина — BOSCH SMV24AX005,</li>
-								<li>●	духовая печь — BOSCH HBN539S5,</li>
-								<li>●	варочная поверхность — BOSCH PKE611FP1E,</li>
-								<li>●	стиральная машина — Whirpool EWSF61503W,</li>
-								<li>●	холодильник — Whirlpool 6502-A+.</li>
 
-							</ul>
 						</div>
 					</div>
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-1/myagkiju-golok.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
-								<img src="/img/remont/kv-1/myagkiju-golok.jpg"  alt="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2g_2.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2g_2.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Сочетание цветов в гостиной также на первом месте. Светло-синие стены служат удачным фоном для кресел, обтянутых прочной бирюзовой тканью. Для комфортной зоны отдыха в комнате есть все необходимое: мягкий диван бежевого цвета, два кресла, белый кофейный столик, телевизор LG LJ5150 Full HD с диагональю 49 дюймов, кондиционер СOOPER & HUNTER c Wi-Fi-управлением.
-							</p>
+
 						</div>
 					</div>
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-1/krovat-spalnya-okno.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
-								<img src="/img/remont/kv-1/krovat-spalnya-okno.jpg"  alt="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2g_3.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2g_3.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
-							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки"></a> -->
-							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки"></a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано"></a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Продолжением общей концепции интерьера стала спальня. Она получилась уютной, стильной и одновременно сдержанной. В комнате двуспальная кровать, шкаф, тумба, стол, полка для книг, телевизор LG LJ500V Full HD диагональю 43 дюйма, но, несмотря на такое количество мебели, комната просторная и очень светлая за счет окон в пол.
-							</p>
+
 						</div>
 					</div>
-					<div class="remont__box">
-						<div class="remont__img">
-							<a href="/img/remont/kv-1/vanna.jpg" data-fancybox="group1" data-caption="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
-								<img src="/img/remont/kv-1/vanna.jpg"  alt="Дизайн квартиры в стиле Nordic — первый вариант планировки" title="Дизайн квартиры в стиле Nordic — первый вариант планировки">
-							</a>
-						</div>
-						<div class="kub_text">
-							<p>
-								Для отделки стен в душевой комнате использованы бежевая и коричневая плитка с орнаментами. Пол и мебель гармонируют по цвету и деревянной фактуре. Для удобства будущих жильцов санузел уже укомплектован душевой кабинкой, умывальником, необходимой сантехникой, подвесной тумбой, бойлером бренда ATLANTIC.
-							</p>
-						</div>
-					</div>
-
-
-
 				</div>
 				<button class="slider-remont__button slider-remont__button_prev slider1-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider1-remont__button_next"></button>
 			</div>
-
-			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank">3D-тур квартиры</a>
-
-
-			<h2>
-				Дизайн квартиры в стиле Nordic — второй вариант планировки
-			</h2>
-
 			<div class="kub_text">
 				<p>
-					В отделке второй квартиры в стиле Nordic дизайнеры использовали больше светлых оттенков, при этом оставив синий ключевым цветом для стен всех комнат.
+					Преимущество 2-комнатной квартиры — панорамные окна в гостиной, благодаря которым в комнате много естественного света и ее площадь визуально увеличивается.							
 				</p>
+				<p>
+					Андреа Вигано учел эту особенность и подчеркнул настроение квартиры, используя в интерьере яркие мебель и декор с геометрическим орнаментом. Для гостиной, совмещенной с кухней, дизайнер выбрал пуф и подушки оливкового цвета. Того же оттенка обивка стульев. Добавляет оригинальности геометрический принт ковра.							
+				</p>
+				<p>
+					Палитра спальни состоит из белого, серого, коричневого. С ней контрастируют потолок и мягкий пуф зеленого цвета.			
+				</p>
+				<p>
+					Квартира укомплектована всей необходимой мебелью и техникой:
+				</p>
+				<ul>
+					<li>●	в гостиной есть мягкий диван, большой пуф, стол, полки, телевизор; </li>
+					<li>●	в кухне — шкаф со встроенной техникой, стол, стулья, барная стойка;</li>
+					<li>●	в спальне — двуспальная кровать, шкаф-купе, плазма на стене.</li>
+							
+				</ul>
 			</div>
-
 			<div class="remont__slider-wrap">
 				<div class="remont__box-slider2">
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-2/obedennyj-stol.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
-								<img src="/img/remont/kv-2/obedennyj-stol.jpg"  alt="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2a_1.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2a_1.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Изюминкой кухни, совмещенной с гостиной, является сочетание белых, синих и коричневых стен, благодаря чему происходит зонирование пространства. Для его обустройства дизайнеры выбрали мебель из светлого и темно-коричневого дерева с матовой поверхностью. Чтобы сохранить концепцию интерьера и не перегружать комнату лишними компонентами, в кухне установлена встроенная техника бренда BOSCH: посудомоечная машина (модель - SMV24AX005), духовая печь (модель - HBN539S5), варочная поверхность (модель - PKE611FP1E), холодильник торговой марки Whirlpool 6502-A+ и стиральная машина Whirpool EWSF61503W.
-							</p>
 
 						</div>
 					</div>
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-2/komnata-otdyha.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
-								<img src="/img/remont/kv-2/komnata-otdyha.jpg"  alt="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2a_2.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2a_2.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Для комфортной зоны отдыха в гостиной есть все необходимое: мягкий диван, два кресла, журнальный столик, телевизор LG LJ5150 Full HD с диагональю 49 дюймов, кондиционер Сooper & HUNTER c Wi-Fi-управлением.
-							</p>
+
 						</div>
 					</div>
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-2/krovat-komod.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
-								<img src="/img/remont/kv-2/krovat-komod.jpg"  alt="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
+							<a href="/img/remont/kv-1/kvartira_2a_3.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
+								<img src="/img/remont/kv-1/kvartira_2a_3.jpg"  alt="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано">
 							</a>
-							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки"></a> -->
-							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки"></a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Андреа Вигано" title="Дизайн квартир от Андреа Вигано"></a>
 						</div>
 						<div class="kub_text">
-							<p>
-								Дизайнеры из студии D73 решили, что чрезмерная насыщенность цвета и использование ярких деталей не соответствуют представлению о стиле Nordic, поэтому остановились на сдержанных тонах. Здесь преобладают белый, синий и коричневый оттенки. Благодаря панорамным окнам в комнату поступает много дневного света. Условно спальня разделена на рабочее пространство, для которого есть стол, мягкий стул, торшер, и пространство для отдыха — с двуспальной кроватью и плазмой LG LJ500V Full HD диагональю 43 дюйма.
-							</p>
+
 						</div>
 					</div>
-					<div class="remont__box">
-						<div class="remont__img">
-							<a href="/img/remont/kv-2/sanuzel.jpg" data-fancybox="group2" data-caption="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
-								<img src="/img/remont/kv-2/sanuzel.jpg"  alt="Дизайн квартиры в стиле Nordic — второй вариант планировки" title="Дизайн квартиры в стиле Nordic — второй вариант планировки">
-							</a>
-						</div>
-						<div class="kub_text">
-							<p>
-								Просторная душевая комната укомплектована всем необходимым: кабинкой, сантехникой, бойлером ATLANTIC, умывальником с подвесной тумбой из темного дерева. Общую концепцию интерьера подчеркивают синие стены в сочетании с деревянной фактурой плитки.
-							</p>
-						</div>
-					</div>
-
-
-
-
 				</div>
 				<button class="slider-remont__button slider-remont__button_prev slider2-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
 			</div>
-
-			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank">3D-тур квартиры</a>
-
-
-			<h2>Дизайн квартиры в стиле Modern Glamour</h2>
-
+			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank">3D-тур квартиры</a>
+			
+			<h2>
+				Дизайн квартир от Марии Пахомовой
+			</h2>
 			<div class="kub_text">
-				Следующим проектом студии D73 стала квартира в стиле Modern Glamour. Результат полностью оправдывает название направления: стены, контрастные с полом, акценты в виде яркой мебели, глянцевые поверхности, использование нестандартных геометрических форм.
+				<p>
+					Для воплощения дизайнерской концепции Марии Пахомовой мы объединили две квартиры на 6 этаже. Как результат — общая площадь составила 186 м². Здесь есть три спальни, большая гостиная с панорамными окнами и кухня, о которой мечтают не только женщины. Отдельное преимущество планировки — гардеробная и кладовая.				
+				</p>
+				<p>
+					Простые линии и практический подход к выбору предметов интерьера — именно так можно охарактеризовать дизайн этой квартиры. В комнатах преобладают нейтральные цвета: белые стены и потолок, мебель из светлого дерева, светло-серые элементы декора. Среди материалов — натуральное дерево, стекло, керамическая плитка. Дополняют общий стиль живые растения.							
+				</p>
+				<p>
+					В гостиной запроектированы две панорамные стены, что позволит жителям использовать минимум искусственного освещения. С двух сторон в комнату попадает свет и визуально увеличивает пространство.							
+				</p>
+				<p>
+					Душевая и ванная комнаты похожи своим минималистичным оформлением. Для обоих дизайнов использована светлая плитка с текстурой природного камня. Потолок и пол белые. Обе комнаты укомплектованы сантехникой и необходимой мебелью: в душевой установлена ​​подвесная тумба, в ванной встроен шкаф.							
+				</p>
 			</div>
 
 			<div class="remont__slider-wrap">
 				<div class="remont__box-slider3">
+
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-3/kuhonnaya-mebel.jpg" data-fancybox="group3" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img src="/img/remont/kv-3/kuhonnaya-mebel.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							<a href="/img/remont/kv-2/1.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/1.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
 							</a>
 						</div>
 						<div class="kub_text">
-							Благодаря большим панорамным окнам квартира выглядит просторной. Дневного света хватает для спальни и гостиной, объединенной с кухней. Искусственное освещение также активно используется: люстры, светильники, точечное освещение в потолке.
+
 						</div>
 					</div>
-
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-3/krasnye-kresla.jpg" data-fancybox="group3" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img src="/img/remont/kv-3/krasnye-kresla.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							<a href="/img/remont/kv-2/2.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/2.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/3.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/3.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
 							</a>
 						</div>
 						<div class="kub_text">
-							Основная цветовая гамма — серая, она прослеживается во всей квартире. Контрастные стены в светло-серых и графитовых оттенках дополняет мебель — обеденный стол, стулья, обтянутые серой кожаной тканью, в гостиной — мягкий диван, кофейный столик и два ярко-розовых кресла, которые служат своеобразным акцентом комнаты. Встроенная в шкафы из светлого дерева, техника представлена следующих моделей:
-							<ul>
-							<li>●	посудомоечная машина — BOSCH SMV24AX005,</li>
-							<li>●	духовая печь — BOSCH HBN539S5,</li>
-							<li>●	варочная поверхность — BOSCH PKE611FP1E,</li>
-							<li>●	стиральная машина — Whirpool EWSF61503W,</li>
-							<li>●	холодильник — Whirlpool 6502-A+.</li>
 
-							</ul>
 						</div>
 					</div>
-
 					<div class="remont__box">
 						<div class="remont__img">
-							<a href="/img/remont/kv-3/dvuhspalnaya-krovat.jpg" data-fancybox="group3" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img src="/img/remont/kv-3/dvuhspalnaya-krovat.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
+							<a href="/img/remont/kv-2/4.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/4.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
 							</a>
-						</div>
-						<div class="kub_text">
-							Интерьер спальни получился более насыщенным. За счет красной стены и использования ярких элементов декора, в пространстве чувствуется особое настроение. В ней приятно как работать, так и отдыхать после насыщенного дня. В комнате есть все необходимое: двуспальная кровать, шкаф-купе с большим зеркалом, тумба, письменный стол, телевизор LG LJ500V Full HD диагональю 43 дюйма. Несмотря на такое количество мебели и элементов декора, комната просторная и очень светлая за счет окон в пол.
-						</div>
-					</div>
-
-					<div class="remont__box">
-						<div class="remont__img">
-							<a href="/img/remont/kv-3/rakovina.jpg" data-fancybox="group3" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-								<img src="/img/remont/kv-3/rakovina.jpg"  alt="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour">
-							</a>
-							<a href="/img/remont/MODERN_CLOSET.jpg" data-fancybox="group3" data-caption="Дизайн квартиры в стиле Modern Glamour" title="Дизайн квартиры в стиле Modern Glamour"></a>
 						</div>
 						<div class="kub_text">
 							<p>
-								Санузел представлен душевой комнатой. В ней установлена кабинка, необходимая сантехника, бойлером бренда ATLANTIC, умывальник с подвесной тумбой, в которую можно складывать полотенца и косметику. В дизайне используются белые и серые цвета, за счет чего пространство получилось очень светлым и уютным. Дополняет интерьер белый пол из плитки с глянцевой поверхностью.
 							</p>
-
 						</div>
 					</div>
-
-
-
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/5.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/5.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/6.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/6.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/7.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/7.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/8.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/8.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/9.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/9.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-2/10.jpg" data-fancybox="group3" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-2/10.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
 				</div>
 				<button class="slider-remont__button slider-remont__button_prev slider3-remont__button_prev"></button>
 				<button class="slider-remont__button slider-remont__button_next slider3-remont__button_next"></button>
 			</div>
-			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank">3D-тур квартиры</a>
-
-			<h2>
-			Как купить квартиру с ремонтом в CHICAGO Central House
-			</h2>
 			<div class="kub_text">
 				<p>
-					Специально для тех, кто мечтает о переезде и при этом хочет сэкономить свое время, мы подготовили три квартиры с готовым ремонтом: две квартиры площадью 65 м² и 80,81м² в стиле Nordic и одну квартиру — 86,28 м² в стиле Modern Glamour.
+					В отделке второй квартиры также преобладает минимализм. В интерьере много серого цвета — стены, мебель, декоративные элементы. Однако, несмотря на использование нейтральных оттенков, здесь чувствуется уют и домашнее тепло. Комнаты светлые благодаря панорамным окнам. Здесь много пространства, интерьер не перегружен лишними компонентами.							
 				</p>
 				<p>
-					Выбирайте свой вариант и скорее обращайтесь в отдел продаж по адресу ул. Антоновича, 44. Наши менеджеры ответят на все ваши вопросы, расскажут про условия покупки и помогут выбрать подходящий для вас стиль интерьера.
+					В отделке второй квартиры также преобладает минимализм. В интерьере много серого цвета — стены, мебель, декоративные элементы. Однако, несмотря на использование нейтральных оттенков, здесь чувствуется уют и домашнее тепло. Комнаты светлые благодаря панорамным окнам. Здесь много пространства, интерьер не перегружен лишними компонентами.							
+				</p>
+				<p>
+					В планировке предусмотрены три спальни, гостиная и большая кухня. Общая площадь квартиры составляет 98 м². Каждую комнату дизайнер разделяет на зоны для отдыха и работы: в спальнях есть письменные столы, стулья и полки; в кухне есть отдельная рабочая поверхность, для семейных завтраков или ужинов — стойка с высокими стульями.							
+				</p>
+				<p>
+					Оптимальным решением стала перепланировка гостиной, первоначальная площадь которой составляла более 26 м². Этого было достаточно, чтобы построить межкомнатную перегородку и обустроить третью спальню.							
+				</p>
+			</div>
+			<div class="remont__slider-wrap">
+				<div class="remont__box-slider4">
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/1.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/1.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/2.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/2.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+						</div>
+						<div class="kub_text">
+
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/3.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/3.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/4.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/4.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/5.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/5.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/6.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/6.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/7.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/7.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/8.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/8.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/9.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/9.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/10.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/10.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/11.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/11.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/12.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/12.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/13.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/13.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/14.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/14.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/15.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/15.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/16.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/16.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/17.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/17.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/18.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/18.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/19.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/19.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/20.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/20.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/21.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/21.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/22.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/22.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/23.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/23.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/24.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/24.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+					<div class="remont__box">
+						<div class="remont__img">
+							<a href="/img/remont/kv-3/25.jpg" data-fancybox="group4" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+								<img src="/img/remont/kv-3/25.jpg"  alt="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой">
+							</a>
+							<!-- <a href="/img/remont/NORDIC_BATH.jpg" data-fancybox="group2" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a> -->
+							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Дизайн квартир от Марии Пахомовой" title="Дизайн квартир от Марии Пахомовой"></a>
+						</div>
+						<div class="kub_text">
+							<p>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<button class="slider-remont__button slider-remont__button_prev slider4-remont__button_prev"></button>
+				<button class="slider-remont__button slider-remont__button_next slider4-remont__button_next"></button>
+			</div>
+			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank">3D-тур квартири</a>
+			<h2>Как купить квартиру с ремонтом в CHICAGO Central House</h2>
+			<div class="kub_text">
+				<p>
+					Для того, чтобы узнать детали покупки квартиры с ремонтом, обращайтесь в отдел продаж по адресу ул. Антоновича, 44. Наши менеджеры ответят на все вопросы и помогут выбрать подходящий стиль интерьера.				
 				</p>
 			</div>
 			<a href="/ru/choice/" class="button remont__button button-red">Вибор квартир</a>
-
 		</div>
 	</section>
-	<div class="button3D_box">
+<!--	<div class="button3D_box">
 		<div class="button_3D">
 			3D-тур квартир
 		</div>
@@ -310,7 +669,7 @@
 		<li><a href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank" title="Nordic#2">Nordic. Вариант планировки 2</a></li>
 		<li><a href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank" title="Modern Glamour">Modern Glamour</a></li>
 	</ul>
-</div>
+</div>-->
 	<footer>
     <div class="wrapper">
       <span class="copy">© 2017 CHICAGO Central House</span>
@@ -347,6 +706,9 @@
 		.first_block {
 			margin-bottom: 40px;
 		}
+		.button_3D {
+			display: none;
+		}
 		</style>
 		<script>
 
@@ -379,10 +741,19 @@
 	    prevArrow: '.slider3-remont__button_prev',
 	    nextArrow: '.slider3-remont__button_next'
 	  });
+	  	  $('.remont__box-slider4').slick({
+	    autoplay: true,
+	    slidesToShow: 1,
+	  	slidesToScroll: 1,
+	  	speed: 800,
+	  	autoplaySpeed: 7500,
+	    prevArrow: '.slider4-remont__button_prev',
+	    nextArrow: '.slider4-remont__button_next'
+	  });
 
-		$('.button3D_box').hover(function(){
+/* 		$('.button3D_box').hover(function(){
 			$('.list_3D').toggleClass('list_3D_transformed')
-		});
+		}); */
 
     });
 

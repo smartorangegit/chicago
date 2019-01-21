@@ -18,9 +18,9 @@ while ($myrow = mysqli_fetch_array($sel))
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua<?php echo '/ru'.$_SERVER['REQUEST_URI'];?>" />
-        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
-        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua<?php echo '/en'.$_SERVER['REQUEST_URI'];?>" />
+        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/mediaskulptura/" />
+        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/mediaskulptura/" />
+        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/mediaskulptura/" />
         <title><?=$myrow['title_ua'];?></title>
         <meta name="robots" content="index, follow">
 
@@ -48,7 +48,7 @@ while ($myrow = mysqli_fetch_array($sel))
         <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
         <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
         <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
     </head>
 

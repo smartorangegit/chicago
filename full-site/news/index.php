@@ -23,12 +23,12 @@
 	<![endif]-->
 	<link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/progress.css">
-	<link rel="stylesheet" href="../css/news.css">
+	<link rel="stylesheet" href="../css/news.css?v=1.1">
   <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
   <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
   <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
   <script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-  <link href="/css/news_list.css" rel="stylesheet">
+  <link href="/css/news_list.css?v=1.4" rel="stylesheet">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
 </head>
@@ -152,6 +152,13 @@
 	.news_other {
     margin-top: 0;
    }
+   [data-name="interer-holiv-u-chicago-central-house"] {
+       background-position: right;
+   }
+   [data-name="december"] {
+		background-size: contain;
+		background-repeat: no-repeat;
+   }
 	</style>
 </section>	
 	
@@ -168,6 +175,6 @@
     <script src="../js/jquery.fancybox-thumbs.js"></script>
     <script src="../js/lib/wow.min.js"></script>
 	<script src="../js/progres.js"></script>
-	 <script type="text/javascript" src="/js/news.js"></script>
+	 <script type="text/javascript" src="/js/news.js?v=1.1"></script>
 </body>
 </html>

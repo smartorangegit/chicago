@@ -161,7 +161,7 @@ p.news_name {
 
 .news__list-item-image {
   width: 100%;
-  height: 400px;
+  height: 320px;
   /* position: relative;
   overflow: hidden; */
 
@@ -258,4 +258,16 @@ p.news_name {
     width: 95%;
     margin: 0 auto 45px auto;
   }
+}
+
+[data-name="u-chicago-central-house-projshlo-vidkrittya-photo-kyiv-fair-2018"] {
+ background-position: top;	
+}
+
+[data-name="photo-kyiv-fair-2018-2nd-edition-rezul-tati-premiyi-bird-in-flight"] {
+ background-position: top;	
+}
+
+[data-name="prozori-rishennya-dlya-inter’eru-chicago-central-house-proponue-kvartiri-zi-sklyanimi-stinami"] {
+ background-position: top;	
 }

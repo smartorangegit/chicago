@@ -16,9 +16,9 @@ if($ty == $uC["character_code"]  || $ty == '1a')
 {
  $cO = 1;
 }
-else	{
+else  {
 
-	}
+  }
 
 }
 if($cO != 1){
@@ -42,21 +42,22 @@ while ($myrow = mysql_fetch_array($check))
     <title>CHICAGO Central House - apartments in the center of Kyiv, street Antonovich (Gorky</title>
     <meta name="viewport" content="width=device-width">
 
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://chicago.kiev.ua/en/choice/"/>
 
 <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/appart/?type=<?php echo $ty?>" />
 <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/appart/?type=<?php echo $ty?>" />
 <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/appart/?type=<?php echo $ty?>" />
 
-  	<meta name="description" content="CHICAGO Central House - apartments in the center of Kyiv, street Antonovich ">
+    <meta name="description" content="CHICAGO Central House - apartments in the center of Kyiv, street Antonovich ">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="../../../../../../css/style.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="../../../../../../css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../../../../../../css/choice.css">
+    <link rel="stylesheet" href="../../../../../../css/choice.css?v=1.0">
+    <link rel="stylesheet" href="../../../../../../css/appart_btn.css">
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
   </head>
   <body>
@@ -102,10 +103,40 @@ while ($myrow = mysql_fetch_array($check))
  <?php include('../../includes/form_reserve_en.php'); ?>
         </div>
         <div class="ch-center-app">
+<?php if($ty == '2g'){ ?>          
+          <ul class="ch-app">
+            <li class="ch-app__btn active">
+                <span class="ch-reserv">With furniture</span>
+            </li>
+             <li class="ch-app__btn">
+                <span href="#" class="ch-reserv">With walls</span>
+            </li>
+             <li class="ch-app__btn">
+                <span href="#" class="ch-reserv">No walls</span>
+            </li>
+          </ul>
+         
           <div class="ch-app-up">
+
+
             <div class="ch-planapp">
-              <img src="../app/<?=$myrow["imgPlan1"];?>" alt="applan">
+             <div class="ch-planapp__item active">
+                <img src="../../img/choice/app/app-2g.png?v=1.0" alt="applan">
+             </div> 
+             <div class="ch-planapp__item">
+                <img src="../../img/choice/app/app-2g_st.png" alt="applan">
+             </div>
+             <div class="ch-planapp__item">
+                <img src="../../img/choice/app/app-2g_bst.png" alt="applan">
+             </div> 
             </div>
+<?php  }  else {?>
+           <div class="ch-app-up">
+            <div class="ch-planapp">
+              <img src="/img/choice/app/<?=$myrow["imgPlan1"];?>?v=1.0" alt="applan">
+            </div>
+
+<?php } ?> 
             <div class="ch-app-info">
               <img src="../info/1/<?=$myrow["imgPlan2"];?>" alt="levelplan">
 <div class="table">
@@ -118,9 +149,9 @@ for ($i = 7; $i <= 22; $i++)
 {
     if ($myrow["$i"] == 0)
        {
-			 }
+       }
        else
-					{
+          {
 if($i == 7){echo '<li><p> Total: </p>'.$myrow["$i"].'</li>';}
 if($i == 8){echo '<li><p> living: </p>'.$myrow["$i"].'</li>';}
 if($i == 9){echo '<li><p> Hall: </p>'.$myrow["$i"].'</li>';}
@@ -134,38 +165,50 @@ if($i == 16){echo '<li><p> Bathroom: </p>'.$myrow["$i"].'</li>';}
 if($i == 17){echo '<li><p> Loggia: </p>'.$myrow["$i"].'</li>';}
 if($i == 18){echo '<li><p> Wardrobe: </p>'.$myrow["$i"].'</li>';}
 if($i == 19){echo '<li><p> Wardrobe2: </p>'.$myrow["$i"].'</li>';}
-if($i == 20){echo '<li><p> Kitchen-living room: </p>'.$myrow["$i"].'</li>';}
+if($i == 20){echo '<li><p> Kitchen dining room: </p>'.$myrow["$i"].'</li>';}
 if($i == 21){echo '<li><p> Pantry: </p>'.$myrow["$i"].'</li>';}
-					}
+          }
 }?>
 </ul>
-<ul style="width:170px;">
-<li style="display:none;"></li>
+               <ul style="width:170px;">
+             <? if($myrow['floor']=='23-24'){ echo '<li style="display:none;"></li><li>Second level</li> <li>Square, м2</li> ';} ?>
 
-<?
-$check2 = mysql_query("SELECT * FROM level2 where type ='$ty'" ,$db);
-while ($myrow2 = mysql_fetch_array($check2))
-{
-	for ($iz = 1; $iz <= 10; $iz++)
-		{
-			if ($myrow2["$iz"] == 0){}
-			else
-			{
-if($iz == 1){ echo '<li>Second level</li> <li>Square m2</li> <li style="border:none;"><p> Hall: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 2){ echo '<li><p> Office: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 3){ echo '<li><p> Bedroom: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 4){ echo '<li><p> Bedroom2: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 5){ echo '<li><p> Bedroom3: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 6){ echo '<li><p> Office2: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 7){ echo '<li><p> Toilet: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 8){ echo '<li><p> Bathroom: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 9){ echo '<li><p> Loggia: </p>'.$myrow2["$iz"].'</li>';}
-if($iz == 10){ echo '<li><p> Wardrobe: </p>'.$myrow2["$iz"].'</li>';}
-			}
-		}
-}
-?>
-</ul>
+              <?
+              $check2 = mysql_query("SELECT * FROM level2 where type ='$ty'" ,$db);
+              while ($myrow2 = mysql_fetch_array($check2))
+              {
+
+                for ($iz = 0; $iz <= 18; $iz++)
+                  {
+					  
+                    if ($myrow2["$iz"] == 0){
+						
+					}
+                    else
+                    {
+              if($iz == 1){ echo '<li style="border:none;"><p> Hall: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 2){ echo '<li style="border:none;"><p> Cabinet: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 3){ echo '<li style="border:none;"><p> Corridor: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 4){ echo '<li><p> Bedroom 1: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 5){ echo '<li><p> Bedroom 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 6){ echo '<li><p> Bedroom 3: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 7){ echo '<li><p> Bedroom 4: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 8){ echo '<li><p> Bedroom 5: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 9){ echo '<li><p> Cabinet 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 10){ echo '<li><p> Toilet: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 11){ echo '<li><p> Toilet 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 12){ echo '<li><p> Bathroom: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 13){ echo '<li><p> Bathroom 2: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 14){ echo '<li><p> Loggia 2: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 15){ echo '<li><p> Loggia 1: </p>'.$myrow2["$iz"].'</li>';}
+              if($iz == 16){ echo '<li><p> Wardrobe: </p>'.$myrow2["$iz"].'</li>';}
+			  if($iz == 17){ echo '<li><p> Wardrobe 2: </p>'.$myrow2["$iz"].'</li>';}
+
+                    }
+                  }
+              }
+              ?>
+              </ul>
  </div>
             </div>
           </div>
@@ -200,8 +243,9 @@ if($iz == 10){ echo '<li><p> Wardrobe: </p>'.$myrow2["$iz"].'</li>';}
     <script src="../../../../../../js/jquery.fancybox.pack.js"></script>
     <script src="../../../../../../js/jquery.fancybox-thumbs.js"></script>
     <script src="../../../../../../js/menu.js"></script>
+    <script src="../../../../../../js/script-appart-btn.js"></script>
 
-	<!-- Yandex.Metrika counter -->
+  <!-- Yandex.Metrika counter -->
 <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43410039 = new Ya.Metrika({ id:43410039, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
  } catch(e) { } });
  var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };

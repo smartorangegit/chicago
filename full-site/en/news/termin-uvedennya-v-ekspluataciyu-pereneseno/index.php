@@ -26,10 +26,9 @@ while ($myrow = mysqli_fetch_array($sel))
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
         <meta name="description" content="<?=$myrow['description_en'];?>">
 
-		<? $rel_url = explode("/", $_SERVER['REQUEST_URI']); ?>
-		<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua<?php echo '/ru/news/'.$rel_url[3].'/';?>" />
-        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua<?php echo '/news/'.$rel_url[3].'/';?>" />
-        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
+        <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/news/vivid_life_in_center/" />
+        <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/news/vivid_life_in_center/" />
+        <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/news/vivid_life_in_center/" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
         <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
@@ -47,7 +46,7 @@ while ($myrow = mysqli_fetch_array($sel))
         <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
         <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
         <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     </head>
 
     <body>
@@ -67,9 +66,9 @@ while ($myrow = mysqli_fetch_array($sel))
 
     <section class="third light">
         <div class="lamps wrapper">
-            <img src="/img/icons/lamp.png" alt="lamp" />
-            <img src="/img/icons/lamp.png" alt="lamp" />
-            <img src="/img/icons/lamp.png" alt="lamp" />
+            <img src="../../img/icons/lamp.png" alt="lamp" />
+            <img src="../../img/icons/lamp.png" alt="lamp" />
+            <img src="../../img/icons/lamp.png" alt="lamp" />
         </div>
         <div class="wrapper">
             <span class="trigger-0"></span>

@@ -89,7 +89,7 @@
                return '<li class="news__list-item">' +
                         '<a href="'+ news.news_code  +'/">' +
                         '<div class="news__list-item-top">' + 
-                            '<div class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
+                            '<div data-name='+ news.news_code + ' class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
                             // '<div class="news__list-item-date_1">' + formatDate1(news[2]) + '</div>' + 
                             '<h4 class="news__list-item-heading">' + news.name_news_ru + '</h4>' +
                     '</div>' +
@@ -113,7 +113,7 @@
             return '<li class="news__list-item">' +
                         '<a href="'+ news.news_code  +'/">' +
                         '<div class="news__list-item-top">' + 
-                            '<div class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
+                            '<div data-name='+ news.news_code + ' class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
                             // '<div class="news__list-item-date_1">' + formatDate1(news[2]) + '</div>' + 
                             '<h4 class="news__list-item-heading">' + news.name_news_en + '</h4>' +
                     '</div>' +
@@ -137,7 +137,7 @@
             return '<li class="news__list-item">' +
                         '<a href="'+ news.news_code  +'/">' +
                         '<div class="news__list-item-top">' + 
-                            '<div class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
+                            '<div data-name='+ news.news_code + ' class="news__list-item-image" style="background-image: url(' + news.img_path + '/' + news.img_name + ')"></div>' +
                             // '<div class="news__list-item-date_1">' + formatDate1(news[2]) + '</div>' + 
                             '<h4 class="news__list-item-heading">' + news.name_news_ua + '</h4>' +
                     '</div>' +

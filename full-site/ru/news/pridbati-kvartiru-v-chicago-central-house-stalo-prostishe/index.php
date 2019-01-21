@@ -1,7 +1,5 @@
 <?php
-header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
-header('Pragma: no-cache'); // HTTP 1.0.
-header('Expires: 0');
+
 session_start();
 include ("../../../admin/bd.php");// файл bd.php должен быть в той же папке, что и все остальные, если это не так, то просто измените путь
 $uri = explode("/",$_SERVER['PHP_SELF']);

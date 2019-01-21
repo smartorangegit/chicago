@@ -100,10 +100,13 @@
 					</div>
 					<div class="ctc__top">
 						<div class="content_text">
-							<p>	We invite all investors to become the participants of Client Control. </p>
-							<p>	Notification of the meeting will be sent via Viber chat assistant, to which you may connect through Sfera mobile application or via link received by SMS message. Manager sends invitations, receives confirmations, collects questions and gives answers through Viber chat assistant.</p>
+							<p>We invite all investors to become the participants of Client Control.</p>
+							<p>Notification of the meeting will be sent via push notification through Sfera mobile application. </p>
 							<p>
 								All investors of the building receive invitations to a meeting once a month in order to control its readiness, to prepare proposals with regard to territory improvement, etc.
+							</p>
+							<p>
+								After the meeting the investor can send his question to the manager in the Viber chat bot. Investor can go to the chat through the mobile application Sfera in the "Assistant" section.
 							</p>
 							<p class="bolder">
 							When visiting the site the following persons meet the investors:
