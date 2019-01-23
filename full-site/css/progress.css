@@ -315,7 +315,7 @@
  margin-top: 6px;
 }
 .image-item--49 {
-margin-top: 6px;	
+margin-top: 6px;
 }
 .circle p {
   font-size: 22px;
@@ -636,56 +636,11 @@ span.trigger-0 {
 .fifteenth h2.title {
   transform:translate3d(5%, 0, 0);
 }
-/*header .wrapper .logo{
-  float: left;
-  width: 45%;
-  margin-top: 60px;
-}
-.header-nav {
-  float: right;
-  width: 30%;
-  margin-top: 65px;
-  margin-bottom: 50px;
-}*/
 
-/*.header-callback {
-  width: 100%;
-  max-width: 300px;
-}
-.header-phone{
-  float: left;
-  width: 45%;
-  margin-top: 125px;
-  font-size: 18px;
-}
-.header-phone em{
-  font-size: 1.5em;
-}
-.header-button{
-  width: 45%;
-  float: right;
-  margin-top: 90px;
-  margin-right: 30px;
-}*/
 
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
-.wrapper {
-  /*width: 320px;*/
-  max-width:380px;
-  position: relative;
-  padding-top: 10px;
-}
-.header {
-  background: #ED2732;
-}
-.header.zipped{
-  background: #ED2732;
-}
-header .wrapper .logo{
-  float: none;
-}
 .progress-grid{
   margin-top: 80px;
   transition-duration: 0.5s;
