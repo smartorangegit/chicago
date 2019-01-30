@@ -3,42 +3,29 @@
 <html lang="uk">
 <head>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+	<title>≡ ЖК CHICAGO Central House 》Панорама</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>≡ ЖК CHICAGO Central House 》Панорама</title>
 	<meta name="robots" content="index, follow">
-    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
+	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/panorama/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/panorama/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	  <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slider-style.css">
-
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />
+	<link rel="stylesheet" href="../css/full.css">
 	<link rel="stylesheet" href="../css/style.css">
-
-  	<link rel="image_src" href="../panor/indexdata/thumbnail.jpg" />
-		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
-		<meta name="apple-mobile-web-app-capable" content="yes"/>
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-<?php /*Google Tag Manager*/ /*include_once('../includes/header_ua.php'); */?>
-
+	<link rel="image_src" href="../panor/indexdata/thumbnail.jpg" />
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!-- MAPS -->
-
-
-
 <style type="text/css">
 	@-ms-viewport { width: device-width; }
 	@media only screen and (min-device-width: 800px) { html { overflow:hidden; } }
 	* { padding: 0; margin: 0; }
 	html { height: 100%; }
-	body { height: 100%; overflow:hidden;
+	body { height: 100%; overflow:hidden; min-width: 0; padding-top: 70px!important; box-sizing: border-box;
 		/*padding:7% 0 6% 0; */
 		background:rgba(255, 0, 11, 0.8);}
 	div#container { height: 100%; min-height: 100%; width: 100%; margin: 0 auto; }
@@ -64,13 +51,7 @@
 </style>
 <!--[if !IE]><!-->
 <script type="text/javascript" src="../panor/indexdata/lib/jquery-2.1.1.min.js"></script>
-<!--<![endif]-->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="../panor/indexdata/lib/jquery-1.11.1.min.js"></script>
-<![endif]-->
-<!--[if gt IE 8]>
-<script type="text/javascript" src="../panor/indexdata/lib/jquery-2.1.1.min.js"></script>
-<![endif]-->
+
 <style type="text/css">
 	div#panoDIV.cursorMoveMode {
 		cursor: move;
@@ -85,35 +66,13 @@
 	div.exit{
 		position: absolute;
     bottom: 1px;
-   /* left: 15px;*/
     z-index: 9999;
-		height: 11%;
-    width: 100%;
-	}
-	a.exit-link {
-		display: block;
-    color: lightgray;
-    text-transform: uppercase;
-	}
-	a.exit-link:hover {
+		left: 20px;
+		bottom: 20px;
 		color: red;
+		text-transform: uppercase;
 	}
-.header{
-background: #EF2732;
-}
-@media only screen and (min-width: 1920px){
-.header{
-    height:21%;
-    background:none;
-}
-body{
-/*padding: 5% 0 3.5% 0;*/
-background:rgba(255, 0, 11, 0.8);
-}
-div.exit{
- height: 7%;
-}
-}
+
 </style>
 
 <script type="text/javascript">
@@ -185,16 +144,11 @@ div.exit{
 		} else {
 			embedpano({
 				id:"krpanoSWFObject"
-
 				,swf:"../panor/indexdata/index.swf"
-
 				,target:"panoDIV"
 				,passQueryParameters:true
 				,bgcolor:"#000000"
-
 				,html5:"prefer"
-
-
 			});
 		}
 		//apply focus on the visit if not embedded into an iframe
@@ -224,33 +178,13 @@ div.exit{
 </head>
 <body>
 <?php include_once('../includes/header_ua.php'); ?>
-	
+
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
 
+
 <div class="exit">
-
-<footer>
-        <div class="wrapper">
-<a  href="/">&larr; на сайт</a>
-            <span class="copy">© 2017 CHICAGO Central House</span>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Відділ маркетингу - marketing@riverside.net.ua</span>
-			<span><a href="/sitemap/" style="margin: 0 20px;"><img src="/img/home-footer.svg" alt="sitemap" width="30px" style="margin-bottom:-3px;"></a></span>
-						<span class="smarto">
-                Розробка сайту
-                <a  <?LazyLoad("/img/logo-smart.png", $option=array('class'=>'logo-smart'));?>></a>
-            </span>
-						<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="../img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
-        </div>
-
-
-	</footer>
-
+	<a  href="/">&larr; на сайт</a>
 </div>
-
-    <!-- <script>
-        var controller = new ScrollMagic.Controller();
-    </script> -->
-		<?php /*Google Tag Manager*/ /*include_once('../includes/header_ua.php');*/ ?>
 
 
 <?php include('../includes/form_callback.php'); ?>
@@ -293,26 +227,9 @@ div.exit{
 	<!-- <iframe src="http://magelangis.com/Pano/Antonovicha44/" width="100%" height="100%" align="left"  style="border-style: none;width: 100%; margin-top: 50px;">
 	</iframe> -->
 
-
+	<script src="/js/snapSliderFancy.js"></script>
 	<script src="/js/scripts.js"></script>
-	<script src="../js/jquery-1.12.0.min.js"></script>
-	<!-- <script src="../js/scripts.js"></script> -->
-	<script src="../js/menu.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-	<script>
-	$(function(){
-	    $("#zipCode").mask("(999) 999-99-99");
-	});
 
-
-	</script>
-	<!-- конец скрипта маски -->
-	<style>
-	#zipCode{padding-left:126px;}
-	@media only screen and (max-width:768px){
-	#zipCode{padding-left:0px;}
-	}
-	</style>
 
 </body>
 </html>

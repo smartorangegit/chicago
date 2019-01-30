@@ -4,40 +4,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /> -->
 	<title>≡ ЖК Чикаго 》Атмосферна новобудова в центрі Києва - вул. Антоновича, 44 | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>"/>
 	<meta name="description" content="【ЖК CHICAGO Central House】 Американська якість ➜ Українська ціна за квартиру в центрі! ✅ 【CHICAGO】 Фото галерея житлового комплексу, дозвільні документи, переваги компл... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
-	
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/" />
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> -->
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/full.css" />
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
 <?php /*Google Tag Manager*/ include_once('includes/gtm_head.php'); ?>
-		<meta property="og:title" content="≡ ЖК Чикаго 》Атмосферна новобудова в центрі Києва - вул. Антоновича, 44 | CHICAGO Central House" />
-		<meta property="og:description" content="【ЖК CHICAGO Central House】 Американська якість ➜ Українська ціна за квартиру в центрі! ✅ 【CHICAGO】 Фото галерея житлового комплексу, дозвільні документи, переваги компл... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+	<meta property="og:title" content="≡ ЖК Чикаго 》Атмосферна новобудова в центрі Києва - вул. Антоновича, 44 | CHICAGO Central House" />
+	<meta property="og:description" content="【ЖК CHICAGO Central House】 Американська якість ➜ Українська ціна за квартиру в центрі! ✅ 【CHICAGO】 Фото галерея житлового комплексу, дозвільні документи, переваги компл... ✅ 【ЖК Чикаго】 Адреса розташування: Київ, вул. Антоновича 44 (Горького). Карта проїзду... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
@@ -67,149 +49,94 @@
 <?php /*меню*/ include_once('includes/header_ua.php'); ?>
 
 
-	<section  <?LazyLoad("/img/new_render_s.jpg", $option=array('class'=>'first'));?> >
-        <div class="block1"><img <?LazyLoad("/img/birds2.png");?>	 alt="birds" /></div>
-        <span class="trigger-0"></span>
-
+	<section  <?LazyLoad("/img/bg_2019.jpg", $option=array('class'=>'first'));?> >
 		<div class="first_name">
+			<span class="subheader wow bounceInRight"><span>Американська</span><span>якість</span></span><br>
+			<span class="subheader wow bounceInRight"><span>Українська </span><span>ціна</span></span>
 			<h1 class="classh2 wow bounceInLeft">
 				ЗУСТРІЧАЙТЕ НОВИЙ ЖИТЛОВИЙ КОМПЛЕКС
 				<em>CHICAGO Central House</em>
 			</h1>
-			<span class="subheader wow bounceInRight"><span>Американська</span><span>якість</span></span><br>
-			<span class="subheader wow bounceInRight"><span>Українська </span><span>ціна</span></span>
+			<p class="first_location wow fadeInDown">
+				розташований у самому центрі Києва,  за адресою: <br>
+				<em> вулиця Антоновича, 44</em>
+			</p>
 		</div>
-        <div class="cd-radial-slider-wrapper slider wow fadeInDown">
-            <ul class="cd-radial-slider" data-radius1="60" data-radius2="1364" data-centerx1="110" data-centerx2="1290">
-                <li class="visible">
-                    <div class="svg-wrapper">
-                        <svg viewBox="0 0 1400 800">
-                            <defs>
-                                <clipPath id="cd-image-1">
-                                    <circle id="cd-circle-1" cx="110" cy="400" r="1364"/>
-                                </clipPath>
-                            </defs>
-                            <image height='800px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="/img/bg-slider-1.png"></image>
-                        </svg>
-                    </div> <!-- .svg-wrapper -->
-                    <div class="cd-radial-slider-content">
-                        <div class="wrapper">
-                            <div>
-                                <h4>
-                                    Місія розробників “CHICAGO Central House” &minus; запропонувати киянам американську якість життя за розумною ціною.
-                                </h4>
-                                <p>
-                                    Це стало можливим завдяки застосуванню американського досвіду проектування та будівництва, яким володіють ідеологи проекту, що довгий час проживали у США, а тепер повернулись на історичну Батьківщину &minus; в Україну.
-                                </p>
+	</section>
+	<section  class="one_part2 light" >
+		<div class="cd-radial-slider-wrapper slider wow fadeInDown">
+			<ul class="cd-radial-slider" data-radius1="60" data-radius2="1364" data-centerx1="110" data-centerx2="1290">
+				<li class="visible">
+					<div class="svg-wrapper">
+						<svg viewBox="0 0 1400 800">
+							<defs>
+								<clipPath id="cd-image-1">
+									<circle id="cd-circle-1" cx="110" cy="400" r="1364"/>
+								</clipPath>
+							</defs>
+							<image height='800px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="/img/bg-slider-1.png"></image>
+						</svg>
+					</div> <!-- .svg-wrapper -->
+					<div class="cd-radial-slider-content">
+						<div class="wrapper">
+							<div>
+								<h4>
+									Місія розробників “CHICAGO Central House” &minus; запропонувати киянам американську якість життя за розумною ціною.
+								</h4>
+								<p>
+									Це стало можливим завдяки застосуванню американського досвіду проектування та будівництва, яким володіють ідеологи проекту, що довгий час проживали у США, а тепер повернулись на історичну Батьківщину &minus; в Україну.
+								</p>
+							</div>
+						</div>
+					</div> <!-- .cd-radial-slider-content -->
+				</li>
+				<li class="next-slide">
+					<div class="svg-wrapper">
+						<svg viewBox="0 0 1400 800">
+							<defs>
+								<clipPath id="cd-image-2">
+									<circle id="cd-circle-2" cx="1290" cy="400" r="60"/>
+								</clipPath>
+							</defs>
+							<image height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="/img/bg-slider-2.png"></image>
+						</svg>
+					</div> <!-- .svg-wrapper -->
+					<div class="cd-radial-slider-content">
+						<div class="wrapper">
+							<div>
+								<p class="slider_black">
+									CHICAGO Central House &minus; це амбіційний концепт, який поєднує в собі яскраву чиказьку архітектуру, комфорт світового рівня та всі переваги життя у центрі столиці. Це дійсно унікальний простір для життя, призначений для тих, хто прагне особливого. Для тих, хто хоче завжди перебувати у центрі &minus; у центрі міста, у центрі ділового та культурного життя.
+								</p>
+								<p class="slider_black">
+									Ми не продаємо так зване «елітне житло». Ми створюємо комфортний і гармонійний простір для життя, призначений для тих, хто має власну уяву про розкіш. Адже справжня розкіш, на наш погляд, це унікальний вид з вікна, оточення однодумців, середовище культури, стиля та витонченості.
+								</p>
+							</div>
+						</div>
+					</div> <!-- .cd-radial-slider-content -->
+				</li>
+			</ul> <!-- .cd-radial-slider -->
+			<ul class="cd-radial-slider-navigation">
+				<li><a href="#0" class="next">Next</a></li>
+				<li><a href="#0" class="prev">Prev</a></li>
+			</ul> <!-- .cd-radial-slider-navigation -->
+			<div class="cd-round-mask">
+				<svg viewBox="0 0 1400 800">
+					<defs>
+						<mask id="cd-left-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
+							<path fill="white" d="M0,0v800h1400V0H0z M110,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S143.137,460,110,460z"/>
+						</mask>
 
-                            </div>
-                        </div>
-                    </div> <!-- .cd-radial-slider-content -->
-                </li>
-                <li class="next-slide">
-                    <div class="svg-wrapper">
-                        <svg viewBox="0 0 1400 800">
-                            <defs>
-                                <clipPath id="cd-image-2">
-                                    <circle id="cd-circle-2" cx="1290" cy="400" r="60"/>
-                                </clipPath>
-                            </defs>
-
-                            <image height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="/img/bg-slider-2.png"></image>
-                        </svg>
-                    </div> <!-- .svg-wrapper -->
-
-                    <div class="cd-radial-slider-content">
-                        <div class="wrapper">
-                            <div>
-                              	<p>
-                                    CHICAGO Central House &minus; це амбіційний концепт, який поєднує в собі яскраву чиказьку архітектуру, комфорт світового рівня та всі переваги життя у центрі столиці. Це дійсно унікальний простір для життя, призначений для тих, хто прагне особливого. Для тих, хто хоче завжди перебувати у центрі &minus; у центрі міста, у центрі ділового та культурного життя.
-                                </p>
-                                <p>
-                                    Ми не продаємо так зване «елітне житло». Ми створюємо комфортний і гармонійний простір для життя, призначений для тих, хто має власну уяву про розкіш. Адже справжня розкіш, на наш погляд, це унікальний вид з вікна, оточення однодумців, середовище культури, стиля та витонченості.
-                                </p>
-                            </div>
-                        </div>
-                    </div> <!-- .cd-radial-slider-content -->
-                </li>
-                <li>
-                    <div class="svg-wrapper">
-                        <svg viewBox="0 0 1400 800">
-                            <defs>
-                                <clipPath id="cd-image-3">
-                                    <circle id="cd-circle-3" cx="110" cy="400" r="60"/>
-                                </clipPath>
-                            </defs>
-
-                            <image height='800px' width="1400px" clip-path="url(#cd-image-3)" xlink:href="/img/bg-slider-1.png"></image>
-                        </svg>
-                    </div> <!-- .svg-wrapper -->
-                    <div class="cd-radial-slider-content">
-                        <div class="wrapper">
-                            <div>
-                                 <p style="font-size:36px; text-transform:uppercase;">
-                                    Місія розробників “CHICAGO Central House” &minus; запропонувати киянам американську якість життя за розумною ціною.
-                                </p>
-                                <p>
-                                    Це стало можливим завдяки застосуванню американського досвіду проектування та будівництва, яким володіють ідеологи проекту, що довгий час проживали у США, а тепер повернулись на історичну Батьківщину &minus; в Україну.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div> <!-- .cd-radial-slider-content -->
-                </li>
-                <li class="prev-slide">
-                    <div class="svg-wrapper">
-                        <svg viewBox="0 0 1400 800">
-                            <defs>
-                                <clipPath id="cd-image-4">
-                                    <circle id="cd-circle-4" cx="110" cy="400" r="60"/>
-                                </clipPath>
-                            </defs>
-
-                            <image height='800px' width="1400px" clip-path="url(#cd-image-4)" xlink:href="/img/bg-slider-2.png"></image>
-                        </svg>
-                    </div> <!-- .svg-wrapper -->
-
-                    <div class="cd-radial-slider-content">
-                        <div class="wrapper">
-													<div>
-														<p>
-																CHICAGO Central House” &minus; це амбіційний концепт, який поєднує в собі яскраву чиказьку архітектуру, комфорт світового рівня та всі переваги життя у центрі столиці. Це дійсно унікальний простір для життя, призначений для тих, хто прагне особливого.
-														</p>
-															<p>
-																	Ми не продаємо так зване «елітне житло». Ми створюємо комфортний і гармонійний простір для життя, призначений для тих, хто має власну уяву про розкіш. Адже справжня розкіш, на наш погляд, це унікальний вид з вікна, оточення однодумців, середовище культури, стиля та витонченості.
-															</p>
-													</div>
-                        </div>
-                    </div> <!-- .cd-radial-slider-content -->
-                </li>
-            </ul> <!-- .cd-radial-slider -->
-
-            <ul class="cd-radial-slider-navigation">
-                <li><a href="#0" class="next">Next</a></li>
-                <li><a href="#0" class="prev">Prev</a></li>
-            </ul> <!-- .cd-radial-slider-navigation -->
-
-            <div class="cd-round-mask">
-                <svg viewBox="0 0 1400 800">
-                    <defs>
-                        <mask id="cd-left-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
-                            <path fill="white" d="M0,0v800h1400V0H0z M110,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S143.137,460,110,460z"/>
-                        </mask>
-
-                        <mask id="cd-right-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
-                            <path fill="white" d="M0,0v800h1400V0H0z M1290,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S1323.137,460,1290,460z"/>
-                        </mask>
-                    </defs>
-                </svg>
-            </div>
-        </div> <!-- .cd-radial-slider-wrapper -->
+						<mask id="cd-right-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
+							<path fill="white" d="M0,0v800h1400V0H0z M1290,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S1323.137,460,1290,460z"/>
+						</mask>
+					</defs>
+				</svg>
+			</div>
+		</div> <!-- .cd-radial-slider-wrapper -->
 	</section>
 	<section <?LazyLoad("/img/bg-2.jpg", $option=array('class'=>'second'));?> id="place">
-        <span class="trigger-1"></span>
-		<h2 class="title">Розташування</h2>
-        <i class="line"></i>
+        <!-- <span class="trigger-1"></span> -->
+		<h2 class="title wow fadeInLeft">Розташування</h2>
 	</section>
 	<section class="third light">
         <span class="lamps wrapper">
@@ -218,28 +145,76 @@
             <i></i>
         </span>
 		<div class="wrapper">
-			<p class="subheader wow fadeInDown">
-				<span>“CHICAGO Central House”</span> <span>розташований у самому</span>
-                <span>центрі Києва, за адресою:</span><span> вулиця Антоновича, 44</span>
-			</p>
 			<p class="more wow fadeInUp">
 				Це той самий щасливий випадок, коли життя у історичному центрі столиці поєднується із енергетикою ділових кварталів. Тепер не треба витрачати час, щоб дістатися до роботи, якщо ваш офіс розташований у київському сіті. Також за декілька хвилин пішки ви дістанетесь до головної вулиці міста, а усе, що потрібно для комфортного насиченого життя, знаходиться поряд із вашим будинком.
 			</p>
 		</div>
 	</section>
-    <section class="sixth">
+    <section id="section-location" class="sixth">
         <div id="map">
         </div>
+				<div class="map_box">
+          <div class="content_text">Адресa: </div>
+          <div class="content_text">м. Київ, вул. Антоновича, 44</div>
+          <ul class="infra_descr">
+						<li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="all"><div class="map_all"></div> <span>Показати усе</span></li>
+						<li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="education"><div class="map_educ"></div> <span>Освіта</span></li>
+            <li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="hospital"><div class="map_hosp">            </div> <span>Медицина</span></li>
+            <li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="goverment"><div class="map_gover">            </div> <span>Держ.установи</span></li>
+						<li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="shop"><div class="map_shop"></div> <span>Магазини</span></li>
+            <li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="sport"><div class="map_sport">            </div> <span>Спорт</span></li>
+						<li class="flex" onclick="filterMarkers($(this).attr('data-category'))" data-category="subway"><div class="map_sub"></div> <span>Метро</span></li>
+          </ul>
+				</div>
     </section>
-	<a href="/panorama/">
+		<section  id="aparments" <?LazyLoad("/img/bg-15.jpg", $option=array('class'=>'thirteenth', 'option'=>'center'));?> >
+					<h2 class="title wow fadeInLeft">Квартири</h2>
+		</section>
+		<section  <?LazyLoad("/img/bg-appart.jpg", $option=array('class'=>'fourteenth', 'option'=>'center no-repeat'));?>>
+			<div class="wrapper">
+				<div class="sappart_inner flex">
+					<div class="sappart_text">
+						<p class="subheader wow fadeInDown"><span>Оберіть свою квартиру</span><span>просто зараз!</span></p>
+						<p class="more">
+							Ми пропонуємо вільне планування житлового простору &minus; саме ви вирішуєте, як буде влаштована ваша квартира.  В цьому допоможуть досвідчені архітектори, яких ми вам надамо, щоб забезпечити втілення усіх ваших бажань.
+						</p>
+					</div>
+					<div class="sappart_img">
+						<img  alt="gallery" <?LazyLoad("/img/app-3v.png", $option=array('class'=>'img-second wow fadeInRight'));?> >
+					</div>
+				</div>
+				<div class="btn_box flex">
+						<a href="/odnokomnatnaya-kvartira" class="button button-red">1-кімнатні</a>
+						<a href="/dvuhkomnatnaya-kvartira" class="button button-red">2-кімнатні</a>
+						<a href="/trehkomnatnaya-kvartira" class="button button-red">3-кімнатні</a>
+				</div>
+				<div class="sappart_inner sappart_reverse flex">
+					<div class="sappart_text">
+						<p class="more">
+							Наше кредо &minus; уважне ставлення до деталей. Ми приділяємо максимальну увагу опрацюванню  ергономіки проектних рішень, підбору високоякісних матеріалів, конструктивним рішенням тощо.
+						</p>
+						<p class="more">
+							Ваша участь у проекті &minus; найкраща нагорода для нас. Отже давайте працювати разом &minus; звертайтеся до наших спеціалістів з будь-яких питань, пов&prime;язаних із вашим майбутнім житлом.
+						</p>
+						<a href="/choice/" class="button button-red">Обрати квартиру</a>
+					</div>
+					<div class="sappart_img">
+						<img  alt="central" <?LazyLoad("/img/app-2d.png", $option=array('class'=>'img-first wow fadeInLeft'));?> >
+					</div>
+				</div>
+				<div class="text wow fadeIn">
+					<span class="more-info">Щоб отримати додаткову інформацію, будь ласка, зв&prime;яжіться із нами: (044) 49-80-400</span>
+				</div>
+			</div>
+		</section>
 		<section <?LazyLoad("/img/panorama3.jpg", $option=array('class'=>'seventh'));?>>
-				<span class="trigger-2"></span>
-       			 <h2 class="title">Панорама</h2>
-       			 <i class="line"></i>
-						 <div class="obzor"><img  <?LazyLoad("/img/icons/360.png");?> alt="png" /></div>
-    	</section>
-	</a>
-    <section <?LazyLoad("/img/bg-4.jpg", $option=array('class'=>'fourth', 'option'=>'no-repeat center fixed'));?> id="infrastructure">
+			<a href="/panorama/">
+				<!-- <span class="trigger-2"></span> -->
+       	<h2 class="title wow fadeInLeft">Панорама</h2>
+				<div class="obzor"><img  <?LazyLoad("/img/icons/360.png");?> alt="png" /></div>
+			</a>
+    </section>
+    <section <?LazyLoad("/img/bg-4.jpg", $option=array('class'=>'fourth', 'option'=>'no-repeat'));?> id="infrastructure">
         <ul class="wrapper wow pulse">
             <li>
                 <div <?LazyLoad("/img/icons/clock.png", $option=array('class'=>'clock'));?> >
@@ -255,16 +230,12 @@
             <li>
                 1
                 <span class="subheader"><span>хвилина</span></span>
-                <span class="text">
-                    пішки до найближчих<br> кафе та ресторанів
-                </span>
+                <span class="text">пішки до найближчих<br> кафе та ресторанів</span>
             </li>
             <li>
                 1
                 <span class="subheader"><span>хвилина</span></span>
-                <span class="text">
-                    пішки до найближчих<br> торгівельних центрів
-                </span>
+                <span class="text">пішки до найближчих<br> торгівельних центрів</span>
             </li>
             <li>
                 2
@@ -304,12 +275,7 @@
         </ul>
     </section>
 	<section class="fifth light">
-        <span class="lamps wrapper">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
-		<div class="wrapper">
+  	<div class="wrapper">
 			<p class="subheader wow fadeInDown">
                 <span>Щоб дістатися</span><span>найближчих кафе та</span>
                 <span> ресторанів,</span>
@@ -322,10 +288,8 @@
 		</div>
 	</section>
 
-	<section <?LazyLoad("/img/bg-11.jpg", $option=array('class'=>'eleventh', 'option'=>'center'));?> >
-		<span class="trigger-5"></span>
-		<h2 class="title">Цінності</h2>
-		<i class="line"></i>
+	<section id="section-values" <?LazyLoad("/img/bg-11.jpg", $option=array('class'=>'eleventh', 'option'=>'center'));?> >
+		<h2 class="title wow fadeInLeft">Цінності</h2>
 	</section>
 	<section class="twelfth light">
 		<div class="grid clearfix">
@@ -338,7 +302,7 @@
 						<em>будинок як шедевр</em></br>
 						Сучасне мистецтво у екстер&prime;єрі та суспільному просторі
 					</p>
-					<a href="https://chicago.kiev.ua/kub/" title="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House">View more</a>
+					<!-- <a href="https://chicago.kiev.ua/kub/" title="Скляний куб із медіа-скульптурою - ЖК CHICAGO Central House">View more</a> -->
 				</figcaption>
 			</figure>
 			<figure class="effect-milo wow fadeInDown">
@@ -350,7 +314,6 @@
 						<em>Яскрава архітектура будинку</em></br>
 						Яскраві враження кожен день
 					</p>
-					<?php /*<a href="#" style="pointer-events:none;">View more</a>*/ ?>
 				</figcaption>
 			</figure>
 			<figure class="effect-milo wow fadeInUp">
@@ -362,7 +325,6 @@
 					<em>Центр тяжіння</em></br>
 					Діловий та культурний центр столиці
 					</p>
-					<?php /*<a href="#" style="pointer-events:none;">View more</a>*/ ?>
 				</figcaption>
 			</figure>
 			<figure class="effect-milo wow fadeInRight">
@@ -374,29 +336,26 @@
 					<em>Унікальне наповнення простору</em></br>
 					Інший ритм життя
 					</p>
-					<?php /*<a href="#" style="pointer-events:none;">View more</a>*/ ?>
 				</figcaption>
 			</figure>
 		</div>
 	</section>
 
-	<section  <?LazyLoad("/img/bg-9.jpg", $option=array('class'=>'ninth', 'option'=>'center'));?> >
-        <span class="trigger-4"></span>
-        <h2 class="title">Переваги</h2>
-        <i class="line"></i>
+	<section id="section-advantages" <?LazyLoad("/img/bg-9.jpg", $option=array('class'=>'ninth', 'option'=>'center'));?> >
+    <h2 class="title wow fadeInLeft">Переваги</h2>
 	</section>
     <section class="tenth">
-        <ul class="wrapper clearfix">
+        <ul class="wrapper flex">
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-1.png");?>   alt="advantage-1">
                 <span class="subheader"><span>Американський </span><span>рівень життя,</span></span>
                 <span class="last">доступний тепер в Україні</span>
             </li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-2.png");?>   alt="advantage-2">
 							<span class="subheader"><span>“CHICAGO</span><span>Central House”  – </span></span>
 							<span class="last">новий архітектурний символ столиці</span>
-						</li>
+						</li> -->
 						<li class="wow bounceIn">
 						 <a href="/kvartira-center/">
 							<img <?LazyLoad("/img/icons/advantage-4.png");?>  alt="advantage-4">
@@ -404,26 +363,26 @@
 							<span class="last">у пішій доступності від сіті та від старого міста</span>
 						 </a>
 						</li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-10.png");?>  alt="advantage-10">
 							<span class="subheader"><span>Розкішна</span><span>панорама</span></span>
 							<span class="last">історичного центру Києва</span>
-						</li>
-            <li class="wow bounceIn">
+						</li> -->
+            <!-- <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-5.png");?> alt="advantage-5">
                 <span class="subheader"><span>Насичена міська </span><span>інфраструктура:</span></span>
                 <span class="last">магазини, кафе, ресторани, сервісні центри</span>
-            </li>
+            </li> -->
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-7.png");?> alt="advantage-7">
                 <span class="subheader"><span>Унікальна</span><span>архітектура</span></span>
                 <span class="last">будинку, що виконана у яскравому чиказькому стилі</span>
             </li>
-            <li class="wow bounceIn">
+            <!-- <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-9.png");?> alt="advantage-9">
                 <span class="subheader"><span>Гармонійна</span><span>естетика</span></span>
                 <span class="last">прибудинкових територій</span>
-            </li>
+            </li> -->
 						<li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-8.png");?> alt="advantage-8">
 							<span class="subheader" style="margin: 0 -8px"><span>Шедеври сучасного</span><span>мистецтва</span></span>
@@ -436,21 +395,21 @@
 							<span class="last">квартир, а також послуги кваліфікованих архітекторів</span>
 						 </a>
 						</li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 							<img <?LazyLoad("/img/icons/advantage-6.png");?>alt="advantage-6">
 							<span class="subheader"><span>Якісне </span><span>будівництво</span></span>
 							<span class="last">від надійного забудовника</span>
-						</li>
+						</li> -->
             <li class="wow bounceIn">
                 <img <?LazyLoad("/img/icons/advantage-12.png");?> alt="advantage-12">
                 <span class="subheader"><span>Професійний</span><span>консьєрж-сервіс</span></span>
                 <span class="last">для усіх мешканців будинку</span>
             </li>
-						<li class="wow bounceIn">
+						<!-- <li class="wow bounceIn">
 								<img <?LazyLoad("/img/icons/advantage-3.png");?>  alt="advantage-3">
 								<span class="subheader"><span>Дружні та </span><span>кваліфіковані</span></span>
 								<span class="last">спеціалісти з продажу</span>
-						</li>
+						</li> -->
 						<li class="wow bounceIn">
 						 <a href="/parking/">
 								<img <?LazyLoad("/img/icons/advantage-13.png");?>  alt="advantage-13">
@@ -468,14 +427,12 @@
 						</li>
         </ul>
     </section>
-    <section class="eigth">
+    <section id="section-gallery" class="eigth">
         <span class="lamps wrapper">
-            <i></i><i></i><i></i><i></i>
+          <i></i><i></i><i></i>
         </span>
 				<div class="wrapper">
-        <span class="trigger-3"></span>
-        <h2 class="title">ГАЛЕРЕЯ</h2>
-        <i class="line"></i>
+        <h2 class="title wow fadeInLeft">ГАЛЕРЕЯ</h2>
         <div class="gallery">
             <a href="/img/gallery/1big.jpeg" class="wow fadeInLeft" rel="gallery">   <img <?LazyLoad("/img/gallery/1.jpg");?>  alt="img-gallery"> </a>
             <a href="/img/gallery/2big.jpg" class="wow fadeInDown" rel="gallery">   <img <?LazyLoad("/img/gallery/2.jpg");?> alt="img-gallery"> </a>
@@ -492,64 +449,32 @@
 					</div>
 			</div>
     </section>
-	<section  id="aparments" <?LazyLoad("/img/bg-15.jpg", $option=array('class'=>'thirteenth', 'option'=>'center'));?> >
-        <span class="trigger-6"></span>
-        <h2 class="title">Квартири</h2>
-        <i class="line"></i>
-	</section>
-	<section class="fourteenth light">
-		<div class="wrapper">
-            <p class="subheader wow fadeInDown"><span>Оберіть свою квартиру</span><span>просто зараз!</span></p>
-            <img  alt="central" <?LazyLoad("/img/central.jpg", $option=array('class'=>'img-first wow fadeInRight'));?> >
-            <img  alt="gallery" <?LazyLoad("/img/gallery.jpg", $option=array('class'=>'img-second wow fadeInRight'));?> >
-			<div class="text wow fadeInLeft">
-				<p>
-					Ми пропонуємо вільне планування житлового простору &minus; саме ви вирішуєте, як буде влаштована ваша квартира.  В цьому допоможуть досвідчені архітектори, яких ми вам надамо, щоб забезпечити втілення усіх ваших бажань.
-				</p>
-				<p>
-					Наше кредо &minus; уважне ставлення до деталей. Ми приділяємо максимальну увагу опрацюванню  ергономіки проектних рішень, підбору високоякісних матеріалів, конструктивним рішенням тощо.
-				</p>
-				<p>
-					Ваша участь у проекті &minus; найкраща нагорода для нас. Отже давайте працювати разом &minus; звертайтеся до наших спеціалістів з будь-яких питань, пов&prime;язаних із вашим майбутнім житлом.
-				</p>
-				<a href="/choice/" class="button button-red">Обрати квартиру</a>
-				<span class="more-info">Щоб отримати додаткову інформацію, будь ласка, зв&prime;яжіться із нами: (044) 49-80-400</span>
-			</div>
-		</div>
-	</section>
+
 	<section class="fifteenth" <?LazyLoad("/img/bg-15.jpg", $option=array('class'=>'fifteenth', 'option'=>'center'));?> id="builder">
-        <span class="trigger-7"></span>
-        <h2 class="title">Забудовник</h2>
-        <i class="line"></i>
+      <h2 class="title wow fadeInleft">Забудовник</h2>
 	</section>
 
 	<section class="sixteenth light">
 		<div class="wrapper">
-			<div class="left-part wow fadeInLeft">
+			<div class="left-part">
 
-				<div class="logo_riv">
+				<div class="logo_riv wow fadeIn">
 					<a href="http://saga-development.com.ua/">
 						<img  <?LazyLoad("/img/saga-logo.svg");?>  alt="Saga Logo" width="200px"/>
 					</a>
-					<p style="margin-top:52px">
+				</div>
+				<div class=" wow fadeIn">
+					<p>
 						Девелопер проекту
 					</p>
-
-				</div>
-		<?php/*		<div class="logo_kdd">
-					<a href="http://kdd.ua/">
-						<img <?LazyLoad("/img/icons/logoKDD.svg");?>  alt="logoKDD" width="200px">
-					</a>
 					<p>
-						Генеральний підрядник
+						Будівництво ЖК &laquo;CHICAGO Central House&raquo; здійснюється з дотриманням усіх норм та вимог чинного законодавства України у галузі будівництва та на підставі всієї необхідної
+						<h2 style="font-weight:bold; color:#fff; display:inline;">дозвільної документації</h2>
 					</p>
-				</div>       */?>
+				</div>
+		<?php/*		<div class="logo_kdd"><a href="http://kdd.ua/">	<img <?LazyLoad("/img/icons/logoKDD.svg");?>  alt="logoKDD" width="200px"></a><p>	Генеральний підрядник	</p></div>       */?>
 			</div>
 			<div class="right-part wow fadeInRight">
-				<div style="line-height: 1.5; margin-top:80px; font-size: 24px; font-weight: 300; color:#ffffff;">
-					Будівництво ЖК &laquo;CHICAGO Central House&raquo; здійснюється з дотриманням усіх норм та вимог чинного законодавства України у галузі будівництва та на підставі всієї необхідної
-						<h2 style="font-weight:bold; color:#fff; display:inline;">дозвільної документації</h2>
-					</div >
 					<a class="galery2" href="/img/choice/doc2.jpg" rel="gal2"></a>
 					<a class="galery2" href="/img/choice/doc3.jpg" rel="gal2"></a>
 					<a class="galery2" href="/img/choice/doc4.jpg" rel="gal2"></a>
@@ -612,7 +537,8 @@
 
 				</div>
 
-				<div class="left-part wow fadeInLeft slider__container"><p class="name_proj">Проекти цього забудовника: </p>
+				<div class="wow fadeInLeft slider__container">
+					<p class="name_proj">Проекти цього забудовника: </p>
 						<div class="logo_proj__slick-slider">
 							<div class="logo_proj">
 								<a href="https://rybalsky.com.ua/" target="_blank">
@@ -663,14 +589,9 @@
 <!-- ======section video======= -->
 <div class="video_container">
 	<div class="video__box">
-	<?/*====================================AHTUNG!!!!====================================================================*/?>
-	<?/*Мы два раза грузим одно и тоже видео видео, для ускорения все было вынесено в main-page.js там проверяется ширина экрана и грузится только то что надо.*/?>
-		<!-- <video class="video_desk" autoplay loop muted >
-			<source src="/video/SAGA_FULL.mp4" type="video/mp4">
-		</video>
-		<video  class="is__mobile" src="/video/SAGA_FULL_mob.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' playsinline loop muted autoplay controls></video> -->
-	<?/*====================================AHTUNG!!!!====================================================================*/?>
+		<!--загрузка видео в main-page.js -->
 	</div>
+
 	<div class="sound">
 		<img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
 		<img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
@@ -708,16 +629,6 @@
 		<input  name="inn" class="userInn" type="hidden" value="Chicago"/>
 		<!--<button class="button button-red">Надіслати</button>-->
 <?//	<div class="g-recaptcha" id="reCaptcha2" data-sitekey="6Lc1XRUUAAAAAM-WkPVHbGRPXqTkfaOEaFlsqEBu"></div> */?>
-<div class="working_hours">
-	<span>Графік роботи відділу продаж:</span>
-	<span>Пн-пт: 9.00 - 19.00;</span>
-	<span>Сб: 10.00 - 18.00;</span>
-	<span>Нд: 10.00 - 18.00;</span>
-</div>
-<div class="working_hours">
-	<!--<span>Відділ сервісу:</span>
-	<span>(044) 494 04 00</span>-->
-</div>
     <div id="info"></div>
 		<input  type="submit" value="Надіслати" class="button">
 		</form>
@@ -752,12 +663,7 @@
             <input  name="inn" class="userInn" type="hidden" value="Chicago"/>
             <!--<button class="button button-red">Надіслати</button>-->
     <?//    <div class="g-recaptcha" id="reCaptcha2" data-sitekey="6Lc1XRUUAAAAAM-WkPVHbGRPXqTkfaOEaFlsqEBu"></div> */?>
-        <div class="working_hours">
-            <span>Графік роботи відділу продаж:</span>
-            <span>Пн-пт: 9.00 - 19.00;</span>
-            <span>Сб: 10.00 - 18.00;</span>
-            <span>Нд: 10.00 - 18.00;</span>
-        </div>
+
         <div id="info"></div>
             <input  type="submit" value="Надіслати" class="button">
             </form>
@@ -773,6 +679,7 @@
 
 	  <!-- timer -->
  <div class="modal_window__container" style="display:none;">
+	 <!-- скрипты для инициализации в main-page.js -->
 			<div class="main_overlay">
 			<div class="main_modal modal_window__main-content">
 			<div class="modal_content">
@@ -788,102 +695,7 @@
 			</div>
     </div>
   </div>
-	<style>
-#clockdiv {
-  margin:0px auto;
-  width:100%;
-  padding:20px 20px 20px 10px;
-  position:relative;
-	padding-bottom: 17px;
-  padding: 20px;
-	box-sizing:border-box;
-	font-size: 20px;
-  text-align: center;
-}
-#clockdiv div {
-  width:88px;
-  display: inline-block;
-	text-align:center;
-  margin: 10px;
-}
-#clockdiv div span {
-    display:block;
-    width: 100%;
-    border:white 1px solid;
-    color:white;
-    text-align: center;
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 2pt;
-	margin-top: 2px;
-}
-.modal_window__close {
-    position: absolute;
-   right: -4px;
-   top: 31px;
-   color: #aaa;
-  font-weight: bold;
-}
-.modal_window {
-	max-width: 432px;
-}
-.text_timer {
-	text-align: center;
-	font-size: 27px;
-	padding: 10px 0px;
-
-}
-.main_modal {
-	padding: 14px 20px;
-}
-.main_modal .modal_close {
-	top: -16px;
-    right: -20px;
-}
-.main_modal .modal_content {padding: 11px 10px;}
-</style>
-		<script type="text/javascript">
-		        var deadline = 'October 31 2018';
-				var t = getTimeRemaining(deadline);
-		        function getTimeRemaining(endtime){
-		      var t = Date.parse(endtime) - Date.parse(new Date());
-		      var seconds = Math.floor( (t/1000) % 60 );
-		      var minutes = Math.floor( (t/1000/60) % 60 );
-		      var hours = Math.floor( (t/(1000*60*60)) % 24 );
-		      var days = Math.floor( t/(1000*60*60*24) );
-		      return {
-		       'total': t,
-		       'days': days,
-		       'hours': hours,
-		       'minutes': minutes,
-		       'seconds': seconds
-		      };
-		    }
-		function initializeClock(id, endtime){
-		 var clock = document.getElementById(id);
-		  var daysSpan = clock.querySelector('.days');
-		  var hoursSpan = clock.querySelector('.hours');
-		  var minutesSpan = clock.querySelector('.minutes');
-		  var secondsSpan = clock.querySelector('.seconds');
-		 var timeinterval = setInterval(function(){
-			 t = getTimeRemaining(deadline);
-			daysSpan.innerHTML = t.days;
-		  hoursSpan.innerHTML = t.hours;
-		  minutesSpan.innerHTML = t.minutes;
-		  secondsSpan.innerHTML = t.seconds;
-
-		 },1000);
-		 if(t.total<=0){
-			  clearInterval(timeinterval);
-		  }else{
-				var elem = document.getElementsByClassName("modal_window__container")[0];
-				elem.style.cssText = 'display:block;';
-
-		  }
-		}
-initializeClock('clockdiv', deadline);
-</script>
-		<!-- end timer -->
+	<!-- end timer -->
 	<!-- ===========modal window============ -->
 	 <div class="main_overlay" style="display:none;">
 		 <div class="main_modal">
@@ -900,12 +712,15 @@ initializeClock('clockdiv', deadline);
 
 <!-- ===========end modal window============  -->
 
-	<script defer src="js/ScrollMagic.min.js"></script>
+	<!-- <script defer src="js/ScrollMagic.min.js"></script> -->
 	<script defer src="js/snapSliderFancy.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-	<script defer src="/js/infobubble-compiled.js"></script>
+	<script src="/js/infobubble-compiled.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script>
 	<script defer src="js/scripts.js?v=1.0"></script>
+
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> -->
+	<!-- <script acync defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script> -->
 	<!-- Flipclock initiation starts here -->
 	<!-- <script src="/js/flipclock.js"></script> -->
 	<? /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AHTUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/?>

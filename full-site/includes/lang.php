@@ -15,8 +15,8 @@ $uRn = "https://$_SERVER[HTTP_HOST]".'/en'."$_SERVER[REQUEST_URI]";
 }
 ?>
 <div class="lang">
-     <a href="<?if(!empty($url_a)){ echo $url_a;}else{ echo $uRa;}?>">UA</a>
-     <a href="<?if(!empty($url_r)){ echo $url_r;}else{ echo $uRr;}?>">RU</a>
-     <a href="<?if(!empty($url_n)){ echo $url_n;}else{ echo $uRn;}?>">EN</a>
+     <a class="separate" href="<?if(!empty($url_a)){ echo $url_a;}else{ echo $uRa;}?>">UA</a>
+     <a class="separate" href="<?if(!empty($url_r)){ echo $url_r;}else{ echo $uRr;}?>">RU</a>
+     <a class="separate" href="<?if(!empty($url_n)){ echo $url_n;}else{ echo $uRn;}?>">EN</a>
   <!-- <a href="https://chicago.kiev.ua/en/">EN</a> -->
 </div>

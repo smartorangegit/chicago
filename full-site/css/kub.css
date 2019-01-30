@@ -6,11 +6,6 @@ section.kub{
 section.kub h1{
   font-size: 36px;
   margin-bottom: 30px;
-
-}
-.trigger-0 {
-  position: absolute;
-  top: 700px;
 }
 .kub_wrapper{
   max-width: 1000px;
@@ -91,10 +86,6 @@ ul.bxslider {  list-style: none;}
 .bx-wrapper .bx-caption {  position: absolute;  bottom: 0;  left: 0;  background: #666;  background: rgba(80, 80, 80, 0.75);  width: 100%;}
 .bx-wrapper .bx-caption span {  color: #fff;  font-family: Arial;  display: block;  font-size: .85em;  padding: 10px;}
 
-#budinok_open{position: relative;color: white;text-transform: uppercase;cursor: pointer;font-size: 14px;}
-#budinok{ position: absolute; height: 0px; box-sizing: border-box; overflow: hidden; background: #EF2732; margin-top: 10px; margin-left: -8px; transition: 0.35s; -webkit-transition: 0.35s;}
-#budinok li{ display: block; border: none; padding: 10px;}
-
 @media screen and (max-width: 856px) and (min-width: 320px){
 .is__desktop{
   display: none;
@@ -103,11 +94,10 @@ ul.bxslider {  list-style: none;}
   display: block;
 }
 section.kub {
-  padding-top: 380px;
+  padding-top: 180px;
   }
 .kub_wrapper {
-  width: 95%;
-  max-width: 320px;
+  padding: 0 26px;
   transition: 0.3s;
 }
 section.kub.kub_zipped{
@@ -120,9 +110,6 @@ section.kub.kub_zipped{
   width: 100%;
   margin: 0;
   padding-left: 10px;
-}
-.trigger-0 {
-  top: 380px;
 }
 }
 

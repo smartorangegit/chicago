@@ -1,5 +1,22 @@
 // Google map start
 function initMap() {
+    var gmarkers1 = [];
+  filterMarkers = function (category) {
+        for (i = 0; i < gmarkers1.length; i++) {
+              marker = gmarkers1[i];
+
+              var markerMain = gmarkers1.find(item => item.category === 'main');
+
+              if (marker.category == category || category == 'all') {
+                    marker.setMap(map);
+                    markerMain.setMap(map);
+                }
+                else {
+                      marker.setMap(null);
+                      markerMain.setMap(map);
+                  }
+              }
+          };
 
     var center = {
         lat: 50.439572,
@@ -16,7 +33,7 @@ function initMap() {
                 draggable: true,
                 styles: [{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","elementType":"all","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"transit","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]}]
             });
-    
+
     var polygonCoords = [
         new google.maps.LatLng(50.433919, 30.513405),
         new google.maps.LatLng(50.433924, 30.512895),
@@ -49,13 +66,17 @@ function initMap() {
     };
 
     var markers_spritesheet;
+
     if(document.location.pathname === '/') {
-        markers_spritesheet = 'main_page_map_markers_spritesheet.png';
+        markers_spritesheet = 'img/main_page_map_markers_spritesheet.png';
     } else {
-        markers_spritesheet = '../main_page_map_markers_spritesheet.png';
+        markers_spritesheet = '../img/main_page_map_markers_spritesheet.png';
     }
 
 
+
+
+var markersData = [];
 
     var markersData = [
         {
@@ -287,15 +308,25 @@ function initMap() {
             markerSettings.arrowSize = 10;
             markerSettings.arrowPosition = 30;
         }
+        var category = marker.type;
 
         var mapMarker = new google.maps.Marker({
             map: map,
+            category: category,
             position: new google.maps.LatLng(marker.position.lat, marker.position.lng),
-            icon: new google.maps.MarkerImage(markers_spritesheet, 
-                                            new google.maps.Size(markerSettings.iconWidth, markerSettings.iconHeight), 
+            icon: new google.maps.MarkerImage(markers_spritesheet,
+                                            new google.maps.Size(markerSettings.iconWidth, markerSettings.iconHeight),
                                             new google.maps.Point(markersIcons[marker.type].x, markersIcons[marker.type].y)
                                             )
         });
+
+
+        gmarkers1.push(mapMarker);
+        // console.log(category);
+        // console.log(gmarkers1);
+
+
+
 
         var infoBubble = new InfoBubble({
             map: map,
@@ -329,6 +360,8 @@ function initMap() {
         activeInfoBubble&&activeInfoBubble.close();
     })
 };
+
+
 // Google map end
 
 $('.modal_close, .main_overlay').click(function(){
@@ -340,7 +373,7 @@ $('.modal_close, .main_overlay').click(function(){
 $(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
 //end menu js
 
-// Countdown clock start startClock() function 
+// Countdown clock start startClock() function
 $(document).ready(function() {
     function startClock() {
         var clock2;
@@ -374,7 +407,7 @@ $(document).ready(function() {
             // $('.clock2').css('display','none')
         });
     };
-    
+
 }); //end ready
 
 
@@ -431,7 +464,7 @@ function sound_off () {
     //         el.style.opacity = 1;
     //         var interhellopreloader = setInterval(function(){
     //             el.style.opacity = el.style.opacity - 0.05;
-    //             if (el.style.opacity <=0.05){ 
+    //             if (el.style.opacity <=0.05){
     //                 clearInterval(interhellopreloader);
     //                 hellopreloader.style.display = "none";
     //             }
@@ -450,5 +483,48 @@ function sound_off () {
         if(window.innerWidth <=768) {
             content = '<video class="is__mobile" src="/video/SAGA_FULL_mob.mp4" type=\'video/mp4; codecs="avc1.42E01E, mp4a.40.2"\' playsinline loop muted autoplay controls></video>';
         }
-        videoContainer.innerHTML =content;
+        videoContainer.innerHTML = content;
     })();
+
+
+    ///clock in modal
+
+    var deadline = 'October 31 2018';
+var t = getTimeRemaining(deadline);
+    function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor( (t/1000) % 60 );
+  var minutes = Math.floor( (t/1000/60) % 60 );
+  var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  var days = Math.floor( t/(1000*60*60*24) );
+  return {
+   'total': t,
+   'days': days,
+   'hours': hours,
+   'minutes': minutes,
+   'seconds': seconds
+  };
+}
+function initializeClock(id, endtime){
+var clock = document.getElementById(id);
+var daysSpan = clock.querySelector('.days');
+var hoursSpan = clock.querySelector('.hours');
+var minutesSpan = clock.querySelector('.minutes');
+var secondsSpan = clock.querySelector('.seconds');
+var timeinterval = setInterval(function(){
+t = getTimeRemaining(deadline);
+daysSpan.innerHTML = t.days;
+hoursSpan.innerHTML = t.hours;
+minutesSpan.innerHTML = t.minutes;
+secondsSpan.innerHTML = t.seconds;
+
+},1000);
+if(t.total<=0){
+clearInterval(timeinterval);
+}else{
+var elem = document.getElementsByClassName("modal_window__container")[0];
+elem.style.cssText = 'display:block;';
+
+}
+}
+initializeClock('clockdiv', deadline);

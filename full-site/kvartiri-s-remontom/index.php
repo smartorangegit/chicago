@@ -6,49 +6,34 @@
 	<meta name="description" content="【ЖК CHICAGO Central House】 Ми подбали про ваш час та підготували три квартири з готовим ремонтом ✅ Для облаштування квартир в CHICAGO Central House були обрані три популярні напрямки — Classic, Modern Glamour, Nordiс">
 	<title>≡ Квартири з ремонтом в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
-    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	
-	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
+  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+		<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartiri-s-remontom/" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" href="/css/jquery.fancybox.css">
-	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
 	<link rel="stylesheet" href="/css/style.css?ver=1.0">
+	<link rel="stylesheet" href="/css/select.css">
 	<link rel="stylesheet" href="/css/kub.css?ver=1.6">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
-		<meta property="og:title" content="≡ Квартири з ремонтом в CHICAGO Central House" />
-		<meta property="og:description" content="【ЖК CHICAGO Central House】 Спеціально для тих, хто шукає житло з ремонтом, ми пропонуємо квартири з ексклюзивним інтер’єром" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+	<meta property="og:title" content="≡ Квартири з ремонтом в CHICAGO Central House" />
+	<meta property="og:description" content="【ЖК CHICAGO Central House】 Спеціально для тих, хто шукає житло з ремонтом, ми пропонуємо квартири з ексклюзивним інтер’єром" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
-	<!--preloader/ -->
-	<style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
-	right:0;bottom:0; margin:auto;}</style>
-	<div id="hellopreloader"><div id="hellopreloader_preload">
-		<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 105 105" fill="red">
-		    <circle cx="12.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="0s" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		    <circle cx="12.5" cy="52.5" r="12.5" fill-opacity=".5"><animate attributeName="fill-opacity" begin="100ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="300ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="600ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="800ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="400ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="12.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="700ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="500ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="200ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		</svg>
-	</div></div>
-	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
-
 	<?php /*меню*/ include_once('../includes/header_ua.php'); ?>
-	<section class="kub remont">
-		<span class="trigger-0"></span>
+
+	<section class="h1_wrapper">
+		<h1>CHICAGO Central House пропонує квартири з ремонтом</h1>
+  </section>
+
+	<section class="remont" style="color:#ffffff;">
 		<div class="kub_wrapper">
-			<h1>CHICAGO Central House пропонує квартири з ремонтом</h1>
+			<!-- <h1>CHICAGO Central House пропонує квартири з ремонтом</h1> -->
 			<div class="kub_text first_block">
 				<p>
 					З увагою до деталей — саме так створювався новий дизайн <a class="remont__link" href="https://chicago.kiev.ua/ru/choice/" target="_blank">квартир у CHICAGO Central House</a>. Оптимальні планування кімнат, сучасні інтер’єри зі стильними меблями та ретельно підібраним декором — ми робимо все, аби ще при першому знайомстві з квартирою ви почували себе як удома.
@@ -62,7 +47,7 @@
 			</h2>
 			<div class="kub_text">
 				<p>
-					З роботами Андреа Вігано ми познайомилися декілька місяців тому. За проектами, розробленими спільно з Марко Візмара, були облаштовані три квартири в CHICAGO Central House. Минулого разу дизайнери обрали напрямки Nordic і Modern Glamour, цього разу у концепції інтер’єрів гармонійно поєднується кілька популярних стилів — мінімалізм з нотами конструктивізму та контемпорарі. 
+					З роботами Андреа Вігано ми познайомилися декілька місяців тому. За проектами, розробленими спільно з Марко Візмара, були облаштовані три квартири в CHICAGO Central House. Минулого разу дизайнери обрали напрямки Nordic і Modern Glamour, цього разу у концепції інтер’єрів гармонійно поєднується кілька популярних стилів — мінімалізм з нотами конструктивізму та контемпорарі.
 				</p>
 				<p>
 					Дизайн від студії D73 представлений у трьох квартирах: двох трикімнатних квартирах з типовим плануванням і площею 112 м² та двокімнатній квартирі розміром 98 м².
@@ -74,7 +59,7 @@
 					М’які меблі у вітальні та спальні, шафа, стіл і стільці у кухні — кожен з предметів інтер’єру гармонує за відтінком.
 				</p>
 				<p>
-					Аби додати простору світла, стіни пофарбовані в білий, у спальні на підлогу покладено бежевий ламінат, у кухні та вітальні — бежеву плитку. 
+					Аби додати простору світла, стіни пофарбовані в білий, у спальні на підлогу покладено бежевий ламінат, у кухні та вітальні — бежеву плитку.
 				</p>
 			</div>
 
@@ -118,22 +103,22 @@
 			</div>
 			<div class="kub_text">
 				<p>
-					Перевагою двокімнатної квартири є панорамні вікна у вітальні. Завдяки цьому у кімнаті багато природного світла, а її площа візуально збільшується. 
+					Перевагою двокімнатної квартири є панорамні вікна у вітальні. Завдяки цьому у кімнаті багато природного світла, а її площа візуально збільшується.
 				</p>
 				<p>
-					Андреа Вігано врахував цю особливість та підкреслив настрій квартири, використавши в інтер’єрі яскраві меблі та декор з геометричним орнаментом. У вітальні, поєднаній з кухнею, дизайнер зробив акцент на пуф та подушки оливкового кольору. Того ж відтінку оббивка стільців. Додає оригінальності геометричний принт на килимі. 
+					Андреа Вігано врахував цю особливість та підкреслив настрій квартири, використавши в інтер’єрі яскраві меблі та декор з геометричним орнаментом. У вітальні, поєднаній з кухнею, дизайнер зробив акцент на пуф та подушки оливкового кольору. Того ж відтінку оббивка стільців. Додає оригінальності геометричний принт на килимі.
 				</p>
 				<p>
-					Палітра спальні складається з білого, сірого, коричневого. З нею контрастують стеля та м’який пуф зеленого кольору.  
+					Палітра спальні складається з білого, сірого, коричневого. З нею контрастують стеля та м’який пуф зеленого кольору.
 				</p>
 							<p>
-							Квартира укомплектована всіма необхідними меблями та технікою: 
+							Квартира укомплектована всіма необхідними меблями та технікою:
 							</p>
 							<ul>
 								<li>●	у вітальні є м’який диван, великий пуф, стіл, полиці, телевізор; </li>
 								<li>●	у кухні — шафа з вбудованою технікою, стіл, стільці, барна стійка;</li>
 								<li>●	у спальні — двоспальне ліжко, шафа-купе, плазма на стіні.</li>
-							
+
 							</ul>
 			</div>
 			<div class="remont__slider-wrap">
@@ -175,7 +160,7 @@
 				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
 			</div>
 			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank">3D-тур квартири</a>
-			
+
 			<h2>
 				Дизайн квартир від Марії Пахомової
 			</h2>
@@ -184,13 +169,13 @@
 					Для втілення дизайнерської концепції Марії Пахомової ми об’єднали дві квартири на 6 поверсі. Як результат — загальна площа склала 186 м². Тут є три спальні, велика вітальня з панорамними вікнами та кухня, про яку мріють не тільки жінки. Окремою перевагою планування є гардероб і комора.
 				</p>
 				<p>
-					Прості лінії та практичний підхід до вибору предметів інтер’єру — саме так можна охарактеризувати дизайн цієї квартири. В кімнатах переважають нейтральні кольори: білі стіни та стеля, меблі зі світлого дерева, світло-сірі елементи декору. Серед матеріалів — натуральне дерево, скло, керамічна плитка. Доповнюють загальний стиль живі рослини. 							
+					Прості лінії та практичний підхід до вибору предметів інтер’єру — саме так можна охарактеризувати дизайн цієї квартири. В кімнатах переважають нейтральні кольори: білі стіни та стеля, меблі зі світлого дерева, світло-сірі елементи декору. Серед матеріалів — натуральне дерево, скло, керамічна плитка. Доповнюють загальний стиль живі рослини.
 				</p>
 				<p>
-					У вітальні запроектовані дві панорамні стіни, що дозволить мешканцям використовувати мінімум штучного освітлення. З двох сторін до кімнати потрапляє світло та візуально збільшує простір.							
+					У вітальні запроектовані дві панорамні стіни, що дозволить мешканцям використовувати мінімум штучного освітлення. З двох сторін до кімнати потрапляє світло та візуально збільшує простір.
 				</p>
 				<p>
-					Душова та ванна кімнати схожі за своїм мінімалістичним оформленням. Для обох дизайнів використана світла плитка з текстурою природного каменя. Стеля та підлога білі. Обидві кімнати укомплектовані сантехнікою та необхідними меблями: у душовій встановлена підвісна тумба, у ванній вбудована шафа. душова кімната укомплектована всім необхідним: кабінкою, сантехнікою, бойлером ATLANTIC, умивальником з підвісною тумбою з темного дерева. Загальну концепцію інтер’єру підкреслюють сині стіни в поєднанні з плиткою з дерев’яною фактурою. 
+					Душова та ванна кімнати схожі за своїм мінімалістичним оформленням. Для обох дизайнів використана світла плитка з текстурою природного каменя. Стеля та підлога білі. Обидві кімнати укомплектовані сантехнікою та необхідними меблями: у душовій встановлена підвісна тумба, у ванній вбудована шафа. душова кімната укомплектована всім необхідним: кабінкою, сантехнікою, бойлером ATLANTIC, умивальником з підвісною тумбою з темного дерева. Загальну концепцію інтер’єру підкреслюють сині стіни в поєднанні з плиткою з дерев’яною фактурою.
 				</p>
 			</div>
 
@@ -312,13 +297,13 @@
 			</div>
 			<div class="kub_text">
 				<p>
-					В оздобленні другої квартири також переважають риси мінімалізму. В інтер’єрі багато сірого кольору — стіни, меблі, декоративні елементи. Проте, незважаючи на використання нейтральних відтінків, тут відчувається затишок та домашнє тепло. Кімнати світлі завдяки панорамним вікнам. Тут багато простору, інтер’єр не перевантажений зайвими компонентами.							
+					В оздобленні другої квартири також переважають риси мінімалізму. В інтер’єрі багато сірого кольору — стіни, меблі, декоративні елементи. Проте, незважаючи на використання нейтральних відтінків, тут відчувається затишок та домашнє тепло. Кімнати світлі завдяки панорамним вікнам. Тут багато простору, інтер’єр не перевантажений зайвими компонентами.
 				</p>
 				<p>
-					У плануванні передбачено три спальні, вітальня та велика кухня. Загальна площа квартири становить 98 м². Кожну кімнату дизайнер розділяє на зони для відпочинку та роботи: у спальнях є письмові столи, стільці та полиці, для приготування їжі у кухні є окрема робоча поверхня, для сімейних сніданків або вечерь — стійка з високими стільцями.							
+					У плануванні передбачено три спальні, вітальня та велика кухня. Загальна площа квартири становить 98 м². Кожну кімнату дизайнер розділяє на зони для відпочинку та роботи: у спальнях є письмові столи, стільці та полиці, для приготування їжі у кухні є окрема робоча поверхня, для сімейних сніданків або вечерь — стійка з високими стільцями.
 				</p>
 				<p>
-					Оптимальним рішенням стало перепланування вітальні, початкова площа якої складала понад 26 м². Цього було достатньо, аби побудувати міжкімнатну перегородку та облаштувати третю спальню. 							
+					Оптимальним рішенням стало перепланування вітальні, початкова площа якої складала понад 26 м². Цього було достатньо, аби побудувати міжкімнатну перегородку та облаштувати третю спальню.
 				</p>
 			</div>
 			<div class="remont__slider-wrap">
@@ -648,11 +633,11 @@
 			</div>
 			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=8KMG4Kv19wR" target="_blank">3D-тур квартири</a>
 			<h2>
-				Як купити квартиру з ремонтом в CHICAGO Central House			
+				Як купити квартиру з ремонтом в CHICAGO Central House
 			</h2>
 			<div class="kub_text">
 				<p>
-					Для того, щоб дізнатися деталі купівлі квартири з ремонтом, звертайтеся до відділу продажів за адресою вул. Антоновича, 44. Наші менеджери дадуть відповідь на всі питання та допоможуть вибрати відповідний стиль інтер'єру.				
+					Для того, щоб дізнатися деталі купівлі квартири з ремонтом, звертайтеся до відділу продажів за адресою вул. Антоновича, 44. Наші менеджери дадуть відповідь на всі питання та допоможуть вибрати відповідний стиль інтер'єру.
 				</p>
 			</div>
 			<a href="/choice/" class="button remont__button button-red">Вибір квартир</a>
@@ -668,33 +653,15 @@
 		<li><a href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank" title="Modern Glamour">Modern Glamour</a></li>
 	</ul>
 </div>-->
-	<footer>
-    <div class="wrapper">
-      <span class="copy">© 2017 CHICAGO Central House</span>
-			<span>Відділ маркетингу - marketing@saga-development.com.ua</span>
-			<span><a href="/sitemap/" style="margin: 0 20px;"><img src='/img/home-footer.svg' alt="sitemap" width="30px" style="margin-bottom:-3px;"
-				></a></span>
-			<span class="smarto">Розробка сайту
-        <a class="logo-smart" href="http://smartorange.com.ua/" target="_blank" style="background-image: url(/img/logo-smart.png);" rel="nofollow"></a>
-      </span>
-			<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="/img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
-		</div>
-	</footer>
-	<?php include('../includes/form_callback.php'); ?>
 
-	<script src="/js/ScrollMagic.min.js"></script>
+	<?php include('../includes/form_callback.php'); ?>
+	<?php include('../includes/footer_ua.php'); ?>
+
+
 	<script src="/js/snapSliderFancy.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="jquery.fancybox.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: ".kub .trigger-0"}).setClassToggle(".header", "zipped").addTo(controller);
-		</script>
-		<!-- <script src="/js/scripts.js"></script> -->
+	<script src="/js/scripts.js"></script>
 		<style media="screen">
 		.slick-slide img {
 			display: block;

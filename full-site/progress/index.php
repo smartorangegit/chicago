@@ -2,139 +2,114 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>≡ ЖК Чикаго 》Хід будівництва і вебкамера CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
-    <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="【Хід будівництва, вебкамери в CHICAGO Central House】 Слідкуйте за будівництвом ЖК Чикаго Централ Хаус разом з нами - до ваших послуг цілодобова вебкамера і фотозвіти з будівельного майданчика. Запланована дата здачі в експлуатацію, статус робіт, таймлайн..... ✅ 【житловий комплекс CHICAGO】 вул. Володимира Антоновича (Горького), 44">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/progress/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/progress/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/progress/" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	  <link rel="stylesheet" href="../css/animate.min.css">
-    <!-- <link rel="stylesheet" href="../css/slider-style.css"> -->
-    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
-    <!-- <link rel="stylesheet" href="../css/jquery.fancybox-thumbs.css"> -->
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/progress/" />
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/full.css">
 	<link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/progress.css?v=2">
-    <script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
-    <script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-    <script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.min.js"></script>
-    <!-- <script src="../js/lib/plugins/debug.addIndicators.min.js"></script> -->
-    
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
-			<meta property="og:title" content="≡ ЖК Чикаго 》Хід будівництва і вебкамера CHICAGO Central House" />
-		<meta property="og:description" content="【Хід будівництва, вебкамери в CHICAGO Central House】 Слідкуйте за будівництвом ЖК Чикаго Централ Хаус разом з нами - до ваших послуг цілодобова вебкамера і фотозвіти з будівельного майданчика. Запланована дата здачі в експлуатацію, статус робіт, таймлайн..... ✅ 【житловий комплекс CHICAGO】 вул. Володимира Антоновича (Горького), 44" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+	<meta property="og:title" content="≡ ЖК Чикаго 》Хід будівництва і вебкамера CHICAGO Central House" />
+	<meta property="og:description" content="【Хід будівництва, вебкамери в CHICAGO Central House】 Слідкуйте за будівництвом ЖК Чикаго Централ Хаус разом з нами - до ваших послуг цілодобова вебкамера і фотозвіти з будівельного майданчика. Запланована дата здачі в експлуатацію, статус робіт, таймлайн..... ✅ 【житловий комплекс CHICAGO】 вул. Володимира Антоновича (Горького), 44" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
-
 <body>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
-
-	<?php /*Google Tag Manager*/ include_once('../includes/header_ua.php'); ?>
+  <?php /*Google Tag Manager*/ include_once('../includes/header_ua.php'); ?>
     <?include ("../admin/bd.php");?>
 
-	<section class="fifteenth progress-grid" id="builder">
-		<span class="trigger-7"></span>
-        <h1 class="title" style="transform: name;">Хід будівництва</h1>
-        <i class="line"></i>
+	<section class="h1_wrapper">
+        <h1>Хід будівництва</h1>
   </section>
-
   <section class="third light">
-        <div class="lamps wrapper">
-            <img <?LazyLoad("/img/icons/lamp.png");?>  alt="lamp" />
-						<img  <?LazyLoad("/img/icons/lamp.png");?>   alt="lamp" />
-						<img <?LazyLoad("/img/icons/lamp.png");?>  alt="lamp" />
+        <div class="lamps">
+            <i></i><i></i><i></i>
         </div>
     <div class="wrapper">
-			<span class="trigger-0"></span>
-      <h2 class="subheader">
-        <p><span id="building_status" >Статус робіт:</span><span class="normal normal--1">
-Кладка: проводяться роботи з влаштування фасадної кладки в місцях зв'язків баштового крана.
-Виконуються роботи з гідроізоляції покрівлі та терас на 25 поверсі.
-Моноліт: завершено влаштування плити перекриття 25 поверху та перекриття парапету, залили тумби під вентиляційні блоки.
-Монтаж вікон: завершуються роботи на 23 і 24 поверхах.
-Водовідвід та каналізація: розгортають труби на 22 поверсі.
-Опалення та вентиляція: монтаж ІТП (інженерно-теплового пункту) та насосної станції. 
-Електрика: триває розводка на 20 і 21 поверхах.
-Монтаж дверей: тривають роботи на 14-18 поверхах.
-Штукатурка: завершено роботи на 23 поверсі.
-Стяжка: завершуються роботи на 21 поверсі.
-Роботи у холі: виконано кладку, завершено влаштування внутрішніх інженерних мереж, тривають роботи з внутрішнього опорядження.
-Куб: завершено монтаж опорних кронштейнів, виконано гідроізоляційні роботи з боку вул. Жилянської, виконується скління.
+      <h2 class="subheader"><span id="building_status" >Статус робіт:</span></h2>
+					<p class="normal">
+						Кладка: проводяться роботи з влаштування фасадної кладки в місцях зв'язків баштового крана.
+					</p>
+					<p class="normal">
+						Виконуються роботи з гідроізоляції покрівлі та терас на 25 поверсі.
+					</p>
+					<p class="normal">
+						Моноліт: завершено влаштування плити перекриття 25 поверху та перекриття парапету, залили тумби під вентиляційні блоки.
+					</p>
+					<p class="normal">
+						Монтаж вікон: завершуються роботи на 23 і 24 поверхах.
+					</p>
+					<p class="normal">
+						Водовідвід та каналізація: розгортають труби на 22 поверсі.
+					</p>
+					<p class="normal">
+						Опалення та вентиляція: монтаж ІТП (інженерно-теплового пункту) та насосної станції.
+					</p>
+					<p class="normal">
+						Електрика: триває розводка на 20 і 21 поверхах.
+					</p>
+					<p class="normal">
+						Монтаж дверей: тривають роботи на 14-18 поверхах.
+					</p>
+					<p class="normal">
+						Штукатурка: завершено роботи на 23 поверсі.
+					</p>
+					<p class="normal">
+						Стяжка: завершуються роботи на 21 поверсі.
+					</p>
+					<p class="normal">
+						Роботи у холі: виконано кладку, завершено влаштування внутрішніх інженерних мереж, тривають роботи з внутрішнього опорядження.
+					</p>
+					<p class="normal">
+						Куб: завершено монтаж опорних кронштейнів, виконано гідроізоляційні роботи з боку вул. Жилянської, виконується скління.
+					</p>
+					<h2 class="subheader">
+						<span class="plan--1">Запланований термін введення в експлуатацію:</span><span class="normal normal--2">Ι квартал 2019 року</span>
+					</h2>
 
 
-</span></p>
-        <p><span class="plan--1">Запланований термін введення в експлуатацію:</span><span class="normal normal--2">Ι квартал 2019 року</span></p>
-      </h2>
-
-			<div class="status clearfix">
+			<div class="status flex">
 				<div id="buidling_status" class="status__grid grid__1">
 					<img <?LazyLoad("/img/status.png");?>   alt="status">
 					<img <?LazyLoad("/img/house_full.png");?>   alt="status" style="clip-path: inset(52% 0 0 0); -webkit-clip-path: inset(36% 0 0 0); width:98%;">
 					<div class="status_round">
 						<span>23</span>
-						<p>поверхів</p>
+						<p>поверхи</p>
 						<p>побудовано</p>
 					</div>
 				</div>
-				<div class="status__grid grid__2 clearfix">
+				<div class="status__grid grid__2 flex">
 					<span class="tooltip tooltip-effect-2"><span class="tooltip-item">
-						<div class="circle circle_0"><span></span><p></p>
-					</div></span><span class="tooltip-content clearfix">
-                            <span class="tooltip-text" id="spTextPers1">Роботи до відм. 0,000 - 100%
-                                <br>Каркас -36.04%
-                                <br>Цегляна кладка - 9.79%
-                                <br>Внутрішнє опорядження - 0%
-                            </span></span>
-                    </span>
+						<div class="circle circle_0"><span></span><p></p></div></span>
+							<span class="tooltip-content clearfix">
+                <span class="tooltip-text" id="spTextPers1">Роботи до відм. 0,000 - 100%
+                  <br>Каркас -36.04%
+                  <br>Цегляна кладка - 9.79%
+                  <br>Внутрішнє опорядження - 0%
+                </span></span>
+					</span>
 
 					<div class="circle circle_1"><span></span><p></p></div>
 
 					<span class="tooltip tooltip-effect-2"><span class="tooltip-item">
-						<div class="circle circle_2"><span></span><p></p>
-					</div></span><span class="tooltip-content clearfix">
-                            <span class="tooltip-text" id="spTextPers3">Вікна - 0%<br>Фасад - 2.5%</span>
-                        </span>
-                    </span>
+						<div class="circle circle_2"><span></span><p></p></div></span><span class="tooltip-content clearfix">
+              <span class="tooltip-text" id="spTextPers3">Вікна - 0%<br>Фасад - 2.5%</span>
+          </span></span>
 
 					<span class="tooltip tooltip-effect-2"><span class="tooltip-item">
-						<div class="circle circle_3"><span></span><p></p>
-					</div></span><span class="tooltip-content clearfix">
-                            <span class="tooltip-text" id="spTextPers4">Внутрішні - 0%
-                                <br>Зовнішні - 0%</span>
-                        </span>
-                    </span>
+						<div class="circle circle_3"><span></span><p></p></div></span><span class="tooltip-content clearfix">
+                <span class="tooltip-text" id="spTextPers4">Внутрішні - 0%<br>Зовнішні - 0%</span>
+              </span>
+          </span>
 
 
-
-
-
-					<!-- <div class="circle circle_0">
-						<span></span>
-						<p></p>
-					</div>
-					<div class="circle circle_1">
-						<span></span>
-						<p></p>
-					</div>
-					<div class="circle circle_2">
-						<span></span>
-						<p></p>
-					</div>
-					<div class="circle circle_3">
-						<span></span>
-						<p></p>
-					</div> -->
 				</div>
 				<div class="status__grid grid__3">
 					<!-- <h4>Облаштовуються вертикальні елементи 4-го поверху</h4> -->
@@ -145,7 +120,7 @@
 				</div>
 			</div>
 			<div id="webcam" class="progres_web">
-				<iframe <?LazyLoad("https://macparts.kiev.ua:8402/player.html");?> name="restreamer-player" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe> 
+				<iframe <?LazyLoad("https://macparts.kiev.ua:8402/player.html");?> name="restreamer-player" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
 				<div class="man-wrap">
 					<img src="/img/web-man.png" alt="man" class="man">
 					<div class="web-cloud">
@@ -155,18 +130,15 @@
 				</div>
 			</div>
   </section>
-			
 
-
-		<section id="foto" class="building">
-			<div class="wrapper">
-				<div id="building_process" class="content-item">
-					<section id="progress-img" class="progress-img">
-						<div class="wrapper">
-							<div class="container_line">
-								<div class="wrap-line">
-									<div class="line"></div>
-
+	<section id="foto" class="building">
+		<div class="wrapper">
+			<!-- <div id="building_process" class="content-item">
+				<section id="progress-img" class="progress-img">
+					<div class="wrapper"> -->
+						<div class="container_line">
+							<div class="wrap-line">
+								<div class="line"></div>
 									<div class="round round--1"></div>
 								</div>
 							</div>
@@ -192,7 +164,7 @@
                                         $tmr = $myrowr['time'];
                                         $timer = $dater = explode(":", $tmr);
                                         $cutTime = $timer[0] . ':' . $timer[1];
-											
+
                                         ?>
                                         <div <? LazyLoad($myrowr['path'] . '/' . $piecesr[0], array('class' => 'img-item image-item--' . $myrowr['id'])); ?>>
                                             <div class="img-name"><span><?/*= $myrowr['hod_name_ua']; */?></span></div>
@@ -216,7 +188,7 @@
                                         </div>
                                         <?
 										$zir++;
-										
+
                                     }
                                 }?>
 
@@ -284,179 +256,22 @@
                                     }?>
 
 								</div>
-							</div>
+							<!-- </div>
 
 					</section>
-				</div>
+				</div> -->
 	</div>
 
 		<div id="overlay"></div>
 	</section>
 
 <?php include('../includes/form_callback.php'); ?>
-
 <?php include('../includes/footer_ua.php'); ?>
 
-	<style media="screen">
-	.tooltip {
-		display: inline-block;
-		position: relative;
-		z-index: 999;
-	}
-	.tooltip-item {
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 700;
-		padding: 0 10px;
-	}
-	.tooltip-item::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 20px;
-		bottom: 100%;
-		left: 50%;
-		pointer-events: none;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
-	}
-
-	.tooltip:hover .tooltip-item::after {
-		pointer-events: auto;
-	}
-
-	/* Tooltip */
-
-	.tooltip-content {
-		position: absolute;
-		z-index: 9999;
-		width: 180px;
-		left: 50%;
-		margin: 0 0 20px -90px;
-		bottom: 80%;
-		text-align: left;
-		font-size: 18px;
-		line-height: 1.4;
-		box-shadow: -5px -5px 15px rgba(48,54,61,0.2);
-		background: #ef2732;
-		box-sizing: border-box;
-		padding: 0 8px;
-		opacity: 0;
-		cursor: default;
-		pointer-events: none;
-	}
-
-	.tooltip-effect-2 .tooltip-content {
-		-webkit-transform-origin: 50% calc(100% + 10px);
-		transform-origin: 50% calc(100% + 10px);
-		-webkit-transform: perspective(1000px) rotate3d(1,0,0,45deg);
-		transform: perspective(1000px) rotate3d(1,0,0,45deg);
-		-webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
-		transition: opacity 0.4s, transform 0.4s;
-	}
-
-	.tooltip:hover .tooltip-content {
-		pointer-events: auto;
-		opacity: 1;
-		-webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
-		transform: translate3d(0,0,0) rotate3d(0,0,0,0);
-	}
-
-	.tooltip.tooltip-effect-2:hover .tooltip-content {
-		-webkit-transform: perspective(1000px) rotate3d(1,0,0,0deg);
-		transform: perspective(1000px) rotate3d(1,0,0,0deg);
-	}
-
-	.tooltip-content::after {
-		content: '';
-		top: 100%;
-		left: 50%;
-		border: solid transparent;
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-color: transparent;
-		border-top-color: #ef2732;
-		border-width: 10px;
-		margin-left: -10px;
-	}
-
-	/* Tooltip content*/
-
-	.tooltip-text {
-		font-size: 0.68em;
-		line-height: 1.35;
-		display: block;
-		padding: 1.31em 1.21em 1.21em 0;
-		color: #fff;
-	}
-	.image-item--82 {
-		 margin-top: 6px;
-	}
-	.image-item--84 {
-		margin-top: 160px;	
-	}
-
-	/*webcam-man*/
-	.progres_web {
-		position: relative;
-	}
-	.man-wrap {
-		position: absolute;
-		top: 0%;
-		left: -70%;
-		transform: scale(1.3);
-		/*animation: manShow 0.7s forwards;*/
-	}
-	@keyframes manShow {
-		from {left: -50%; transform: rotate(-25deg) scale(1.3);}
-		to {left: -20%; transform: rotate(0) scale(1.3);}
-	}
-	.web-cloud {
-		position: absolute;
-		top: 0;
-		right: -50%;
-	}
-	.web-cloud__text {
-		max-width: 100%;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		color: #000;
-		text-align: center;
-	}
-	@media screen and (max-width: 1400px) {
-		@keyframes manShow {
-			from {left: -50%; transform: rotate(-25deg);}
-			to {left: -10%; transform: rotate(0)}
-		}
-	}
-	@media screen and (max-width: 500px) {
-		.man-wrap {
-			left: -100%;
-			top: -120%;
-			transform: scale(0.7);
-		}
-		@keyframes manShow {
-			from {left: -50%; transform: rotate(-25deg) scale(0.5);}
-			to {left: -30%; transform: rotate(0) scale(0.5);}
-		}
-	}
-	/*end__webcam-man*/
-	</style>
-
-    <!-- <script src="../js/lib/snap.svg-min.js"></script> -->
-    <!-- <script src="../js/lib/slider.js"></script> -->
-    <script src="../js/jquery.fancybox.pack.js"></script>
-    <!-- <script src="../js/jquery.fancybox-thumbs.js"></script> -->
-    <script src="../js/lib/wow.min.js"></script>
-		<script src="../js/progres.js"></script>
+		<script src="../js/snapSliderFancy.js"></script>
+		<script src="../js/scripts.js"></script>
 		<script src="../js/circle-progress.min.js"></script>
-    <!-- <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
-    </script> -->
+
     <?$perstSelect = $DB->query("SELECT * FROM `pers`");
     while ($rowPers= mysqli_fetch_array($perstSelect)) {
         $v1 = $rowPers['persent_1'];
@@ -473,16 +288,7 @@
         $tV3 = explode("/",$tV[2]);
         $tV4 = explode("/",$tV[3]);
         ?>
-	<script src="../js/scripts.js"></script>
 	<script type="text/javascript">
-       new ScrollMagic.Scene({triggerElement: ".trigger-0"})
-      .setClassToggle(".header", "zipped").addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 700})
-      .setTween(".fifteenth .title", {transform: "translateX(-20%)"}).addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 300})
-      .setTween(".fifteenth i.line", {transform: "translateX(0)"}).addTo(controller);
-			var scene = new ScrollMagic.Scene({triggerElement: ".lamps", duration: 300})
-      .setTween(".lamps img", {opacity: "1"}).addTo(controller);
 
 			$(document).ready(function() {
                 //Загально будівельні всплывайка
@@ -515,12 +321,7 @@
        var v2 = 0.01*(<?=$v2;?>);
        var v3 = 0.01*(<?=$v3;?>);
        var v4 = 0.01*(<?=$v4;?>);
-       /*
-       console.log(v1);
-       console.log(v2);
-       console.log(v3);
-       console.log(v4);
-       */
+
 //Загально будівельні
 $('.circle_0').circleProgress({
 	value: v1,

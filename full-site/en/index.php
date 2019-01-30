@@ -9,26 +9,15 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 Chicago Residential Estate combines a glaring architecture of Chicago, world-class comfort and all advantages of residing in the downtown of Kiev at: 44, Antonovicha Street (Gorkogo) ✅ 【CHICAGO】">
-	
+
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> -->
   <link rel="stylesheet" type="text/css" href="/css/full.css" />
-	<!-- <link rel="stylesheet" href="/css/flipclock.css"> -->
-	<!-- <script src="/js/jquery-1.12.0.min.js"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script> -->
-	<!-- <link rel="stylesheet" type="text/css" href="/css/normalize.css" /> -->
-	<!-- <link rel="stylesheet" type="text/css" href="/css/demo.css" /> -->
 	<link rel="stylesheet" type="text/css" href="/css/set1.css" />
-    <link rel="stylesheet" href="/css/animate.css">
-		<!-- <link rel="stylesheet" href="/css/slider-style.css"> -->
-    <!-- <link rel="stylesheet" href="/css/jquery.fancybox.css"> -->
-    <!-- <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css"> -->
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <link rel="stylesheet" href="/css/animate.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/fb.css">
 	<!-- <link rel="stylesheet" href="/css/map.css"> -->
@@ -873,7 +862,7 @@
                 <textarea tabindex="4" cols="30" rows="10" name="formData"  required></textarea>
                 <span class="placeholder">Message text:<i>*</i></span>
             </div>
-			
+
 			<input  name="count" class="webad" type="hidden" value="5">
 			<input  name="typ" class="webad" type="hidden" value="8" >
             <input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
@@ -1033,7 +1022,7 @@ initializeClock('clockdiv', deadline);
 <?php/*	 <!-- ===========end modal window============ -->*/?>
 
 
-  	<script defer src="/js/ScrollMagic.min.js"></script>
+  <script defer src="/js/ScrollMagic.min.js"></script>
 	<script defer src="/js/snapSliderFancy.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script defer src="/js/infobubble-compiled.js"></script>
@@ -1044,6 +1033,6 @@ initializeClock('clockdiv', deadline);
 	<? /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AHTUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/?>
 	<? /*Все не закоментированные скрипты были перенесены в main-page.js*/ ?>
 	<? /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AHTUNG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/?>
-	<script defer src="/js/main-page.js"></script>     
+	<script defer src="/js/main-page.js"></script>
 </body>
 </html>

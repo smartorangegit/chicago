@@ -1,4 +1,7 @@
 /*service-department*/
+body{
+	min-width: 0;
+}
 .parking__container_last {
 	margin-bottom: 50px;
 }
@@ -13,27 +16,22 @@
 .parking__text {
 	color: white;
 	font-size: 16px;
-    /* font-weight: 300; */
-    line-height: 24px;
-    letter-spacing: .8px;
-    margin: 0 10px;
-    /* max-width: 600px; */
-    width: 48%;
-    box-sizing: border-box;
+  line-height: 24px;
+  letter-spacing: .8px;
+  margin: 0 10px;
+  width: 48%;
+  box-sizing: border-box;
 }
 .parking__text a {
 	color: red;
 }
 .parking__image img {
     max-width: 100%;
-    width: 100%;	
+    width: 100%;
 }
 .parking__image {
 	margin-right: 10px;
     width: 48%;
-    /* width: 528px; */
-    /* height: 356px; */
-    /* background: url(/img/project/projectImage.jpg.pagespeed.ce.XuDCkSwncQ.jpg) center no-repeat; */
     background-size: cover;
     box-sizing: border-box;
 }
@@ -49,13 +47,40 @@
     line-height: 320px;
     text-align: center;
     font-size: 80px;
-/* 	word-wrap: break-word;
-	overflow-wrap: break-word; */
+
+}
+.bottom_paragraph {
+		font-size: 30px;
+		line-height: 1.5;
+}
+
+.bottommost_paragraph {
+		font-size: 26px;
+}
+.button-call {
+		display: block;
+		margin: 50px auto;
+}
+
+.parking__text p {
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+}
+
+.parking__text li {
+		text-indent: 6px;
+}
+
+.great_service {
+		font-size: 19px;
 }
 @media only screen and (max-width: 570px) {
 .content_name {
     font-size: 32px;
     line-height: 230px;
+}
+.button.button-red {
+		font-size: 12px;
 }
 }
 
@@ -77,7 +102,7 @@
 
 .services-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 85px;
 }
@@ -115,7 +140,6 @@
 }
 
 .services-contact {
-/*   background-color: #1A4AB3; */
   padding: 50px 0;
   display: flex;
   align-items: center;
@@ -253,15 +277,4 @@
 	.parking__container {
 		padding-top: 0;
 	}
-/* 	.fifteenth h1.content_name {
-    font-size: 18px;
-    padding: 0;
-    line-height: 40px;
-    margin-top: 26px;
-} */
-}
-@media screen and (max-width: 856px) and (min-width: 320px) {
-section.fifteenth {
-   /*  padding-top: 352px; */
-}
 }

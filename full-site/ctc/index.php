@@ -9,49 +9,25 @@
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/ctc/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/ctc/" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/ctc/" />
-		<meta name="robots" content="index, follow">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="../css/demo.css" />
-<link rel="stylesheet" type="text/css" href="../css/set1.css" />
-<link rel="stylesheet" href="../css/animate.css">
-<link rel="stylesheet" href="../css/slider-style.css">
-<link rel="stylesheet" href="../css/jquery.fancybox.css">
-<link rel="stylesheet" href="../css/jquery.fancybox-thumbs.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/progress.css">
-<script type="text/javascript" src="../js/lib/greensock/TweenMax.min.js"></script>
-<script src="../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-<script type="text/javascript" src="../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-<script src="../js/lib/plugins/debug.addIndicators.min.js"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
+	<meta name="robots" content="index, follow">
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/full.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
 </head>
 
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
+	<?php /*меню*/ include_once('../includes/header_ua.php'); ?>
 
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
-		<?php /*меню*/ include_once('../includes/header_ua.php'); ?>
-
-	<section class="fifteenth news" id="builder">
-		<span class="trigger-7"></span>
-        <h1 class="content_name" style="transform: translate3d (20px, 0, 0)">Client Technical Control</h1>
-        <i class="line"></i>
+	<section class="h1_wrapper">
+        <h1>Client Technical Control</h1>
   </section>
 
-
-	<span class="trigger-0"></span>
 	<div class="hidden_box">
 		<svg width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<defs>
-
 
 	<!-- инициализация свг-иконок -->
 				<symbol id="user" viewBox="0 0 100 100">
@@ -125,7 +101,7 @@
 									Ми запрошуємо всіх інвесторів стати учасником Клієнтського Контролю.
 								</p>
 								<p>
-									Інформування про зустріч відбувається за допомогою пуш-повідомлення у мобільному додатку Sfera. 
+									Інформування про зустріч відбувається за допомогою пуш-повідомлення у мобільному додатку Sfera.
 								<p>
 									Один раз на місяць всі інвестори будинку отримують запрошення на Клієнтський Контроль з метою контролю готовності об’єкта, підготовки пропозицій щодо благоустрою території тощо.
 								</p>
@@ -201,17 +177,12 @@
 							<div class="content_text">
 								*Стати учасником Клієнтського Контролю можна лише для свого будинку.
 							</div>
-							<a class="button callback button-red button-call" href="#callback-ctc"">Приєднатися до зустрічей КТК</a>
+							<a class="button callback button-red button-call" href="#callback-ctc">Приєднатися до зустрічей КТК</a>
 						</div>
-						
 					</div>
 
 					<style media="screen">
-
-					.content_atmosfera *{
-						box-sizing: border-box; color: white;
-						text-align: inherit;
-					}
+					.content_atmosfera *{box-sizing: border-box; color: white;text-align: inherit;}
 					.hidden_box{ height: 0px; overflow: hidden; }
 					.content_wrap { width: 100%; max-width: 1000px; padding: 20px 10px; margin: 0px auto 30px; line-height: 1.6; box-sizing: border-box;}
 					.content_name{color: white;    line-height: 320px;    text-align: center;    font-size: 80px;}
@@ -243,7 +214,7 @@
 						.ctc__footer .ctc_img{height: 80px;}
 						.ctc__footer .ctc_icon{height: 100%;}
 					}
-					
+
 					.button-call {
 						font-family: "IntroBlack", arial, sans-serif;
 						display: block;
@@ -254,7 +225,7 @@
 						cursor: pointer;
 						line-height: 48px;
 						margin: 50px auto 27px;
-						
+
 					}
 					@media screen and (max-width: 560px) {
 						.button.button-red {font-size: 12px;}
@@ -262,7 +233,7 @@
 					#zipCode1-ctc {
 						padding-left: 45px;
 						height: 40px;
-					} 
+					}
 					</style>
 				</div>
 
@@ -270,24 +241,11 @@
 
 	<?php include('../includes/form_callback.php'); ?>
 	<?php include('../includes/form_callback_ctc.php'); ?>
-
-<?php include('../includes/footer_ua.php'); ?>
-
+	<?php include('../includes/footer_ua.php'); ?>
 
 
-<script src="../js/lib/snap.svg-min.js"></script>
-    <script src="../js/lib/slider.js"></script>
-    <script src="../js/jquery.fancybox.pack.js"></script>
-    <script src="../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../js/lib/wow.min.js"></script>
-		<script src="../js/progres.js"></script>
-		<script src="../js/scripts.js"></script>
 
-<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.button-red.button-call").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
-		var controller = new ScrollMagic.Controller();
-		</script>
+<script src="../js/snapSliderFancy.js"></script>
+<script src="../js/scripts.js"></script>
 </body>
 </html>
