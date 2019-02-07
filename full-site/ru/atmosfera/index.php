@@ -4,64 +4,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>SFERA Living System - ЖК CHICAGO Central House</title>
+	<title>≡ ЖК Чикаго 》SFERA Living System - ЖК CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
-	
+	<meta name="description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/atmosfera/" />
-    <!-- <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/full.css" />
-	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
-		<meta property="og:title" content="SFERA Living System - ЖК CHICAGO Central House" />
-		<meta property="og:description" content="ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+  <!-- <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+	<meta property="og:title" content="≡ ЖК Чикаго 》SFERA Living System - ЖК CHICAGO Central House" />
+	<meta property="og:description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх" />
+	<meta property="og:image" content="https://<?=$_SERVER['SERVER_NAME']?>/img/new_render_s.jpg"/>
 </head>
 
 <body>
-	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-	<!--preloader/ -->
-	<style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
-	right:0;bottom:0; margin:auto;}</style>
-	<div id="hellopreloader"><div id="hellopreloader_preload">
-		<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 105 105" fill="red">
-		    <circle cx="12.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="0s" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		    <circle cx="12.5" cy="52.5" r="12.5" fill-opacity=".5"><animate attributeName="fill-opacity" begin="100ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="300ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="600ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="800ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="400ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="12.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="700ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="500ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="200ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		</svg>
-	</div></div>
-	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
-
-
+<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
 <?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
 
 
-<section class="fifteenth news" id="builder">
-	<span class="trigger-7"></span>
-			<h1 class="title" style="transform: translate3d(20px, 0, 0)">ATMOSFERA</h1>
-			<i class="line"></i>
+<section class="h1_wrapper">
+			<h1 class="wow fadeInLeft">ATMOSFERA</h1>
 </section>
 		<div class="content content_atmosfera">
 			<div class="content_wrap clearfix">
 				<div class="atmo__top">
-				 <!-- <h1 class="content_name">ATMOSFERA</h1>
-					<div class="content_subname">це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх будинках, створених компанією SAGA Development.</div> -->
-				</div>
-				<div class="atmo__top">
 					<div class="atmoinfo__box">
 					<div class="atmo__img">
 						<img src="sfera.svg" alt="">
-
 					</div>
 						<div class="content_text">
-		 <!--  <h1 class="content_name">ATMOSFERA</h1> -->
 			<p>
 				<span class="text_bold">ATMOSFERA</span> — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх будинках, створених компанією SAGA Development.
 			</p>
@@ -76,10 +50,7 @@
 					<div class="atmo_video">
 						<iframe width="100%" height="350" src="https://www.youtube.com/embed/LYWyG4refiI"; frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 					</div>
-
 				</div>
-
-
 				<div class="atm__box">
 					<div class="atm_icon">
 						<img src="/img/atm/atm2.png" alt="">
@@ -130,7 +101,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="atm__box">
 					<div class="atm_icon">
 						<img src="/img/atm/atm4.png" alt="">
@@ -145,7 +115,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="atm__box">
 					<div class="atm_icon">
 						<img src="/img/atm/atm5.png" alt="">
@@ -166,7 +135,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="atm__box">
 					<div class="atm_icon">
 						<img src="/img/atm/atm6.png" alt="">
@@ -180,11 +148,7 @@
 							<p>
 								Система «розумна квартира» є частиною приватного простору, тому вона може бути встановлена лише за бажанням мешканця.
 							</p>
-
-
 						</div>
-
-
 					</div>
 				</div>
 				<div class="atm__footer">
@@ -198,15 +162,10 @@
 						Саме тому в кожному будинку присутня ATMOSFERA – система для життя.
 					</div>
 				</div>
-
-
 			</div>
 			<style media="screen">
 	body {
-		font-family: "HeliosCond", arial, sans-serif;
 		color: white;
-		line-height: 1.6;
-		font-weight: 300;
 	}
 	.content_name {
 		font-size: 26px;
@@ -218,11 +177,12 @@
 	.content_subname {
 		display: inline-block;
 		margin-top: 7px;
-		background: #ff000b;
+		background: #ef2732;
 		line-height: 1.25;
 		padding: 5px 5px 0;
 	}
 			.content_atmosfera{
+				line-height: 1.6;
 		background-size: cover;
 		box-sizing: border-box;
 		text-align: left;
@@ -266,7 +226,6 @@
 				float: right;
 		border-left: 1px solid #5c5c5d;
 		padding-left: 34px;
-
 			}
 			.atm__box{
 				border-top: 1px solid #5c5c5d;
@@ -280,9 +239,7 @@
 			}
 			.atm__box .content_subname{
 				font-size: 24px;
-				/* text-align: center; */
 				line-height: normal;
-				/* padding: 0 40px; */
 			}
 			.atm__box .content_text{
 				padding: 20px 40px;
@@ -291,7 +248,6 @@
 				width: 100px;
 				padding: 16px;
 			}
-
 			.atm__content{
 				width: 100%;
 			}
@@ -376,12 +332,7 @@
 						padding: 14px 0;
 					}
 				}
-@media screen and (max-width: 600px) and (min-width: 320px){
-.fifteenth .title, .fifteenth h2.title {
-	transform: none;
-	line-height: 230px;
-}
-}
+
 			</style>
 	<!-- <div class="bottom_form"><a id="callform1" class="button callback"  href="#">замовити дзвінок</a></div> -->
 		</div>
@@ -390,40 +341,7 @@
 	<?php include('../../includes/form_callback_ru.php'); ?>
 	<?php include('../../includes/footer_ru.php'); ?>
 
-<!-- <script src="/js/scripts.js"></script> -->
-
-	<script src="/js/ScrollMagic.min.js"></script>
 	<script src="/js/snapSliderFancy.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	<script src="jquery.fancybox.js"></script>
-	<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: ".kub .trigger-0"}).setClassToggle(".header", "zipped").addTo(controller);
-		</script>
-		<!-- <script src="/js/scripts.js"></script> -->
-		<script>
-
-    $(document).ready(function(){
-      $('.ufw_slider').bxSlider({
-				slideWidth: 155,
-				minSlides: 5,
-				maxSlides: 5,
-				slideMargin: 10,
-				infiniteLoop: false,
-				responsive: true,
-				touchEnabled: true,
-			});
-    });
-
-			$('#budinok_open, #budinok').hover(
-			  function(){
-			  $('#budinok').css('height','202px');
-			},function(){
-			  $('#budinok').css('height','0');
-			});
-		</script>
+	<script src="/js/scripts.js"></script>
 </body>
 </html>

@@ -3,12 +3,12 @@
 <html lang="uk">
 <head>
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
-	<title>≡ ЖК CHICAGO Central House 》Панорама</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
+	<title>≡ ЖК CHICAGO Central House 》Панорама</title>
 	<meta name="robots" content="index, follow">
-	<meta name="description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
 	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<meta name="description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/panorama/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/panorama/" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />
@@ -18,7 +18,9 @@
 	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
+	<meta property="og:title" content="≡ ЖК CHICAGO Central House 》Панорама" />
+	<meta property="og:description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
     <!-- MAPS -->
 <style type="text/css">
 	@-ms-viewport { width: device-width; }
@@ -172,9 +174,6 @@
 		return false;
 	}
 </script>
-		<meta property="og:title" content="≡ ЖК CHICAGO Central House 》Панорама" />
-		<meta property="og:description" content="【Панорамний вид з висоти CHICAGO Central House】 Центр столиці за вашими вікнами!...... ✅ 【ЖК CHICAGO】 Американська якість ➜ Українська ціна за квартиру в центрі Києва!...... ✅ 【ЖК Чикаго Централ Хаус】 Адреса розташування: Київ, вул. Антоновича 44 (Горького)..... ✅ 【CHICAGO】 Звертайтеся до відділу продажів - встигніть купити квартиру мрії!" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 <body>
 <?php include_once('../includes/header_ua.php'); ?>

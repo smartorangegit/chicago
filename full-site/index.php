@@ -4,7 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /> -->
 	<title>≡ ЖК Чикаго 》Атмосферна новобудова в центрі Києва - вул. Антоновича, 44 | CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>"/>
@@ -45,9 +44,7 @@
 		<div class="clock2"></div>
 	</div> -->
 
-
 <?php /*меню*/ include_once('includes/header_ua.php'); ?>
-
 
 	<section  <?LazyLoad("/img/bg_2019.jpg", $option=array('class'=>'first'));?> >
 		<div class="first_name">
@@ -125,7 +122,6 @@
 						<mask id="cd-left-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
 							<path fill="white" d="M0,0v800h1400V0H0z M110,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S143.137,460,110,460z"/>
 						</mask>
-
 						<mask id="cd-right-mask" height='800px' width="1400px" x="0" y="0" maskUnits="userSpaceOnUse">
 							<path fill="white" d="M0,0v800h1400V0H0z M1290,460c-33.137,0-60-26.863-60-60s26.863-60,60-60s60,26.863,60,60S1323.137,460,1290,460z"/>
 						</mask>
@@ -135,14 +131,11 @@
 		</div> <!-- .cd-radial-slider-wrapper -->
 	</section>
 	<section <?LazyLoad("/img/bg-2.jpg", $option=array('class'=>'second'));?> id="place">
-        <!-- <span class="trigger-1"></span> -->
 		<h2 class="title wow fadeInLeft">Розташування</h2>
 	</section>
 	<section class="third light">
         <span class="lamps wrapper">
-            <i></i>
-            <i></i>
-            <i></i>
+            <i></i><i></i><i></i>
         </span>
 		<div class="wrapper">
 			<p class="more wow fadeInUp">
@@ -187,6 +180,7 @@
 						<a href="/odnokomnatnaya-kvartira" class="button button-red">1-кімнатні</a>
 						<a href="/dvuhkomnatnaya-kvartira" class="button button-red">2-кімнатні</a>
 						<a href="/trehkomnatnaya-kvartira" class="button button-red">3-кімнатні</a>
+						<a href="/dvuhurovnevaya-kvartira" class="button button-red">Дворівневі</a>
 				</div>
 				<div class="sappart_inner sappart_reverse flex">
 					<div class="sappart_text">
@@ -209,12 +203,11 @@
 		</section>
 		<section <?LazyLoad("/img/panorama3.jpg", $option=array('class'=>'seventh'));?>>
 			<a href="/panorama/">
-				<!-- <span class="trigger-2"></span> -->
        	<h2 class="title wow fadeInLeft">Панорама</h2>
 				<div class="obzor"><img  <?LazyLoad("/img/icons/360.png");?> alt="png" /></div>
 			</a>
     </section>
-    <section <?LazyLoad("/img/bg-4.jpg", $option=array('class'=>'fourth', 'option'=>'no-repeat'));?> id="infrastructure">
+    <section <?LazyLoad("/img/bg-4.jpg", $option=array('class'=>'fourth', 'option'=>'no-repeat center fixed'));?> id="infrastructure">
         <ul class="wrapper wow pulse">
             <li>
                 <div <?LazyLoad("/img/icons/clock.png", $option=array('class'=>'clock'));?> >
@@ -317,7 +310,7 @@
 				</figcaption>
 			</figure>
 			<figure class="effect-milo wow fadeInUp">
-				<img <?LazyLoad("/img/gal-3.jpg");?>   alt="img03"/>
+				<img <?LazyLoad("/img/gal-3.jpg");?> alt="img03"/>
 				<figcaption>
 					<h3>Central</h3>
 					<p>
@@ -434,33 +427,30 @@
 				<div class="wrapper">
         <h2 class="title wow fadeInLeft">ГАЛЕРЕЯ</h2>
         <div class="gallery">
-            <a href="/img/gallery/1big.jpeg" class="wow fadeInLeft" rel="gallery">   <img <?LazyLoad("/img/gallery/1.jpg");?>  alt="img-gallery"> </a>
-            <a href="/img/gallery/2big.jpg" class="wow fadeInDown" rel="gallery">   <img <?LazyLoad("/img/gallery/2.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/3big.jpg" class="wow fadeInRight" rel="gallery">   <img <?LazyLoad("/img/gallery/3.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/4big.jpg" class="wow fadeInUp" rel="gallery">   <img <?LazyLoad("/img/gallery/4.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/5big.jpg" class="wow fadeInRight" rel="gallery">   <img <?LazyLoad("/img/gallery/5.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/6big.jpg" class="wow fadeInDown" rel="gallery">   <img <?LazyLoad("/img/gallery/6.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/7big.jpg" class="wow fadeInLeft" rel="gallery">   <img <?LazyLoad("/img/gallery/7.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/8big.jpg" class="wow fadeInLeft" rel="gallery">   <img <?LazyLoad("/img/gallery/8.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/9big.jpg" class="wow fadeInUp" rel="gallery">   <img <?LazyLoad("/img/gallery/9.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/10big.jpg" class="wow fadeInRight" rel="gallery">   <img <?LazyLoad("/img/gallery/10.jpg");?> alt="img-gallery"> </a>
-            <a href="/img/gallery/11big.jpg" class="wow fadeInLeft" rel="gallery">   <img <?LazyLoad("/img/gallery/11.jpg");?> alt="img-gallery"> </a>
+            <a href="/img/gallery/1big.jpeg" class="wow fadeInLeft" rel="gallery"><img <?LazyLoad("/img/gallery/1.jpg");?>  alt="img-gallery"></a>
+            <a href="/img/gallery/2big.jpg" class="wow fadeInDown" rel="gallery"><img <?LazyLoad("/img/gallery/2.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/3big.jpg" class="wow fadeInRight" rel="gallery"><img <?LazyLoad("/img/gallery/3.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/4big.jpg" class="wow fadeInUp" rel="gallery"><img <?LazyLoad("/img/gallery/4.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/5big.jpg" class="wow fadeInRight" rel="gallery"><img <?LazyLoad("/img/gallery/5.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/6big.jpg" class="wow fadeInDown" rel="gallery"><img <?LazyLoad("/img/gallery/6.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/7big.jpg" class="wow fadeInLeft" rel="gallery"><img <?LazyLoad("/img/gallery/7.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/8big.jpg" class="wow fadeInLeft" rel="gallery"><img <?LazyLoad("/img/gallery/8.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/9big.jpg" class="wow fadeInUp" rel="gallery"><img <?LazyLoad("/img/gallery/9.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/10big.jpg" class="wow fadeInRight" rel="gallery"><img <?LazyLoad("/img/gallery/10.jpg");?> alt="img-gallery"></a>
+            <a href="/img/gallery/11big.jpg" class="wow fadeInLeft" rel="gallery"><img <?LazyLoad("/img/gallery/11.jpg");?> alt="img-gallery"></a>
 						<a id="openGal" rel="gallery" class="button button-red" href="/img/gallery/2big.jpg">Більше фото</a>
 					</div>
 			</div>
     </section>
-
-	<section class="fifteenth" <?LazyLoad("/img/bg-15.jpg", $option=array('class'=>'fifteenth', 'option'=>'center'));?> id="builder">
+		<section class="fifteenth" <?LazyLoad("/img/bg-15.jpg", $option=array('class'=>'fifteenth', 'option'=>'center'));?> id="builder">
       <h2 class="title wow fadeInleft">Забудовник</h2>
 	</section>
-
 	<section class="sixteenth light">
 		<div class="wrapper">
 			<div class="left-part">
-
 				<div class="logo_riv wow fadeIn">
 					<a href="http://saga-development.com.ua/">
-						<img  <?LazyLoad("/img/saga-logo.svg");?>  alt="Saga Logo" width="200px"/>
+						<img <?LazyLoad("/img/saga-logo.svg");?>  alt="Saga Logo" width="200px"/>
 					</a>
 				</div>
 				<div class=" wow fadeIn">
@@ -472,7 +462,6 @@
 						<h2 style="font-weight:bold; color:#fff; display:inline;">дозвільної документації</h2>
 					</p>
 				</div>
-		<?php/*		<div class="logo_kdd"><a href="http://kdd.ua/">	<img <?LazyLoad("/img/icons/logoKDD.svg");?>  alt="logoKDD" width="200px"></a><p>	Генеральний підрядник	</p></div>       */?>
 			</div>
 			<div class="right-part wow fadeInRight">
 					<a class="galery2" href="/img/choice/doc2.jpg" rel="gal2"></a>
@@ -504,7 +493,6 @@
 					<a class="galery2" href="/img/choice/doc28.jpg" rel="gal2"></a>
 					<a class="galery2" href="/img/choice/doc29.jpg" rel="gal2"></a>
 
-
 				<div class="docs" id="builder_documents">
 					<a class="maindocs galery2" id="gal2" href="/img/choice/doc1.jpg" rel="gal2" style="font-weight:bold; color:#fff;"><img <?LazyLoad("/img/choice/doc1pic.jpg");?> alt="Дозвіл на виконання будівельних робіт" title="Дозвіл на виконання будівельних робіт"></a>
 					<a class="galery2" href="/img/choice/doc2.jpg" rel="gal2"></a>
@@ -534,9 +522,7 @@
 					<a class="galery2" href="/img/choice/doc27.jpg" rel="gal2"></a>
 					<a class="galery2" href="/img/choice/doc28.jpg" rel="gal2"></a>
 					<a class="galery2" href="/img/choice/doc29.jpg" rel="gal2"></a>
-
 				</div>
-
 				<div class="wow fadeInLeft slider__container">
 					<p class="name_proj">Проекти цього забудовника: </p>
 						<div class="logo_proj__slick-slider">
@@ -591,7 +577,6 @@
 	<div class="video__box">
 		<!--загрузка видео в main-page.js -->
 	</div>
-
 	<div class="sound">
 		<img id="sound_on" onclick="sound_off ()" src="/img/sound_on.svg" style="display:none;">
 		<img id="sound_off" onclick="sound_on ()" src="/img/sound_off.svg" style="display:block;">
@@ -599,14 +584,13 @@
 </div>
 
 <!-- ======end section video======= -->
-
 <section  <?LazyLoad("/img/bg-17.jpg", $option=array('class'=>'seventeenth', 'option'=>'center'));?>  id="contact">
 		<?php
 		$webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
 		?>
 
-		<form  id="mainform" action="application.php" method=post enctype="multipart/form-data" class="wrapper form wow bounceInDown clearfix">
+		<form id="mainform" action="application.php" method=post enctype="multipart/form-data" class="wrapper form wow bounceInDown clearfix">
 		<h2 class="title">Зворотній зв&prime;язок</h2>
 		<div class="input_wrap">
 			<input type="text" name="name" required>
@@ -627,13 +611,9 @@
 		<input  name="webad" class="webad" type="hidden" value="<?=$webAd;?>"/>
 		<input  name="metka" class="metka" type="hidden" value="Форма с Chicago"/>
 		<input  name="inn" class="userInn" type="hidden" value="Chicago"/>
-		<!--<button class="button button-red">Надіслати</button>-->
-<?//	<div class="g-recaptcha" id="reCaptcha2" data-sitekey="6Lc1XRUUAAAAAM-WkPVHbGRPXqTkfaOEaFlsqEBu"></div> */?>
-    <div id="info"></div>
 		<input  type="submit" value="Надіслати" class="button">
 		</form>
-
-	     <form  id="realtor-form" action="application.php" method="post" enctype="multipart/form-data" class="wrapper form clearfix" style="display: none;">
+   <form  id="realtor-form" action="application.php" method="post" enctype="multipart/form-data" class="wrapper form clearfix" style="display: none;">
             <h2 class="title">Співпраця для ріелторів</h2>
             <div class="input_wrap realtor_input_wrap">
                 <input type="text" name="name_an" required>
@@ -662,8 +642,6 @@
             <input  name="metka" class="metka" type="hidden" value="Сотрудничество для риелторов - Chicago"/>
             <input  name="inn" class="userInn" type="hidden" value="Chicago"/>
             <!--<button class="button button-red">Надіслати</button>-->
-    <?//    <div class="g-recaptcha" id="reCaptcha2" data-sitekey="6Lc1XRUUAAAAAM-WkPVHbGRPXqTkfaOEaFlsqEBu"></div> */?>
-
         <div id="info"></div>
             <input  type="submit" value="Надіслати" class="button">
             </form>
@@ -675,9 +653,7 @@
 	<?php include('includes/footer_ua.php'); ?>
 
 	<?php include('includes/form_callback.php'); ?>
-<!--end timer -->
 
-	  <!-- timer -->
  <div class="modal_window__container" style="display:none;">
 	 <!-- скрипты для инициализации в main-page.js -->
 			<div class="main_overlay">
@@ -712,13 +688,11 @@
 
 <!-- ===========end modal window============  -->
 
-	<!-- <script defer src="js/ScrollMagic.min.js"></script> -->
 	<script defer src="js/snapSliderFancy.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	<script src="/js/infobubble-compiled.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script>
 	<script defer src="js/scripts.js?v=1.0"></script>
-
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> -->
 	<!-- <script acync defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap"></script> -->
 	<!-- Flipclock initiation starts here -->

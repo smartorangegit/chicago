@@ -11,51 +11,31 @@ $myrow = mysql_fetch_array ($check);
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/dvuhkomnatnaya-kvartira/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/dvuhkomnatnaya-kvartira/" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhkomnatnaya-kvartira/" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<title>≡ CHICAGO Central House 》Purchase a two-room apartment in CHICAGO Central House Residential Estate</title>
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-<meta name="description" content="✅ 【CHICAGO Central House】 Two-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
-<link rel="stylesheet" href="../../css/animate.css">
-<link rel="stylesheet" href="../../css/slider-style.css">
-<link rel="stylesheet" href="../../css/jquery.fancybox.css">
-<link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
-<!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="../../css/style.css">
-<!-- <link rel="stylesheet" href="../../css/progress.css">
-<link rel="stylesheet" href="../../css/news.css"> -->
-<link rel="stylesheet" href="../../css/select.css">
-<script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
-<script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-<script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-<script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-
-		<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a two-room apartment in CHICAGO Central House Residential Estate" />
-		<meta property="og:description" content="✅ 【CHICAGO Central House】 Two-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>≡ CHICAGO Central House 》Purchase a two-room apartment in CHICAGO Central House Residential Estate</title>
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<meta name="description" content="✅ 【CHICAGO Central House】 Two-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/select.css">
+	<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a two-room apartment in CHICAGO Central House Residential Estate" />
+	<meta property="og:description" content="✅ 【CHICAGO Central House】 Two-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
+  <?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
 
-	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
-
-	<section class="fifteenth">
-		<span class="trigger-7"></span>
-        <h1 class="title">Two-Room Apartments in  <br>CHICAGO Central House Residential Estate</h1>
+	<section class="h1_wrapper">
+    <h1>Two-Room Apartments in  <br>CHICAGO Central House Residential Estate</h1>
   </section>
 
-  <section class="third light section_select">
+  <section class="light section_select">
     <div class="wrapper">
-			<span class="trigger-0"></span>
 			<div class="select-info">
 				<p>
 					Today two-room apartments are no less popular than one-room apartments. It's all about the floor space and layout of such dwelling, which is the best option for a couple or a family with children.
@@ -70,32 +50,31 @@ $myrow = mysql_fetch_array ($check);
 					<!-- <li><a id="tab5" href="#">торговые помещения</a></li> -->
 				</ul>
 			</div>
-			<div id="content" class="select_table">
-				<table>
-			   <thead>
-				   <tr>
-				    <th class="content_subname">floor</th>
-				    <th class="content_subname">living space</th>
-				    <th class="content_subname">total spaceь</th>
-				   </tr>
-				 </thead>
-				 <tbody>
-	<?php
-	    do {
-				printf ( "<tr data-href='/en/appart/?type=%s' data-img='../../img/choice/app/%s'>
-					       <td>%s</td>      <td>%s</td>       <td>%s
-					         <div class='box-img'>
-					           <img src='' alt=''>
-					         </div>
+			<div class="select_box flex">
+				<?php
+				do {
 
-					     </td></tr>", $myrow['character_code'], $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square']);
-			}
-			while ($myrow = mysql_fetch_array ($check));
-		?>
-				 </tbody>
-			  </table>
+				printf (	"<div class='room_item'>
+						<div class='room_item_inner'>
+							<div class='room_item_img'>
+								<img src='/img/choice/app/%s' alt='Планировка квартиры'>
+							</div>
+							<table class='rooms_table'>
+							<tbody>
+							<tr>  <td>Floor</td> <td>%s</td></tr>
+							<tr>  <td>Living space, м<sup>2</sup></td><td>%s</td></tr>
+							<tr>  <td>Total space, м<sup>2</sup></td><td>%s</td></tr>
+							</tbody></table>
+							</div>
+						<a class='button' href='/en/appart/?type=%s'>review planning</a>
+					</div> ", $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square'], $myrow['character_code']);
+				}
 
-				<div class="select-info">
+				while ($myrow = mysql_fetch_array ($check));
+				?>
+
+			</div>
+			<div class="select-info">
 				<h2>Advantages of Two-Room Apartments in CHICAGO Central House Residential Estate</h2>
 				<p>The CHICAGO Central House Residential Complex offers to purchase the two-room apartment in Kiev. It has undeniable advantages over one-room real estate. </p>
 				<ul>
@@ -111,42 +90,15 @@ $myrow = mysql_fetch_array ($check);
 				<p>If you are looking for the best dwelling in Kiev, feel free to choose the CHICAGO Central House Residential Estate. The apartment here will become your fortress, a creative space, a place for relaxation, pleasant meetings and a happy family life. Call us right now and sign up for a guided tour at any convenient time for you.
 				</p>
 				</div>
-				  <script type="text/javascript">
-				    $('tbody tr[data-href]').addClass('clickable').click( function() {
-				      window.location = $(this).attr('data-href');
-				    });
-
-				    $('tbody tr').mouseenter(function(){
-				      $(this).find('.box-img').fadeIn(100);
-				      $(this).find('.box-img img').attr('src', $(this).attr('data-img'));
-				      })
-
-				    $('tbody tr').mouseleave(function(){
-				      $(this).find('.box-img').fadeOut(100);
-				    })
-				  </script>
 			</div>
-    </div>
   </section>
-    <style>
-  @media only screen and (max-width: 768px) {
-	.fifteenth {
-		height: 229px;
-	}
-}
-  </style>
-<?php include('../../includes/form_main_en.php'); ?>
-	<?php include('../../includes/form_callback.php'); ?>
 
-<?php include('../../includes/footer_en.php'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-	<script src="/js/scripts.js"></script>
-    <script src="../../js/lib/snap.svg-min.js"></script>
-    <script src="../../js/lib/slider.js"></script>
-    <script src="../../js/jquery.fancybox.pack.js"></script>
-    <script src="../../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../../js/lib/wow.min.js"></script>
-		<script src="../../js/progres.js"></script>
-    <!-- <script src="../../js/scripts.js"> -->
+		<?php include('../../includes/form_main_en.php'); ?>
+		<?php include('../../includes/form_callback.php'); ?>
+		<?php include('../../includes/footer_en.php'); ?>
+
+		<script src="/js/snapSliderFancy.js"></script>
+		<script src="/js/scripts.js"></script>
+
   </body>
 </html>

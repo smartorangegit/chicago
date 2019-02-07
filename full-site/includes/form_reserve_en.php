@@ -3,19 +3,6 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
 ?>
 
-<style media="screen">
-.form h2.title {
-  margin-bottom: 8vmin;
-}
-  @media only screen and (max-width:425px) {
-    .form .button {
-    margin-top: 16px;
-  }
-  }
-
-</style>
-
-
 <form action="<?= 'https://'.$_SERVER['HTTP_HOST'].'/application.php'?>" method=post enctype="multipart/form-data" id="callback" class="form clearfix">
          <h2 class="title">reserve apartment</h2>
          <div class="input_wrap">
@@ -39,8 +26,6 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
             <input  name="inn" class="userInn" type="hidden" value="Chicago"/>
             <input  type="submit" value="Send" class="button">
         </form>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-<script src="/js/intlTelInput.min.js"></script>
+
 <script src="/js/maskInitialisation.js"></script>
 <!-- Код проверки ввода текста и инициализацию маски вынес в отдельный файл  maskInitialisation.js Андрей 14.11.2017 -->

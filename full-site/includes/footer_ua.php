@@ -43,7 +43,7 @@
       <dl class="footer_column">
         <dt>Будинок:</dt>
         <dd><a href="/choice/">Обрати за поверхом</a></dd>
-        <dd><a href="/filter/">Фільтр выбору квартир</a></dd>
+        <!-- <dd><a href="/filter/">Фільтр выбору квартир</a></dd> -->
         <dd><a href="/odnokomnatnaya-kvartira/">1-кімнатні</a></dd>
         <dd><a href="/dvuhkomnatnaya-kvartira/">2-кімнатні</a></dd>
         <dd><a href="/trehkomnatnaya-kvartira/">3-кімнатні</a></dd>
@@ -70,8 +70,8 @@
         <dd><svg width="12" height="12"><use xlink:href="#phone"></use></svg><a href="#">(044) 111-11-11</a></dd>
         <dt class="second_dt">Час роботи відділу продажу:</dd>
         <dd><svg width="12" height="12"><use xlink:href="#clock"></use></svg>ПН-ПТ: 9.00 - 19.00</dd>
-				<dd><svg width="12" height="12"><use xlink:href="#clock"></use></svg>Сб: 10.00 - 18.00</dd>
-        <dd><svg width="12" height="12"><use xlink:href="#clock"></use></svg>НД: Выходной</dd>
+				<dd><svg width="12" height="12"><use xlink:href="#clock"></use></svg>СБ: 10.00 - 18.00</dd>
+        <dd><svg width="12" height="12"><use xlink:href="#clock"></use></svg>НД: 10.00 - 18.00</dd>
 				<dd class="social_footer">
 					<a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank">
 						<svg width="12" height="12"><use xlink:href="#fb"></use></svg>
@@ -84,7 +84,7 @@
       </dl>
     </div>
   </div>
-</section>
+  </section>
 	<footer>
         <div class="wrapper flex">
             <span class="copy">© 2017 CHICAGO Central House</span>
@@ -107,6 +107,5 @@
 							<span>Розробка сайту</span>
 							<img <?LazyLoad("/img/smart_logo_w.svg", $option=array('class'=>'logo-smart'));?>/>
 						</a>
-
 			  </div>
   </footer>

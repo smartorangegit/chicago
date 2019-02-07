@@ -7,51 +7,36 @@ $myrow = mysql_fetch_array ($check);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+	<meta charset="UTF-8">
+	<title>≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<meta name="description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/odnokomnatnaya-kvartira/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/odnokomnatnaya-kvartira/" />
 	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/odnokomnatnaya-kvartira/" />
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate</title>
 	<meta name="robots" content="index, follow">
-  <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta name="description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
-  <link rel="stylesheet" href="../../css/animate.css">
-  <link rel="stylesheet" href="../../css/slider-style.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/select.css">
-  <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
-  <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  		<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate" />
-		<meta property="og:description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/select.css">
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+	<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a one-room apartment in CHICAGO Central House Residential Estate" />
+	<meta property="og:description" content="✅ 【CHICAGO Central House】 One-room apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
-
 	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
 
-	<section class="fifteenth">
-		  <h1 class="title">One-Room Apartments in  </br>CHICAGO Central House Residential Estate</h1>
+	<section class="h1_wrapper">
+		  <h1>One-Room Apartments in  </br>CHICAGO Central House Residential Estate</h1>
   </section>
 
-  <section class="third light section_select">
+  <section class="light section_select">
+
     <div class="wrapper">
-			<span class="trigger-0"></span>
 			<div class="select-info">
 				<p>
 				For many years one-room apartments are in high demand in Kievs new buildings. Such type of housing has many advantages: availability and convenience. If you want to become the owner of a cozy one-room apartment, it's time to get acquainted with the offer from CHICAGO Central House Residential Complex.
@@ -65,30 +50,30 @@ $myrow = mysql_fetch_array ($check);
 					<li><a id="tab4" href="/en/dvuhurovnevaya-kvartira/">Duplex Apartments</a></li>
 				</ul>
 			</div>
-			<div id="content" class="select_table">
-				<table>
-				   <thead>
-				   	<tr>
-				    <th class="content_subname">floor</th>
-				    <th class="content_subname">living space</th>
-				    <th class="content_subname">total spase</th>
-				   </tr>
-				 </thead>
-				 <tbody>
-							<?php
-			       	do {
-										printf ( "<tr data-href='/en/appart/?type=%s' data-img='../../img/choice/app/%s'>
-											       <td>%s</td>      <td>%s</td>       <td>%s
-											         <div class='box-img'>
-											           <img src='' alt=''>
-											         </div>
+			<div class="select_box flex">
+				<?php
+				do {
 
-											     </td></tr>", $myrow['character_code'], $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square']);
-									}
-							while ($myrow = mysql_fetch_array ($check));
-							?>
-				 </tbody>
-			  </table>
+				printf (	"<div class='room_item'>
+						<div class='room_item_inner'>
+							<div class='room_item_img'>
+								<img src='/img/choice/app/%s' alt='planning'>
+							</div>
+							<table class='rooms_table'>
+							<tbody>
+							<tr>  <td>Floor</td> <td>%s</td></tr>
+							<tr>  <td>Living space, m<sup>2</sup></td><td>%s</td></tr>
+							<tr>  <td>Total space, m<sup>2</sup></td><td>%s</td></tr>
+							</tbody></table>
+							</div>
+						<a class='button' href='/en/appart/?type=%s'>review planning</a>
+					</div> ", $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square'], $myrow['character_code']);
+				}
+
+				while ($myrow = mysql_fetch_array ($check));
+				?>
+
+			</div>
 						<div class="select-info">
 						<h2>Advantages of One-Room Apartments in CHICAGO Central House Residential Estate</h2>
 						<p>
@@ -104,43 +89,16 @@ A one-room dwelling is in great demand among young people: often such apartments
 						 <li>Saving money. one-room apartment is always easier to sell. In addition, the successful location of the complex will allow to find a tenant quite quickly.</li>
 						 </ul>
 						 <p>Leave your contact phone number to get comprehensive information and book an excursion. Become one step closer to the dream with CHICAGO Central House Residential Complex.</p>
+				</div>
+	    </div>
+	  </section>
 
-				  <script type="text/javascript">
-				    $('tbody tr[data-href]').addClass('clickable').click( function() {
-				      window.location = $(this).attr('data-href');
-				    });
-
-				    $('tbody tr').mouseenter(function(){
-				      $(this).find('.box-img').fadeIn(100);
-				      $(this).find('.box-img img').attr('src', $(this).attr('data-img'));
-				      })
-
-				    $('tbody tr').mouseleave(function(){
-				      $(this).find('.box-img').fadeOut(100);
-				    })
-				  </script>
-			</div>
-    </div>
-  </section>
-  <style>
-  @media only screen and (max-width: 768px) {
-	.fifteenth {
-		height: 229px;
-	}
-}
-  </style>
-<?php include('../../includes/form_main_en.php'); ?>
+	<?php include('../../includes/form_main_en.php'); ?>
 	<?php include('../../includes/form_callback.php'); ?>
+	<?php include('../../includes/footer_en.php'); ?>
 
-<?php include('../../includes/footer_en.php'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="/js/snapSliderFancy.js"></script>
 	<script src="/js/scripts.js"></script>
-    <script src="../../js/lib/snap.svg-min.js"></script>
-    <script src="../../js/lib/slider.js"></script>
-    <script src="../../js/jquery.fancybox.pack.js"></script>
-    <script src="../../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../../js/lib/wow.min.js"></script>
-		<script src="../../js/progres.js"></script>
-  	<!-- <script src="../../js/scripts.js"> -->
-  </body>
-</html>
+
+	  </body>
+	</html>

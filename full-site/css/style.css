@@ -1041,7 +1041,7 @@ section {
   flex-wrap: wrap;
 }
 .fourteenth .btn_box .button{
-  max-width: 340px;
+  max-width: 260px;
   margin: 0 10px;
 }
 .sappart_reverse{
@@ -1221,6 +1221,8 @@ section {
   border-color: #fff;
   width: 300px;
   border-radius: 25px;
+  border: 2px solid;
+  padding: 4px;
 }
 /* line 882, ../sass/style.sass */
 .form .button:hover {
@@ -2164,6 +2166,10 @@ footer .wrapper{
     width: 100%;
     margin-top: 0;
   }
+  .h1_wrapper h1 {
+    font-size: 40px;
+    padding: 100px 20px 30px;
+}
 }
 /* line 1606, ../sass/style.sass */
 .title.fash {

@@ -28,8 +28,8 @@ while ($myrow = mysqli_fetch_array($sel))
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
         <meta name="description" content="<?=$myrow['description_ua'];?>">
         <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../../css/full.css">
-        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="/css/full.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="../../css/news.css">
         <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
     </head>
@@ -39,13 +39,8 @@ while ($myrow = mysqli_fetch_array($sel))
     <?php /*Google Tag Manager*/ include("../../includes/header_ua.php"); ?>
 
 
-<?/* 	<section class="fifteenth newsdet" id="builder">
-        <span class="trigger-7"></span>
-        <h1 class="title" style="transform: translate3d (20px, 0, 0)"><?=$myrow['name_news_ua'];?></h1>
-        <i class="line"></i>
-    </section>  */?>
-    <section class="fifteenth newsdet" id="">
-      <h1 class="title"><?=$myrow['name_news_ua'];?></h1>
+    <section class="newsdet">
+      <h1 class="wow fadeInLeft"><?=$myrow['name_news_ua'];?></h1>
     </section>
 
     <section class="third light">
@@ -106,17 +101,9 @@ while ($myrow = mysqli_fetch_array($sel))
             color: black;
         }
         .fifteenth.newsdet {background: white; }
-        .fifteenth h1.title{
-            font-size: 34px;
-            transform: none!important;
-            line-height: normal;
-            padding-top: 130px;
-            color: black;
-        }
+
         .news_content{color:black;}
-        @media only screen and (max-width: 768px) {
-            .fifteenth h1.title{font-size: 24px;}
-        }
+
 		/* тестові стилі для нового шаблону новин */
 		.wrapper_content {
 			max-width: 1060px;

@@ -7,54 +7,38 @@ $myrow = mysql_fetch_array ($check);
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	
+
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/dvuhurovnevaya-kvartira/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/dvuhurovnevaya-kvartira/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhurovnevaya-kvartira/" />
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/dvuhurovnevaya-kvartira/" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>≡ 2 уровневые квартиры в ЖК Чикаго 》Купить двухуровневую квартиру в CHICAGO Central House</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="【Двухуровневые квартиры в CHICAGO Central House в самом центре Киева】Продажа 2-уровневых квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
-  <link rel="stylesheet" href="../../css/animate.css">
-  <link rel="stylesheet" href="../../css/slider-style.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/select.css">
-  <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
-  <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/select.css">
   <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
-  		<meta property="og:title" content="≡ 2 уровневые квартиры в ЖК Чикаго 》Купить двухуровневую квартиру в CHICAGO Central House" />
-		<meta property="og:description" content="【Двухуровневые квартиры в CHICAGO Central House в самом центре Киева】Продажа 2-уровневых квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
+  <meta property="og:title" content="≡ 2 уровневые квартиры в ЖК Чикаго 》Купить двухуровневую квартиру в CHICAGO Central House" />
+	<meta property="og:description" content="【Двухуровневые квартиры в CHICAGO Central House в самом центре Киева】Продажа 2-уровневых квартир бизнес класса в жилом комплексе Чикаго Централ Хаус. Цена кв. метра.. ✅【ЖК CHICAGO Central House】 ул. Владимира Антоновича (Горького), 44. Расположение... ✅【CHICAGO】 Успейте купить квартиру мечты!" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
-
 	<?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
 
-	<section class="fifteenth">
-		<span class="trigger-7"></span>
-        <h1 class="title">Двухуровневые квартиры в <br>ЖК CHICAGO Central House</h1>
+	<section class="h1_wrapper">
+        <h1>Двухуровневые квартиры в <br>ЖК CHICAGO Central House</h1>
   </section>
-  <section class="third light section_select">
+
+  <section class="light section_select">
 
     <div class="wrapper">
-			<span class="trigger-0"></span>
+
 			<div class="select-info">
 				<p>
 					Двухуровневые квартиры в городских домах сегодня все более популярны. И это неспроста: проживание на двух уровнях приносит массу удовольствия, а владелец такого жилья подчеркивает свой статус и изысканный вкус. На современном рынке двухуровневые квартиры предлагаются как в элитном сегменте, так и в бизнес-классе, в частности - в ЖК CHICAGO Central House.
@@ -69,30 +53,31 @@ $myrow = mysql_fetch_array ($check);
 					<!-- <li><a id="tab5" href="#">торгові приміщення</a></li> -->
 				</ul>
 			</div>
-			<div id="content" class="select_table">
-				<table>
-				   <thead>
-				   <tr>
-				    <th class="content_subname">этаж</th>
-				    <th class="content_subname">комнат</th>
-				    <th class="content_subname">общая площадь</th>
-				   </tr>
-				 </thead>
-				 <tbody>
-<?php
-       	do {
-			printf ( "<tr data-href='/ru/appart/?type=%s' data-img='../../img/choice/app/%s'>
-				       <td>%s</td>      <td>%s</td>       <td>%s
-				         <div class='box-img'>
-				           <img src='' alt=''>
-				         </div>
 
-				     </td></tr>", $myrow['character_code'], $myrow['imgPlan1'], $myrow['floor'], $myrow['rooms'], $myrow['square']);
-					 	}
+			<div class="select_box flex">
+				<?php
+				do {
+
+				printf (	"<div class='room_item'>
+						<div class='room_item_inner'>
+							<div class='room_item_img'>
+								<img src='/img/choice/app/%s' alt='Планировка квартиры'>
+							</div>
+							<table class='rooms_table'>
+							<tbody>
+							<tr>  <td>Поверх</td> <td>%s</td></tr>
+							<tr>  <td>Общая площадь, м<sup>2</sup></td><td>%s</td></tr>
+							<tr>  <td>Жилая площадь, м<sup>2</sup></td><td>%s</td></tr>
+							</tbody></table>
+							</div>
+						<a class='button' href='/ru//appart/?type=%s'>Смотреть квартиру</a>
+					</div> ", $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square'], $myrow['character_code']);
+				}
+
 				while ($myrow = mysql_fetch_array ($check));
-?>
-				 </tbody>
-			  	</table>
+				?>
+
+			</div>
 						<div class="select-info">
 						<h2>Достоинства 2-уровневых квартир в ЖК CHICAGO Central House</h2>
 						<p>Выделим основные преимущества 2-уровневых квартир в жилом комплексе CHICAGO Central House. </p>
@@ -108,35 +93,15 @@ $myrow = mysql_fetch_array ($check);
 						<p>Такая недвижимость идеально подойдет для тех, кто заинтересован в покупке статусного жилья, желает вложить средства во что-то оригинальное и внести в свою жизнь приятное разнообразие. Если все это о вас, то ЖК CHICAGO Central House ждет вас. Не упускайте шанс стать владельцем квартиры «под небом» в центре Киева уже сегодня.</p>
 						</div>
 
-				  <script type="text/javascript">
-				    $('tbody tr[data-href]').addClass('clickable').click( function() {
-				      window.location = $(this).attr('data-href');
-				    });
 
-				    $('tbody tr').mouseenter(function(){
-				      $(this).find('.box-img').fadeIn(100);
-				      $(this).find('.box-img img').attr('src', $(this).attr('data-img'));
-				      })
-
-				    $('tbody tr').mouseleave(function(){
-				      $(this).find('.box-img').fadeOut(100);
-				    })
-				  </script>
-				</div>
     	</div>
   	</section>
-	<?php include('../../includes/form_main_ru.php'); ?>
-	<?php include('../../includes/form_callback.php'); ?>
+		<?php include('../../includes/form_main_ru.php'); ?>
+		<?php include('../../includes/form_callback_ru.php'); ?>
+		<?php include('../../includes/footer_ru.php'); ?>
 
-<?php include('../../includes/footer_ru.php'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-	<script src="/js/scripts.js"></script>
-    <script src="../../js/lib/snap.svg-min.js"></script>
-    <script src="../../js/lib/slider.js"></script>
-    <script src="../../js/jquery.fancybox.pack.js"></script>
-    <script src="../../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../../js/lib/wow.min.js"></script>
-		<script src="../../js/progres.js"></script>
-  	<!-- <script src="../../js/scripts.js"> -->
-</body>
-</html>
+		<script src="/js/snapSliderFancy.js"></script>
+		<script src="/js/scripts.js"></script>
+
+		</body>
+		</html>

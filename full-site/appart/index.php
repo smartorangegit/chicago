@@ -2,7 +2,6 @@
 include('../db.php');
 $actual_link = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $pieces = explode("/", $actual_link);
-
 //print_r($pieces[4]);
 //$ty = mb_strtoupper($pieces[4]);
 $ty = $_GET['type'];
@@ -187,10 +186,8 @@ while ($myrow = mysql_fetch_array($check))
         <a class="button ch-reserv" href="#callback">дізнатись ціну</a>
         <a class="button button-red" download href="/img/choice/1/<?=$myrow["character_code"];?>.jpg">Завантажити план</a>
       </div>
-
-        </div>
-
-      </div>
+    </div>
+  </div>
 
     </section>
 

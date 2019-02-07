@@ -9,8 +9,8 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
              <span class="placeholder">Ім&prime;я:<i>*</i></span>
            </div>
            <div class="input_wrap">
-             <input type="email" name="email" required>
-             <span class="placeholder">E-mail:<i>*</i></span>
+             <input type="email" name="email">
+             <span class="placeholder">E-mail:</span>
            </div>
            <div class="input_wrap">
              <input type="tel" name="telephone" id="zipCode1" required>
@@ -26,12 +26,5 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
            <input  type="submit" value="Надіслати" class="button">
        </form>
 
-       <style media="screen">
-         form input[type="submit"]{  border: 4px solid #FF000B;}
-       @media only screen and (max-width:425px) {
-         .form .button {margin-top: 16px;}
-       }
-       </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script defer src="/js/maskInitialisation.js"></script>
+      <script defer src="/js/maskInitialisation.js"></script>
 <!-- Код проверки ввода текста и инициализацию маски вынес в отдельный файл  maskInitialisation.js Андрей 14.11.2017 -->

@@ -114,6 +114,9 @@ section.kub.kub_zipped{
 }
 
 /* ///for remont */
+.remont{
+  color: #ffffff;
+}
 .remont__text{
   width: 100%;
   margin: 0 auto;

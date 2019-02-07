@@ -28,7 +28,7 @@
             <h1><span>План поверху</span></h1>
             <span>5-9</span>
           </div>
-          <a class="new-app" href="../../choice/">Обрати поверх <span></span></a>
+          <a class="new-app" href="../../choice/">Обрати поверх </a>
           <img class="compas" src="../../img/choice/compass.png" alt="compas">
         </div>
         <div class="floor_cside">
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="floor_bside">
-          <a class="button" href="#callback">фільтр</a>
+          <!-- <a class="button" href="#callback">фільтр</a> -->
           <a class="ch-reserv button button-red" href="#callback">дізнатись ціну</a>
         </div>
       </div>

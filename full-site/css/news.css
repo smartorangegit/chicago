@@ -1,3 +1,6 @@
+body{
+  min-width: 0;
+}
 .img-item {
   height: 350px;
   float: left;
@@ -19,12 +22,11 @@
    height: 190px;
    line-height: 235px;
 }
-.trigger-0{
-  position: absolute;
-  top:500px;
+.newsdet {
+  padding: 120px 20px 50px;
 }
-.fifteenth.newsdet {
-  background: black;
+.newsdet h1{
+  font-size: 40px;
 }
 .fifteenth h2.title,
 .fifteenth h1.title {
@@ -111,6 +113,7 @@ h3 {
 
 .news_other{
   margin-top: 160px;
+  text-align: left;
 }
 .other_name {
   color: white;

@@ -29,9 +29,7 @@ if ($pieces[3] == "ru") {
     $uRr = "https://$_SERVER[HTTP_HOST]" . '/ru' . "$_SERVER[REQUEST_URI]";
 }
 ?>
-
 <? /* include('preloader.php');  */ ?>
-
 <? /* include('preloader_new.php');  */ ?>
 <? include($_SERVER['DOCUMENT_ROOT'] . '/includes/preloader_new/preloader_newYear.php'); ?>
 
@@ -83,18 +81,12 @@ if ($pieces[3] == "ru") {
             </li>
           </ul>
         </div>
-
-
         <div class="header-callback">
             Телефон відділу продажу <em class="em_phone" style="display:none;">(044) 49-80-400</em>
             <p class="phone_display"><a href="tel:(044) 49-80-400">(044) 49-80-400</a></p>
             <div class="header-button"><a href="#callback" class="button callback">Замовити дзвінок</a></div>
         </div>
 
-        <?php /*Google Tag Manager*/
-        if ($_SERVER[REQUEST_URI] != '/atmosfera/') {
-            include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/lang.php');
-        } ?>
         <a href="http://saga-development.com.ua/"
            class="saga-logo <? if (count(explode("/", $_SERVER['REQUEST_URI'])) > 2) {
                echo 'saga_logo_off';

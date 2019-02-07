@@ -8,74 +8,59 @@
 	<title>≡ CHICAGO Central House 》CHICAGO Central House offers apartments with repair</title>
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/kvartiri-s-remontom/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/kvartiri-s-remontom/" />
   <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/kvartiri-s-remontom/" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<link rel="stylesheet" href="/css/jquery.fancybox.css">
-	<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" type="text/css" href="/css/full.css" />
 	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="stylesheet" href="/css/kub.css?ver=1.5">
+	<link rel="stylesheet" href="/css/select.css">
+	<link rel="stylesheet" href="/css/kub.css?ver=1.6">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?ver=1.0">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
-		<meta property="og:title" content="≡ CHICAGO Central House offers apartments with repair" />
-		<meta property="og:description" content="【CHICAGO Central House】 Especially for those, who is looking for residential space with repair, we offer the apartments with an exclusive interior" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
-
+	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
+	<meta property="og:title" content="≡ CHICAGO Central House offers apartments with repair" />
+	<meta property="og:description" content="【CHICAGO Central House】 Especially for those, who is looking for residential space with repair, we offer the apartments with an exclusive interior" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-	<!--preloader/ -->
-	<style type="text/css">#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 320px;background: #000;} #hellopreloader svg{fill:red; width: 60px; height: 60px; position: absolute;top:0;left:0;
-	right:0;bottom:0; margin:auto;}</style>
-	<div id="hellopreloader"><div id="hellopreloader_preload">
-		<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 105 105" fill="red">
-		    <circle cx="12.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="0s" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		    <circle cx="12.5" cy="52.5" r="12.5" fill-opacity=".5"><animate attributeName="fill-opacity" begin="100ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="300ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="600ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="12.5" r="12.5"><animate attributeName="fill-opacity" begin="800ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="52.5" r="12.5"><animate attributeName="fill-opacity" begin="400ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="12.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="700ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="52.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="500ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle> <circle cx="92.5" cy="92.5" r="12.5"><animate attributeName="fill-opacity" begin="200ms" dur="1s" values="1;.2;1" calcMode="linear" repeatCount="indefinite"/></circle>
-		</svg>
-	</div></div>
-	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
 
+<section class="h1_wrapper">
+	<h1>CHICAGO Central House offers apartments with repair</h1>
+</section>
 
-<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
-
-
-<section class="kub remont">
-		<span class="trigger-0"></span>
+	<section class="remont" style="color:#ffffff;">
 		<div class="kub_wrapper">
-			<h1>CHICAGO Central House offers apartments with repair</h1>
+			<!-- <h1>CHICAGO Central House offers apartments with repair</h1> -->
 			<div class="kub_text first_block">
 				<p>
-					With attention to details – that is how a new design of the apartments with repair has been developed. The best design of the rooms, modern interiors with stylish furniture and thoroughly selected décor – we try our best in order to make you feel at home when first getting into the apartment.				</p>
+					With attention to details – that is how a new design of the apartments with repair has been developed. The best design of the rooms, modern interiors with stylish furniture and thoroughly selected décor – we try our best in order to make you feel at home when first getting into the apartment.
+				</p>
 				<p>
-					Especially for those, who is looking for residential space with repair, we offer the apartments with an exclusive interior from the designer of the Italian <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">D73 studio</a> Andrea Viganò and Mariia Pakhomova from <a class="remont__link" href="http://www.buro-o.com/" target="_blank">Вurø</a> architect bureau.				
+					Especially for those, who is looking for residential space with repair, we offer the apartments with an exclusive interior from the designer of the Italian <a class="remont__link" href="http://www.d73.it/studio/" target="_blank">D73 studio</a> Andrea Viganò and Mariia Pakhomova from <a class="remont__link" href="http://www.buro-o.com/" target="_blank">Вurø</a> architect bureau.
 				</p>
 			</div>
-			<h2>Andrea Viganò’ apartments design</h2>
+			<h2>
+				Andrea Viganò’ apartments design
+			</h2>
 			<div class="kub_text">
 				<p>
-					We familiarized with the works of Andrea Viganò several months ago. Three apartments in the CHICAGO Central House have been fit out in accordance with the projects developed jointly with Marco Vismara. Last time the designers choose the Nordic and Modern Glamour directions, this time they harmonically combined several popular styles in the interior concept – minimalism with the notes of constructivism and contemporary.			
+					We familiarized with the works of Andrea Viganò several months ago. Three apartments in the CHICAGO Central House have been fit out in accordance with the projects developed jointly with Marco Vismara. Last time the designers choose the Nordic and Modern Glamour directions, this time they harmonically combined several popular styles in the interior concept – minimalism with the notes of constructivism and contemporary.
 				</p>
 				<p>
 					Design from D73 studio has been presented in three apartments: two three-room apartments with a typical layout and a floor space of 112 sq.m and a two-room apartment with a floor space of 98 sq.m.
 				</p>
 				<p>
-					For finishing the three-room apartments Andrea Viganò used warm colours – combination of a brown palette became a key-note for all rooms							
+					For finishing the three-room apartments Andrea Viganò used warm colours – combination of a brown palette became a key-note for all rooms
 				</p>
 				<p>
-					Each interior design item – seating furniture in the living-room and bedroom; a case, table and chairs in the kitchen – tones in the shade.							
+					Each interior design item – seating furniture in the living-room and bedroom; a case, table and chairs in the kitchen – tones in the shade.
 				</p>
 				<p>
-					In order to add light to the space, the walls are painted in white, the laminate flooring in the bedroom is beige, the kitchen and living-room are finished with a beige tile.							
+					In order to add light to the space, the walls are painted in white, the laminate flooring in the bedroom is beige, the kitchen and living-room are finished with a beige tile.
 				</p>
 			</div>
 
@@ -98,7 +83,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -110,7 +95,7 @@
 							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Andrea Viganò’ apartments design" title="Andrea Viganò’ apartments design"></a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 				</div>
@@ -119,16 +104,16 @@
 			</div>
 			<div class="kub_text">
 				<p>
-					The advantage of a two-room apartment is the floor-to-ceiling windows in the living-room. Due to this detail there is a lot of natural light in the room and its space seem visually enlarged.							
+					The advantage of a two-room apartment is the floor-to-ceiling windows in the living-room. Due to this detail there is a lot of natural light in the room and its space seem visually enlarged.
 				</p>
 				<p>
-					Andrea Viganò took into account this particularity and made an accent on the atmosphere of the apartment while using bright furniture in the interior and décor with geometric ornament. The designer made an accent on a pouf and pillows of olive colour in the living room combined with the kitchen. Chairs upholstery is of the same shade. Geometric print on a carpet adds the originality.							
+					Andrea Viganò took into account this particularity and made an accent on the atmosphere of the apartment while using bright furniture in the interior and décor with geometric ornament. The designer made an accent on a pouf and pillows of olive colour in the living room combined with the kitchen. Chairs upholstery is of the same shade. Geometric print on a carpet adds the originality.
 				</p>
 				<p>
 					The palette of the bedroom combines white, grey and brown colours.
 				</p>
 				<p>
-					They are contrasting with the ceiling and a soft pouf of green colour.							
+					They are contrasting with the ceiling and a soft pouf of green colour.
 				</p>
 				<ul>
 					<li>●	there is a soft sofa, large pouf, table, set of shelf and TV in the living room; </li>
@@ -145,7 +130,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -155,7 +140,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -175,7 +160,7 @@
 				<button class="slider-remont__button slider-remont__button_next slider2-remont__button_next"></button>
 			</div>
 			<a class="button_3D button_3D_2" href="https://my.matterport.com/show/?m=VvWEd4PJdRx" target="_blank">3D-тур квартири</a>
-			
+
 			<h2>
 				Apartments design from Mariia Pakhomova
 			</h2>
@@ -184,13 +169,13 @@
 					In order to implement a design concept of Mariia Pakhomova we united two apartments on the 6th floor. The result is a total floors space of 186 sq.m. It consists of three bedrooms, large living-room with the floor-to-ceiling windows and kitchen, which is a dream not only for women. The specific advantage of the layout is a wardrobe and pantry.
 				</p>
 				<p>
-					lines and practical approach to selection of interior items – this is how the design of this apartment may be characterized. Neutral colours are mainly used in the room: white walls and ceilings, light wood furniture, light grey elements of décor. The used materials include natural wood, glass, ceramic tile. The plants complement the common style.							
+					lines and practical approach to selection of interior items – this is how the design of this apartment may be characterized. Neutral colours are mainly used in the room: white walls and ceilings, light wood furniture, light grey elements of décor. The used materials include natural wood, glass, ceramic tile. The plants complement the common style.
 				</p>
 				<p>
-					The living room has two panoramic walls enabling residents to use minimum of artificial lighting. The light gets in the room from both sides and visually enlarges the space.							
+					The living room has two panoramic walls enabling residents to use minimum of artificial lighting. The light gets in the room from both sides and visually enlarges the space.
 				</p>
 				<p>
-					Shower and bathrooms are similar in their minimalist design. Light tile with a natural stone texture is used for both designs. Ceiling and floor are white. Both rooms are equipped with bathroom and lavatory equipment and necessary furniture: an over-the-toilet storage cabinet is installed in the shower and a wardrobe is built in in the bathroom.							
+					Shower and bathrooms are similar in their minimalist design. Light tile with a natural stone texture is used for both designs. Ceiling and floor are white. Both rooms are equipped with bathroom and lavatory equipment and necessary furniture: an over-the-toilet storage cabinet is installed in the shower and a wardrobe is built in in the bathroom.
 				</p>
 			</div>
 
@@ -204,7 +189,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -216,7 +201,7 @@
 							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group2" data-caption="Apartments design from Mariia Pakhomova" title="Apartments design from Mariia Pakhomova"></a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -226,7 +211,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -312,13 +297,13 @@
 			</div>
 			<div class="kub_text">
 			<p>
-				Minimalism features also prevail in finishing of the second apartment. The interior is mainly developed in grey colours – walls, furniture, elements of décor. However, despite the use of neutral shades, comfort and home are felt here. The rooms are bright due to floor-to-ceiling windows. There is a lot of space here, the interior is not overloaded with superfluous components.							
+				Minimalism features also prevail in finishing of the second apartment. The interior is mainly developed in grey colours – walls, furniture, elements of décor. However, despite the use of neutral shades, comfort and home are felt here. The rooms are bright due to floor-to-ceiling windows. There is a lot of space here, the interior is not overloaded with superfluous components.
 			</p>
 			<p>
-				The layout includes three bedrooms, a living room and large kitchen. The total floor space of ​​the apartment is 98 sq.m. Designer divided each room into zones for rest and work: there are writing tables, chairs and shelves in the bedroom; there is a separate working area for cooking in the kitchen and a table-bar with high chairs for family breakfasts or dinners.							
+				The layout includes three bedrooms, a living room and large kitchen. The total floor space of ​​the apartment is 98 sq.m. Designer divided each room into zones for rest and work: there are writing tables, chairs and shelves in the bedroom; there is a separate working area for cooking in the kitchen and a table-bar with high chairs for family breakfasts or dinners.
 			</p>
 			<p>
-				The optimal solution was to redevelop the living room, the original floor space of ​​which was more than 26 sq.m. This was enough to build an interior partition and a third bedroom.							
+				The optimal solution was to redevelop the living room, the original floor space of ​​which was more than 26 sq.m. This was enough to build an interior partition and a third bedroom.
 			</p>
 			</div>
 			<div class="remont__slider-wrap">
@@ -330,7 +315,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -340,7 +325,7 @@
 							</a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -352,7 +337,7 @@
 							<a href="/img/remont/NORDIC_CLOSET.jpg" data-fancybox="group1" data-caption="Apartments design from Mariia Pakhomova" title="Apartments design from Mariia Pakhomova"></a>
 						</div>
 						<div class="kub_text">
-							
+
 						</div>
 					</div>
 					<div class="remont__box">
@@ -650,7 +635,7 @@
 			<h2>How to purchase apartment with repair in CHICAGO Central House</h2>
 			<div class="kub_text">
 				<p>
-					To find out more details about purchasing apartment with repair, please contact the Sales Department at the following street: 44, Antonovycha. Our managers will answer all questions and help you to choose the relevant interior style.				
+					To find out more details about purchasing apartment with repair, please contact the Sales Department at the following street: 44, Antonovycha. Our managers will answer all questions and help you to choose the relevant interior style.
 				</p>
 			</div>
 		<a href="/en/choice/" class="button remont__button button-red">Choose a flat</a>
@@ -667,43 +652,17 @@
 		<li><a href="https://my.matterport.com/show/?m=pWLWyJaPwzc" target="_blank" title="Modern Glamour">Modern Glamour</a></li>
 	</ul>
 </div> -->
-	
-	<footer>
-       <div class="wrapper">
-				 <span class="copy">© 2017 CHICAGO Central House</span>
-				 <span>marketing department - marketing@saga-development.com.ua</span>
-				 <span><a href="/en/sitemap/" style="margin: 0 20px;"><img src='/img/home-footer.svg' alt="sitemap" width="30px" style="margin-bottom:-3px;"
-	 				></a></span>
-				 <span class="smarto">
-						 website development
-					  <a class="logo-smart" href="http://smartorange.com.ua/" target="_blank" style="background-image: url(/img/logo-smart.png);" rel="nofollow"></a>
-				 </span>
-						<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="/img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
-        </div>
-  </footer>
-	<style media="screen">
-	@media only screen and (max-width: 768px) {
-		footer .fb-foot {
-			padding-top: 6px;}
-		}
-	</style>
+
+
 
 	<?php include('../../includes/form_callback_en.php'); ?>
-	<!-- <script src="/js/scripts.js"></script> -->
+		<?php include('../../includes/footer_en.php'); ?>
 
-	<script src="/js/ScrollMagic.min.js"></script>
+
 	<script src="/js/snapSliderFancy.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="jquery.fancybox.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-	<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: ".kub .trigger-0"}).setClassToggle(".header", "zipped").addTo(controller);
-		</script>
+	<script src="/js/scripts.js"></script>
 		<style media="screen">
 		.slick-slide img {
 			display: block;

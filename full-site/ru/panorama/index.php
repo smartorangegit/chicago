@@ -7,43 +7,29 @@
 	<meta name="viewport" content="width=device-width">
 	<title>≡ ЖК CHICAGO Central House 》 Панорама</title>
 	<meta name="robots" content="index, follow">
-<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
+	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="【Панорамный вид с высоты CHICAGO Central House】 Центр столицы за вашими окнами!.. ✅【ЖК CHICAGO】 Американское качество ➜ Украинская цена за квартиру в центре Киева! ✅【ЖК Чикаго Централ Хаус】 Адрес расположения: Киев, ул. Антоновича 44 (Горького).... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/panorama/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/panorama/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />
-	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="/css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="/css/set1.css" />
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/slider-style.css">
-    <link rel="stylesheet" href="/css/jquery.fancybox.css">
-    <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/panorama/" />
+	<link rel="stylesheet" href="/css/full.css">
 	<link rel="stylesheet" href="/css/style.css">
-    <script src="/js/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="/js/lib/greensock/TweenMax.min.js"></script>
-    <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
-    <script type="text/javascript" src="/js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-    <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
-		<link rel="image_src" href="/panor/indexdata/thumbnail.jpg" />
-		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
-		<meta name="apple-mobile-web-app-capable" content="yes"/>
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		<meta property="og:title" content="≡ ЖК CHICAGO Central House 》 Панорама" />
-		<meta property="og:description" content="【Панорамный вид с высоты CHICAGO Central House】 Центр столицы за вашими окнами!.. ✅【ЖК CHICAGO】 Американское качество ➜ Украинская цена за квартиру в центре Киева! ✅【ЖК Чикаго Централ Хаус】 Адрес расположения: Киев, ул. Антоновича 44 (Горького).... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!" />
-		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
-<?php /*Google Tag Manager*/ include_once('../../includes/header_ru.php'); ?>
+	<link rel="image_src" href="/panor/indexdata/thumbnail.jpg" />
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta property="og:title" content="≡ ЖК CHICAGO Central House 》 Панорама" />
+	<meta property="og:description" content="【Панорамный вид с высоты CHICAGO Central House】 Центр столицы за вашими окнами!.. ✅【ЖК CHICAGO】 Американское качество ➜ Украинская цена за квартиру в центре Киева! ✅【ЖК Чикаго Централ Хаус】 Адрес расположения: Киев, ул. Антоновича 44 (Горького).... ✅【CHICAGO】 Обращайтесь в отдел продаж - успейте купить квартиру мечты!" />
+	<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
     <!-- MAPS -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
 	@-ms-viewport { width: device-width; }
 	@media only screen and (min-device-width: 800px) { html { overflow:hidden; } }
 	* { padding: 0; margin: 0; }
 	html { height: 100%; }
-	body { height: 100%; overflow:hidden; padding:7% 0 6% 0; background:rgba(255, 0, 11, 0.8);}
+	body { height: 100%; overflow:hidden; min-width: 0; padding-top: 70px!important; box-sizing: border-box;
+		/*padding:7% 0 6% 0; */
+		background:rgba(255, 0, 11, 0.8);}
 	div#container { height: 100%; min-height: 100%; width: 100%; margin: 0 auto; }
 	div#tourDIV {
 		height:100%;
@@ -60,17 +46,11 @@
 		-o-user-select: none;
 		user-select: none;
 	}
-	@media only screen and (min-device-width: 280px) and (max-device-width: 480px) { .header { display: none; } }
+	/* @media only screen and (min-device-width: 280px) and (max-device-width: 480px) { .header { display: none; } } */
 </style>
 <!--[if !IE]><!-->
 <script type="text/javascript" src="/panor/indexdata/lib/jquery-2.1.1.min.js"></script>
-<!--<![endif]-->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="panor/indexdata/lib/jquery-1.11.1.min.js"></script>
-<![endif]-->
-<!--[if gt IE 8]>
-<script type="text/javascript" src="panor/indexdata/lib/jquery-2.1.1.min.js"></script>
-<![endif]-->
+
 <style type="text/css">
 	div#panoDIV.cursorMoveMode {
 		cursor: move;
@@ -85,35 +65,13 @@
 	div.exit{
 		position: absolute;
     bottom: 1px;
-    /*left: 15px;*/
     z-index: 9999;
-    height: 11%;
-    width: 100%;
-	}
-	a.exit-link {
-		display: block;
-    color: lightgray;
+		left: 20px;
+		bottom: 20px;
+		color: red;
     text-transform: uppercase;
 	}
-	a.exit-link:hover {
-		color: red;
-	}
-.header{
-	background: #EF2732;
-}
-@media only screen and (min-width: 1920px){
-.header{
-    height:21%;
-    background:none;
-}
-body{
-padding: 5% 0 3.5% 0;
-background:rgba(255, 0, 11, 0.8);
-}
-div.exit{
- height: 7%;
-}
-}
+
 </style>
 
 <script type="text/javascript">
@@ -191,9 +149,7 @@ div.exit{
 				,target:"panoDIV"
 				,passQueryParameters:true
 				,bgcolor:"#000000"
-
 				,html5:"prefer"
-
 			});
 		}
 		//apply focus on the visit if not embedded into an iframe
@@ -219,33 +175,17 @@ div.exit{
 </script>
 
 </head>
-<body style="padding:0;">
+<body>
+	<?php include_once('../../includes/header_ru.php'); ?>
+
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
 
 <div class="exit">
-<footer>
-        <div class="wrapper">
-<a  href="/ru/">&larr; на сайт</a>
-            <span class="copy">© 2017 CHICAGO Central House</span>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Отдел маркетинга - marketing@riverside.net.ua</span>
-			<span><a href="/ru/sitemap/" style="margin: 0 20px;"><img src="/img/home-footer.svg" alt="sitemap" width="30px" style="margin-bottom:-3px;"></a></span>
-						<span class="smarto">
-                РАЗРАБОТКА САЙТА
-                <a  class="logo-smart"></a>
-            </span>
-						<span class="fb-foot"><a href="https://www.facebook.com/Chicago-Central-House-1836472106584585" target="_blank"><img src="../../img/icons/Facebook-04.svg" alt="fb" / width="50px" height="50px"></a></span>
-        </div>
-
-
-	</footer>
-
+	<a  href="/ru/">&larr; на сайт</a>
 </div>
-    <!-- <script>
-        var controller = new ScrollMagic.Controller();
-    </script> -->
-		<?php /*Google Tag Manager*/ /*include_once('../../includes/header_ru.php');*/ ?>
-		
-			<?php include('../../includes/form_callback_ru.php'); ?>
+
+
+  			<?php include('../../includes/form_callback_ru.php'); ?>
 		<div id="container">
 
 			<div id="tourDIV">
@@ -284,36 +224,7 @@ div.exit{
 
 	<!-- <iframe src="http://magelangis.com/Pano/Antonovicha44/" width="100%" height="100%" align="left"  style="border-style: none;width: 100%; margin-top: 50px;">
 	</iframe> -->
-    <script src="/js/lib/snap.svg-min.js"></script>
-    <script src="/js/lib/slider.js"></script>
-    <script src="/js/jquery.fancybox.pack.js"></script>
-    <script src="/js/jquery.fancybox-thumbs.js"></script>
-    <script src="/js/lib/wow.min.js"></script>
-		<script type="text/javascript">
-		$('.header-callback .callback').fancybox({
-			wrapCss: 'call-form'
-		});
-
-		</script>
-    <!-- <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
-    </script> -->
-	<!-- <script src="/js/scripts.js"></script> -->
-	
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-	<script>
-	$(function(){
-	    $("#zipCode").mask("(999) 999-99-99");
-	});
-
-
-	</script>
-	<!-- конец скрипта маски -->
-	<style>
-	#zipCode{padding-left:126px;}
-	@media only screen and (max-width:768px){
-	#zipCode{padding-left:0px;}
-	}
-	</style>
-</body>
+	<script src="/js/snapSliderFancy.js"></script>
+	<script src="/js/scripts.js"></script>
+	</body>
 </html>

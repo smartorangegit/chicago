@@ -9,8 +9,8 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
               <span class="placeholder">Name:<i>*</i></span>
             </div>
             <div class="input_wrap">
-              <input type="email" name="email" required>
-              <span class="placeholder">E-mail:<i>*</i></span>
+              <input type="email" name="email">
+              <span class="placeholder">E-mail:</span>
             </div>
             <div class="input_wrap">
               <input id="zipCode1" type="tel"  name="telephone" required>
@@ -25,20 +25,7 @@ $webAd = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
             <input  name="inn" class="userInn" type="hidden" value="Chicago"/>
             <input  type="submit" value="Send" class="button">
         </form>
-       <style media="screen">
-         form input[type="submit"]{
-           border: 4px solid #FF000B;
-         }
-         @media only screen and (max-width:425px) {
-           .form .button {
-           margin-top: 16px;
-         }
-         }
-       </style>
-
-
 
  <!-- скрипт маски номера -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script defer src="/js/maskInitialisation.js"></script>
 <!-- конец скрипта маски -->

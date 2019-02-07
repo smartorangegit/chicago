@@ -132,18 +132,15 @@
   </section>
 
 	<section id="foto" class="building">
-		<div class="wrapper">
-			<!-- <div id="building_process" class="content-item">
-				<section id="progress-img" class="progress-img">
-					<div class="wrapper"> -->
-						<div class="container_line">
-							<div class="wrap-line">
-								<div class="line"></div>
+		<div class="wrapper clearfix">
+			<div class="container_line">
+					<div class="wrap-line">
+						<div class="line"></div>
 									<div class="round round--1"></div>
 								</div>
 							</div>
 
-							<div class="container-img">
+							<div class="container-img clearfix">
 
 							<div class="cont-img-left">
 
@@ -167,12 +164,14 @@
 
                                         ?>
                                         <div <? LazyLoad($myrowr['path'] . '/' . $piecesr[0], array('class' => 'img-item image-item--' . $myrowr['id'])); ?>>
-                                            <div class="img-name"><span><?/*= $myrowr['hod_name_ua']; */?></span></div>
-                                            <div class="img-date"><? russian_date($dtr); ?> року</div>
-                                            <div class="img-info" style="line-height:23px;"><span
-                                                        style="line-height:23px;">
-                                                <?= $myrowr['hod_full_ua']; ?>
-                                            </span></div>
+                                            <div class="img-name">
+																							<div class="img-date"><? russian_date($dtr); ?> року</div>
+																							<span><?/*= $myrowr['hod_name_ua']; */?></span>
+																						</div>
+
+                                            <div class="img-info">
+																							<span><?= $myrowr['hod_full_ua']; ?></span>
+																						</div>
                                             <a class="eye grouped_elements" rel="group<?= $myrowr['id']; ?>"
                                                href="<?= $myrowr['path'] . '/' . $piecesr[0]; ?>">
                                                 <img <? LazyLoad("/img/prog-eye.png"); ?> alt="eye"/>
@@ -213,12 +212,13 @@
 
                                             ?>
                                             <div <? LazyLoad($myrow['path'] . '/' . $pieces[0], array('class' => 'img-item image-item--' . $myrow['id'])); ?>>
-                                                <div class="img-name"><span><?/*= $myrow['hod_name_ua']; */?></span></div>
-                                                <div class="img-date"><? russian_date($dt); ?> року</div>
-                                                <div class="img-info" style="line-height:23px;"><span
-                                                            style="line-height:23px;">
-                                                <?= $myrow['hod_full_ua']; ?>
-                                            </span></div>
+                                                <div class="img-name">
+																									<div class="img-date"><? russian_date($dt); ?> року</div>
+																									<span><?/*= $myrow['hod_name_ua']; */?></span>
+																								</div>
+                                                <div class="img-info">
+																									<span><?= $myrow['hod_full_ua']; ?></span>
+																								</div>
                                                 <a class="eye grouped_elements" rel="group<?= $myrow['id']; ?>"
                                                    href="<?= $myrow['path'] . '/' . $pieces[0]; ?>">
                                                     <img <? LazyLoad("/img/prog-eye.png"); ?> alt="eye"/>
@@ -256,10 +256,14 @@
                                     }?>
 
 								</div>
-							<!-- </div>
-
-					</section>
-				</div> -->
+						<style media="screen">
+						.image-item--55 {
+							 margin-top: 6px;
+						}
+						.image-item--56 {
+							margin-top: 160px;
+						}
+						</style>
 	</div>
 
 		<div id="overlay"></div>

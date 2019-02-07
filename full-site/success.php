@@ -9,76 +9,14 @@
 	<title>ЖК Chicago Central House - Success</title>
 	<meta name="keywords" content="Chicago, ЖК Chicago, ЖК Чикаго, житловий комплекс, Київ, центр, Антоновича, Горького, купити квартиру, новобудова, апартаменти">
 	<meta name="description" content="ЖК Chicago Concept House - житловий комплекс у центрі Києва по вулиці Антоновича (Горького), неповторна атмосфера стилю та комфорту.">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	   <!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	<link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/progress.css">
-  <script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
-  <script src="/js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="/js/lib/plugins/debug.addIndicators.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/full.css" />
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	  <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
+	<?php /*меню*/ include_once('includes/header_ua.php'); ?>
 
-	<header class="header">
-		<div class="wrapper">
-			<a href="/" class="logo">
-				<img src="/img/logo.png" alt="logo">
-			</a>
-			<ul class="header-nav">
-				<li id="mobile" class="mobile">
-					<ul id="minimenu">
-						<li id="miniclose" class="mobile">
-							<li><a href="/" class="separate">Будинок</a></li>
-							<li><a href="/#place" class="separate">Розташування</a></li>
-							<li><a href="/choice/" class="separate">Квартири</a></li>
-							<li><a href="/#builder" class="separate">Забудовник</a></li>
-							<li><a href="/progress/" class="separate">Будівництво</a></li>
-							<li><a href="index.php#contact" class="separate">Зв'язок</a></li>
-					</ul>
-				</li>
-
-				<script>
-				$(document).ready(function() {
-					$('#mobile').click( function(event){
-								$('#minimenu')
-									.css('display', 'block')
-									.animate({opacity: 1, top: '0%'}, 200);
-							});
-					});
-					/* Зaкрытие*/
-					$('#miniclose').click( function(){
-						$('#minimenu')
-							.animate({opacity: 0, top: '45%'}, 200,
-								function(){ // пoсле aнимaции
-									$(this).css('display', 'none');
-									$('#overlay').fadeOut(400);
-									$('.content-item').css('height','auto');
-								}
-				);
-		});
-			</script>
-				<li><a href="/" class="separate">Будинок</a></li>
-				<li><a href="/#place">Розташування</a></li>
-				<li><a href="/choice/" class="separate">Квартири</a></li>
-				<li><a href="/#builder">Забудовник</a></li>
-				<li><a href="/progress/" class="separate">Будівництво</a></li>
-				<li><a href="/#contact">Зв'язок</a></li>
-			</ul>
-			<div class="header-callback">
-				<div class="header-phone">Телефон відділу продажу <em>(044)22-77-244</em></div>
-				<div class="header-button"><a href="#callback" class="button callback">зворотній зв`язок</a></div>
-			</div>
-			<?php /*Google Tag Manager*/ include_once('includes/lang.php'); ?>
-		</div>
-	</header>
 
 	<section class="main404">
 		<div class="Rez" style="display:none;">
@@ -179,48 +117,11 @@
 		</style>
 	</section>
 	<?php include('includes/form_callback.php'); ?>
-	<footer>
-        <div class="wrapper">
-            <span class="copy">Copyright 2016</span>
-            <span class="smarto">
-                Розробка сайту
-                <a href="#" class="logo-smart"></a>
-            </span>
-        </div>
-  </footer>
-    <script src="js/lib/snap.svg-min.js"></script>
-    <script src="js/lib/slider.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.fancybox-thumbs.js"></script>
-    <script src="js/lib/wow.min.js"></script>
-		<script src="js/progres.js"></script>
+	<?php include('includes/footer_ua.php'); ?>
 
-	<!-- <script src="js/scripts.js"> -->
-  <script>
-       new ScrollMagic.Scene({triggerElement: ".trigger-0"})
-      .setClassToggle(".header", "zipped").addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 700})
-      .setTween(".fifteenth .title", {transform: "translateX(-20%)"}).addTo(controller);
-      var scene = new ScrollMagic.Scene({triggerElement: ".trigger-7", duration: 300})
-      .setTween(".fifteenth i.line", {transform: "translateX(0)"}).addTo(controller);
-			var scene = new ScrollMagic.Scene({triggerElement: ".lamps", duration: 300})
-      .setTween(".lamps img", {opacity: "1"}).addTo(controller);
-
-			$(document).ready(function() { // вся мaгия пoсле зaгрузки стрaницы
-
-				/* Зaкрытие мoдaльнoгo oкнa*/
+	<script defer src="js/snapSliderFancy.js"></script>
+	<script defer src="js/scripts.js?v=1.0"></script>
 
 
-	$('.form input, .form textarea').blur(function(){
-			if($(this).val()){
-					$(this).next().hide();
-			} else {
-					$(this).next().show();
-			}
-	})
-
-	$("a.grouped_elements").fancybox();
-});
-	</script>
 </body>
 </html>

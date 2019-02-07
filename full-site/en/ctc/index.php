@@ -11,34 +11,22 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/ctc/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/ctc/" />
-    <!-- <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/full.css" />
-	<link rel="stylesheet" href="/css/style.css?ver=1.0">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/ctc/" />
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
 <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
 </head>
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
+	<?php /*menu*/ include_once('../../includes/header_en.php'); ?>
 
+	<section class="h1_wrapper">
+        <h1>Client Technical Control</h1>
+  </section>
 
-<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
-
-
-<section class="fifteenth news" id="builder">
-	<span class="trigger-7"></span>
-			<h1 class="content_name" style="transform: translate3d (20px, 0, 0)">Client Technical Control</h1>
-			<i class="line"></i>
-</section>
-
-
-<span class="trigger-0"></span>
-<div class="hidden_box">
+	<div class="hidden_box">
 	<svg width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 
@@ -63,8 +51,6 @@
 			</symbol>
 		</defs>
 	</svg>
-
-
 </div>
 			<div class="content content_atmosfera">
 				<div class="content_wrap clearfix border-line">
@@ -176,16 +162,13 @@
 						<div class="content_text">
 							*You may become a participant of Client Control only with regard to your building.
 						</div>
-						<a class="button callback button-red button-call" href="#callback-ctc"">Join the CTC meetings</a>
+						<a class="button callback button-red button-call" href="#callback-ctc">Join the CTC meetings</a>
 					</div>
 				</div>
 
 				<style media="screen">
 
-				.content_atmosfera *{
-					box-sizing: border-box; color: white;
-					text-align: inherit;
-				}
+				.content_atmosfera *{	box-sizing: border-box; color: white;	text-align: inherit;}
 				.hidden_box{ height: 0px; overflow: hidden; }
 				.content_wrap { width: 100%; max-width: 1000px; padding: 20px 10px; margin: 0px auto 30px; line-height: 1.6; box-sizing: border-box;}
 				.content_name{color: white;    line-height: 320px;    text-align: center;    font-size: 80px;}
@@ -227,7 +210,7 @@
 						cursor: pointer;
 						line-height: 48px;
 						margin: 50px auto 27px;
-						
+
 					}
 					@media screen and (max-width: 560px) {
 						.button.button-red {font-size: 12px;}
@@ -235,7 +218,7 @@
 					#zipCode1-ctc {
 						padding-left: 45px;
 						height: 40px;
-					} 
+					}
 
 				</style>
 			</div>
@@ -246,28 +229,9 @@
 	<?php include('../../includes/form_callback_ctc_en.php'); ?>
 	<?php include('../../includes/footer_en.php'); ?>
 
-<!-- <script src="/js/scripts.js"></script> -->
 
-	<script src="/js/ScrollMagic.min.js"></script>
 	<script src="/js/snapSliderFancy.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	<script src="jquery.fancybox.js"></script>
-	<script>
-	//menu js
-	$(document).ready(function(){$("#mobile").click(function(t){$("#minimenu").css("display","block").animate({opacity:1,top:"0%"},200)}),$("#miniclose").click(function(){$("#minimenu").animate({opacity:0,top:"45%"},200,function(){$(this).css("display","none"),$("#overlay").fadeOut(400),$(".content-item").css("height","auto")})}),$("a.ch-reserv").fancybox({}),$("a.button.callback").fancybox({}),$(".form input, .form textarea").blur(function(){$(this).val()?$(this).next().hide():$(this).next().show()})});
-	//end menu js
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: ".kub .trigger-0"}).setClassToggle(".header", "zipped").addTo(controller);
-		</script>
-		<!-- <script src="/js/scripts.js"></script> -->
-		<script>
-
-  		$('#budinok_open, #budinok').hover(
-			  function(){
-			  $('#budinok').css('height','95px');
-			},function(){
-			  $('#budinok').css('height','0');
-			});
-		</script>
+	<script src="/js/scripts.js"></script>
+	
 </body>
 </html>

@@ -17,22 +17,10 @@ $myrow = mysql_fetch_array ($check);
 	<meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
 	<meta name="description" content="✅ 【CHICAGO Central House】 Duplex apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
-  <link rel="stylesheet" href="../../css/animate.css">
-  <link rel="stylesheet" href="../../css/slider-style.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox.css">
-  <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/select.css">
-  <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
-  <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-  <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-  
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/full.css">
+	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/select.css">
 		<meta property="og:title" content="≡ CHICAGO Central House 》Purchase a duplex apartment in CHICAGO Residential Estate" />
 		<meta property="og:description" content="✅ 【CHICAGO Central House】 Duplex apartments with open plan layout in CHICAGO Central House Residential Estate ✅ 【CHICAGO】" />
 		<meta property="og:image" content="https://chicago.kiev.ua/img/new_render_s.jpg"/>
@@ -40,20 +28,14 @@ $myrow = mysql_fetch_array ($check);
 
 <body>
 	<?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
+  <?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
 
-	<?php /*Google Tag Manager*/ include_once('../../includes/header_en.php'); ?>
-
-	<section class="fifteenth">
-		<span class="trigger-7"></span>
-        <h1 class="title">Duplex Apartments in  <br>CHICAGO Central House Residential Estate</h1>
+	<section class="h1_wrapper">
+    <h1>Duplex Apartments in  <br>CHICAGO Central House Residential Estate</h1>
   </section>
-  <section class="third light section_select">
+  <section class="light section_select">
 
     <div class="wrapper">
-			<span class="trigger-0"></span>
 			<div class="select-info">
 				<p>
 					Duplex apartments in urban apartment blocks are getting more and more popular. And it's no accident: residing in a duplex apartment brings a lot of pleasure, and the owner of such dwelling places emphasis on his status and exquisite taste in such a way. On the modern market duplex apartments are offered both for the upper crust and for the business class, in particular the CHICAGO Central House Residential Complex.
@@ -68,30 +50,30 @@ $myrow = mysql_fetch_array ($check);
 					<!-- <li><a id="tab5" href="#">торгові приміщення</a></li> -->
 				</ul>
 			</div>
-			<div id="content" class="select_table">
-				<table>
-				   <thead>
-				   <tr>
-				    <th class="content_subname">floor</th>
-				    <th class="content_subname">rooms</th>
-				    <th class="content_subname">total space</th>
-				   </tr>
-				 </thead>
-				 <tbody>
-<?php
-       	do {
-			printf ( "<tr data-href='/en/appart/?type=%s' data-img='../../img/choice/app/%s'>
-				       <td>%s</td>      <td>%s</td>       <td>%s
-				         <div class='box-img'>
-				           <img src='' alt=''>
-				         </div>
+			<div class="select_box flex">
+				<?php
+				do {
 
-				     </td></tr>", $myrow['character_code'], $myrow['imgPlan1'], $myrow['floor'], $myrow['rooms'], $myrow['square']);
-					 	}
+				printf (	"<div class='room_item'>
+						<div class='room_item_inner'>
+							<div class='room_item_img'>
+								<img src='/img/choice/app/%s' alt='Планировка квартиры'>
+							</div>
+							<table class='rooms_table'>
+							<tbody>
+							<tr>  <td>Floor</td> <td>%s</td></tr>
+							<tr>  <td>Living space, м<sup>2</sup></td><td>%s</td></tr>
+							<tr>  <td>Total space, м<sup>2</sup></td><td>%s</td></tr>
+							</tbody></table>
+							</div>
+						<a class='button' href='/en/appart/?type=%s'>review planning</a>
+					</div> ", $myrow['imgPlan1'], $myrow['floor'], $myrow['houseroom'], $myrow['square'], $myrow['character_code']);
+				}
+
 				while ($myrow = mysql_fetch_array ($check));
-?>
-				 </tbody>
-			  	</table>
+				?>
+
+			</div>
 						<div class="select-info">
 						<h2>Advantages of Duplex Apartments in CHICAGO Central House Residential Estate</h2>
 						<p>We would like to highlight the main advantages of the duplex apartments in the CHICAGO Central House Residential Estate. </p>
@@ -106,44 +88,16 @@ $myrow = mysql_fetch_array ($check);
 						<p>The Duplex apartments in the CHICAGO Central House Residential Estate have excellent view specifications: panoramic windows from the 24th floor offer breath-taking views of the downtown of Kiev. In addition, regardless of the situation on the real estate market, prices for such dwelling remain consistently high. These are prestigious apartments the demand for which is always high.
 						</p>
 						<p>Such a real estate is perfect for those who are interested in purchasing the ritzy dwelling, wants to invest in something original and bring a pleasant variety to their lives. If all this is about you, then the CHICAGO Central House Residential Complex is waiting for you. Do not miss the chance to become the owner of the apartment "under the sky" in the downtown of Kiev today.</p>
-						</div>
-
-				  <script type="text/javascript">
-				    $('tbody tr[data-href]').addClass('clickable').click( function() {
-				      window.location = $(this).attr('data-href');
-				    });
-
-				    $('tbody tr').mouseenter(function(){
-				      $(this).find('.box-img').fadeIn(100);
-				      $(this).find('.box-img img').attr('src', $(this).attr('data-img'));
-				      })
-
-				    $('tbody tr').mouseleave(function(){
-				      $(this).find('.box-img').fadeOut(100);
-				    })
-				  </script>
+					</div>
 				</div>
-    	</div>
   	</section>
-	  <style>
-  @media only screen and (max-width: 768px) {
-	.fifteenth {
-		height: 229px;
-	}
-}
-  </style>
-  <?php include('../../includes/form_main_en.php'); ?>
-	<?php include('../../includes/form_callback.php'); ?>
 
-<?php include('../../includes/footer_en.php'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-	<script src="/js/scripts.js"></script>
-    <script src="../../js/lib/snap.svg-min.js"></script>
-    <script src="../../js/lib/slider.js"></script>
-    <script src="../../js/jquery.fancybox.pack.js"></script>
-    <script src="../../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../../js/lib/wow.min.js"></script>
-		<script src="../../js/progres.js"></script>
-  	<!-- <script src="../../js/scripts.js"> -->
-</body>
-</html>
+		<?php include('../../includes/form_main_en.php'); ?>
+		<?php include('../../includes/form_callback.php'); ?>
+		<?php include('../../includes/footer_en.php'); ?>
+
+		<script src="/js/snapSliderFancy.js"></script>
+		<script src="/js/scripts.js"></script>
+
+	</body>
+	</html>

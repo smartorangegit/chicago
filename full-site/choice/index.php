@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8">
     <title>≡ ЖК Чикаго 》Купити квартиру бізнес класу в CHICAGO Central House в центрі Києва</title>
-
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/choice/" />
     <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/choice/" />
@@ -108,13 +107,11 @@
         </a>
         <a xlink:href="../torgovie-pomescheniya/"><g  class="g100" data-level="3" data-app="14" data-sale="14"  transform="matrix(0.9949682,0,0,0.9949682,9.96625,0.01276355)"><rect id="rect157" x="168" y="639.1" class="st2" width="360.1" height="28"/><rect id="rect161" x="528.1" y="653.1" class="st2" width="52" height="23.7"/><rect id="rect167" x="580.1" y="663.2" class="st2" width="40.3" height="17"/></g>
         </a>
-
         </g>
         </svg>
       </div>
     </div>
   </section>
-
 
     <?php include('../includes/footer_ua.php'); ?>
     <?php include('../includes/form_callback.php'); ?>

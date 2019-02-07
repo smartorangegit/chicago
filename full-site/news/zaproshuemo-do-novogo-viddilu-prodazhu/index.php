@@ -15,71 +15,39 @@ while ($myrow = mysqli_fetch_array($sel))
     <!DOCTYPE html>
     <html lang="uk">
     <head>
-
         <meta charset="UTF-8">
+        <title><?=$myrow['title_ua'];?></title>
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua<?php echo '/ru'.$_SERVER['REQUEST_URI'];?>" />
         <link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua<?php echo $_SERVER['REQUEST_URI'];?>" />
         <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua<?php echo '/en'.$_SERVER['REQUEST_URI'];?>" />
-        <title><?=$myrow['title_ua'];?></title>
         <meta name="robots" content="index, follow">
-
-
         <meta property="og:title" content="<?=$myrow['title_ua'];?>" />
         <meta property="og:description" content="<?=$myrow['description_ua'];?>" />
         <meta property="og:image" content="https://chicago.kiev.ua<?=$myrow['img_path']."/".$myrow['img_name'];?>" />
-
-
         <link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];?>"/>
         <meta name="description" content="<?=$myrow['description_ua'];?>">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
-        <link rel="stylesheet" href="../../css/animate.css">
-        <link rel="stylesheet" href="../../css/slider-style.css">
-        <link rel="stylesheet" href="../../css/jquery.fancybox.css">
-        <link rel="stylesheet" href="../../css/jquery.fancybox-thumbs.css">
-        <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="../../css/progress.css">
+        <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/full.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="../../css/news.css">
-        <script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
-        <script src="../../js/lib/scrollmagic/ScrollMagic.min.js"></script>
-        <script type="text/javascript" src="../../js/lib/scrollmagic/plugins/animation.gsap.js"></script>
-        <script src="../../js/lib/plugins/debug.addIndicators.min.js"></script>
-        
         <?php /*Google Tag Manager*/ include_once('../../includes/gtm_head.php'); ?>
     </head>
 
     <body>
     <?php /*Google Tag Manager*/ include_once('../../includes/gtm_body.php'); ?>
-    <script>
-        var controller = new ScrollMagic.Controller();
-    </script>
-
-    <?php /*Google Tag Manager*/ //require "/includes/header_ua.php";
-    include("../../includes/header_ua.php"); ?>
+    <?php /*Google Tag Manager*/ include("../../includes/header_ua.php"); ?>
 
 
-    <section class="fifteenth newsdet" id="builder">
-        <span class="trigger-7"></span>
-        <h1 class="title" style="transform: translate3d (20px, 0, 0)"><?=$myrow['name_news_ua'];?></h1>
-        <i class="line"></i>
+    <section class="newsdet">
+        <h1 class="wow fadeInLeft"><?=$myrow['name_news_ua'];?></h1>
     </section>
 
     <section class="third light">
-        <div class="lamps wrapper">
-            <img src="../../img/icons/lamp.png" alt="lamp" />
-            <img src="../../img/icons/lamp.png" alt="lamp" />
-            <img src="../../img/icons/lamp.png" alt="lamp" />
-        </div>
-        <div class="wrapper">
-            <span class="trigger-0"></span>
-
+        <div class="wrapper wrapper_content">
             <div class="news_det clearfix">
-
                 <div class="news_content">
+
                     <div class="news_date">
                         <?
                         $dt = $myrow['date'];
@@ -148,26 +116,14 @@ while ($myrow = mysqli_fetch_array($sel))
         body{
             background: #fff;
             color: black;
+            min-width: 0;
         }
         h3, h4, .news_text p, .button, .other_name, .other_news_item a {
             color: black;
         }
-        .fifteenth.newsdet {
-            background: white;;
-        }
-        .fifteenth h1.title{
-            font-size: 34px;
-            transform: none!important;
-            line-height: normal;
-            padding-top: 130px;
-            color: black;
-        }
-        footer {
-            background: #f2f2f2;
-        }
-        .news_content{
-            color:black;
-        }
+        .fifteenth.newsdet {background: white;}
+
+        .news_content{color:black; }
         .gal-wrapper {
             text-align:center;
             max-height: 65px;
@@ -177,26 +133,13 @@ while ($myrow = mysqli_fetch_array($sel))
             width: auto;
             vertical-align: top;
         }
-        @media only screen and (max-width: 768px) {
-            .fifteenth h1.title{
-                font-size: 24px;
-            }
-        }
+
     </style>
     <?php include('../../includes/form_callback.php'); ?>
-
     <?php include('../../includes/footer_ua.php'); ?>
+    <script src="/js/snapSliderFancy.js"></script>
     <script src="/js/scripts.js"></script>
-    <script src="../../js/lib/snap.svg-min.js"></script>
-    <script src="../../js/lib/slider.js"></script>
-    <script src="../../js/jquery.fancybox.pack.js"></script>
-    <script src="../../js/jquery.fancybox-thumbs.js"></script>
-    <script src="../../js/lib/wow.min.js"></script>
-    <script src="../../js/progres.js"></script>
-    <!-- <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBqnmzNAzHojSwaOiHXbpTETnKMQgnsos&callback=initMap">
-    </script> -->
-    <!-- <script src="../../js/scripts.js"> -->
+
     <script>
         $("a.news_gal").fancybox();
     </script>

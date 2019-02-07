@@ -9,10 +9,10 @@
 	<meta name="description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх ">
 	<!--<link rel="alternate" hreflang="ru" href="https://chicago.kiev.ua/ru/atmosfera/" />
 	<link rel="alternate" hreflang="uk" href="https://chicago.kiev.ua/atmosfera/" />
-    <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
+  <link rel="alternate" hreflang="en" href="https://chicago.kiev.ua/en/atmosfera/" /> -->
 <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="../css/full.css">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="/css/full.css">
+<link rel="stylesheet" href="/css/style.css">
 <?php /*Google Tag Manager*/ include_once('../includes/gtm_head.php'); ?>
 <meta property="og:title" content="≡ ЖК Чикаго 》SFERA Living System - ЖК CHICAGO Central House" />
 <meta property="og:description" content="【ЖК CHICAGO Central House】 ATMOSFERA — це високотехнологічна управляюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх" />
@@ -23,9 +23,8 @@
 	<?php /*Google Tag Manager*/ include_once('../includes/gtm_body.php'); ?>
 	<?php /*меню*/ include_once('../includes/header_ua.php'); ?>
 
-	<section class="fifteenth news" id="builder">
-        <h1 class="title">ATMOSFERA</h1>
-        <i class="line"></i>
+	<section class="h1_wrapper">
+        <h1 class="wow fadeInLeft">ATMOSFERA</h1>
   </section>
       <div class="content content_atmosfera">
         <div class="content_wrap clearfix">
@@ -84,7 +83,7 @@
               <img src="/img/atm/atm3.png" alt="">
             </div>
             <div class="atm__content">
-              <div class="content_subname subheader">МОБІЛЬНИЙ ДОТАТОК SFERA</div>
+              <div class="content_subname subheader">МОБІЛЬНИЙ ДОДАТОК SFERA</div>
               <ul>
                 <li>звітність про будівництво</li>
                 <li>домофон у смартфоні – відкривайте двері з мобільного додатку навіть коли вас немає вдома</li>
@@ -167,15 +166,7 @@
 			color: white;
 			min-width: 0;
 		}
-		.fifteenth{
-			margin-top: 76px;
-		}
-		@media only screen and (max-width: 1092px) {
-			.fifteenth{
-				margin-top: 66px;
-			}
-		}
-		.content_name {
+			.content_name {
 			font-size: 26px;
 		}
 		.text_bold {
@@ -293,9 +284,6 @@
         }
       }
     @media only screen and (max-width:768px){
-				h1.title{
-					font-size: 40px;
-				}
         .atmo__top{
           flex-direction: column;
           align-items: center;
@@ -343,12 +331,7 @@
           padding: 14px 0;
         }
       }
-			@media only screen and (max-width: 380px){
-				.fifteenth{
-					margin-top: 130px;
-				}
 
-			}
         </style>
 		<!-- <div class="bottom_form"><a id="callform1" class="button callback"  href="#">замовити дзвінок</a></div> -->
       </div>
@@ -360,7 +343,6 @@
 
 		<script src="../js/snapSliderFancy.js"></script>
 		<script src="../js/scripts.js"></script>
-
 
 </body>
 </html>
